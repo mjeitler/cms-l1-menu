@@ -1,0 +1,1075 @@
+2016-11-03 09:32:49 INFO : distributing menu...
+2016-11-03 09:32:49 INFO : loading resource information from JSON: /home/wittmann/work/trunk/utm/tmVhdlProducer/config/resource_default.json
+2016-11-03 09:32:49 INFO : :: listing resources...
+2016-11-03 09:32:49 INFO : thresholds:
+2016-11-03 09:32:49 INFO :   * floor: sliceLUTs=39.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * ceiling: sliceLUTs=90.00%, processors=100.00%
+2016-11-03 09:32:49 INFO : instances:
+2016-11-03 09:32:49 INFO :   * SingleMuon(Muon): sliceLUTs=0.04%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * DoubleMuon(Muon, Muon): sliceLUTs=0.05%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TripleMuon(Muon, Muon, Muon): sliceLUTs=0.06%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * QuadMuon(Muon, Muon, Muon, Muon): sliceLUTs=0.30%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * SingleEgamma(Egamma): sliceLUTs=0.05%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * DoubleEgamma(Egamma, Egamma): sliceLUTs=0.07%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TripleEgamma(Egamma, Egamma, Egamma): sliceLUTs=0.09%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * QuadEgamma(Egamma, Egamma, Egamma, Egamma): sliceLUTs=3.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * SingleJet(Jet): sliceLUTs=0.05%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * DoubleJet(Jet, Jet): sliceLUTs=0.07%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TripleJet(Jet, Jet, Jet): sliceLUTs=0.09%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * QuadJet(Jet, Jet, Jet, Jet): sliceLUTs=3.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * SingleTau(Tau): sliceLUTs=0.04%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * DoubleTau(Tau, Tau): sliceLUTs=0.05%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TripleTau(Tau, Tau, Tau): sliceLUTs=0.06%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * QuadTau(Tau, Tau, Tau, Tau): sliceLUTs=0.30%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TotalEt(ETT): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TotalEtEM(ETTEM): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TotalHt(HTT): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * TowerCount(TOWERCOUNT): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MissingEt(ETM): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MissingEtHF(ETMHF): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MissingHt(HTM): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MinBiasHFM0(MBT0HFM): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MinBiasHFM1(MBT1HFM): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MinBiasHFP0(MBT0HFP): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MinBiasHFP1(MBT1HFP): sliceLUTs=0.01%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * Externals(EXT): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MuonMuonCorrelation(Muon, Muon): sliceLUTs=1.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MuonEsumCorrelation(Muon, ETM): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MuonEsumCorrelation(Muon, ETMHF): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * MuonEsumCorrelation(Muon, HTM): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloMuonCorrelation(Egamma, Muon): sliceLUTs=2.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloMuonCorrelation(Jet, Muon): sliceLUTs=2.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloMuonCorrelation(Tau, Muon): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Egamma, Egamma): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Egamma, Tau): sliceLUTs=2.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Egamma, Jet): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Jet, Jet): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Jet, Tau): sliceLUTs=2.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloCaloCorrelation(Tau, Tau): sliceLUTs=2.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Egamma, ETM): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Egamma, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Tau, ETM): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Tau, ETMHF): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Jet, ETM): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Jet, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Egamma, HTM): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Tau, HTM): sliceLUTs=0.00%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * CaloEsumCorrelation(Jet, HTM): sliceLUTs=0.50%, processors=0.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Muon, Muon): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Egamma, Muon): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Jet, Muon): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Tau, Muon): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Egamma, Egamma): sliceLUTs=1.20%, processors=1.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Egamma, Tau): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Egamma, Jet): sliceLUTs=1.20%, processors=1.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Jet, Jet): sliceLUTs=1.20%, processors=1.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Jet, Tau): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO :   * InvariantMass(Tau, Tau): sliceLUTs=10.00%, processors=10.00%
+2016-11-03 09:32:49 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:49 INFO : |                                                                         |
+2016-11-03 09:32:49 INFO : | Algorithms sorted by payload (descending)                               |
+2016-11-03 09:32:49 INFO : |                                                                         |
+2016-11-03 09:32:49 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:49 INFO : |-------|-----------|--------|--------------------------------------------|
+2016-11-03 09:32:49 INFO : | Index | SliceLUTs | DSPs   | Name                                       |
+2016-11-03 09:32:49 INFO : |-------|-----------|--------|--------------------------------------------|
+2016-11-03 09:32:49 INFO : |    30 |    10.00% | 10.00% | L1_DoubleMu0_MassGT1_BptxAND               |
+2016-11-03 09:32:49 INFO : |    34 |    10.00% | 10.00% | L1_DoubleMu10_Mass60to150_BptxAND          |
+2016-11-03 09:32:49 INFO : |    29 |    10.00% | 10.00% | L1_DoubleMuOpen_MassGT1_BptxAND            |
+2016-11-03 09:32:49 INFO : |    35 |     1.50% |  0.00% | L1_DoubleMu_10_0_dEta_Max1p8               |
+2016-11-03 09:32:49 INFO : |    99 |     0.10% |  0.00% | L1_SingleJet12_ForEta1p5                   |
+2016-11-03 09:32:49 INFO : |   101 |     0.10% |  0.00% | L1_SingleJet12_ForEta1p5_BptxAND           |
+2016-11-03 09:32:49 INFO : |    98 |     0.10% |  0.00% | L1_SingleJet12_ForEta2p5                   |
+2016-11-03 09:32:49 INFO : |   100 |     0.10% |  0.00% | L1_SingleJet12_ForEta2p5_BptxAND           |
+2016-11-03 09:32:49 INFO : |   112 |     0.10% |  0.00% | L1_SingleJet24_ForEta1p5                   |
+2016-11-03 09:32:49 INFO : |   111 |     0.10% |  0.00% | L1_SingleJet24_ForEta1p5_BptxAND           |
+2016-11-03 09:32:49 INFO : |   109 |     0.10% |  0.00% | L1_SingleJet24_ForEta2p5                   |
+2016-11-03 09:32:49 INFO : |   110 |     0.10% |  0.00% | L1_SingleJet24_ForEta2p5_BptxAND           |
+2016-11-03 09:32:49 INFO : |   196 |     0.09% |  0.00% | L1_DoubleEG2_NotMinimumBiasHF0_AND         |
+2016-11-03 09:32:49 INFO : |   197 |     0.09% |  0.00% | L1_DoubleEG2_NotMinimumBiasHF0_AND_BptxAND |
+2016-11-03 09:32:49 INFO : |   203 |     0.09% |  0.00% | L1_DoubleEG2_TwoTowerHFVeto_OR_BptxAND     |
+2016-11-03 09:32:49 INFO : |    15 |     0.09% |  0.00% | L1_SingleMu3_SingleJet20_BptxAND           |
+2016-11-03 09:32:49 INFO : |   200 |     0.07% |  0.00% | L1_DoubleMuOpen_NotMinimumBiasHF0_AND      |
+2016-11-03 09:32:49 INFO : |   201 |     0.07% |  0.00% | L1_DoubleMuOpen_NotMinimumBiasHF0_AND_B... |
+2016-11-03 09:32:49 INFO : |   192 |     0.07% |  0.00% | L1_DoubleMuOpen_TwoTowerHFVeto_OR_BptxAND  |
+2016-11-03 09:32:49 INFO : |   198 |     0.07% |  0.00% | L1_SingleEG5_NotMinimumBiasHF0_AND         |
+2016-11-03 09:32:49 INFO : |   199 |     0.07% |  0.00% | L1_SingleEG5_NotMinimumBiasHF0_AND_BptxAND |
+2016-11-03 09:32:49 INFO : |   195 |     0.07% |  0.00% | L1_SingleEG5_TwoTowerHFVeto_OR_BptxAND     |
+2016-11-03 09:32:49 INFO : |    71 |     0.07% |  0.00% | L1_DoubleEG_15_10                          |
+2016-11-03 09:32:49 INFO : |   202 |     0.06% |  0.00% | L1_MuOpen_NotMinimumBiasHF0_AND            |
+2016-11-03 09:32:49 INFO : |   194 |     0.06% |  0.00% | L1_MuOpen_NotMinimumBiasHF0_AND_BptxAND    |
+2016-11-03 09:32:49 INFO : |   193 |     0.06% |  0.00% | L1_MuOpen_TwoTowerHFVeto_OR_BptxAND        |
+2016-11-03 09:32:49 INFO : |    27 |     0.05% |  0.00% | L1_DoubleMu0                               |
+2016-11-03 09:32:49 INFO : |    28 |     0.05% |  0.00% | L1_DoubleMu0_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    33 |     0.05% |  0.00% | L1_DoubleMu10_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    25 |     0.05% |  0.00% | L1_DoubleMuOpen                            |
+2016-11-03 09:32:49 INFO : |    26 |     0.05% |  0.00% | L1_DoubleMuOpen_BptxAND                    |
+2016-11-03 09:32:49 INFO : |    31 |     0.05% |  0.00% | L1_DoubleMuOpen_OS_BptxAND                 |
+2016-11-03 09:32:49 INFO : |    32 |     0.05% |  0.00% | L1_DoubleMuOpen_SS_BptxAND                 |
+2016-11-03 09:32:49 INFO : |    41 |     0.05% |  0.00% | L1_SingleEG10_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    42 |     0.05% |  0.00% | L1_SingleEG14_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    43 |     0.05% |  0.00% | L1_SingleEG18_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    37 |     0.05% |  0.00% | L1_SingleEG2                               |
+2016-11-03 09:32:49 INFO : |    44 |     0.05% |  0.00% | L1_SingleEG24_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    38 |     0.05% |  0.00% | L1_SingleEG2_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    45 |     0.05% |  0.00% | L1_SingleEG30_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    39 |     0.05% |  0.00% | L1_SingleEG5                               |
+2016-11-03 09:32:49 INFO : |    40 |     0.05% |  0.00% | L1_SingleEG5_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    51 |     0.05% |  0.00% | L1_SingleIsoEG10_BptxAND                   |
+2016-11-03 09:32:49 INFO : |    52 |     0.05% |  0.00% | L1_SingleIsoEG14_BptxAND                   |
+2016-11-03 09:32:49 INFO : |    53 |     0.05% |  0.00% | L1_SingleIsoEG18_BptxAND                   |
+2016-11-03 09:32:49 INFO : |    54 |     0.05% |  0.00% | L1_SingleIsoEG24_BptxAND                   |
+2016-11-03 09:32:49 INFO : |    55 |     0.05% |  0.00% | L1_SingleIsoEG30_BptxAND                   |
+2016-11-03 09:32:49 INFO : |    49 |     0.05% |  0.00% | L1_SingleIsoEG5                            |
+2016-11-03 09:32:49 INFO : |    50 |     0.05% |  0.00% | L1_SingleIsoEG5_BptxAND                    |
+2016-11-03 09:32:49 INFO : |    96 |     0.05% |  0.00% | L1_SingleJet12                             |
+2016-11-03 09:32:49 INFO : |    97 |     0.05% |  0.00% | L1_SingleJet12_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   102 |     0.05% |  0.00% | L1_SingleJet16                             |
+2016-11-03 09:32:49 INFO : |   103 |     0.05% |  0.00% | L1_SingleJet16_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   104 |     0.05% |  0.00% | L1_SingleJet20                             |
+2016-11-03 09:32:49 INFO : |   105 |     0.05% |  0.00% | L1_SingleJet20_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   107 |     0.05% |  0.00% | L1_SingleJet24                             |
+2016-11-03 09:32:49 INFO : |   108 |     0.05% |  0.00% | L1_SingleJet24_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   117 |     0.05% |  0.00% | L1_SingleJet28_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   118 |     0.05% |  0.00% | L1_SingleJet32_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   119 |     0.05% |  0.00% | L1_SingleJet36_BptxAND                     |
+2016-11-03 09:32:49 INFO : |    88 |     0.05% |  0.00% | L1_SingleJet4                              |
+2016-11-03 09:32:49 INFO : |   120 |     0.05% |  0.00% | L1_SingleJet40_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   121 |     0.05% |  0.00% | L1_SingleJet44_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   122 |     0.05% |  0.00% | L1_SingleJet48_BptxAND                     |
+2016-11-03 09:32:49 INFO : |    89 |     0.05% |  0.00% | L1_SingleJet4_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    90 |     0.05% |  0.00% | L1_SingleJet4_MidEta2p5                    |
+2016-11-03 09:32:49 INFO : |    91 |     0.05% |  0.00% | L1_SingleJet4_MidEta2p5_BptxAND            |
+2016-11-03 09:32:49 INFO : |   123 |     0.05% |  0.00% | L1_SingleJet52_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   124 |     0.05% |  0.00% | L1_SingleJet56_BptxAND                     |
+2016-11-03 09:32:49 INFO : |   125 |     0.05% |  0.00% | L1_SingleJet60_BptxAND                     |
+2016-11-03 09:32:49 INFO : |    92 |     0.05% |  0.00% | L1_SingleJet8                              |
+2016-11-03 09:32:49 INFO : |    93 |     0.05% |  0.00% | L1_SingleJet8_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    94 |     0.05% |  0.00% | L1_SingleJet8_MidEta2p5                    |
+2016-11-03 09:32:49 INFO : |    95 |     0.05% |  0.00% | L1_SingleJet8_MidEta2p5_BptxAND            |
+2016-11-03 09:32:49 INFO : |   263 |     0.05% |  0.00% | L1_SingleJetC40_NotBptxOR_3BX              |
+2016-11-03 09:32:49 INFO : |    12 |     0.05% |  0.00% | L1_SingleJetC40_NotBptxOR_5BX              |
+2016-11-03 09:32:49 INFO : |    13 |     0.04% |  0.00% | L1_SingleMu0                               |
+2016-11-03 09:32:49 INFO : |    14 |     0.04% |  0.00% | L1_SingleMu0_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    24 |     0.04% |  0.00% | L1_SingleMu12_BptxAND                      |
+2016-11-03 09:32:49 INFO : |    18 |     0.04% |  0.00% | L1_SingleMu3                               |
+2016-11-03 09:32:49 INFO : |    19 |     0.04% |  0.00% | L1_SingleMu3_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    20 |     0.04% |  0.00% | L1_SingleMu5                               |
+2016-11-03 09:32:49 INFO : |    21 |     0.04% |  0.00% | L1_SingleMu5_BptxAND                       |
+2016-11-03 09:32:49 INFO : |    22 |     0.04% |  0.00% | L1_SingleMu7                               |
+2016-11-03 09:32:49 INFO : |    23 |     0.04% |  0.00% | L1_SingleMu7_BptxAND                       |
+2016-11-03 09:32:49 INFO : |   218 |     0.04% |  0.00% | L1_SingleMuCosmics                         |
+2016-11-03 09:32:49 INFO : |    16 |     0.04% |  0.00% | L1_SingleMuOpen                            |
+2016-11-03 09:32:49 INFO : |    17 |     0.04% |  0.00% | L1_SingleMuOpen_BptxAND                    |
+2016-11-03 09:32:49 INFO : |    56 |     0.04% |  0.00% | L1_SingleMuOpen_NotBptxOR                  |
+2016-11-03 09:32:49 INFO : |     6 |     0.02% |  0.00% | L1_MinimumBiasHF0_AND                      |
+2016-11-03 09:32:49 INFO : |     4 |     0.02% |  0.00% | L1_MinimumBiasHF0_AND_BptxAND              |
+2016-11-03 09:32:49 INFO : |     5 |     0.02% |  0.00% | L1_MinimumBiasHF0_OR                       |
+2016-11-03 09:32:49 INFO : |     3 |     0.02% |  0.00% | L1_MinimumBiasHF0_OR_BptxAND               |
+2016-11-03 09:32:49 INFO : |     7 |     0.02% |  0.00% | L1_MinimumBiasHF0_OR_BptxAND_Copy          |
+2016-11-03 09:32:49 INFO : |   204 |     0.02% |  0.00% | L1_NotMinimumBiasHF0_AND                   |
+2016-11-03 09:32:49 INFO : |   205 |     0.02% |  0.00% | L1_NotMinimumBiasHF0_AND_BptxAND           |
+2016-11-03 09:32:49 INFO : |   151 |     0.01% |  0.00% | L1_ETT100                                  |
+2016-11-03 09:32:49 INFO : |   323 |     0.01% |  0.00% | L1_ETT100_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   324 |     0.01% |  0.00% | L1_ETT110_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   325 |     0.01% |  0.00% | L1_ETT120_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   326 |     0.01% |  0.00% | L1_ETT130_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   327 |     0.01% |  0.00% | L1_ETT140_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   328 |     0.01% |  0.00% | L1_ETT150_BptxAND                          |
+2016-11-03 09:32:49 INFO : |   135 |     0.01% |  0.00% | L1_ETT25                                   |
+2016-11-03 09:32:49 INFO : |   136 |     0.01% |  0.00% | L1_ETT25_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   137 |     0.01% |  0.00% | L1_ETT30                                   |
+2016-11-03 09:32:49 INFO : |   138 |     0.01% |  0.00% | L1_ETT30_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   139 |     0.01% |  0.00% | L1_ETT35                                   |
+2016-11-03 09:32:49 INFO : |   140 |     0.01% |  0.00% | L1_ETT35_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   141 |     0.01% |  0.00% | L1_ETT40                                   |
+2016-11-03 09:32:49 INFO : |   142 |     0.01% |  0.00% | L1_ETT40_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   143 |     0.01% |  0.00% | L1_ETT45                                   |
+2016-11-03 09:32:49 INFO : |   144 |     0.01% |  0.00% | L1_ETT45_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   145 |     0.01% |  0.00% | L1_ETT50                                   |
+2016-11-03 09:32:49 INFO : |   146 |     0.01% |  0.00% | L1_ETT50_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   147 |     0.01% |  0.00% | L1_ETT60                                   |
+2016-11-03 09:32:49 INFO : |   148 |     0.01% |  0.00% | L1_ETT60_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   149 |     0.01% |  0.00% | L1_ETT80                                   |
+2016-11-03 09:32:49 INFO : |   150 |     0.01% |  0.00% | L1_ETT80_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   322 |     0.01% |  0.00% | L1_ETT90_BptxAND                           |
+2016-11-03 09:32:49 INFO : |   131 |     0.01% |  0.00% | L1_HTM50                                   |
+2016-11-03 09:32:49 INFO : |   130 |     0.01% |  0.00% | L1_HTT160                                  |
+2016-11-03 09:32:49 INFO : |   319 |     0.01% |  0.00% | L1_TowerCount100                           |
+2016-11-03 09:32:49 INFO : |   190 |     0.01% |  0.00% | L1_TowerCount100_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   301 |     0.01% |  0.00% | L1_TowerCount105_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   302 |     0.01% |  0.00% | L1_TowerCount110_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   303 |     0.01% |  0.00% | L1_TowerCount115_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   191 |     0.01% |  0.00% | L1_TowerCount120_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   304 |     0.01% |  0.00% | L1_TowerCount125_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   305 |     0.01% |  0.00% | L1_TowerCount130_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   306 |     0.01% |  0.00% | L1_TowerCount135_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   320 |     0.01% |  0.00% | L1_TowerCount140                           |
+2016-11-03 09:32:49 INFO : |   307 |     0.01% |  0.00% | L1_TowerCount140_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   308 |     0.01% |  0.00% | L1_TowerCount145_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   309 |     0.01% |  0.00% | L1_TowerCount150_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   310 |     0.01% |  0.00% | L1_TowerCount155_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   311 |     0.01% |  0.00% | L1_TowerCount160_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   312 |     0.01% |  0.00% | L1_TowerCount165_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   313 |     0.01% |  0.00% | L1_TowerCount170_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   314 |     0.01% |  0.00% | L1_TowerCount175_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   321 |     0.01% |  0.00% | L1_TowerCount180                           |
+2016-11-03 09:32:49 INFO : |   315 |     0.01% |  0.00% | L1_TowerCount180_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   316 |     0.01% |  0.00% | L1_TowerCount185_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   317 |     0.01% |  0.00% | L1_TowerCount190_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   318 |     0.01% |  0.00% | L1_TowerCount200_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   175 |     0.01% |  0.00% | L1_TowerCount40                            |
+2016-11-03 09:32:49 INFO : |   176 |     0.01% |  0.00% | L1_TowerCount40_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   177 |     0.01% |  0.00% | L1_TowerCount45                            |
+2016-11-03 09:32:49 INFO : |   178 |     0.01% |  0.00% | L1_TowerCount45_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   179 |     0.01% |  0.00% | L1_TowerCount50                            |
+2016-11-03 09:32:49 INFO : |   180 |     0.01% |  0.00% | L1_TowerCount50_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   181 |     0.01% |  0.00% | L1_TowerCount54_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   182 |     0.01% |  0.00% | L1_TowerCount58_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   183 |     0.01% |  0.00% | L1_TowerCount62_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   184 |     0.01% |  0.00% | L1_TowerCount66_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   185 |     0.01% |  0.00% | L1_TowerCount70_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   186 |     0.01% |  0.00% | L1_TowerCount74_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   187 |     0.01% |  0.00% | L1_TowerCount80_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   188 |     0.01% |  0.00% | L1_TowerCount85_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   189 |     0.01% |  0.00% | L1_TowerCount90_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   300 |     0.01% |  0.00% | L1_TowerCount95_BptxAND                    |
+2016-11-03 09:32:49 INFO : |   206 |     0.00% |  0.00% | L1_AlwaysTrue                              |
+2016-11-03 09:32:49 INFO : |   225 |     0.00% |  0.00% | L1_BPTX_LUT1_AND                           |
+2016-11-03 09:32:49 INFO : |   226 |     0.00% |  0.00% | L1_BPTX_LUT1_B1                            |
+2016-11-03 09:32:49 INFO : |   227 |     0.00% |  0.00% | L1_BPTX_LUT1_B2                            |
+2016-11-03 09:32:49 INFO : |   228 |     0.00% |  0.00% | L1_BPTX_LUT1_OR                            |
+2016-11-03 09:32:49 INFO : |   229 |     0.00% |  0.00% | L1_BPTX_LUT2_AND                           |
+2016-11-03 09:32:49 INFO : |   230 |     0.00% |  0.00% | L1_BPTX_LUT2_B1NotB2                       |
+2016-11-03 09:32:49 INFO : |   231 |     0.00% |  0.00% | L1_BPTX_LUT2_B2NotB1                       |
+2016-11-03 09:32:49 INFO : |   232 |     0.00% |  0.00% | L1_BPTX_LUT2_NotOR                         |
+2016-11-03 09:32:49 INFO : |   233 |     0.00% |  0.00% | L1_BPTX_TRIG2_AND                          |
+2016-11-03 09:32:49 INFO : |   234 |     0.00% |  0.00% | L1_BPTX_TRIG2_B1NotB2                      |
+2016-11-03 09:32:49 INFO : |   235 |     0.00% |  0.00% | L1_BPTX_TRIG2_B2NotB1                      |
+2016-11-03 09:32:49 INFO : |   236 |     0.00% |  0.00% | L1_BPTX_TRIG2_NotOR                        |
+2016-11-03 09:32:49 INFO : |   240 |     0.00% |  0.00% | L1_BRIL_TRIG0_AND                          |
+2016-11-03 09:32:49 INFO : |   243 |     0.00% |  0.00% | L1_BRIL_TRIG0_FstBunchInTrain              |
+2016-11-03 09:32:49 INFO : |   242 |     0.00% |  0.00% | L1_BRIL_TRIG0_OR                           |
+2016-11-03 09:32:49 INFO : |   241 |     0.00% |  0.00% | L1_BRIL_TRIG0_delayedAND                   |
+2016-11-03 09:32:49 INFO : |   237 |     0.00% |  0.00% | L1_BRIL_TRIG3_AND                          |
+2016-11-03 09:32:49 INFO : |   238 |     0.00% |  0.00% | L1_BRIL_TRIG3_delayedAND                   |
+2016-11-03 09:32:49 INFO : |   239 |     0.00% |  0.00% | L1_BRIL_TRIG3_ref                          |
+2016-11-03 09:32:49 INFO : |   223 |     0.00% |  0.00% | L1_BeamGasB1                               |
+2016-11-03 09:32:49 INFO : |   224 |     0.00% |  0.00% | L1_BeamGasB2                               |
+2016-11-03 09:32:49 INFO : |   222 |     0.00% |  0.00% | L1_BeamGasMinus                            |
+2016-11-03 09:32:49 INFO : |   221 |     0.00% |  0.00% | L1_BeamGasPlus                             |
+2016-11-03 09:32:49 INFO : |    11 |     0.00% |  0.00% | L1_BptxMinus                               |
+2016-11-03 09:32:49 INFO : |     2 |     0.00% |  0.00% | L1_BptxMinus_NotBptxPlus                   |
+2016-11-03 09:32:49 INFO : |   209 |     0.00% |  0.00% | L1_BptxOR                                  |
+2016-11-03 09:32:49 INFO : |    10 |     0.00% |  0.00% | L1_BptxPlus                                |
+2016-11-03 09:32:49 INFO : |     1 |     0.00% |  0.00% | L1_BptxPlus_NotBptxMinus                   |
+2016-11-03 09:32:49 INFO : |   220 |     0.00% |  0.00% | L1_BptxXOR                                 |
+2016-11-03 09:32:49 INFO : |   257 |     0.00% |  0.00% | L1_CastorGap_BptxAND                       |
+2016-11-03 09:32:49 INFO : |   261 |     0.00% |  0.00% | L1_CastorHaloMuon                          |
+2016-11-03 09:32:49 INFO : |   260 |     0.00% |  0.00% | L1_CastorHaloMuon_BptxAND                  |
+2016-11-03 09:32:49 INFO : |   258 |     0.00% |  0.00% | L1_CastorHighJet_BptxAND                   |
+2016-11-03 09:32:49 INFO : |   262 |     0.00% |  0.00% | L1_CastorMediumJet                         |
+2016-11-03 09:32:49 INFO : |   259 |     0.00% |  0.00% | L1_CastorMediumJet_BptxAND                 |
+2016-11-03 09:32:49 INFO : |   219 |     0.00% |  0.00% | L1_IsolatedBunch                           |
+2016-11-03 09:32:49 INFO : |     9 |     0.00% |  0.00% | L1_NotBptxOR                               |
+2016-11-03 09:32:49 INFO : |     0 |     0.00% |  0.00% | L1_ZeroBias                                |
+2016-11-03 09:32:49 INFO : |   244 |     0.00% |  0.00% | L1_ZeroBias_FirstCollidingBunch            |
+2016-11-03 09:32:49 INFO : |     8 |     0.00% |  0.00% | L1_ZeroBias_copy                           |
+2016-11-03 09:32:49 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:49 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:49 INFO : |                                                                         |
+2016-11-03 09:32:49 INFO : | Condition payloads by type                                              |
+2016-11-03 09:32:49 INFO : |                                                                         |
+2016-11-03 09:32:49 INFO : |-----------------------------||--------------------||--------------------|
+2016-11-03 09:32:49 INFO : | Condition                   || Item               || Sub total          |
+2016-11-03 09:32:49 INFO : | Type                | Count || SliceLUTs | DSPs   || SliceLUTs | DSPs   |
+2016-11-03 09:32:49 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2016-11-03 09:32:49 INFO : | MuonMuonCorrelation |     1 ||     1.50% |  0.00% ||     1.50% |  0.00% |
+2016-11-03 09:32:49 INFO : | MissingHt           |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2016-11-03 09:32:49 INFO : | SingleJet           |    26 ||     0.05% |  0.00% ||     1.30% |  0.00% |
+2016-11-03 09:32:49 INFO : | SingleEgamma        |    13 ||     0.05% |  0.00% ||     0.65% |  0.00% |
+2016-11-03 09:32:49 INFO : | Externals           |    36 ||     0.00% |  0.00% ||     0.00% |  0.00% |
+2016-11-03 09:32:49 INFO : | TowerCount          |    33 ||     0.01% |  0.00% ||     0.33% |  0.00% |
+2016-11-03 09:32:49 INFO : | InvariantMass       |     3 ||    10.00% | 10.00% ||    30.00% | 30.00% |
+2016-11-03 09:32:49 INFO : | SingleMuon          |     7 ||     0.04% |  0.00% ||     0.28% |  0.00% |
+2016-11-03 09:32:49 INFO : | DoubleMuon          |     5 ||     0.05% |  0.00% ||     0.25% |  0.00% |
+2016-11-03 09:32:49 INFO : | TotalEt             |    15 ||     0.01% |  0.00% ||     0.15% |  0.00% |
+2016-11-03 09:32:49 INFO : | MinBiasHFM0         |     2 ||     0.01% |  0.00% ||     0.02% |  0.00% |
+2016-11-03 09:32:49 INFO : | DoubleEgamma        |     2 ||     0.07% |  0.00% ||     0.14% |  0.00% |
+2016-11-03 09:32:49 INFO : | MinBiasHFP0         |     2 ||     0.01% |  0.00% ||     0.02% |  0.00% |
+2016-11-03 09:32:49 INFO : | TotalHt             |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2016-11-03 09:32:49 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2016-11-03 09:32:49 INFO : | Total               |   147 ||         - |      - ||    34.66% | 30.00% |
+2016-11-03 09:32:49 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2016-11-03 09:32:49 INFO : distributing algorithms, shadow ratio: 0.0
+2016-11-03 09:32:49 INFO : starting algorithm distribution for 202 algorithms on 2 modules using shadow ratio of 0.0
+2016-11-03 09:32:49 INFO :  . adding L1_DoubleMu0_MassGT1_BptxAND (30) to module 0
+2016-11-03 09:32:49 INFO :  +-- L1_DoubleMu10_Mass60to150_BptxAND shadowed ratio 33.3 %
+2016-11-03 09:32:49 INFO :  +--- L1_SingleJet4_BptxAND shadowed ratio 25.0 %
+2016-11-03 09:32:49 INFO :  +---- L1_CastorMediumJet_BptxAND shadowed ratio 20.0 %
+2016-11-03 09:32:49 INFO :  +----- L1_DoubleMuOpen_TwoTowerHFVeto_OR_BptxAND shadowed ratio 12.5 %
+2016-11-03 09:32:49 INFO :  +------ L1_TowerCount190_BptxAND shadowed ratio 11.1 %
+2016-11-03 09:32:49 INFO :  +------- L1_TowerCount50_BptxAND shadowed ratio 10.0 %
+2016-11-03 09:32:49 INFO :  +-------- L1_SingleJet4_MidEta2p5_BptxAND shadowed ratio 9.1 %
+2016-11-03 09:32:49 INFO :  +--------- L1_SingleJet4_MidEta2p5 shadowed ratio 9.1 %
+2016-11-03 09:32:49 INFO :  +---------- L1_ETT30_BptxAND shadowed ratio 8.3 %
+2016-11-03 09:32:49 INFO :  +----------- L1_SingleJet8_BptxAND shadowed ratio 7.7 %
+2016-11-03 09:32:49 INFO :  +------------ L1_TowerCount105_BptxAND shadowed ratio 7.1 %
+2016-11-03 09:32:49 INFO :  +------------- L1_ETT30 shadowed ratio 7.1 %
+2016-11-03 09:32:49 INFO :  +-------------- L1_TowerCount85_BptxAND shadowed ratio 6.7 %
+2016-11-03 09:32:49 INFO :  +--------------- L1_DoubleEG2_NotMinimumBiasHF0_AND_BptxAND shadowed ratio 5.6 %
+2016-11-03 09:32:49 INFO :  +---------------- L1_DoubleEG2_NotMinimumBiasHF0_AND shadowed ratio 16.7 %
+2016-11-03 09:32:49 INFO :  +----------------- L1_TowerCount100_BptxAND shadowed ratio 5.3 %
+2016-11-03 09:32:49 INFO :  +------------------ L1_TowerCount100 shadowed ratio 5.3 %
+2016-11-03 09:32:49 INFO :  +------------------- L1_TowerCount200_BptxAND shadowed ratio 5.0 %
+2016-11-03 09:32:49 INFO :  +-------------------- L1_SingleJet56_BptxAND shadowed ratio 4.8 %
+2016-11-03 09:32:49 INFO :  +--------------------- L1_SingleJet12_ForEta1p5_BptxAND shadowed ratio 4.3 %
+2016-11-03 09:32:49 INFO :  +---------------------- L1_SingleJet12_ForEta1p5 shadowed ratio 8.7 %
+2016-11-03 09:32:49 INFO :  +----------------------- L1_DoubleMuOpen_OS_BptxAND shadowed ratio 4.2 %
+2016-11-03 09:32:49 INFO :  +------------------------ L1_SingleEG5_BptxAND shadowed ratio 4.0 %
+2016-11-03 09:32:49 INFO :  +------------------------- L1_SingleJet52_BptxAND shadowed ratio 3.8 %
+2016-11-03 09:32:49 INFO :  +-------------------------- L1_DoubleMu0_BptxAND shadowed ratio 3.7 %
+2016-11-03 09:32:49 INFO :  +--------------------------- L1_TowerCount110_BptxAND shadowed ratio 3.6 %
+2016-11-03 09:32:49 INFO :  +---------------------------- L1_SingleJet60_BptxAND shadowed ratio 3.4 %
+2016-11-03 09:32:49 INFO :  +----------------------------- L1_SingleMu3_BptxAND shadowed ratio 3.3 %
+2016-11-03 09:32:49 INFO :  +------------------------------ L1_TowerCount45_BptxAND shadowed ratio 3.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------- L1_TowerCount45 shadowed ratio 3.2 %
+2016-11-03 09:32:49 INFO :  +-------------------------------- L1_SingleJet12_ForEta2p5_BptxAND shadowed ratio 3.0 %
+2016-11-03 09:32:49 INFO :  +--------------------------------- L1_DoubleEG2_TwoTowerHFVeto_OR_BptxAND shadowed ratio 12.1 %
+2016-11-03 09:32:49 INFO :  +---------------------------------- L1_SingleJet12_ForEta2p5 shadowed ratio 6.1 %
+2016-11-03 09:32:49 INFO :  +----------------------------------- L1_TowerCount40_BptxAND shadowed ratio 2.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------ L1_TowerCount40 shadowed ratio 2.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------- L1_TowerCount125_BptxAND shadowed ratio 2.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------- L1_TowerCount54_BptxAND shadowed ratio 2.8 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------- L1_ETT40_BptxAND shadowed ratio 2.7 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------- L1_ETT40 shadowed ratio 2.7 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------- L1_TowerCount115_BptxAND shadowed ratio 2.6 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------ L1_SingleJet8 shadowed ratio 2.6 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------- L1_DoubleMu10_BptxAND shadowed ratio 2.6 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------- L1_TowerCount120_BptxAND shadowed ratio 2.5 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------- L1_SingleMu3_SingleJet20_BptxAND shadowed ratio 4.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------- L1_SingleJet32_BptxAND shadowed ratio 2.4 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------- L1_SingleIsoEG14_BptxAND shadowed ratio 2.3 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------ L1_SingleJet20 shadowed ratio 2.3 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------- L1_ETT45_BptxAND shadowed ratio 2.3 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------- L1_ETT45 shadowed ratio 2.3 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------- L1_SingleJet16_BptxAND shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------- L1_SingleJet16 shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------- L1_TowerCount50 shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------ L1_DoubleMu0 shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------- L1_ETT35_BptxAND shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------- L1_ETT35 shadowed ratio 2.2 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------- L1_SingleIsoEG5_BptxAND shadowed ratio 2.1 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------- L1_DoubleMuOpen shadowed ratio 2.1 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------- L1_TowerCount130_BptxAND shadowed ratio 2.1 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------ L1_DoubleMuOpen_BptxAND shadowed ratio 4.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------- L1_SingleEG24_BptxAND shadowed ratio 2.0 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------- L1_SingleJet20_BptxAND shadowed ratio 4.1 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------- L1_TowerCount160_BptxAND shadowed ratio 2.0 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------- L1_DoubleMuOpen_MassGT1_BptxAND shadowed ratio 2.0 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------- L1_SingleJet8_MidEta2p5_BptxAND shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------ L1_SingleJet8_MidEta2p5 shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------- L1_ETT50_BptxAND shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------- L1_CastorHaloMuon_BptxAND shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------- L1_ETT50 shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------- L1_TowerCount135_BptxAND shadowed ratio 1.8 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------- L1_TowerCount58_BptxAND shadowed ratio 1.8 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------ L1_TowerCount62_BptxAND shadowed ratio 1.8 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------- L1_TowerCount145_BptxAND shadowed ratio 1.7 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------- L1_MinimumBiasHF0_OR_BptxAND shadowed ratio 5.2 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------- L1_TowerCount66_BptxAND shadowed ratio 1.7 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------- L1_TowerCount140_BptxAND shadowed ratio 1.7 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------- L1_MinimumBiasHF0_OR_BptxAND_Copy shadowed ratio 5.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------ L1_ETT150_BptxAND shadowed ratio 1.6 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------- L1_TowerCount80_BptxAND shadowed ratio 1.6 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------- L1_SingleMu0_BptxAND shadowed ratio 1.6 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------- L1_SingleEG5_NotMinimumBiasHF0_AND_BptxAND shadowed ratio 6.3 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------- L1_SingleMu7_BptxAND shadowed ratio 1.6 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------- L1_SingleMu0 shadowed ratio 1.6 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------ L1_DoubleMuOpen_NotMinimumBiasHF0_AND_BptxAND shadowed ratio 6.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------- L1_ETT130_BptxAND shadowed ratio 1.5 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------- L1_SingleMu12_BptxAND shadowed ratio 1.5 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------- L1_SingleJet24_BptxAND shadowed ratio 1.5 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------- L1_SingleJet24 shadowed ratio 1.5 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------- L1_SingleJet24_ForEta2p5_BptxAND shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------ L1_TowerCount70_BptxAND shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------- L1_SingleJet24_ForEta1p5_BptxAND shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------- L1_SingleJet24_ForEta1p5 shadowed ratio 2.8 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------- L1_ETT60_BptxAND shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------- L1_ETT60 shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------- L1_DoubleMuOpen_NotMinimumBiasHF0_AND shadowed ratio 4.1 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------ L1_TowerCount140 shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------- L1_ETT80_BptxAND shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------- L1_ETT80 shadowed ratio 1.4 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------- L1_DoubleMuOpen_SS_BptxAND shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------- L1_TowerCount90_BptxAND shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------- L1_SingleJet24_ForEta2p5 shadowed ratio 2.6 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------ L1_TowerCount74_BptxAND shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------- L1_TowerCount150_BptxAND shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------- L1_ETT90_BptxAND shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------- L1_SingleMu7 shadowed ratio 1.3 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------- L1_MinimumBiasHF0_AND_BptxAND shadowed ratio 3.8 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------- L1_TowerCount175_BptxAND shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------ L1_SingleMu3 shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------- L1_SingleIsoEG10_BptxAND shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------- L1_ZeroBias_copy shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------- L1_TowerCount155_BptxAND shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------- L1_TowerCount165_BptxAND shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------- L1_SingleJet36_BptxAND shadowed ratio 1.2 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------ L1_IsolatedBunch shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------- L1_SingleJetC40_NotBptxOR_5BX shadowed ratio 4.4 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------- L1_SingleJetC40_NotBptxOR_3BX shadowed ratio 4.4 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------- L1_SingleJet28_BptxAND shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------- L1_SingleEG5_NotMinimumBiasHF0_AND shadowed ratio 3.3 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------- L1_CastorHighJet_BptxAND shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------ L1_TowerCount180_BptxAND shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------- L1_CastorGap_BptxAND shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------- L1_SingleEG5_TwoTowerHFVeto_OR_BptxAND shadowed ratio 4.3 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------- L1_SingleEG10_BptxAND shadowed ratio 1.1 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------- L1_MuOpen_TwoTowerHFVeto_OR_BptxAND shadowed ratio 3.1 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------- L1_ZeroBias shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------ L1_ETT120_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------- L1_MinimumBiasHF0_AND shadowed ratio 2.1 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------- L1_SingleEG30_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------- L1_NotBptxOR shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------- L1_TowerCount185_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------- L1_NotMinimumBiasHF0_AND shadowed ratio 2.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------ L1_SingleEG5 shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------- L1_NotMinimumBiasHF0_AND_BptxAND shadowed ratio 3.0 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------- L1_AlwaysTrue shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet48_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------- L1_SingleEG14_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------- L1_ETT25_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------ L1_ETT25 shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------- L1_ETT140_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------------- L1_ETT110_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet4 shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet12_BptxAND shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------------- L1_TowerCount180 shadowed ratio 1.0 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------ L1_MuOpen_NotMinimumBiasHF0_AND shadowed ratio 2.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleIsoEG24_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------------------- L1_MinimumBiasHF0_OR shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleEG18_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleIsoEG5 shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleMuOpen_BptxAND shadowed ratio 1.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------ L1_MuOpen_NotMinimumBiasHF0_AND_BptxAND shadowed ratio 3.7 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleIsoEG18_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleMuOpen shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------------------------- L1_ETT100_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------------------------- L1_ETT100 shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleMu5_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------------ L1_SingleMu5 shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_TowerCount95_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleEG2_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_TowerCount170_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleEG2 shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet12 shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------------------ L1_BptxOR shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_CastorHaloMuon shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +-------------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet44_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +--------------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleIsoEG30_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +---------------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleJet40_BptxAND shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  +----------------------------------------------------------------------------------------------------------------------------------------------------------------------- L1_SingleMuOpen_NotBptxOR shadowed ratio 1.7 %
+2016-11-03 09:32:49 INFO :  +------------------------------------------------------------------------------------------------------------------------------------------------------------------------ L1_CastorMediumJet shadowed ratio 0.9 %
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleEG2_NotMinimumBiasHF0_AND 196 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet4_BptxAND 89 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_CastorMediumJet_BptxAND 259 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount80_BptxAND 187 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount190_BptxAND 317 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet4_MidEta2p5 90 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount50_BptxAND 180 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT30 137 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount200_BptxAND 318 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT25 135 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet4_MidEta2p5_BptxAND 91 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount45 177 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet56_BptxAND 124 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT35 139 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMu10_Mass60to150_BptxAND 34 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet12_ForEta2p5 98 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MinimumBiasHF0_OR_BptxAND_Copy 7 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet16 102 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_OS_BptxAND 31 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet52_BptxAND 123 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMu0_BptxAND 28 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT40 141 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount45_BptxAND 178 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet16_BptxAND 103 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount54_BptxAND 181 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet8_MidEta2p5 94 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet8 92 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount120_BptxAND 191 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet20 104 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount85_BptxAND 188 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet8_BptxAND 93 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT45_BptxAND 144 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount125_BptxAND 304 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen 25 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT150_BptxAND 328 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_BptxAND 26 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount160_BptxAND 311 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet24 107 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT50 145 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet20_BptxAND 105 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT60 147 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet12_ForEta1p5 99 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount145_BptxAND 308 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT60_BptxAND 148 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MinimumBiasHF0_OR_BptxAND 3 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount66_BptxAND 184 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount140_BptxAND 307 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount130_BptxAND 305 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT80 149 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount70_BptxAND 185 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount105_BptxAND 301 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT80_BptxAND 150 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_SS_BptxAND 32 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MinimumBiasHF0_AND 6 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount74_BptxAND 186 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT90_BptxAND 322 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_MassGT1_BptxAND 29 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu7 22 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_TwoTowerHFVeto_OR_BptxAND 192 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount100 319 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount155_BptxAND 310 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu3_BptxAND 19 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet36_BptxAND 119 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_IsolatedBunch 219 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT100 151 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet28_BptxAND 117 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount90_BptxAND 189 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleEG2_NotMinimumBiasHF0_AND_BptxAND 197 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu5 20 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT100_BptxAND 323 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu5_BptxAND 21 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount170_BptxAND 313 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount115_BptxAND 303 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJetC40_NotBptxOR_5BX 12 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet4 88 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MinimumBiasHF0_OR 5 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount100_BptxAND 190 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT120_BptxAND 325 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet44_BptxAND 121 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount95_BptxAND 300 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT130_BptxAND 326 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount180 321 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJetC40_NotBptxOR_3BX 263 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT140_BptxAND 327 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet48_BptxAND 122 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet12_ForEta1p5_BptxAND 101 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MuOpen_NotMinimumBiasHF0_AND 202 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMuOpen_BptxAND 17 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleIsoEG24_BptxAND 54 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet12_BptxAND 97 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_MuOpen_TwoTowerHFVeto_OR_BptxAND 193 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount62_BptxAND 183 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_NotBptxOR 9 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT110_BptxAND 324 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu0_BptxAND 14 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_NotMinimumBiasHF0_AND 204 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_NotMinimumBiasHF0_AND 200 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_NotMinimumBiasHF0_AND_BptxAND 205 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleEG14_BptxAND 42 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount40_BptxAND 176 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ZeroBias 0 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount40 175 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu0 13 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount50 179 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleIsoEG18_BptxAND 53 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_TowerCount175_BptxAND 314 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleMuOpen_NotMinimumBiasHF0_AND_BptxAND 201 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_DoubleEG2_TwoTowerHFVeto_OR_BptxAND 203 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleEG18_BptxAND 43 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_ETT30_BptxAND 138 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleJet8_MidEta2p5_BptxAND 95 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleEG2 37 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_BptxOR 209 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleMu7_BptxAND 23 to module 0
+2016-11-03 09:32:49 INFO :  ... adding shadowed L1_SingleEG24_BptxAND 44 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet24_BptxAND 108 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleIsoEG10_BptxAND 51 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_DoubleMu0 27 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ETT45 143 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount110_BptxAND 302 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleMu3 18 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleMuOpen_NotBptxOR 56 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG30_BptxAND 45 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet24_ForEta2p5_BptxAND 110 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet24_ForEta1p5 112 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG5_NotMinimumBiasHF0_AND 198 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG5 39 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet60_BptxAND 125 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ETT50_BptxAND 146 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG5_BptxAND 40 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ZeroBias_copy 8 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleMu12_BptxAND 24 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet24_ForEta1p5_BptxAND 111 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet32_BptxAND 118 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount185_BptxAND 316 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG5_NotMinimumBiasHF0_AND_BptxAND 199 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG5_TwoTowerHFVeto_OR_BptxAND 195 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG2_BptxAND 38 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount58_BptxAND 182 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_AlwaysTrue 206 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ETT35_BptxAND 140 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet12_ForEta2p5_BptxAND 100 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet40_BptxAND 120 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ETT40_BptxAND 142 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleIsoEG14_BptxAND 52 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount180_BptxAND 315 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet24_ForEta2p5 109 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleMu3_SingleJet20_BptxAND 15 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_CastorGap_BptxAND 257 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleMuOpen 16 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_CastorHighJet_BptxAND 258 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount165_BptxAND 312 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_MuOpen_NotMinimumBiasHF0_AND_BptxAND 194 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_CastorHaloMuon 261 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount150_BptxAND 309 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount140 320 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleIsoEG30_BptxAND 55 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleEG10_BptxAND 41 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_TowerCount135_BptxAND 306 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_CastorHaloMuon_BptxAND 260 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleIsoEG5 49 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_ETT25_BptxAND 136 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleIsoEG5_BptxAND 50 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_MinimumBiasHF0_AND_BptxAND 4 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_SingleJet12 96 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_CastorMediumJet 262 to module 0
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_DoubleMu10_BptxAND 33 to module 0
+2016-11-03 09:32:50 INFO :  . adding L1_DoubleMu_10_0_dEta_Max1p8 (35) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_DoubleEG_15_10 (71) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_SingleMuCosmics (218) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_HTM50 (131) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_HTT160 (130) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT1_AND (225) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT1_B1 (226) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT1_B2 (227) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT1_OR (228) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT2_AND (229) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT2_B1NotB2 (230) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT2_B2NotB1 (231) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_LUT2_NotOR (232) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_TRIG2_AND (233) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_TRIG2_B1NotB2 (234) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_TRIG2_B2NotB1 (235) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BPTX_TRIG2_NotOR (236) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG0_AND (240) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG0_FstBunchInTrain (243) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG0_OR (242) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG0_delayedAND (241) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG3_AND (237) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG3_delayedAND (238) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BRIL_TRIG3_ref (239) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BeamGasB1 (223) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BeamGasB2 (224) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BeamGasMinus (222) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BeamGasPlus (221) to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_BptxMinus (11) to module 1
+2016-11-03 09:32:50 INFO :  +-- L1_BptxMinus_NotBptxPlus shadowed ratio 50.0 %
+2016-11-03 09:32:50 INFO :  +--- L1_BptxXOR shadowed ratio 100.0 %
+2016-11-03 09:32:50 INFO :  +---- L1_BptxPlus shadowed ratio 50.0 %
+2016-11-03 09:32:50 INFO :  +----- L1_BptxPlus_NotBptxMinus shadowed ratio 100.0 %
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_BptxXOR 220 to module 1
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_BptxMinus_NotBptxPlus 2 to module 1
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_BptxPlus_NotBptxMinus 1 to module 1
+2016-11-03 09:32:50 INFO :  ... adding shadowed L1_BptxPlus 10 to module 1
+2016-11-03 09:32:50 INFO :  . adding L1_ZeroBias_FirstCollidingBunch (244) to module 1
+2016-11-03 09:32:50 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : | Detailed distribition on 2 modules, shadow ratio: 0.0                   |
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : |------------|------------------------------------------------------------|
+2016-11-03 09:32:50 INFO : | Module     | Algorithm                                                  |
+2016-11-03 09:32:50 INFO : | ID | Index | Index | Name                                               |
+2016-11-03 09:32:50 INFO : |----|-------|-------|----------------------------------------------------|
+2016-11-03 09:32:50 INFO : |  0 |     0 |    30 | L1_DoubleMu0_MassGT1_BptxAND                       |
+2016-11-03 09:32:50 INFO : |  0 |     1 |   196 | L1_DoubleEG2_NotMinimumBiasHF0_AND                 |
+2016-11-03 09:32:50 INFO : |  0 |     2 |    89 | L1_SingleJet4_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |     3 |   259 | L1_CastorMediumJet_BptxAND                         |
+2016-11-03 09:32:50 INFO : |  0 |     4 |   187 | L1_TowerCount80_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |     5 |   317 | L1_TowerCount190_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |     6 |    90 | L1_SingleJet4_MidEta2p5                            |
+2016-11-03 09:32:50 INFO : |  0 |     7 |   180 | L1_TowerCount50_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |     8 |   137 | L1_ETT30                                           |
+2016-11-03 09:32:50 INFO : |  0 |     9 |   318 | L1_TowerCount200_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    10 |   135 | L1_ETT25                                           |
+2016-11-03 09:32:50 INFO : |  0 |    11 |    91 | L1_SingleJet4_MidEta2p5_BptxAND                    |
+2016-11-03 09:32:50 INFO : |  0 |    12 |   177 | L1_TowerCount45                                    |
+2016-11-03 09:32:50 INFO : |  0 |    13 |   124 | L1_SingleJet56_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    14 |   139 | L1_ETT35                                           |
+2016-11-03 09:32:50 INFO : |  0 |    15 |    34 | L1_DoubleMu10_Mass60to150_BptxAND                  |
+2016-11-03 09:32:50 INFO : |  0 |    16 |    98 | L1_SingleJet12_ForEta2p5                           |
+2016-11-03 09:32:50 INFO : |  0 |    17 |     7 | L1_MinimumBiasHF0_OR_BptxAND_Copy                  |
+2016-11-03 09:32:50 INFO : |  0 |    18 |   102 | L1_SingleJet16                                     |
+2016-11-03 09:32:50 INFO : |  0 |    19 |    31 | L1_DoubleMuOpen_OS_BptxAND                         |
+2016-11-03 09:32:50 INFO : |  0 |    20 |   123 | L1_SingleJet52_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    21 |    28 | L1_DoubleMu0_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |    22 |   141 | L1_ETT40                                           |
+2016-11-03 09:32:50 INFO : |  0 |    23 |   178 | L1_TowerCount45_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    24 |   103 | L1_SingleJet16_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    25 |   181 | L1_TowerCount54_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    26 |    94 | L1_SingleJet8_MidEta2p5                            |
+2016-11-03 09:32:50 INFO : |  0 |    27 |    92 | L1_SingleJet8                                      |
+2016-11-03 09:32:50 INFO : |  0 |    28 |   191 | L1_TowerCount120_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    29 |   104 | L1_SingleJet20                                     |
+2016-11-03 09:32:50 INFO : |  0 |    30 |   188 | L1_TowerCount85_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    31 |    93 | L1_SingleJet8_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |    32 |   144 | L1_ETT45_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |    33 |   304 | L1_TowerCount125_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    34 |    25 | L1_DoubleMuOpen                                    |
+2016-11-03 09:32:50 INFO : |  0 |    35 |   328 | L1_ETT150_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    36 |    26 | L1_DoubleMuOpen_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    37 |   311 | L1_TowerCount160_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    38 |   107 | L1_SingleJet24                                     |
+2016-11-03 09:32:50 INFO : |  0 |    39 |   145 | L1_ETT50                                           |
+2016-11-03 09:32:50 INFO : |  0 |    40 |   105 | L1_SingleJet20_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    41 |   147 | L1_ETT60                                           |
+2016-11-03 09:32:50 INFO : |  0 |    42 |    99 | L1_SingleJet12_ForEta1p5                           |
+2016-11-03 09:32:50 INFO : |  0 |    43 |   308 | L1_TowerCount145_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    44 |   148 | L1_ETT60_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |    45 |     3 | L1_MinimumBiasHF0_OR_BptxAND                       |
+2016-11-03 09:32:50 INFO : |  0 |    46 |   184 | L1_TowerCount66_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    47 |   307 | L1_TowerCount140_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    48 |   305 | L1_TowerCount130_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    49 |   149 | L1_ETT80                                           |
+2016-11-03 09:32:50 INFO : |  0 |    50 |   185 | L1_TowerCount70_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    51 |   301 | L1_TowerCount105_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    52 |   150 | L1_ETT80_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |    53 |    32 | L1_DoubleMuOpen_SS_BptxAND                         |
+2016-11-03 09:32:50 INFO : |  0 |    54 |     6 | L1_MinimumBiasHF0_AND                              |
+2016-11-03 09:32:50 INFO : |  0 |    55 |   186 | L1_TowerCount74_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    56 |   322 | L1_ETT90_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |    57 |    29 | L1_DoubleMuOpen_MassGT1_BptxAND                    |
+2016-11-03 09:32:50 INFO : |  0 |    58 |    22 | L1_SingleMu7                                       |
+2016-11-03 09:32:50 INFO : |  0 |    59 |   192 | L1_DoubleMuOpen_TwoTowerHFVeto_OR_BptxAND          |
+2016-11-03 09:32:50 INFO : |  0 |    60 |   319 | L1_TowerCount100                                   |
+2016-11-03 09:32:50 INFO : |  0 |    61 |   310 | L1_TowerCount155_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    62 |    19 | L1_SingleMu3_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |    63 |   119 | L1_SingleJet36_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    64 |   219 | L1_IsolatedBunch                                   |
+2016-11-03 09:32:50 INFO : |  0 |    65 |   151 | L1_ETT100                                          |
+2016-11-03 09:32:50 INFO : |  0 |    66 |   117 | L1_SingleJet28_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    67 |   189 | L1_TowerCount90_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    68 |   197 | L1_DoubleEG2_NotMinimumBiasHF0_AND_BptxAND         |
+2016-11-03 09:32:50 INFO : |  0 |    69 |    20 | L1_SingleMu5                                       |
+2016-11-03 09:32:50 INFO : |  0 |    70 |   323 | L1_ETT100_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    71 |    21 | L1_SingleMu5_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |    72 |   313 | L1_TowerCount170_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    73 |   303 | L1_TowerCount115_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    74 |    12 | L1_SingleJetC40_NotBptxOR_5BX                      |
+2016-11-03 09:32:50 INFO : |  0 |    75 |    88 | L1_SingleJet4                                      |
+2016-11-03 09:32:50 INFO : |  0 |    76 |     5 | L1_MinimumBiasHF0_OR                               |
+2016-11-03 09:32:50 INFO : |  0 |    77 |   190 | L1_TowerCount100_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    78 |   325 | L1_ETT120_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    79 |   121 | L1_SingleJet44_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    80 |   300 | L1_TowerCount95_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    81 |   326 | L1_ETT130_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    82 |   321 | L1_TowerCount180                                   |
+2016-11-03 09:32:50 INFO : |  0 |    83 |   263 | L1_SingleJetC40_NotBptxOR_3BX                      |
+2016-11-03 09:32:50 INFO : |  0 |    84 |   327 | L1_ETT140_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    85 |   122 | L1_SingleJet48_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    86 |   101 | L1_SingleJet12_ForEta1p5_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |    87 |   202 | L1_MuOpen_NotMinimumBiasHF0_AND                    |
+2016-11-03 09:32:50 INFO : |  0 |    88 |    17 | L1_SingleMuOpen_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    89 |    54 | L1_SingleIsoEG24_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |    90 |    97 | L1_SingleJet12_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |    91 |   193 | L1_MuOpen_TwoTowerHFVeto_OR_BptxAND                |
+2016-11-03 09:32:50 INFO : |  0 |    92 |   183 | L1_TowerCount62_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |    93 |     9 | L1_NotBptxOR                                       |
+2016-11-03 09:32:50 INFO : |  0 |    94 |   324 | L1_ETT110_BptxAND                                  |
+2016-11-03 09:32:50 INFO : |  0 |    95 |    14 | L1_SingleMu0_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |    96 |   204 | L1_NotMinimumBiasHF0_AND                           |
+2016-11-03 09:32:50 INFO : |  0 |    97 |   200 | L1_DoubleMuOpen_NotMinimumBiasHF0_AND              |
+2016-11-03 09:32:50 INFO : |  0 |    98 |   205 | L1_NotMinimumBiasHF0_AND_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |    99 |    42 | L1_SingleEG14_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   100 |   176 | L1_TowerCount40_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |   101 |     0 | L1_ZeroBias                                        |
+2016-11-03 09:32:50 INFO : |  0 |   102 |   175 | L1_TowerCount40                                    |
+2016-11-03 09:32:50 INFO : |  0 |   103 |    13 | L1_SingleMu0                                       |
+2016-11-03 09:32:50 INFO : |  0 |   104 |   179 | L1_TowerCount50                                    |
+2016-11-03 09:32:50 INFO : |  0 |   105 |    53 | L1_SingleIsoEG18_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   106 |   314 | L1_TowerCount175_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   107 |   201 | L1_DoubleMuOpen_NotMinimumBiasHF0_AND_BptxAND      |
+2016-11-03 09:32:50 INFO : |  0 |   108 |   203 | L1_DoubleEG2_TwoTowerHFVeto_OR_BptxAND             |
+2016-11-03 09:32:50 INFO : |  0 |   109 |    43 | L1_SingleEG18_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   110 |   138 | L1_ETT30_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |   111 |    95 | L1_SingleJet8_MidEta2p5_BptxAND                    |
+2016-11-03 09:32:50 INFO : |  0 |   112 |    37 | L1_SingleEG2                                       |
+2016-11-03 09:32:50 INFO : |  0 |   113 |   209 | L1_BptxOR                                          |
+2016-11-03 09:32:50 INFO : |  0 |   114 |    23 | L1_SingleMu7_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |   115 |    44 | L1_SingleEG24_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   116 |   108 | L1_SingleJet24_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |   117 |    51 | L1_SingleIsoEG10_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   118 |    27 | L1_DoubleMu0                                       |
+2016-11-03 09:32:50 INFO : |  0 |   119 |   143 | L1_ETT45                                           |
+2016-11-03 09:32:50 INFO : |  0 |   120 |   302 | L1_TowerCount110_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   121 |    18 | L1_SingleMu3                                       |
+2016-11-03 09:32:50 INFO : |  0 |   122 |    56 | L1_SingleMuOpen_NotBptxOR                          |
+2016-11-03 09:32:50 INFO : |  0 |   123 |    45 | L1_SingleEG30_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   124 |   110 | L1_SingleJet24_ForEta2p5_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |   125 |   112 | L1_SingleJet24_ForEta1p5                           |
+2016-11-03 09:32:50 INFO : |  0 |   126 |   198 | L1_SingleEG5_NotMinimumBiasHF0_AND                 |
+2016-11-03 09:32:50 INFO : |  0 |   127 |    39 | L1_SingleEG5                                       |
+2016-11-03 09:32:50 INFO : |  0 |   128 |   125 | L1_SingleJet60_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |   129 |   146 | L1_ETT50_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |   130 |    40 | L1_SingleEG5_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |   131 |     8 | L1_ZeroBias_copy                                   |
+2016-11-03 09:32:50 INFO : |  0 |   132 |    24 | L1_SingleMu12_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   133 |   111 | L1_SingleJet24_ForEta1p5_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |   134 |   118 | L1_SingleJet32_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |   135 |   316 | L1_TowerCount185_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   136 |   199 | L1_SingleEG5_NotMinimumBiasHF0_AND_BptxAND         |
+2016-11-03 09:32:50 INFO : |  0 |   137 |   195 | L1_SingleEG5_TwoTowerHFVeto_OR_BptxAND             |
+2016-11-03 09:32:50 INFO : |  0 |   138 |    38 | L1_SingleEG2_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |   139 |   182 | L1_TowerCount58_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |   140 |   206 | L1_AlwaysTrue                                      |
+2016-11-03 09:32:50 INFO : |  0 |   141 |   140 | L1_ETT35_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |   142 |   100 | L1_SingleJet12_ForEta2p5_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |   143 |   120 | L1_SingleJet40_BptxAND                             |
+2016-11-03 09:32:50 INFO : |  0 |   144 |   142 | L1_ETT40_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |   145 |    52 | L1_SingleIsoEG14_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   146 |   315 | L1_TowerCount180_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   147 |   109 | L1_SingleJet24_ForEta2p5                           |
+2016-11-03 09:32:50 INFO : |  0 |   148 |    15 | L1_SingleMu3_SingleJet20_BptxAND                   |
+2016-11-03 09:32:50 INFO : |  0 |   149 |   257 | L1_CastorGap_BptxAND                               |
+2016-11-03 09:32:50 INFO : |  0 |   150 |    16 | L1_SingleMuOpen                                    |
+2016-11-03 09:32:50 INFO : |  0 |   151 |   258 | L1_CastorHighJet_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   152 |   312 | L1_TowerCount165_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   153 |   194 | L1_MuOpen_NotMinimumBiasHF0_AND_BptxAND            |
+2016-11-03 09:32:50 INFO : |  0 |   154 |   261 | L1_CastorHaloMuon                                  |
+2016-11-03 09:32:50 INFO : |  0 |   155 |   309 | L1_TowerCount150_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   156 |   320 | L1_TowerCount140                                   |
+2016-11-03 09:32:50 INFO : |  0 |   157 |    55 | L1_SingleIsoEG30_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   158 |    41 | L1_SingleEG10_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  0 |   159 |   306 | L1_TowerCount135_BptxAND                           |
+2016-11-03 09:32:50 INFO : |  0 |   160 |   260 | L1_CastorHaloMuon_BptxAND                          |
+2016-11-03 09:32:50 INFO : |  0 |   161 |    49 | L1_SingleIsoEG5                                    |
+2016-11-03 09:32:50 INFO : |  0 |   162 |   136 | L1_ETT25_BptxAND                                   |
+2016-11-03 09:32:50 INFO : |  0 |   163 |    50 | L1_SingleIsoEG5_BptxAND                            |
+2016-11-03 09:32:50 INFO : |  0 |   164 |     4 | L1_MinimumBiasHF0_AND_BptxAND                      |
+2016-11-03 09:32:50 INFO : |  0 |   165 |    96 | L1_SingleJet12                                     |
+2016-11-03 09:32:50 INFO : |  0 |   166 |   262 | L1_CastorMediumJet                                 |
+2016-11-03 09:32:50 INFO : |  0 |   167 |    33 | L1_DoubleMu10_BptxAND                              |
+2016-11-03 09:32:50 INFO : |  1 |     0 |    35 | L1_DoubleMu_10_0_dEta_Max1p8                       |
+2016-11-03 09:32:50 INFO : |  1 |     1 |    71 | L1_DoubleEG_15_10                                  |
+2016-11-03 09:32:50 INFO : |  1 |     2 |   218 | L1_SingleMuCosmics                                 |
+2016-11-03 09:32:50 INFO : |  1 |     3 |   131 | L1_HTM50                                           |
+2016-11-03 09:32:50 INFO : |  1 |     4 |   130 | L1_HTT160                                          |
+2016-11-03 09:32:50 INFO : |  1 |     5 |   225 | L1_BPTX_LUT1_AND                                   |
+2016-11-03 09:32:50 INFO : |  1 |     6 |   226 | L1_BPTX_LUT1_B1                                    |
+2016-11-03 09:32:50 INFO : |  1 |     7 |   227 | L1_BPTX_LUT1_B2                                    |
+2016-11-03 09:32:50 INFO : |  1 |     8 |   228 | L1_BPTX_LUT1_OR                                    |
+2016-11-03 09:32:50 INFO : |  1 |     9 |   229 | L1_BPTX_LUT2_AND                                   |
+2016-11-03 09:32:50 INFO : |  1 |    10 |   230 | L1_BPTX_LUT2_B1NotB2                               |
+2016-11-03 09:32:50 INFO : |  1 |    11 |   231 | L1_BPTX_LUT2_B2NotB1                               |
+2016-11-03 09:32:50 INFO : |  1 |    12 |   232 | L1_BPTX_LUT2_NotOR                                 |
+2016-11-03 09:32:50 INFO : |  1 |    13 |   233 | L1_BPTX_TRIG2_AND                                  |
+2016-11-03 09:32:50 INFO : |  1 |    14 |   234 | L1_BPTX_TRIG2_B1NotB2                              |
+2016-11-03 09:32:50 INFO : |  1 |    15 |   235 | L1_BPTX_TRIG2_B2NotB1                              |
+2016-11-03 09:32:50 INFO : |  1 |    16 |   236 | L1_BPTX_TRIG2_NotOR                                |
+2016-11-03 09:32:50 INFO : |  1 |    17 |   240 | L1_BRIL_TRIG0_AND                                  |
+2016-11-03 09:32:50 INFO : |  1 |    18 |   243 | L1_BRIL_TRIG0_FstBunchInTrain                      |
+2016-11-03 09:32:50 INFO : |  1 |    19 |   242 | L1_BRIL_TRIG0_OR                                   |
+2016-11-03 09:32:50 INFO : |  1 |    20 |   241 | L1_BRIL_TRIG0_delayedAND                           |
+2016-11-03 09:32:50 INFO : |  1 |    21 |   237 | L1_BRIL_TRIG3_AND                                  |
+2016-11-03 09:32:50 INFO : |  1 |    22 |   238 | L1_BRIL_TRIG3_delayedAND                           |
+2016-11-03 09:32:50 INFO : |  1 |    23 |   239 | L1_BRIL_TRIG3_ref                                  |
+2016-11-03 09:32:50 INFO : |  1 |    24 |   223 | L1_BeamGasB1                                       |
+2016-11-03 09:32:50 INFO : |  1 |    25 |   224 | L1_BeamGasB2                                       |
+2016-11-03 09:32:50 INFO : |  1 |    26 |   222 | L1_BeamGasMinus                                    |
+2016-11-03 09:32:50 INFO : |  1 |    27 |   221 | L1_BeamGasPlus                                     |
+2016-11-03 09:32:50 INFO : |  1 |    28 |    11 | L1_BptxMinus                                       |
+2016-11-03 09:32:50 INFO : |  1 |    29 |   220 | L1_BptxXOR                                         |
+2016-11-03 09:32:50 INFO : |  1 |    30 |     2 | L1_BptxMinus_NotBptxPlus                           |
+2016-11-03 09:32:50 INFO : |  1 |    31 |     1 | L1_BptxPlus_NotBptxMinus                           |
+2016-11-03 09:32:50 INFO : |  1 |    32 |    10 | L1_BptxPlus                                        |
+2016-11-03 09:32:50 INFO : |  1 |    33 |   244 | L1_ZeroBias_FirstCollidingBunch                    |
+2016-11-03 09:32:50 INFO : |----|-------|-------|----------------------------------------------------|
+2016-11-03 09:32:50 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : | Condition distribution, sorted by weight (descending)                   |
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:50 INFO : | Name                                             | Modules              |
+2016-11-03 09:32:50 INFO : |--------------------------------------------------|----------------------|
+2016-11-03 09:32:50 INFO : | InvariantMass_14448006258560744856               | 0                    |
+2016-11-03 09:32:50 INFO : | InvariantMass_9095745556844200608                | 0                    |
+2016-11-03 09:32:50 INFO : | InvariantMass_14448006260424517736               | 0                    |
+2016-11-03 09:32:50 INFO : | MuonMuonCorrelation_8772456668275224612          | 1                    |
+2016-11-03 09:32:50 INFO : | DoubleEG_8902241604802172142                     | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleEG_14367282104050956127                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleJET_12390508092828276120                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_145873204                               | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507428088041804864                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_1139634                                 | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_1139637                                 | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010309940                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_145873080                               | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813110137888401687                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507579852316578880                    | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleMU_12394164411069199406                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813110137886304535                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_156330548                              | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507579852186555456                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310070                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507579852048143424                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813119280797940055                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010309814                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010309810                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507579852056532032                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310066                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_12391633992735118744                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010309944                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813110137888405847                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_12507579852052337728                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_145873328                               | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleMU_14585777620730815295                    | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleMU_3137853811412695564                     | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310196                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310192                            | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleMU_3137853811412761100                     | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_145873072                               | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEG_145873076                               | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310322                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310326                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813119280800037207                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813119280797935895                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310200                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813119280800033047                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010309936                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_5967545344067287239                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_156330552                              | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_20010310448                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleJET_3813110137886308695                    | 0                    |
+2016-11-03 09:32:50 INFO : | DoubleMU_14585778097856672575                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_17545683059493081541                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_14769293019696632261                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_14769293105595978181                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_14769293071236239813                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_1272496                                 | 1                    |
+2016-11-03 09:32:50 INFO : | SingleMU_14769293018627052229                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMU_14769293139955716549                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590069                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902359            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590704                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590064                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901458            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902354            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902610            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleHTM_19504782000                            | 1                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594464            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901591            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901842            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901847            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594077            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902231            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299917842            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleHTT_2496626711344                          | 1                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594459            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902098            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547495728                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547496112                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902226            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594207            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590320                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901975            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901970            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901463            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902487            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902482            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590448                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699589941                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547495984                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMBT0HFM_43640316738250417                  | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170593819            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMBT0HFM_43640316738250418                  | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170593951            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170593955            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590192                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590197                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594336            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547495856                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547495600                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170593947            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMBT0HFP_43640316738250802                  | 0                    |
+2016-11-03 09:32:50 INFO : | SingleMBT0HFP_43640316738250801                  | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170593824            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299902103            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_2393547495472                          | 0                    |
+2016-11-03 09:32:50 INFO : | SingleETT_18699590832                            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594203            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901586            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594331            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901714            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_15170162782299901719            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleTOWERCOUNT_14241805328170594081            | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_14414193171404190569                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17118203077108929635                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_10668942785814789677                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17833638494293564019                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_8082506271259815918                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6908249106957368432                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17561531836164454847                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_14715923867298367880                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6926915327998939228                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17561531836164454591                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17561531836164454592                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17561531836164454848                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_13978480583031406537                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_14106346774065907231                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_2629888000553438421                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_10668942820174528044                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17833638493488257651                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_13411810255817494270                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_1543099582833751334                    | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17833638494023122291                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_7098142399846355376                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_14715923867298343304                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6395038971485762907                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6395038971485762908                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6912739140295604792                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6873400283626490434                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6395198100430131034                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6395038971485764604                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_8353702592807249329                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_17833638494294369813                   | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_6908249107225803888                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_10371607390599051624                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_7098142365486617009                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_10104897634845317422                   | 0                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_7332905005558692114                    | 1                    |
+2016-11-03 09:32:50 INFO : | SingleEXT_7332905005558692115                    | 1                    |
+2016-11-03 09:32:50 INFO : |--------------------------------------------------|----------------------|
+2016-11-03 09:32:50 INFO : |-------------------------------------------------------------------------|
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : | Summary for distribution on 2 modules, shadow ratio: 0.0                |
+2016-11-03 09:32:50 INFO : |                                                                         |
+2016-11-03 09:32:50 INFO : |-----------------|-------------------------------------------------------|
+2016-11-03 09:32:50 INFO : | Module          | Payload                                               |
+2016-11-03 09:32:50 INFO : | ID | Algorithms | SliceLUTs | DSPs                                      |
+2016-11-03 09:32:50 INFO : |----|------------|-----------|-------------------------------------------|
+2016-11-03 09:32:50 INFO : |  0 |        168 |    72.03% | 30.00%                                    |
+2016-11-03 09:32:50 INFO : |  1 |         34 |    40.63% |  0.00%                                    |
+2016-11-03 09:32:50 INFO : |----|------------|-----------|-------------------------------------------|
+2016-11-03 09:32:50 INFO : writing VHDL modules...
+2016-11-03 09:32:50 INFO : writing 202 algorithms to 2 module(s)
+2016-11-03 09:32:50 INFO : writing template output:
+2016-11-03 09:32:50 INFO : gtl_module.vhd          : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_0/src/gtl_module.vhd
+2016-11-03 09:32:50 INFO : algo_mapping_rop.vhd    : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_0/src/algo_mapping_rop.vhd
+2016-11-03 09:32:50 INFO : gtl_pkg.vhd             : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_0/src/gtl_pkg.vhd
+2016-11-03 09:32:50 INFO : menu.json               : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/xml/menu.json
+2016-11-03 09:32:50 INFO : writing template output:
+2016-11-03 09:32:50 INFO : gtl_module.vhd          : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_1/src/gtl_module.vhd
+2016-11-03 09:32:50 INFO : algo_mapping_rop.vhd    : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_1/src/algo_mapping_rop.vhd
+2016-11-03 09:32:50 INFO : gtl_pkg.vhd             : /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/vhdl/module_1/src/gtl_pkg.vhd
+2016-11-03 09:32:50 INFO : writing updated XML file /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2.xml
+2016-11-03 09:32:50 INFO : reading source XML menu file /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2.xml
+2016-11-03 09:32:51 INFO : processing menu "L1Menu_HeavyIons2016_v2" ... 
+2016-11-03 09:32:51 INFO : updating menu information...
+2016-11-03 09:32:51 INFO : uuid_menu     : fc1ba9a8-13ef-46ca-b0aa-bdfbcaed2eeb
+2016-11-03 09:32:51 INFO : uuid_firmware : 35cfd6c3-4c64-49fe-b0ab-649b54f31c74
+2016-11-03 09:32:51 INFO : n_modules     : 2
+2016-11-03 09:32:51 INFO : writing target XML menu file /home/wittmann/work/ugt_menu_dev/L1Menu_HeavyIons2016_v2_m2/xml/L1Menu_HeavyIons2016_v2_m2.xml
+2016-11-03 09:32:51 INFO : done.

@@ -1,0 +1,627 @@
+%SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_CollisionsHeavyIons2018_v3.html" }%
+
+---+!! !L1Menu_CollisionsHeavyIons2018_v3
+
+%TOC%
+
+---++ Introduction
+
+| *Trigger Menu Name* | *Grammar Version* | *Compatible releases* | *First run with collision key* |
+| !L1Menu_CollisionsHeavyIons2018_v3 | 0.7 | >= 9_2_2 |  |
+
+---++ Changes with respect to !L1Menu_xxxx
+   * Added the following algorithms
+      * bxxx L1_xxxx
+   * Changed the following algorithms
+      * bxxx L1_xxxx
+   * Removed the following algorithms
+      * bxxx L1_xxxx
+   * references:
+      * https://its.cern.ch/jira/browse/CMSHLT-xxxx
+
+---+++ Menu availability in a CMSSW job
+
+---++ List and description of algorithm and technical triggers
+
+
+A complete description of the algorithm and technical trigger implementation is available in the attached
+[[%GET{"REPORTER_URL"}%][HTML Description of L1 Menu]]. %ICON{updated}%
+
+---+++ L1 menu identification
+
+|Menu Name: | !L1Menu_CollisionsHeavyIons2018_v3 |
+|Menu UUID: | bb9a82eb-17df-4991-b806-4028ee613a4c |
+|Firmware UUID: | 721d74e7-03e3-48ab-938d-1e8242e7c1dd  |
+|Associated L1 scale DB key: | scales_2018_08_07 |
+
+
+---+++ Summary
+
+   * Number of algorithm triggers: 267 defined.
+
+Number of algorithm triggers per trigger group:
+
+    | *Trigger group* | *Number of bits used* |
+      | !Muon algorithm triggers: | 11 |
+      | !E/gamma algorithm triggers: | 4 |
+      | !Jet algorithm triggers: | 6 |
+      | !Energy Sums algorithm triggers: | 6 |
+      | !Cross algorithm triggers: | 231 |
+      | !Correlation algorithm triggers: | 1 |
+      | !External algorithm triggers: | 7 |
+      | !Signal algorithm triggers: | 1 |
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by trigger groups
+
+<p style="page-break-before: always">&nbsp;</p>
+---++++ !Muon algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   | L1_SingleMuOpen  | 190 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0 ][L1_SingleMu0]]   | L1_SingleMu0  | 192 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   | L1_SingleMu12  | 203 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   | L1_SingleMu16  | 206 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen ][L1_DoubleMuOpen]]   | L1_DoubleMuOpen  | 210 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS ][L1_DoubleMuOpen_OS]]   | L1_DoubleMuOpen_OS  | 213 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS ][L1_DoubleMuOpen_SS]]   | L1_DoubleMuOpen_SS  | 216 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0 ][L1_DoubleMu0]]   | L1_DoubleMu0  | 218 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   | L1_SingleMu7  | 235 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   | L1_SingleMu3  | 237 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   | L1_SingleMu5  | 277 |  |
+!Muon algorithm triggers: 11 bits defined
+---++++ !E/gamma algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2 ][L1_DoubleEG2]]   | L1_DoubleEG2  | 282 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5 ][L1_DoubleEG5]]   | L1_DoubleEG5  | 289 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3 ][L1_SingleEG3]]   | L1_SingleEG3  | 472 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   | L1_SingleEG5  | 473 |  |
+!E/gamma algorithm triggers: 4 bits defined
+---++++ !Jet algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8 ][L1_SingleJet8]]   | L1_SingleJet8  | 27 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7 ][L1_DoubleJet16And8_MidEta2p7]]   | L1_DoubleJet16And8_MidEta2p7  | 358 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7 ][L1_DoubleJet20And8_MidEta2p7]]   | L1_DoubleJet20And8_MidEta2p7  | 359 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7 ][L1_DoubleJet20And12_MidEta2p7]]   | L1_DoubleJet20And12_MidEta2p7  | 360 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7 ][L1_DoubleJet28And16_MidEta2p7]]   | L1_DoubleJet28And16_MidEta2p7  | 361 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7 ][L1_DoubleJet16And12_MidEta2p7]]   | L1_DoubleJet16And12_MidEta2p7  | 363 |  |
+!Jet algorithm triggers: 6 bits defined
+---++++ !Energy Sums algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5 ][L1_ETT5]]   | L1_ETT5  | 260 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80 ][L1_ETTAsym80]]   | L1_ETTAsym80  | 402 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70 ][L1_ETTAsym70]]   | L1_ETTAsym70  | 403 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60 ][L1_ETTAsym60]]   | L1_ETTAsym60  | 404 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50 ][L1_ETTAsym50]]   | L1_ETTAsym50  | 405 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40 ][L1_ETTAsym40]]   | L1_ETTAsym40  | 406 |  |
+!Energy Sums algorithm triggers: 6 bits defined
+---++++ !Cross algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasHF1_AND_BptxAND]]   | L1_MinimumBiasHF1_AND_BptxAND  | 2 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasHF1_OR_BptxAND]]   | L1_MinimumBiasHF1_OR_BptxAND  | 3 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_XOR_BptxAND ][L1_MinimumBiasHF1_XOR_BptxAND]]   | L1_MinimumBiasHF1_XOR_BptxAND  | 4 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasHF2_AND_BptxAND]]   | L1_MinimumBiasHF2_AND_BptxAND  | 7 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasHF2_OR_BptxAND]]   | L1_MinimumBiasHF2_OR_BptxAND  | 8 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND ][L1_MinimumBiasHF1_AND]]   | L1_MinimumBiasHF1_AND  | 10 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND ][L1_MinimumBiasHF2_AND]]   | L1_MinimumBiasHF2_AND  | 11 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR ][L1_MinimumBiasHF2_OR]]   | L1_MinimumBiasHF2_OR  | 12 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR ][L1_MinimumBiasHF1_OR]]   | L1_MinimumBiasHF1_OR  | 13 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_OR ][L1_NotMinimumBiasHF1_OR]]   | L1_NotMinimumBiasHF1_OR  | 14 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_OR ][L1_NotMinimumBiasHF2_OR]]   | L1_NotMinimumBiasHF2_OR  | 15 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_OR_BptxAND ][L1_NotMinimumBiasHF1_OR_BptxAND]]   | L1_NotMinimumBiasHF1_OR_BptxAND  | 16 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_OR_BptxAND ][L1_NotMinimumBiasHF2_OR_BptxAND]]   | L1_NotMinimumBiasHF2_OR_BptxAND  | 17 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_30_100 ][L1_Centrality_30_100]]   | L1_Centrality_30_100  | 18 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_50_100 ][L1_Centrality_50_100]]   | L1_Centrality_50_100  | 19 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_BptxAND ][L1_SingleJet8_BptxAND]]   | L1_SingleJet8_BptxAND  | 28 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_BptxAND ][L1_SingleJet16_BptxAND]]   | L1_SingleJet16_BptxAND  | 29 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_BptxAND ][L1_SingleJet24_BptxAND]]   | L1_SingleJet24_BptxAND  | 30 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_BptxAND ][L1_SingleJet28_BptxAND]]   | L1_SingleJet28_BptxAND  | 31 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_BptxAND ][L1_SingleJet32_BptxAND]]   | L1_SingleJet32_BptxAND  | 32 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_BptxAND ][L1_SingleJet36_BptxAND]]   | L1_SingleJet36_BptxAND  | 33 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet40_BptxAND ][L1_SingleJet40_BptxAND]]   | L1_SingleJet40_BptxAND  | 34 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_BptxAND ][L1_SingleJet44_BptxAND]]   | L1_SingleJet44_BptxAND  | 35 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet48_BptxAND ][L1_SingleJet48_BptxAND]]   | L1_SingleJet48_BptxAND  | 36 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_BptxAND ][L1_SingleJet56_BptxAND]]   | L1_SingleJet56_BptxAND  | 37 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_BptxAND ][L1_SingleJet60_BptxAND]]   | L1_SingleJet60_BptxAND  | 38 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_BptxAND ][L1_SingleJet64_BptxAND]]   | L1_SingleJet64_BptxAND  | 39 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_Centrality_30_100_BptxAND ][L1_SingleJet8_Centrality_30_100_BptxAND]]   | L1_SingleJet8_Centrality_30_100_BptxAND  | 40 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_Centrality_30_100_BptxAND ][L1_SingleJet16_Centrality_30_100_BptxAND]]   | L1_SingleJet16_Centrality_30_100_BptxAND  | 41 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_Centrality_30_100_BptxAND ][L1_SingleJet24_Centrality_30_100_BptxAND]]   | L1_SingleJet24_Centrality_30_100_BptxAND  | 42 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_Centrality_30_100_BptxAND ][L1_SingleJet28_Centrality_30_100_BptxAND]]   | L1_SingleJet28_Centrality_30_100_BptxAND  | 43 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_Centrality_30_100_BptxAND ][L1_SingleJet32_Centrality_30_100_BptxAND]]   | L1_SingleJet32_Centrality_30_100_BptxAND  | 44 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_Centrality_30_100_BptxAND ][L1_SingleJet36_Centrality_30_100_BptxAND]]   | L1_SingleJet36_Centrality_30_100_BptxAND  | 45 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_Centrality_30_100_BptxAND ][L1_SingleJet44_Centrality_30_100_BptxAND]]   | L1_SingleJet44_Centrality_30_100_BptxAND  | 46 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_Centrality_30_100_BptxAND ][L1_SingleJet56_Centrality_30_100_BptxAND]]   | L1_SingleJet56_Centrality_30_100_BptxAND  | 47 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_Centrality_30_100_BptxAND ][L1_SingleJet60_Centrality_30_100_BptxAND]]   | L1_SingleJet60_Centrality_30_100_BptxAND  | 48 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_Centrality_30_100_BptxAND ][L1_SingleJet64_Centrality_30_100_BptxAND]]   | L1_SingleJet64_Centrality_30_100_BptxAND  | 49 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_Centrality_50_100_BptxAND ][L1_SingleJet8_Centrality_50_100_BptxAND]]   | L1_SingleJet8_Centrality_50_100_BptxAND  | 50 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_Centrality_50_100_BptxAND ][L1_SingleJet16_Centrality_50_100_BptxAND]]   | L1_SingleJet16_Centrality_50_100_BptxAND  | 51 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_Centrality_50_100_BptxAND ][L1_SingleJet24_Centrality_50_100_BptxAND]]   | L1_SingleJet24_Centrality_50_100_BptxAND  | 52 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_Centrality_50_100_BptxAND ][L1_SingleJet28_Centrality_50_100_BptxAND]]   | L1_SingleJet28_Centrality_50_100_BptxAND  | 53 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_Centrality_50_100_BptxAND ][L1_SingleJet32_Centrality_50_100_BptxAND]]   | L1_SingleJet32_Centrality_50_100_BptxAND  | 54 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_Centrality_50_100_BptxAND ][L1_SingleJet36_Centrality_50_100_BptxAND]]   | L1_SingleJet36_Centrality_50_100_BptxAND  | 55 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_Centrality_50_100_BptxAND ][L1_SingleJet44_Centrality_50_100_BptxAND]]   | L1_SingleJet44_Centrality_50_100_BptxAND  | 56 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_Centrality_50_100_BptxAND ][L1_SingleJet56_Centrality_50_100_BptxAND]]   | L1_SingleJet56_Centrality_50_100_BptxAND  | 57 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_Centrality_50_100_BptxAND ][L1_SingleJet60_Centrality_50_100_BptxAND]]   | L1_SingleJet60_Centrality_50_100_BptxAND  | 58 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_Centrality_50_100_BptxAND ][L1_SingleJet64_Centrality_50_100_BptxAND]]   | L1_SingleJet64_Centrality_50_100_BptxAND  | 59 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_BptxAND ][L1_SingleJet8_FWD_BptxAND]]   | L1_SingleJet8_FWD_BptxAND  | 60 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_BptxAND ][L1_SingleJet16_FWD_BptxAND]]   | L1_SingleJet16_FWD_BptxAND  | 61 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_BptxAND ][L1_SingleJet28_FWD_BptxAND]]   | L1_SingleJet28_FWD_BptxAND  | 62 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_BptxAND ][L1_SingleJet36_FWD_BptxAND]]   | L1_SingleJet36_FWD_BptxAND  | 63 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_BptxAND ][L1_SingleJet44_FWD_BptxAND]]   | L1_SingleJet44_FWD_BptxAND  | 64 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_BptxAND ][L1_SingleJet56_FWD_BptxAND]]   | L1_SingleJet56_FWD_BptxAND  | 65 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_BptxAND ][L1_SingleJet64_FWD_BptxAND]]   | L1_SingleJet64_FWD_BptxAND  | 66 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_Centrality_30_100_BptxAND ][L1_SingleJet8_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet8_FWD_Centrality_30_100_BptxAND  | 67 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_Centrality_30_100_BptxAND ][L1_SingleJet16_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet16_FWD_Centrality_30_100_BptxAND  | 68 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_Centrality_30_100_BptxAND ][L1_SingleJet28_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet28_FWD_Centrality_30_100_BptxAND  | 69 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_Centrality_30_100_BptxAND ][L1_SingleJet36_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet36_FWD_Centrality_30_100_BptxAND  | 70 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_Centrality_30_100_BptxAND ][L1_SingleJet44_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet44_FWD_Centrality_30_100_BptxAND  | 71 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_Centrality_30_100_BptxAND ][L1_SingleJet56_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet56_FWD_Centrality_30_100_BptxAND  | 72 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_Centrality_30_100_BptxAND ][L1_SingleJet64_FWD_Centrality_30_100_BptxAND]]   | L1_SingleJet64_FWD_Centrality_30_100_BptxAND  | 73 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_Centrality_50_100_BptxAND ][L1_SingleJet8_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet8_FWD_Centrality_50_100_BptxAND  | 74 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_Centrality_50_100_BptxAND ][L1_SingleJet16_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet16_FWD_Centrality_50_100_BptxAND  | 75 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_Centrality_50_100_BptxAND ][L1_SingleJet28_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet28_FWD_Centrality_50_100_BptxAND  | 76 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_Centrality_50_100_BptxAND ][L1_SingleJet36_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet36_FWD_Centrality_50_100_BptxAND  | 77 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_Centrality_50_100_BptxAND ][L1_SingleJet44_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet44_FWD_Centrality_50_100_BptxAND  | 78 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_Centrality_50_100_BptxAND ][L1_SingleJet56_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet56_FWD_Centrality_50_100_BptxAND  | 79 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_Centrality_50_100_BptxAND ][L1_SingleJet64_FWD_Centrality_50_100_BptxAND]]   | L1_SingleJet64_FWD_Centrality_50_100_BptxAND  | 80 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG10_BptxAND ][L1_DoubleEG10_BptxAND]]   | L1_DoubleEG10_BptxAND  | 127 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_BptxAND ][L1_DoubleEG5_BptxAND]]   | L1_DoubleEG5_BptxAND  | 128 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8_BptxAND ][L1_DoubleEG8_BptxAND]]   | L1_DoubleEG8_BptxAND  | 129 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_BptxAND ][L1_DoubleEG2_BptxAND]]   | L1_DoubleEG2_BptxAND  | 130 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG7_BptxAND ][L1_SingleIsoEG7_BptxAND]]   | L1_SingleIsoEG7_BptxAND  | 131 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG12_BptxAND ][L1_SingleIsoEG12_BptxAND]]   | L1_SingleIsoEG12_BptxAND  | 132 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG3_BptxAND ][L1_SingleIsoEG3_BptxAND]]   | L1_SingleIsoEG3_BptxAND  | 134 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG15_BptxAND ][L1_SingleIsoEG15_BptxAND]]   | L1_SingleIsoEG15_BptxAND  | 140 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG21_BptxAND ][L1_SingleIsoEG21_BptxAND]]   | L1_SingleIsoEG21_BptxAND  | 141 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG12 ][L1_SingleMu7_SingleEG12]]   | L1_SingleMu7_SingleEG12  | 150 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG15 ][L1_SingleMu7_SingleEG15]]   | L1_SingleMu7_SingleEG15  | 151 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_SingleEG7 ][L1_SingleMu12_SingleEG7]]   | L1_SingleMu12_SingleEG7  | 152 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet28_MidEta2p7 ][L1_SingleEG5_SingleJet28_MidEta2p7]]   | L1_SingleEG5_SingleJet28_MidEta2p7  | 153 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet32_MidEta2p7 ][L1_SingleEG5_SingleJet32_MidEta2p7]]   | L1_SingleEG5_SingleJet32_MidEta2p7  | 154 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet40_MidEta2p7 ][L1_SingleEG5_SingleJet40_MidEta2p7]]   | L1_SingleEG5_SingleJet40_MidEta2p7  | 155 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_NotETT30_BptxAND ][L1_ETT5_NotETT30_BptxAND]]   | L1_ETT5_NotETT30_BptxAND  | 161 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF1_AND_BptxAND ][L1_NotETT20_MinimumBiasHF1_AND_BptxAND]]   | L1_NotETT20_MinimumBiasHF1_AND_BptxAND  | 162 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF1_OR_BptxAND ][L1_NotETT20_MinimumBiasHF1_OR_BptxAND]]   | L1_NotETT20_MinimumBiasHF1_OR_BptxAND  | 163 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG15 ][L1_SingleMu5_SingleEG15]]   | L1_SingleMu5_SingleEG15  | 164 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT100_MinimumBiasHF1_AND_BptxAND ][L1_NotETT100_MinimumBiasHF1_AND_BptxAND]]   | L1_NotETT100_MinimumBiasHF1_AND_BptxAND  | 165 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT150_MinimumBiasHF1_AND_BptxAND ][L1_NotETT150_MinimumBiasHF1_AND_BptxAND]]   | L1_NotETT150_MinimumBiasHF1_AND_BptxAND  | 166 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG30 ][L1_SingleMu3_SingleEG30]]   | L1_SingleMu3_SingleEG30  | 167 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG12 ][L1_SingleMu5_SingleEG12]]   | L1_SingleMu5_SingleEG12  | 168 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG12 ][L1_SingleMu3_SingleEG12]]   | L1_SingleMu3_SingleEG12  | 170 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND  | 171 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF2_OR_BptxAND ][L1_NotETT20_MinimumBiasHF2_OR_BptxAND]]   | L1_NotETT20_MinimumBiasHF2_OR_BptxAND  | 174 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG10 ][L1_SingleMu5_SingleEG10]]   | L1_SingleMu5_SingleEG10  | 189 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_BptxAND ][L1_SingleMuOpen_BptxAND]]   | L1_SingleMuOpen_BptxAND  | 191 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BptxAND ][L1_SingleMu0_BptxAND]]   | L1_SingleMu0_BptxAND  | 193 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND  | 194 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG15 ][L1_SingleMu3_SingleEG15]]   | L1_SingleMu3_SingleEG15  | 195 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND  | 196 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet32_MidEta2p7 ][L1_SingleMu3_SingleJet32_MidEta2p7]]   | L1_SingleMu3_SingleJet32_MidEta2p7  | 197 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet40_MidEta2p7 ][L1_SingleMu3_SingleJet40_MidEta2p7]]   | L1_SingleMu3_SingleJet40_MidEta2p7  | 198 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_BptxAND ][L1_SingleMu12_BptxAND]]   | L1_SingleMu12_BptxAND  | 204 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu12_MinimumBiasHF1_AND_BptxAND]]   | L1_SingleMu12_MinimumBiasHF1_AND_BptxAND  | 205 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16_BptxAND ][L1_SingleMu16_BptxAND]]   | L1_SingleMu16_BptxAND  | 207 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu16_MinimumBiasHF1_AND_BptxAND]]   | L1_SingleMu16_MinimumBiasHF1_AND_BptxAND  | 208 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_BptxAND ][L1_DoubleMuOpen_BptxAND]]   | L1_DoubleMuOpen_BptxAND  | 209 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_10_100_BptxAND ][L1_DoubleMuOpen_Centrality_10_100_BptxAND]]   | L1_DoubleMuOpen_Centrality_10_100_BptxAND  | 211 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_50_100_BptxAND ][L1_DoubleMuOpen_Centrality_50_100_BptxAND]]   | L1_DoubleMuOpen_Centrality_50_100_BptxAND  | 212 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS_BptxAND ][L1_DoubleMuOpen_OS_BptxAND]]   | L1_DoubleMuOpen_OS_BptxAND  | 214 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS_BptxAND ][L1_DoubleMuOpen_SS_BptxAND]]   | L1_DoubleMuOpen_SS_BptxAND  | 215 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_BptxAND ][L1_DoubleMu0_BptxAND]]   | L1_DoubleMu0_BptxAND  | 217 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND]]   | L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND  | 219 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_NotMinimumBiasHF2_OR ][L1_DoubleMu0_NotMinimumBiasHF2_OR]]   | L1_DoubleMu0_NotMinimumBiasHF2_OR  | 220 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_NotMinimumBiasHF2_AND ][L1_DoubleMu0_NotMinimumBiasHF2_AND]]   | L1_DoubleMu0_NotMinimumBiasHF2_AND  | 221 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND]]   | L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND  | 222 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu10_BptxAND ][L1_DoubleMu10_BptxAND]]   | L1_DoubleMu10_BptxAND  | 223 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND]]   | L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND  | 224 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND]]   | L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND  | 225 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu7_MinimumBiasHF1_AND_BptxAND]]   | L1_SingleMu7_MinimumBiasHF1_AND_BptxAND  | 226 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_BptxAND ][L1_SingleMu7_BptxAND]]   | L1_SingleMu7_BptxAND  | 227 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu5_MinimumBiasHF1_AND_BptxAND]]   | L1_SingleMu5_MinimumBiasHF1_AND_BptxAND  | 234 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_BptxAND ][L1_SingleMu5_BptxAND]]   | L1_SingleMu5_BptxAND  | 238 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_BptxAND ][L1_ETT5_BptxAND]]   | L1_ETT5_BptxAND  | 259 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_MinimumBiasHF1_OR_BptxAND  | 261 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_NotMinimumBiasHF2_OR ][L1_ETT5_NotMinimumBiasHF2_OR]]   | L1_ETT5_NotMinimumBiasHF2_OR  | 262 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_OR ][L1_SingleMuOpen_NotMinimumBiasHF2_OR]]   | L1_SingleMuOpen_NotMinimumBiasHF2_OR  | 263 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_NotMinimumBiasHF2_OR ][L1_SingleMu0_NotMinimumBiasHF2_OR]]   | L1_SingleMu0_NotMinimumBiasHF2_OR  | 264 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_NotMinimumBiasHF2_OR ][L1_SingleMu3_NotMinimumBiasHF2_OR]]   | L1_SingleMu3_NotMinimumBiasHF2_OR  | 265 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_NotMinimumBiasHF2_OR ][L1_DoubleMuOpen_NotMinimumBiasHF2_OR]]   | L1_DoubleMuOpen_NotMinimumBiasHF2_OR  | 266 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_OR ][L1_SingleEG3_NotMinimumBiasHF2_OR]]   | L1_SingleEG3_NotMinimumBiasHF2_OR  | 268 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_OR ][L1_SingleEG5_NotMinimumBiasHF2_OR]]   | L1_SingleEG5_NotMinimumBiasHF2_OR  | 269 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND  | 275 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu3_MinimumBiasHF1_AND_BptxAND]]   | L1_SingleMu3_MinimumBiasHF1_AND_BptxAND  | 276 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_BptxAND ][L1_SingleMu3_BptxAND]]   | L1_SingleMu3_BptxAND  | 278 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG20 ][L1_SingleMu3_SingleEG20]]   | L1_SingleMu3_SingleEG20  | 279 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet28_MidEta2p7 ][L1_SingleMu3_SingleJet28_MidEta2p7]]   | L1_SingleMu3_SingleJet28_MidEta2p7  | 281 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_AND ][L1_NotMinimumBiasHF2_AND]]   | L1_NotMinimumBiasHF2_AND  | 285 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_AND ][L1_SingleMuOpen_NotMinimumBiasHF2_AND]]   | L1_SingleMuOpen_NotMinimumBiasHF2_AND  | 286 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_AND ][L1_NotMinimumBiasHF1_AND]]   | L1_NotMinimumBiasHF1_AND  | 288 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5_BptxAND ][L1_DoubleMuOpen_MaxDr3p5_BptxAND]]   | L1_DoubleMuOpen_MaxDr3p5_BptxAND  | 290 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_Centrality_80_100_BptxAND ][L1_SingleMuOpen_Centrality_80_100_BptxAND]]   | L1_SingleMuOpen_Centrality_80_100_BptxAND  | 291 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_Centrality_80_100_BptxAND ][L1_SingleMu3_Centrality_80_100_BptxAND]]   | L1_SingleMu3_Centrality_80_100_BptxAND  | 293 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_30_100_BptxAND ][L1_DoubleMuOpen_Centrality_30_100_BptxAND]]   | L1_DoubleMuOpen_Centrality_30_100_BptxAND  | 294 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_40_100_BptxAND ][L1_DoubleMuOpen_Centrality_40_100_BptxAND]]   | L1_DoubleMuOpen_Centrality_40_100_BptxAND  | 295 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr2p0_BptxAND ][L1_DoubleMuOpen_MaxDr2p0_BptxAND]]   | L1_DoubleMuOpen_MaxDr2p0_BptxAND  | 296 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND ][L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND]]   | L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND  | 297 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_Centrality_70_100_BptxAND ][L1_SingleMu3_Centrality_70_100_BptxAND]]   | L1_SingleMu3_Centrality_70_100_BptxAND  | 298 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_Centrality_70_100_BptxAND ][L1_SingleMuOpen_Centrality_70_100_BptxAND]]   | L1_SingleMuOpen_Centrality_70_100_BptxAND  | 299 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_OR ][L1_DoubleEG2_NotMinimumBiasHF2_OR]]   | L1_DoubleEG2_NotMinimumBiasHF2_OR  | 300 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT200_MinimumBiasHF1_AND_BptxAND ][L1_NotETT200_MinimumBiasHF1_AND_BptxAND]]   | L1_NotETT200_MinimumBiasHF1_AND_BptxAND  | 301 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_OR ][L1_DoubleEG5_NotMinimumBiasHF2_OR]]   | L1_DoubleEG5_NotMinimumBiasHF2_OR  | 302 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG7 ][L1_SingleMu7_SingleEG7]]   | L1_SingleMu7_SingleEG7  | 311 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG10 ][L1_SingleMu7_SingleEG10]]   | L1_SingleMu7_SingleEG10  | 312 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG20 ][L1_SingleMu5_SingleEG20]]   | L1_SingleMu5_SingleEG20  | 313 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND]]   | L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND  | 326 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_NotMinimumBiasHF2_AND ][L1_SingleMu0_NotMinimumBiasHF2_AND]]   | L1_SingleMu0_NotMinimumBiasHF2_AND  | 327 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_AND ][L1_DoubleEG5_NotMinimumBiasHF2_AND]]   | L1_DoubleEG5_NotMinimumBiasHF2_AND  | 330 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_AND ][L1_DoubleEG2_NotMinimumBiasHF2_AND]]   | L1_DoubleEG2_NotMinimumBiasHF2_AND  | 332 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_SingleJet32_MidEta2p7 ][L1_SingleEG7_SingleJet32_MidEta2p7]]   | L1_SingleEG7_SingleJet32_MidEta2p7  | 333 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_AND ][L1_SingleEG5_NotMinimumBiasHF2_AND]]   | L1_SingleEG5_NotMinimumBiasHF2_AND  | 334 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_AND ][L1_SingleEG3_NotMinimumBiasHF2_AND]]   | L1_SingleEG3_NotMinimumBiasHF2_AND  | 335 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND]]   | L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND  | 336 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   | L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND  | 376 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND]]   | L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND  | 377 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   | L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND  | 378 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   | L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND  | 379 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   | L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND  | 380 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND  | 381 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND  | 382 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_BptxAND ][L1_ETTAsym70_BptxAND]]   | L1_ETTAsym70_BptxAND  | 400 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_BptxAND ][L1_ETTAsym80_BptxAND]]   | L1_ETTAsym80_BptxAND  | 401 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND  | 407 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND  | 408 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND  | 409 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND  | 410 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND  | 411 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND  | 412 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_BptxAND ][L1_ETT5_ETTAsym80_BptxAND]]   | L1_ETT5_ETTAsym80_BptxAND  | 413 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_BptxAND ][L1_ETT5_ETTAsym70_BptxAND]]   | L1_ETT5_ETTAsym70_BptxAND  | 414 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_BptxAND ][L1_ETT5_ETTAsym60_BptxAND]]   | L1_ETT5_ETTAsym60_BptxAND  | 415 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_BptxAND ][L1_ETT5_ETTAsym50_BptxAND]]   | L1_ETT5_ETTAsym50_BptxAND  | 416 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_BptxAND ][L1_ETT5_ETTAsym40_BptxAND]]   | L1_ETT5_ETTAsym40_BptxAND  | 417 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_BptxAND ][L1_ETTAsym50_BptxAND]]   | L1_ETTAsym50_BptxAND  | 418 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_BptxAND ][L1_ETTAsym60_BptxAND]]   | L1_ETTAsym60_BptxAND  | 419 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_BptxAND ][L1_ETTAsym40_BptxAND]]   | L1_ETTAsym40_BptxAND  | 420 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND  | 421 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND  | 422 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND]]   | L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND  | 423 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7_Centrality_30_100 ][L1_DoubleJet16And8_MidEta2p7_Centrality_30_100]]   | L1_DoubleJet16And8_MidEta2p7_Centrality_30_100  | 432 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7_Centrality_30_100 ][L1_DoubleJet20And8_MidEta2p7_Centrality_30_100]]   | L1_DoubleJet20And8_MidEta2p7_Centrality_30_100  | 433 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7_Centrality_30_100 ][L1_DoubleJet16And12_MidEta2p7_Centrality_30_100]]   | L1_DoubleJet16And12_MidEta2p7_Centrality_30_100  | 434 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7_Centrality_30_100 ][L1_DoubleJet20And12_MidEta2p7_Centrality_30_100]]   | L1_DoubleJet20And12_MidEta2p7_Centrality_30_100  | 435 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7_Centrality_30_100 ][L1_DoubleJet28And16_MidEta2p7_Centrality_30_100]]   | L1_DoubleJet28And16_MidEta2p7_Centrality_30_100  | 436 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7_Centrality_50_100 ][L1_DoubleJet16And8_MidEta2p7_Centrality_50_100]]   | L1_DoubleJet16And8_MidEta2p7_Centrality_50_100  | 437 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7_Centrality_50_100 ][L1_DoubleJet20And8_MidEta2p7_Centrality_50_100]]   | L1_DoubleJet20And8_MidEta2p7_Centrality_50_100  | 438 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7_Centrality_50_100 ][L1_DoubleJet16And12_MidEta2p7_Centrality_50_100]]   | L1_DoubleJet16And12_MidEta2p7_Centrality_50_100  | 439 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7_Centrality_50_100 ][L1_DoubleJet20And12_MidEta2p7_Centrality_50_100]]   | L1_DoubleJet20And12_MidEta2p7_Centrality_50_100  | 440 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7_Centrality_50_100 ][L1_DoubleJet28And16_MidEta2p7_Centrality_50_100]]   | L1_DoubleJet28And16_MidEta2p7_Centrality_50_100  | 441 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND  | 456 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND  | 457 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND  | 458 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND  | 459 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND  | 460 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND  | 461 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND  | 462 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND  | 463 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND  | 464 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND  | 465 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND  | 466 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND  | 467 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND  | 468 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   | L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND  | 469 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_BptxAND ][L1_SingleEG3_BptxAND]]   | L1_SingleEG3_BptxAND  | 474 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_BptxAND ][L1_SingleEG5_BptxAND]]   | L1_SingleEG5_BptxAND  | 475 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_BptxAND ][L1_SingleEG7_BptxAND]]   | L1_SingleEG7_BptxAND  | 476 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_BptxAND ][L1_SingleEG12_BptxAND]]   | L1_SingleEG12_BptxAND  | 477 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_BptxAND ][L1_SingleEG15_BptxAND]]   | L1_SingleEG15_BptxAND  | 478 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_BptxAND ][L1_SingleEG21_BptxAND]]   | L1_SingleEG21_BptxAND  | 479 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30_BptxAND ][L1_SingleEG30_BptxAND]]   | L1_SingleEG30_BptxAND  | 480 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_Centrality_30_100_BptxAND ][L1_SingleEG3_Centrality_30_100_BptxAND]]   | L1_SingleEG3_Centrality_30_100_BptxAND  | 481 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_Centrality_30_100_BptxAND ][L1_SingleEG7_Centrality_30_100_BptxAND]]   | L1_SingleEG7_Centrality_30_100_BptxAND  | 482 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_Centrality_30_100_BptxAND ][L1_SingleEG15_Centrality_30_100_BptxAND]]   | L1_SingleEG15_Centrality_30_100_BptxAND  | 483 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_Centrality_30_100_BptxAND ][L1_SingleEG21_Centrality_30_100_BptxAND]]   | L1_SingleEG21_Centrality_30_100_BptxAND  | 484 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_Centrality_50_100_BptxAND ][L1_SingleEG3_Centrality_50_100_BptxAND]]   | L1_SingleEG3_Centrality_50_100_BptxAND  | 485 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_Centrality_50_100_BptxAND ][L1_SingleEG7_Centrality_50_100_BptxAND]]   | L1_SingleEG7_Centrality_50_100_BptxAND  | 486 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_Centrality_50_100_BptxAND ][L1_SingleEG15_Centrality_50_100_BptxAND]]   | L1_SingleEG15_Centrality_50_100_BptxAND  | 487 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_Centrality_50_100_BptxAND ][L1_SingleEG21_Centrality_50_100_BptxAND]]   | L1_SingleEG21_Centrality_50_100_BptxAND  | 488 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_SingleJet40_MidEta2p7 ][L1_SingleEG7_SingleJet40_MidEta2p7]]   | L1_SingleEG7_SingleJet40_MidEta2p7  | 489 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_SingleJet32_MidEta2p7 ][L1_SingleEG12_SingleJet32_MidEta2p7]]   | L1_SingleEG12_SingleJet32_MidEta2p7  | 490 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_SingleJet40_MidEta2p7 ][L1_SingleEG12_SingleJet40_MidEta2p7]]   | L1_SingleEG12_SingleJet40_MidEta2p7  | 491 |  |
+!Cross algorithm triggers: 231 bits defined
+---++++ !Correlation algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5 ][L1_DoubleMuOpen_MaxDr3p5]]   | L1_DoubleMuOpen_MaxDr3p5  | 287 |  |
+!Correlation algorithm triggers: 1 bits defined
+---++++ !External algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   | L1_ZeroBias  | 0 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   | L1_ZeroBias_copy  | 1 |  |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   | L1_AlwaysTrue  | 9 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Castor4 ][L1_Castor4]]   | L1_Castor4  | 343 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Castor2 ][L1_Castor2]]   | L1_Castor2  | 344 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Castor3 ][L1_Castor3]]   | L1_Castor3  | 345 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Castor1 ][L1_Castor1]]   | L1_Castor1  | 346 |  |
+!External algorithm triggers: 7 bits defined
+---++++ !Signal algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Saturation ][L1_Centrality_Saturation]]   | L1_Centrality_Saturation  | 5 |  |
+!Signal algorithm triggers: 1 bits defined
+
+
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by bits
+
+| *Algorithm* | *Alias* | *Bit number* | *Module Id* |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   |L1_ZeroBias |0 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   |L1_ZeroBias_copy |1 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND_BptxAND ][L1_MinimumBiasHF1_AND_BptxAND]]   |L1_MinimumBiasHF1_AND_BptxAND |2 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR_BptxAND ][L1_MinimumBiasHF1_OR_BptxAND]]   |L1_MinimumBiasHF1_OR_BptxAND |3 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_XOR_BptxAND ][L1_MinimumBiasHF1_XOR_BptxAND]]   |L1_MinimumBiasHF1_XOR_BptxAND |4 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_Saturation ][L1_Centrality_Saturation]]   |L1_Centrality_Saturation |5 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND_BptxAND ][L1_MinimumBiasHF2_AND_BptxAND]]   |L1_MinimumBiasHF2_AND_BptxAND |7 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR_BptxAND ][L1_MinimumBiasHF2_OR_BptxAND]]   |L1_MinimumBiasHF2_OR_BptxAND |8 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   |L1_AlwaysTrue |9 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_AND ][L1_MinimumBiasHF1_AND]]   |L1_MinimumBiasHF1_AND |10 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_AND ][L1_MinimumBiasHF2_AND]]   |L1_MinimumBiasHF2_AND |11 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF2_OR ][L1_MinimumBiasHF2_OR]]   |L1_MinimumBiasHF2_OR |12 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF1_OR ][L1_MinimumBiasHF1_OR]]   |L1_MinimumBiasHF1_OR |13 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_OR ][L1_NotMinimumBiasHF1_OR]]   |L1_NotMinimumBiasHF1_OR |14 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_OR ][L1_NotMinimumBiasHF2_OR]]   |L1_NotMinimumBiasHF2_OR |15 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_OR_BptxAND ][L1_NotMinimumBiasHF1_OR_BptxAND]]   |L1_NotMinimumBiasHF1_OR_BptxAND |16 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_OR_BptxAND ][L1_NotMinimumBiasHF2_OR_BptxAND]]   |L1_NotMinimumBiasHF2_OR_BptxAND |17 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_30_100 ][L1_Centrality_30_100]]   |L1_Centrality_30_100 |18 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_50_100 ][L1_Centrality_50_100]]   |L1_Centrality_50_100 |19 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8 ][L1_SingleJet8]]   |L1_SingleJet8 |27 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_BptxAND ][L1_SingleJet8_BptxAND]]   |L1_SingleJet8_BptxAND |28 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_BptxAND ][L1_SingleJet16_BptxAND]]   |L1_SingleJet16_BptxAND |29 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_BptxAND ][L1_SingleJet24_BptxAND]]   |L1_SingleJet24_BptxAND |30 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_BptxAND ][L1_SingleJet28_BptxAND]]   |L1_SingleJet28_BptxAND |31 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_BptxAND ][L1_SingleJet32_BptxAND]]   |L1_SingleJet32_BptxAND |32 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_BptxAND ][L1_SingleJet36_BptxAND]]   |L1_SingleJet36_BptxAND |33 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet40_BptxAND ][L1_SingleJet40_BptxAND]]   |L1_SingleJet40_BptxAND |34 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_BptxAND ][L1_SingleJet44_BptxAND]]   |L1_SingleJet44_BptxAND |35 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet48_BptxAND ][L1_SingleJet48_BptxAND]]   |L1_SingleJet48_BptxAND |36 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_BptxAND ][L1_SingleJet56_BptxAND]]   |L1_SingleJet56_BptxAND |37 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_BptxAND ][L1_SingleJet60_BptxAND]]   |L1_SingleJet60_BptxAND |38 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_BptxAND ][L1_SingleJet64_BptxAND]]   |L1_SingleJet64_BptxAND |39 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_Centrality_30_100_BptxAND ][L1_SingleJet8_Centrality_30_100_BptxAND]]   |L1_SingleJet8_Centrality_30_100_BptxAND |40 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_Centrality_30_100_BptxAND ][L1_SingleJet16_Centrality_30_100_BptxAND]]   |L1_SingleJet16_Centrality_30_100_BptxAND |41 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_Centrality_30_100_BptxAND ][L1_SingleJet24_Centrality_30_100_BptxAND]]   |L1_SingleJet24_Centrality_30_100_BptxAND |42 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_Centrality_30_100_BptxAND ][L1_SingleJet28_Centrality_30_100_BptxAND]]   |L1_SingleJet28_Centrality_30_100_BptxAND |43 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_Centrality_30_100_BptxAND ][L1_SingleJet32_Centrality_30_100_BptxAND]]   |L1_SingleJet32_Centrality_30_100_BptxAND |44 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_Centrality_30_100_BptxAND ][L1_SingleJet36_Centrality_30_100_BptxAND]]   |L1_SingleJet36_Centrality_30_100_BptxAND |45 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_Centrality_30_100_BptxAND ][L1_SingleJet44_Centrality_30_100_BptxAND]]   |L1_SingleJet44_Centrality_30_100_BptxAND |46 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_Centrality_30_100_BptxAND ][L1_SingleJet56_Centrality_30_100_BptxAND]]   |L1_SingleJet56_Centrality_30_100_BptxAND |47 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_Centrality_30_100_BptxAND ][L1_SingleJet60_Centrality_30_100_BptxAND]]   |L1_SingleJet60_Centrality_30_100_BptxAND |48 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_Centrality_30_100_BptxAND ][L1_SingleJet64_Centrality_30_100_BptxAND]]   |L1_SingleJet64_Centrality_30_100_BptxAND |49 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_Centrality_50_100_BptxAND ][L1_SingleJet8_Centrality_50_100_BptxAND]]   |L1_SingleJet8_Centrality_50_100_BptxAND |50 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_Centrality_50_100_BptxAND ][L1_SingleJet16_Centrality_50_100_BptxAND]]   |L1_SingleJet16_Centrality_50_100_BptxAND |51 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet24_Centrality_50_100_BptxAND ][L1_SingleJet24_Centrality_50_100_BptxAND]]   |L1_SingleJet24_Centrality_50_100_BptxAND |52 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_Centrality_50_100_BptxAND ][L1_SingleJet28_Centrality_50_100_BptxAND]]   |L1_SingleJet28_Centrality_50_100_BptxAND |53 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet32_Centrality_50_100_BptxAND ][L1_SingleJet32_Centrality_50_100_BptxAND]]   |L1_SingleJet32_Centrality_50_100_BptxAND |54 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_Centrality_50_100_BptxAND ][L1_SingleJet36_Centrality_50_100_BptxAND]]   |L1_SingleJet36_Centrality_50_100_BptxAND |55 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_Centrality_50_100_BptxAND ][L1_SingleJet44_Centrality_50_100_BptxAND]]   |L1_SingleJet44_Centrality_50_100_BptxAND |56 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_Centrality_50_100_BptxAND ][L1_SingleJet56_Centrality_50_100_BptxAND]]   |L1_SingleJet56_Centrality_50_100_BptxAND |57 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_Centrality_50_100_BptxAND ][L1_SingleJet60_Centrality_50_100_BptxAND]]   |L1_SingleJet60_Centrality_50_100_BptxAND |58 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_Centrality_50_100_BptxAND ][L1_SingleJet64_Centrality_50_100_BptxAND]]   |L1_SingleJet64_Centrality_50_100_BptxAND |59 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_BptxAND ][L1_SingleJet8_FWD_BptxAND]]   |L1_SingleJet8_FWD_BptxAND |60 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_BptxAND ][L1_SingleJet16_FWD_BptxAND]]   |L1_SingleJet16_FWD_BptxAND |61 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_BptxAND ][L1_SingleJet28_FWD_BptxAND]]   |L1_SingleJet28_FWD_BptxAND |62 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_BptxAND ][L1_SingleJet36_FWD_BptxAND]]   |L1_SingleJet36_FWD_BptxAND |63 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_BptxAND ][L1_SingleJet44_FWD_BptxAND]]   |L1_SingleJet44_FWD_BptxAND |64 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_BptxAND ][L1_SingleJet56_FWD_BptxAND]]   |L1_SingleJet56_FWD_BptxAND |65 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_BptxAND ][L1_SingleJet64_FWD_BptxAND]]   |L1_SingleJet64_FWD_BptxAND |66 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_Centrality_30_100_BptxAND ][L1_SingleJet8_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet8_FWD_Centrality_30_100_BptxAND |67 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_Centrality_30_100_BptxAND ][L1_SingleJet16_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet16_FWD_Centrality_30_100_BptxAND |68 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_Centrality_30_100_BptxAND ][L1_SingleJet28_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet28_FWD_Centrality_30_100_BptxAND |69 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_Centrality_30_100_BptxAND ][L1_SingleJet36_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet36_FWD_Centrality_30_100_BptxAND |70 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_Centrality_30_100_BptxAND ][L1_SingleJet44_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet44_FWD_Centrality_30_100_BptxAND |71 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_Centrality_30_100_BptxAND ][L1_SingleJet56_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet56_FWD_Centrality_30_100_BptxAND |72 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_Centrality_30_100_BptxAND ][L1_SingleJet64_FWD_Centrality_30_100_BptxAND]]   |L1_SingleJet64_FWD_Centrality_30_100_BptxAND |73 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet8_FWD_Centrality_50_100_BptxAND ][L1_SingleJet8_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet8_FWD_Centrality_50_100_BptxAND |74 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16_FWD_Centrality_50_100_BptxAND ][L1_SingleJet16_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet16_FWD_Centrality_50_100_BptxAND |75 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet28_FWD_Centrality_50_100_BptxAND ][L1_SingleJet28_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet28_FWD_Centrality_50_100_BptxAND |76 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet36_FWD_Centrality_50_100_BptxAND ][L1_SingleJet36_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet36_FWD_Centrality_50_100_BptxAND |77 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet44_FWD_Centrality_50_100_BptxAND ][L1_SingleJet44_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet44_FWD_Centrality_50_100_BptxAND |78 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet56_FWD_Centrality_50_100_BptxAND ][L1_SingleJet56_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet56_FWD_Centrality_50_100_BptxAND |79 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet64_FWD_Centrality_50_100_BptxAND ][L1_SingleJet64_FWD_Centrality_50_100_BptxAND]]   |L1_SingleJet64_FWD_Centrality_50_100_BptxAND |80 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG10_BptxAND ][L1_DoubleEG10_BptxAND]]   |L1_DoubleEG10_BptxAND |127 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_BptxAND ][L1_DoubleEG5_BptxAND]]   |L1_DoubleEG5_BptxAND |128 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8_BptxAND ][L1_DoubleEG8_BptxAND]]   |L1_DoubleEG8_BptxAND |129 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_BptxAND ][L1_DoubleEG2_BptxAND]]   |L1_DoubleEG2_BptxAND |130 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG7_BptxAND ][L1_SingleIsoEG7_BptxAND]]   |L1_SingleIsoEG7_BptxAND |131 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG12_BptxAND ][L1_SingleIsoEG12_BptxAND]]   |L1_SingleIsoEG12_BptxAND |132 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG3_BptxAND ][L1_SingleIsoEG3_BptxAND]]   |L1_SingleIsoEG3_BptxAND |134 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG15_BptxAND ][L1_SingleIsoEG15_BptxAND]]   |L1_SingleIsoEG15_BptxAND |140 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG21_BptxAND ][L1_SingleIsoEG21_BptxAND]]   |L1_SingleIsoEG21_BptxAND |141 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG12 ][L1_SingleMu7_SingleEG12]]   |L1_SingleMu7_SingleEG12 |150 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG15 ][L1_SingleMu7_SingleEG15]]   |L1_SingleMu7_SingleEG15 |151 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_SingleEG7 ][L1_SingleMu12_SingleEG7]]   |L1_SingleMu12_SingleEG7 |152 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet28_MidEta2p7 ][L1_SingleEG5_SingleJet28_MidEta2p7]]   |L1_SingleEG5_SingleJet28_MidEta2p7 |153 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet32_MidEta2p7 ][L1_SingleEG5_SingleJet32_MidEta2p7]]   |L1_SingleEG5_SingleJet32_MidEta2p7 |154 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_SingleJet40_MidEta2p7 ][L1_SingleEG5_SingleJet40_MidEta2p7]]   |L1_SingleEG5_SingleJet40_MidEta2p7 |155 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_NotETT30_BptxAND ][L1_ETT5_NotETT30_BptxAND]]   |L1_ETT5_NotETT30_BptxAND |161 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF1_AND_BptxAND ][L1_NotETT20_MinimumBiasHF1_AND_BptxAND]]   |L1_NotETT20_MinimumBiasHF1_AND_BptxAND |162 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF1_OR_BptxAND ][L1_NotETT20_MinimumBiasHF1_OR_BptxAND]]   |L1_NotETT20_MinimumBiasHF1_OR_BptxAND |163 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG15 ][L1_SingleMu5_SingleEG15]]   |L1_SingleMu5_SingleEG15 |164 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT100_MinimumBiasHF1_AND_BptxAND ][L1_NotETT100_MinimumBiasHF1_AND_BptxAND]]   |L1_NotETT100_MinimumBiasHF1_AND_BptxAND |165 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT150_MinimumBiasHF1_AND_BptxAND ][L1_NotETT150_MinimumBiasHF1_AND_BptxAND]]   |L1_NotETT150_MinimumBiasHF1_AND_BptxAND |166 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG30 ][L1_SingleMu3_SingleEG30]]   |L1_SingleMu3_SingleEG30 |167 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG12 ][L1_SingleMu5_SingleEG12]]   |L1_SingleMu5_SingleEG12 |168 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG12 ][L1_SingleMu3_SingleEG12]]   |L1_SingleMu3_SingleEG12 |170 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym55_MinimumBiasHF1_OR_BptxAND |171 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT20_MinimumBiasHF2_OR_BptxAND ][L1_NotETT20_MinimumBiasHF2_OR_BptxAND]]   |L1_NotETT20_MinimumBiasHF2_OR_BptxAND |174 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG10 ][L1_SingleMu5_SingleEG10]]   |L1_SingleMu5_SingleEG10 |189 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   |L1_SingleMuOpen |190 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_BptxAND ][L1_SingleMuOpen_BptxAND]]   |L1_SingleMuOpen_BptxAND |191 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0 ][L1_SingleMu0]]   |L1_SingleMu0 |192 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BptxAND ][L1_SingleMu0_BptxAND]]   |L1_SingleMu0_BptxAND |193 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym65_MinimumBiasHF1_OR_BptxAND |194 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG15 ][L1_SingleMu3_SingleEG15]]   |L1_SingleMu3_SingleEG15 |195 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym60_MinimumBiasHF1_OR_BptxAND |196 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet32_MidEta2p7 ][L1_SingleMu3_SingleJet32_MidEta2p7]]   |L1_SingleMu3_SingleJet32_MidEta2p7 |197 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet40_MidEta2p7 ][L1_SingleMu3_SingleJet40_MidEta2p7]]   |L1_SingleMu3_SingleJet40_MidEta2p7 |198 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12 ][L1_SingleMu12]]   |L1_SingleMu12 |203 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_BptxAND ][L1_SingleMu12_BptxAND]]   |L1_SingleMu12_BptxAND |204 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu12_MinimumBiasHF1_AND_BptxAND]]   |L1_SingleMu12_MinimumBiasHF1_AND_BptxAND |205 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   |L1_SingleMu16 |206 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16_BptxAND ][L1_SingleMu16_BptxAND]]   |L1_SingleMu16_BptxAND |207 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu16_MinimumBiasHF1_AND_BptxAND]]   |L1_SingleMu16_MinimumBiasHF1_AND_BptxAND |208 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_BptxAND ][L1_DoubleMuOpen_BptxAND]]   |L1_DoubleMuOpen_BptxAND |209 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen ][L1_DoubleMuOpen]]   |L1_DoubleMuOpen |210 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_10_100_BptxAND ][L1_DoubleMuOpen_Centrality_10_100_BptxAND]]   |L1_DoubleMuOpen_Centrality_10_100_BptxAND |211 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_50_100_BptxAND ][L1_DoubleMuOpen_Centrality_50_100_BptxAND]]   |L1_DoubleMuOpen_Centrality_50_100_BptxAND |212 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS ][L1_DoubleMuOpen_OS]]   |L1_DoubleMuOpen_OS |213 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_OS_BptxAND ][L1_DoubleMuOpen_OS_BptxAND]]   |L1_DoubleMuOpen_OS_BptxAND |214 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS_BptxAND ][L1_DoubleMuOpen_SS_BptxAND]]   |L1_DoubleMuOpen_SS_BptxAND |215 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_SS ][L1_DoubleMuOpen_SS]]   |L1_DoubleMuOpen_SS |216 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_BptxAND ][L1_DoubleMu0_BptxAND]]   |L1_DoubleMu0_BptxAND |217 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0 ][L1_DoubleMu0]]   |L1_DoubleMu0 |218 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND]]   |L1_DoubleMu0_MinimumBiasHF1_AND_BptxAND |219 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_NotMinimumBiasHF2_OR ][L1_DoubleMu0_NotMinimumBiasHF2_OR]]   |L1_DoubleMu0_NotMinimumBiasHF2_OR |220 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_NotMinimumBiasHF2_AND ][L1_DoubleMu0_NotMinimumBiasHF2_AND]]   |L1_DoubleMu0_NotMinimumBiasHF2_AND |221 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND]]   |L1_DoubleMu0_Centrality_50_100_MinimumBiasHF1_AND_BptxAND |222 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu10_BptxAND ][L1_DoubleMu10_BptxAND]]   |L1_DoubleMu10_BptxAND |223 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND]]   |L1_DoubleMu0_Centrality_10_100_MinimumBiasHF1_AND_BptxAND |224 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND ][L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND]]   |L1_DoubleMu0_Centrality_30_100_MinimumBiasHF1_AND_BptxAND |225 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu7_MinimumBiasHF1_AND_BptxAND]]   |L1_SingleMu7_MinimumBiasHF1_AND_BptxAND |226 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_BptxAND ][L1_SingleMu7_BptxAND]]   |L1_SingleMu7_BptxAND |227 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu5_MinimumBiasHF1_AND_BptxAND]]   |L1_SingleMu5_MinimumBiasHF1_AND_BptxAND |234 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   |L1_SingleMu7 |235 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   |L1_SingleMu3 |237 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_BptxAND ][L1_SingleMu5_BptxAND]]   |L1_SingleMu5_BptxAND |238 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_BptxAND ][L1_ETT5_BptxAND]]   |L1_ETT5_BptxAND |259 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5 ][L1_ETT5]]   |L1_ETT5 |260 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_MinimumBiasHF1_OR_BptxAND |261 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_NotMinimumBiasHF2_OR ][L1_ETT5_NotMinimumBiasHF2_OR]]   |L1_ETT5_NotMinimumBiasHF2_OR |262 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_OR ][L1_SingleMuOpen_NotMinimumBiasHF2_OR]]   |L1_SingleMuOpen_NotMinimumBiasHF2_OR |263 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_NotMinimumBiasHF2_OR ][L1_SingleMu0_NotMinimumBiasHF2_OR]]   |L1_SingleMu0_NotMinimumBiasHF2_OR |264 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_NotMinimumBiasHF2_OR ][L1_SingleMu3_NotMinimumBiasHF2_OR]]   |L1_SingleMu3_NotMinimumBiasHF2_OR |265 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_NotMinimumBiasHF2_OR ][L1_DoubleMuOpen_NotMinimumBiasHF2_OR]]   |L1_DoubleMuOpen_NotMinimumBiasHF2_OR |266 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_OR ][L1_SingleEG3_NotMinimumBiasHF2_OR]]   |L1_SingleEG3_NotMinimumBiasHF2_OR |268 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_OR ][L1_SingleEG5_NotMinimumBiasHF2_OR]]   |L1_SingleEG5_NotMinimumBiasHF2_OR |269 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym50_MinimumBiasHF1_OR_BptxAND |275 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_MinimumBiasHF1_AND_BptxAND ][L1_SingleMu3_MinimumBiasHF1_AND_BptxAND]]   |L1_SingleMu3_MinimumBiasHF1_AND_BptxAND |276 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   |L1_SingleMu5 |277 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_BptxAND ][L1_SingleMu3_BptxAND]]   |L1_SingleMu3_BptxAND |278 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleEG20 ][L1_SingleMu3_SingleEG20]]   |L1_SingleMu3_SingleEG20 |279 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_SingleJet28_MidEta2p7 ][L1_SingleMu3_SingleJet28_MidEta2p7]]   |L1_SingleMu3_SingleJet28_MidEta2p7 |281 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2 ][L1_DoubleEG2]]   |L1_DoubleEG2 |282 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF2_AND ][L1_NotMinimumBiasHF2_AND]]   |L1_NotMinimumBiasHF2_AND |285 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotMinimumBiasHF2_AND ][L1_SingleMuOpen_NotMinimumBiasHF2_AND]]   |L1_SingleMuOpen_NotMinimumBiasHF2_AND |286 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5 ][L1_DoubleMuOpen_MaxDr3p5]]   |L1_DoubleMuOpen_MaxDr3p5 |287 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_NotMinimumBiasHF1_AND ][L1_NotMinimumBiasHF1_AND]]   |L1_NotMinimumBiasHF1_AND |288 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5 ][L1_DoubleEG5]]   |L1_DoubleEG5 |289 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr3p5_BptxAND ][L1_DoubleMuOpen_MaxDr3p5_BptxAND]]   |L1_DoubleMuOpen_MaxDr3p5_BptxAND |290 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_Centrality_80_100_BptxAND ][L1_SingleMuOpen_Centrality_80_100_BptxAND]]   |L1_SingleMuOpen_Centrality_80_100_BptxAND |291 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_Centrality_80_100_BptxAND ][L1_SingleMu3_Centrality_80_100_BptxAND]]   |L1_SingleMu3_Centrality_80_100_BptxAND |293 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_30_100_BptxAND ][L1_DoubleMuOpen_Centrality_30_100_BptxAND]]   |L1_DoubleMuOpen_Centrality_30_100_BptxAND |294 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_Centrality_40_100_BptxAND ][L1_DoubleMuOpen_Centrality_40_100_BptxAND]]   |L1_DoubleMuOpen_Centrality_40_100_BptxAND |295 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr2p0_BptxAND ][L1_DoubleMuOpen_MaxDr2p0_BptxAND]]   |L1_DoubleMuOpen_MaxDr2p0_BptxAND |296 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND ][L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND]]   |L1_DoubleMuOpen_MaxDr2p0_OS_BptxAND |297 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3_Centrality_70_100_BptxAND ][L1_SingleMu3_Centrality_70_100_BptxAND]]   |L1_SingleMu3_Centrality_70_100_BptxAND |298 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_Centrality_70_100_BptxAND ][L1_SingleMuOpen_Centrality_70_100_BptxAND]]   |L1_SingleMuOpen_Centrality_70_100_BptxAND |299 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_OR ][L1_DoubleEG2_NotMinimumBiasHF2_OR]]   |L1_DoubleEG2_NotMinimumBiasHF2_OR |300 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_NotETT200_MinimumBiasHF1_AND_BptxAND ][L1_NotETT200_MinimumBiasHF1_AND_BptxAND]]   |L1_NotETT200_MinimumBiasHF1_AND_BptxAND |301 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_OR ][L1_DoubleEG5_NotMinimumBiasHF2_OR]]   |L1_DoubleEG5_NotMinimumBiasHF2_OR |302 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG7 ][L1_SingleMu7_SingleEG7]]   |L1_SingleMu7_SingleEG7 |311 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7_SingleEG10 ][L1_SingleMu7_SingleEG10]]   |L1_SingleMu7_SingleEG10 |312 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5_SingleEG20 ][L1_SingleMu5_SingleEG20]]   |L1_SingleMu5_SingleEG20 |313 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND]]   |L1_Centrality_20_100_MinimumBiasHF1_AND_BptxAND |326 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_NotMinimumBiasHF2_AND ][L1_SingleMu0_NotMinimumBiasHF2_AND]]   |L1_SingleMu0_NotMinimumBiasHF2_AND |327 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG5_NotMinimumBiasHF2_AND ][L1_DoubleEG5_NotMinimumBiasHF2_AND]]   |L1_DoubleEG5_NotMinimumBiasHF2_AND |330 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG2_NotMinimumBiasHF2_AND ][L1_DoubleEG2_NotMinimumBiasHF2_AND]]   |L1_DoubleEG2_NotMinimumBiasHF2_AND |332 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_SingleJet32_MidEta2p7 ][L1_SingleEG7_SingleJet32_MidEta2p7]]   |L1_SingleEG7_SingleJet32_MidEta2p7 |333 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_NotMinimumBiasHF2_AND ][L1_SingleEG5_NotMinimumBiasHF2_AND]]   |L1_SingleEG5_NotMinimumBiasHF2_AND |334 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_NotMinimumBiasHF2_AND ][L1_SingleEG3_NotMinimumBiasHF2_AND]]   |L1_SingleEG3_NotMinimumBiasHF2_AND |335 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND ][L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND]]   |L1_Centrality_30_100_MinimumBiasHF1_AND_BptxAND |336 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_Castor4 ][L1_Castor4]]   |L1_Castor4 |343 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Castor2 ][L1_Castor2]]   |L1_Castor2 |344 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Castor3 ][L1_Castor3]]   |L1_Castor3 |345 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_Castor1 ][L1_Castor1]]   |L1_Castor1 |346 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7 ][L1_DoubleJet16And8_MidEta2p7]]   |L1_DoubleJet16And8_MidEta2p7 |358 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7 ][L1_DoubleJet20And8_MidEta2p7]]   |L1_DoubleJet20And8_MidEta2p7 |359 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7 ][L1_DoubleJet20And12_MidEta2p7]]   |L1_DoubleJet20And12_MidEta2p7 |360 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7 ][L1_DoubleJet28And16_MidEta2p7]]   |L1_DoubleJet28And16_MidEta2p7 |361 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7 ][L1_DoubleJet16And12_MidEta2p7]]   |L1_DoubleJet16And12_MidEta2p7 |363 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   |L1_ETTAsym80_MinimumBiasHF1_OR_BptxAND |376 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND]]   |L1_ETTAsym40_MinimumBiasHF1_OR_BptxAND |377 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   |L1_ETTAsym50_MinimumBiasHF1_OR_BptxAND |378 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   |L1_ETTAsym60_MinimumBiasHF1_OR_BptxAND |379 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   |L1_ETTAsym70_MinimumBiasHF1_OR_BptxAND |380 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND |381 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND |382 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70_BptxAND ][L1_ETTAsym70_BptxAND]]   |L1_ETTAsym70_BptxAND |400 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_BptxAND ][L1_ETTAsym80_BptxAND]]   |L1_ETTAsym80_BptxAND |401 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80 ][L1_ETTAsym80]]   |L1_ETTAsym80 |402 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym70 ][L1_ETTAsym70]]   |L1_ETTAsym70 |403 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60 ][L1_ETTAsym60]]   |L1_ETTAsym60 |404 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50 ][L1_ETTAsym50]]   |L1_ETTAsym50 |405 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40 ][L1_ETTAsym40]]   |L1_ETTAsym40 |406 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym40_MinimumBiasHF1_OR_BptxAND |407 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETT5_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND |408 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETT5_ETTAsym50_NotMinimumBiasHF2_OR_BptxAND |409 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETT5_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND |410 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETT5_ETTAsym70_NotMinimumBiasHF2_OR_BptxAND |411 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND ][L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETT5_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND |412 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_BptxAND ][L1_ETT5_ETTAsym80_BptxAND]]   |L1_ETT5_ETTAsym80_BptxAND |413 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_BptxAND ][L1_ETT5_ETTAsym70_BptxAND]]   |L1_ETT5_ETTAsym70_BptxAND |414 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym60_BptxAND ][L1_ETT5_ETTAsym60_BptxAND]]   |L1_ETT5_ETTAsym60_BptxAND |415 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym50_BptxAND ][L1_ETT5_ETTAsym50_BptxAND]]   |L1_ETT5_ETTAsym50_BptxAND |416 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym40_BptxAND ][L1_ETT5_ETTAsym40_BptxAND]]   |L1_ETT5_ETTAsym40_BptxAND |417 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym50_BptxAND ][L1_ETTAsym50_BptxAND]]   |L1_ETTAsym50_BptxAND |418 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_BptxAND ][L1_ETTAsym60_BptxAND]]   |L1_ETTAsym60_BptxAND |419 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_BptxAND ][L1_ETTAsym40_BptxAND]]   |L1_ETTAsym40_BptxAND |420 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETTAsym60_NotMinimumBiasHF2_OR_BptxAND |421 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETTAsym80_NotMinimumBiasHF2_OR_BptxAND |422 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND ][L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND]]   |L1_ETTAsym40_NotMinimumBiasHF2_OR_BptxAND |423 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7_Centrality_30_100 ][L1_DoubleJet16And8_MidEta2p7_Centrality_30_100]]   |L1_DoubleJet16And8_MidEta2p7_Centrality_30_100 |432 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7_Centrality_30_100 ][L1_DoubleJet20And8_MidEta2p7_Centrality_30_100]]   |L1_DoubleJet20And8_MidEta2p7_Centrality_30_100 |433 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7_Centrality_30_100 ][L1_DoubleJet16And12_MidEta2p7_Centrality_30_100]]   |L1_DoubleJet16And12_MidEta2p7_Centrality_30_100 |434 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7_Centrality_30_100 ][L1_DoubleJet20And12_MidEta2p7_Centrality_30_100]]   |L1_DoubleJet20And12_MidEta2p7_Centrality_30_100 |435 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7_Centrality_30_100 ][L1_DoubleJet28And16_MidEta2p7_Centrality_30_100]]   |L1_DoubleJet28And16_MidEta2p7_Centrality_30_100 |436 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And8_MidEta2p7_Centrality_50_100 ][L1_DoubleJet16And8_MidEta2p7_Centrality_50_100]]   |L1_DoubleJet16And8_MidEta2p7_Centrality_50_100 |437 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And8_MidEta2p7_Centrality_50_100 ][L1_DoubleJet20And8_MidEta2p7_Centrality_50_100]]   |L1_DoubleJet20And8_MidEta2p7_Centrality_50_100 |438 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet16And12_MidEta2p7_Centrality_50_100 ][L1_DoubleJet16And12_MidEta2p7_Centrality_50_100]]   |L1_DoubleJet16And12_MidEta2p7_Centrality_50_100 |439 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet20And12_MidEta2p7_Centrality_50_100 ][L1_DoubleJet20And12_MidEta2p7_Centrality_50_100]]   |L1_DoubleJet20And12_MidEta2p7_Centrality_50_100 |440 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet28And16_MidEta2p7_Centrality_50_100 ][L1_DoubleJet28And16_MidEta2p7_Centrality_50_100]]   |L1_DoubleJet28And16_MidEta2p7_Centrality_50_100 |441 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym55_MinimumBiasHF1_OR_BptxAND |456 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym60_MinimumBiasHF1_OR_BptxAND |457 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym65_MinimumBiasHF1_OR_BptxAND |458 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym70_MinimumBiasHF1_OR_BptxAND |459 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym80_MinimumBiasHF1_OR_BptxAND |460 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym50_MinimumBiasHF1_OR_BptxAND |461 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym55_MinimumBiasHF1_OR_BptxAND |462 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym60_MinimumBiasHF1_OR_BptxAND |463 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym65_MinimumBiasHF1_OR_BptxAND |464 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym70_MinimumBiasHF1_OR_BptxAND |465 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT10_ETTAsym80_MinimumBiasHF1_OR_BptxAND |466 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND ][L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT8_ETTAsym50_MinimumBiasHF1_OR_BptxAND |467 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym80_MinimumBiasHF1_OR_BptxAND |468 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND ][L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND]]   |L1_ETT5_ETTAsym70_MinimumBiasHF1_OR_BptxAND |469 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3 ][L1_SingleEG3]]   |L1_SingleEG3 |472 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   |L1_SingleEG5 |473 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_BptxAND ][L1_SingleEG3_BptxAND]]   |L1_SingleEG3_BptxAND |474 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5_BptxAND ][L1_SingleEG5_BptxAND]]   |L1_SingleEG5_BptxAND |475 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_BptxAND ][L1_SingleEG7_BptxAND]]   |L1_SingleEG7_BptxAND |476 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_BptxAND ][L1_SingleEG12_BptxAND]]   |L1_SingleEG12_BptxAND |477 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_BptxAND ][L1_SingleEG15_BptxAND]]   |L1_SingleEG15_BptxAND |478 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_BptxAND ][L1_SingleEG21_BptxAND]]   |L1_SingleEG21_BptxAND |479 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30_BptxAND ][L1_SingleEG30_BptxAND]]   |L1_SingleEG30_BptxAND |480 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_Centrality_30_100_BptxAND ][L1_SingleEG3_Centrality_30_100_BptxAND]]   |L1_SingleEG3_Centrality_30_100_BptxAND |481 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_Centrality_30_100_BptxAND ][L1_SingleEG7_Centrality_30_100_BptxAND]]   |L1_SingleEG7_Centrality_30_100_BptxAND |482 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_Centrality_30_100_BptxAND ][L1_SingleEG15_Centrality_30_100_BptxAND]]   |L1_SingleEG15_Centrality_30_100_BptxAND |483 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_Centrality_30_100_BptxAND ][L1_SingleEG21_Centrality_30_100_BptxAND]]   |L1_SingleEG21_Centrality_30_100_BptxAND |484 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG3_Centrality_50_100_BptxAND ][L1_SingleEG3_Centrality_50_100_BptxAND]]   |L1_SingleEG3_Centrality_50_100_BptxAND |485 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_Centrality_50_100_BptxAND ][L1_SingleEG7_Centrality_50_100_BptxAND]]   |L1_SingleEG7_Centrality_50_100_BptxAND |486 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15_Centrality_50_100_BptxAND ][L1_SingleEG15_Centrality_50_100_BptxAND]]   |L1_SingleEG15_Centrality_50_100_BptxAND |487 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG21_Centrality_50_100_BptxAND ][L1_SingleEG21_Centrality_50_100_BptxAND]]   |L1_SingleEG21_Centrality_50_100_BptxAND |488 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG7_SingleJet40_MidEta2p7 ][L1_SingleEG7_SingleJet40_MidEta2p7]]   |L1_SingleEG7_SingleJet40_MidEta2p7 |489 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_SingleJet32_MidEta2p7 ][L1_SingleEG12_SingleJet32_MidEta2p7]]   |L1_SingleEG12_SingleJet32_MidEta2p7 |490 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG12_SingleJet40_MidEta2p7 ][L1_SingleEG12_SingleJet40_MidEta2p7]]   |L1_SingleEG12_SingleJet40_MidEta2p7 |491 |4 |
+
+
+<p style="page-break-before: always">&nbsp;</p>

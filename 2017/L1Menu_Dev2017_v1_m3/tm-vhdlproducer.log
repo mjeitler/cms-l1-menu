@@ -1,0 +1,1398 @@
+2017-04-19 09:48:30 INFO : distributing menu...
+2017-04-19 09:48:30 INFO : loading resource information from JSON: /home/wittmann/work/cactus_tags/2017_01_26/utm/tmVhdlProducer/config/resource_default.json
+2017-04-19 09:48:30 INFO : :: listing resources...
+2017-04-19 09:48:30 INFO : thresholds:
+2017-04-19 09:48:30 INFO :   * floor: sliceLUTs=30.00%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * ceiling: sliceLUTs=90.00%, processors=100.00%
+2017-04-19 09:48:30 INFO : instances:
+2017-04-19 09:48:30 INFO :   * SingleMuon(Muon): sliceLUTs=0.04%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * DoubleMuon(Muon, Muon): sliceLUTs=0.05%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TripleMuon(Muon, Muon, Muon): sliceLUTs=0.06%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * QuadMuon(Muon, Muon, Muon, Muon): sliceLUTs=0.30%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * SingleEgamma(Egamma): sliceLUTs=0.05%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * DoubleEgamma(Egamma, Egamma): sliceLUTs=0.07%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TripleEgamma(Egamma, Egamma, Egamma): sliceLUTs=0.09%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * QuadEgamma(Egamma, Egamma, Egamma, Egamma): sliceLUTs=3.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * SingleJet(Jet): sliceLUTs=0.05%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * DoubleJet(Jet, Jet): sliceLUTs=0.07%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TripleJet(Jet, Jet, Jet): sliceLUTs=0.09%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * QuadJet(Jet, Jet, Jet, Jet): sliceLUTs=3.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * SingleTau(Tau): sliceLUTs=0.05%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * DoubleTau(Tau, Tau): sliceLUTs=0.07%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TripleTau(Tau, Tau, Tau): sliceLUTs=0.09%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * QuadTau(Tau, Tau, Tau, Tau): sliceLUTs=3.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TotalEt(ETT): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TotalEtEM(ETTEM): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TotalHt(HTT): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * TowerCount(TOWERCOUNT): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MissingEt(ETM): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MissingEtHF(ETMHF): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MissingHt(HTM): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MinBiasHFM0(MBT0HFM): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MinBiasHFM1(MBT1HFM): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MinBiasHFP0(MBT0HFP): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MinBiasHFP1(MBT1HFP): sliceLUTs=0.01%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * Externals(EXT): sliceLUTs=0.00%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MuonMuonCorrelation(Muon, Muon): sliceLUTs=1.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MuonEsumCorrelation(Muon, ETM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MuonEsumCorrelation(Muon, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * MuonEsumCorrelation(Muon, HTM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloMuonCorrelation(Egamma, Muon): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloMuonCorrelation(Jet, Muon): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloMuonCorrelation(Tau, Muon): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Egamma, Egamma): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Egamma, Tau): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Egamma, Jet): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Jet, Jet): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Jet, Tau): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloCaloCorrelation(Tau, Tau): sliceLUTs=2.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Egamma, ETM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Egamma, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Tau, ETM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Tau, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Jet, ETM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Jet, ETMHF): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Egamma, HTM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Tau, HTM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * CaloEsumCorrelation(Jet, HTM): sliceLUTs=0.50%, processors=0.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Muon, Muon): sliceLUTs=5.00%, processors=6.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Egamma, Muon): sliceLUTs=6.00%, processors=6.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Jet, Muon): sliceLUTs=6.00%, processors=6.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Tau, Muon): sliceLUTs=6.00%, processors=6.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Egamma, Egamma): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Egamma, Tau): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Egamma, Jet): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Jet, Jet): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Jet, Tau): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO :   * InvariantMass(Tau, Tau): sliceLUTs=2.20%, processors=11.00%
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : | Algorithms sorted by payload (descending)                               |
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |-------|-----------|--------|--------------------------------------------|
+2017-04-19 09:48:30 INFO : | Index | SliceLUTs | DSPs   | Name                                       |
+2017-04-19 09:48:30 INFO : |-------|-----------|--------|--------------------------------------------|
+2017-04-19 09:48:30 INFO : |   180 |     5.00% |  0.00% | L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dP... |
+2017-04-19 09:48:30 INFO : |   179 |     4.00% |  0.00% | L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max... |
+2017-04-19 09:48:30 INFO : |   177 |     3.55% |  0.00% | L1_QuadJetC36_Tau52                        |
+2017-04-19 09:48:30 INFO : |   102 |     3.50% |  0.00% | L1_QuadJetC40                              |
+2017-04-19 09:48:30 INFO : |   103 |     3.50% |  0.00% | L1_QuadJetC50                              |
+2017-04-19 09:48:30 INFO : |   104 |     3.50% |  0.00% | L1_QuadJetC60                              |
+2017-04-19 09:48:30 INFO : |   269 |     2.50% |  0.00% | L1_IsoEG18er_IsoTau24er_dEta_Min0p2        |
+2017-04-19 09:48:30 INFO : |   270 |     2.50% |  0.00% | L1_IsoEG20er_IsoTau25er_dEta_Min0p2        |
+2017-04-19 09:48:30 INFO : |   268 |     2.50% |  0.00% | L1_IsoEG22er_IsoTau26er_dEta_Min0p2        |
+2017-04-19 09:48:30 INFO : |   199 |     2.50% |  0.00% | L1_IsoEG22er_Tau20er_dEta_Min0p2           |
+2017-04-19 09:48:30 INFO : |   210 |     2.50% |  0.00% | L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4     |
+2017-04-19 09:48:30 INFO : |   170 |     2.50% |  0.00% | L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4      |
+2017-04-19 09:48:30 INFO : |   171 |     2.50% |  0.00% | L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4      |
+2017-04-19 09:48:30 INFO : |   291 |     2.27% | 11.00% | L1_DoubleJet_100_30_Mj30j30_620            |
+2017-04-19 09:48:30 INFO : |   290 |     2.27% | 11.00% | L1_DoubleJet_90_30_Mj30j30_620             |
+2017-04-19 09:48:30 INFO : |   293 |     2.24% | 11.00% | L1_DoubleJet30_Mj30j30_400_Mu10            |
+2017-04-19 09:48:30 INFO : |   292 |     2.24% | 11.00% | L1_DoubleJet30_Mj30j30_400_Mu6             |
+2017-04-19 09:48:30 INFO : |   267 |     1.50% |  0.00% | L1_DoubleMu0er1p4_dEta_Max1p8_OS           |
+2017-04-19 09:48:30 INFO : |    32 |     1.50% |  0.00% | L1_DoubleMu0er1p6_dEta_Max1p8              |
+2017-04-19 09:48:30 INFO : |    33 |     1.50% |  0.00% | L1_DoubleMu0er1p6_dEta_Max1p8_OS           |
+2017-04-19 09:48:30 INFO : |    35 |     1.50% |  0.00% | L1_DoubleMu_10_0_dEta_Max1p8               |
+2017-04-19 09:48:30 INFO : |   271 |     0.50% |  0.00% | L1_ETM75_Jet60_dPhi_Min0p4                 |
+2017-04-19 09:48:30 INFO : |    99 |     0.45% |  0.00% | L1_TripleJet_84_68_48_VBF                  |
+2017-04-19 09:48:30 INFO : |   100 |     0.45% |  0.00% | L1_TripleJet_88_72_56_VBF                  |
+2017-04-19 09:48:30 INFO : |   101 |     0.45% |  0.00% | L1_TripleJet_92_76_64_VBF                  |
+2017-04-19 09:48:30 INFO : |    38 |     0.30% |  0.00% | L1_QuadMu0                                 |
+2017-04-19 09:48:30 INFO : |   169 |     0.11% |  0.00% | L1_Mu6_DoubleEG10                          |
+2017-04-19 09:48:30 INFO : |   168 |     0.11% |  0.00% | L1_Mu6_DoubleEG17                          |
+2017-04-19 09:48:30 INFO : |   166 |     0.10% |  0.00% | L1_DoubleMu7_EG14                          |
+2017-04-19 09:48:30 INFO : |   167 |     0.10% |  0.00% | L1_DoubleMu7_EG7                           |
+2017-04-19 09:48:30 INFO : |   198 |     0.09% |  0.00% | L1_MU20_EG15                               |
+2017-04-19 09:48:30 INFO : |   149 |     0.09% |  0.00% | L1_Mu12_EG10                               |
+2017-04-19 09:48:30 INFO : |   154 |     0.09% |  0.00% | L1_Mu16er_Tau20er                          |
+2017-04-19 09:48:30 INFO : |   155 |     0.09% |  0.00% | L1_Mu16er_Tau24er                          |
+2017-04-19 09:48:30 INFO : |   158 |     0.09% |  0.00% | L1_Mu18er_IsoTau26er                       |
+2017-04-19 09:48:30 INFO : |   156 |     0.09% |  0.00% | L1_Mu18er_Tau20er                          |
+2017-04-19 09:48:30 INFO : |   157 |     0.09% |  0.00% | L1_Mu18er_Tau24er                          |
+2017-04-19 09:48:30 INFO : |   150 |     0.09% |  0.00% | L1_Mu20_EG10                               |
+2017-04-19 09:48:30 INFO : |   151 |     0.09% |  0.00% | L1_Mu20_EG17                               |
+2017-04-19 09:48:30 INFO : |   275 |     0.09% |  0.00% | L1_Mu20_IsoEG6                             |
+2017-04-19 09:48:30 INFO : |   159 |     0.09% |  0.00% | L1_Mu20er_IsoTau26er                       |
+2017-04-19 09:48:30 INFO : |   279 |     0.09% |  0.00% | L1_Mu22er_IsoTau26er                       |
+2017-04-19 09:48:30 INFO : |   153 |     0.09% |  0.00% | L1_Mu23_EG10                               |
+2017-04-19 09:48:30 INFO : |   152 |     0.09% |  0.00% | L1_Mu23_IsoEG10                            |
+2017-04-19 09:48:30 INFO : |   280 |     0.09% |  0.00% | L1_Mu25er_IsoTau26er                       |
+2017-04-19 09:48:30 INFO : |   217 |     0.09% |  0.00% | L1_Mu3_JetC120                             |
+2017-04-19 09:48:30 INFO : |   215 |     0.09% |  0.00% | L1_Mu3_JetC16                              |
+2017-04-19 09:48:30 INFO : |   216 |     0.09% |  0.00% | L1_Mu3_JetC60                              |
+2017-04-19 09:48:30 INFO : |   144 |     0.09% |  0.00% | L1_Mu5_EG15                                |
+2017-04-19 09:48:30 INFO : |   145 |     0.09% |  0.00% | L1_Mu5_EG20                                |
+2017-04-19 09:48:30 INFO : |   146 |     0.09% |  0.00% | L1_Mu5_EG23                                |
+2017-04-19 09:48:30 INFO : |   147 |     0.09% |  0.00% | L1_Mu5_IsoEG18                             |
+2017-04-19 09:48:30 INFO : |   148 |     0.09% |  0.00% | L1_Mu5_IsoEG20                             |
+2017-04-19 09:48:30 INFO : |    78 |     0.09% |  0.00% | L1_TripleEG_14_10_8                        |
+2017-04-19 09:48:30 INFO : |    79 |     0.09% |  0.00% | L1_TripleEG_18_17_8                        |
+2017-04-19 09:48:30 INFO : |   176 |     0.08% |  0.00% | L1_DoubleEG6_HTT255                        |
+2017-04-19 09:48:30 INFO : |   181 |     0.08% |  0.00% | L1_DoubleJetC60_ETM60                      |
+2017-04-19 09:48:30 INFO : |    71 |     0.07% |  0.00% | L1_DoubleEG_15_10                          |
+2017-04-19 09:48:30 INFO : |    72 |     0.07% |  0.00% | L1_DoubleEG_18_17                          |
+2017-04-19 09:48:30 INFO : |    73 |     0.07% |  0.00% | L1_DoubleEG_20_18                          |
+2017-04-19 09:48:30 INFO : |    75 |     0.07% |  0.00% | L1_DoubleEG_22_10                          |
+2017-04-19 09:48:30 INFO : |   196 |     0.07% |  0.00% | L1_DoubleEG_22_12                          |
+2017-04-19 09:48:30 INFO : |   197 |     0.07% |  0.00% | L1_DoubleEG_22_15                          |
+2017-04-19 09:48:30 INFO : |    76 |     0.07% |  0.00% | L1_DoubleEG_23_10                          |
+2017-04-19 09:48:30 INFO : |    77 |     0.07% |  0.00% | L1_DoubleEG_24_17                          |
+2017-04-19 09:48:30 INFO : |   277 |     0.07% |  0.00% | L1_DoubleEG_25_12                          |
+2017-04-19 09:48:30 INFO : |   109 |     0.07% |  0.00% | L1_DoubleIsoTau28er                        |
+2017-04-19 09:48:30 INFO : |   110 |     0.07% |  0.00% | L1_DoubleIsoTau30er                        |
+2017-04-19 09:48:30 INFO : |   111 |     0.07% |  0.00% | L1_DoubleIsoTau32er                        |
+2017-04-19 09:48:30 INFO : |   264 |     0.07% |  0.00% | L1_DoubleIsoTau33er                        |
+2017-04-19 09:48:30 INFO : |   265 |     0.07% |  0.00% | L1_DoubleIsoTau34er                        |
+2017-04-19 09:48:30 INFO : |   266 |     0.07% |  0.00% | L1_DoubleIsoTau35er                        |
+2017-04-19 09:48:30 INFO : |   278 |     0.07% |  0.00% | L1_DoubleIsoTau36er                        |
+2017-04-19 09:48:30 INFO : |   213 |     0.07% |  0.00% | L1_DoubleJet12_ForwardBackward             |
+2017-04-19 09:48:30 INFO : |   214 |     0.07% |  0.00% | L1_DoubleJet16_ForwardBackward             |
+2017-04-19 09:48:30 INFO : |   212 |     0.07% |  0.00% | L1_DoubleJet8_ForwardBackward              |
+2017-04-19 09:48:30 INFO : |    96 |     0.07% |  0.00% | L1_DoubleJetC100                           |
+2017-04-19 09:48:30 INFO : |    97 |     0.07% |  0.00% | L1_DoubleJetC112                           |
+2017-04-19 09:48:30 INFO : |    98 |     0.07% |  0.00% | L1_DoubleJetC120                           |
+2017-04-19 09:48:30 INFO : |    92 |     0.07% |  0.00% | L1_DoubleJetC40                            |
+2017-04-19 09:48:30 INFO : |    93 |     0.07% |  0.00% | L1_DoubleJetC50                            |
+2017-04-19 09:48:30 INFO : |    94 |     0.07% |  0.00% | L1_DoubleJetC60                            |
+2017-04-19 09:48:30 INFO : |    95 |     0.07% |  0.00% | L1_DoubleJetC80                            |
+2017-04-19 09:48:30 INFO : |   114 |     0.07% |  0.00% | L1_DoubleTau50er                           |
+2017-04-19 09:48:30 INFO : |   289 |     0.07% |  0.00% | L1_DoubleTau70er                           |
+2017-04-19 09:48:30 INFO : |   256 |     0.06% |  0.00% | L1_DoubleMu0_ETM40                         |
+2017-04-19 09:48:30 INFO : |   257 |     0.06% |  0.00% | L1_DoubleMu0_ETM55                         |
+2017-04-19 09:48:30 INFO : |   283 |     0.06% |  0.00% | L1_DoubleMu0_ETM60                         |
+2017-04-19 09:48:30 INFO : |   284 |     0.06% |  0.00% | L1_DoubleMu0_ETM65                         |
+2017-04-19 09:48:30 INFO : |   285 |     0.06% |  0.00% | L1_DoubleMu0_ETM70                         |
+2017-04-19 09:48:30 INFO : |   175 |     0.06% |  0.00% | L1_EG25er_HTT125                           |
+2017-04-19 09:48:30 INFO : |   174 |     0.06% |  0.00% | L1_EG27er_HTT200                           |
+2017-04-19 09:48:30 INFO : |    36 |     0.06% |  0.00% | L1_TripleMu0                               |
+2017-04-19 09:48:30 INFO : |   276 |     0.06% |  0.00% | L1_TripleMu_5_0_0                          |
+2017-04-19 09:48:30 INFO : |    37 |     0.06% |  0.00% | L1_TripleMu_5_5_3                          |
+2017-04-19 09:48:30 INFO : |    24 |     0.05% |  0.00% | L1_DoubleMu0                               |
+2017-04-19 09:48:30 INFO : |    23 |     0.05% |  0.00% | L1_DoubleMuOpen                            |
+2017-04-19 09:48:30 INFO : |    26 |     0.05% |  0.00% | L1_DoubleMu_10_3p5                         |
+2017-04-19 09:48:30 INFO : |    25 |     0.05% |  0.00% | L1_DoubleMu_10_Open                        |
+2017-04-19 09:48:30 INFO : |    27 |     0.05% |  0.00% | L1_DoubleMu_11_4                           |
+2017-04-19 09:48:30 INFO : |    28 |     0.05% |  0.00% | L1_DoubleMu_12_5                           |
+2017-04-19 09:48:30 INFO : |    31 |     0.05% |  0.00% | L1_DoubleMu_12_8                           |
+2017-04-19 09:48:30 INFO : |    29 |     0.05% |  0.00% | L1_DoubleMu_13_6                           |
+2017-04-19 09:48:30 INFO : |    30 |     0.05% |  0.00% | L1_DoubleMu_15_5                           |
+2017-04-19 09:48:30 INFO : |   182 |     0.05% |  0.00% | L1_Mu0er_ETM40                             |
+2017-04-19 09:48:30 INFO : |   183 |     0.05% |  0.00% | L1_Mu0er_ETM55                             |
+2017-04-19 09:48:30 INFO : |   184 |     0.05% |  0.00% | L1_Mu10er_ETM30                            |
+2017-04-19 09:48:30 INFO : |   185 |     0.05% |  0.00% | L1_Mu10er_ETM50                            |
+2017-04-19 09:48:30 INFO : |   186 |     0.05% |  0.00% | L1_Mu14er_ETM30                            |
+2017-04-19 09:48:30 INFO : |   172 |     0.05% |  0.00% | L1_Mu6_HTT200                              |
+2017-04-19 09:48:30 INFO : |   173 |     0.05% |  0.00% | L1_Mu8_HTT150                              |
+2017-04-19 09:48:30 INFO : |    40 |     0.05% |  0.00% | L1_SingleEG10                              |
+2017-04-19 09:48:30 INFO : |    41 |     0.05% |  0.00% | L1_SingleEG15                              |
+2017-04-19 09:48:30 INFO : |    42 |     0.05% |  0.00% | L1_SingleEG18                              |
+2017-04-19 09:48:30 INFO : |    43 |     0.05% |  0.00% | L1_SingleEG24                              |
+2017-04-19 09:48:30 INFO : |    44 |     0.05% |  0.00% | L1_SingleEG26                              |
+2017-04-19 09:48:30 INFO : |    45 |     0.05% |  0.00% | L1_SingleEG28                              |
+2017-04-19 09:48:30 INFO : |   192 |     0.05% |  0.00% | L1_SingleEG2_BptxAND                       |
+2017-04-19 09:48:30 INFO : |    46 |     0.05% |  0.00% | L1_SingleEG30                              |
+2017-04-19 09:48:30 INFO : |   258 |     0.05% |  0.00% | L1_SingleEG32                              |
+2017-04-19 09:48:30 INFO : |    48 |     0.05% |  0.00% | L1_SingleEG34                              |
+2017-04-19 09:48:30 INFO : |   259 |     0.05% |  0.00% | L1_SingleEG36                              |
+2017-04-19 09:48:30 INFO : |   260 |     0.05% |  0.00% | L1_SingleEG38                              |
+2017-04-19 09:48:30 INFO : |    50 |     0.05% |  0.00% | L1_SingleEG40                              |
+2017-04-19 09:48:30 INFO : |    52 |     0.05% |  0.00% | L1_SingleEG45                              |
+2017-04-19 09:48:30 INFO : |    39 |     0.05% |  0.00% | L1_SingleEG5                               |
+2017-04-19 09:48:30 INFO : |    53 |     0.05% |  0.00% | L1_SingleIsoEG18                           |
+2017-04-19 09:48:30 INFO : |    62 |     0.05% |  0.00% | L1_SingleIsoEG18er                         |
+2017-04-19 09:48:30 INFO : |    54 |     0.05% |  0.00% | L1_SingleIsoEG20                           |
+2017-04-19 09:48:30 INFO : |    63 |     0.05% |  0.00% | L1_SingleIsoEG20er                         |
+2017-04-19 09:48:30 INFO : |    55 |     0.05% |  0.00% | L1_SingleIsoEG22                           |
+2017-04-19 09:48:30 INFO : |    64 |     0.05% |  0.00% | L1_SingleIsoEG22er                         |
+2017-04-19 09:48:30 INFO : |    56 |     0.05% |  0.00% | L1_SingleIsoEG24                           |
+2017-04-19 09:48:30 INFO : |    65 |     0.05% |  0.00% | L1_SingleIsoEG24er                         |
+2017-04-19 09:48:30 INFO : |    57 |     0.05% |  0.00% | L1_SingleIsoEG26                           |
+2017-04-19 09:48:30 INFO : |    66 |     0.05% |  0.00% | L1_SingleIsoEG26er                         |
+2017-04-19 09:48:30 INFO : |    59 |     0.05% |  0.00% | L1_SingleIsoEG28                           |
+2017-04-19 09:48:30 INFO : |    68 |     0.05% |  0.00% | L1_SingleIsoEG28er                         |
+2017-04-19 09:48:30 INFO : |    60 |     0.05% |  0.00% | L1_SingleIsoEG30                           |
+2017-04-19 09:48:30 INFO : |    69 |     0.05% |  0.00% | L1_SingleIsoEG30er                         |
+2017-04-19 09:48:30 INFO : |   261 |     0.05% |  0.00% | L1_SingleIsoEG32                           |
+2017-04-19 09:48:30 INFO : |   263 |     0.05% |  0.00% | L1_SingleIsoEG32er                         |
+2017-04-19 09:48:30 INFO : |    61 |     0.05% |  0.00% | L1_SingleIsoEG34                           |
+2017-04-19 09:48:30 INFO : |    70 |     0.05% |  0.00% | L1_SingleIsoEG34er                         |
+2017-04-19 09:48:30 INFO : |   262 |     0.05% |  0.00% | L1_SingleIsoEG36                           |
+2017-04-19 09:48:30 INFO : |   304 |     0.05% |  0.00% | L1_SingleJet12                             |
+2017-04-19 09:48:30 INFO : |    85 |     0.05% |  0.00% | L1_SingleJet120                            |
+2017-04-19 09:48:30 INFO : |   195 |     0.05% |  0.00% | L1_SingleJet12_BptxAND                     |
+2017-04-19 09:48:30 INFO : |    86 |     0.05% |  0.00% | L1_SingleJet140                            |
+2017-04-19 09:48:30 INFO : |    87 |     0.05% |  0.00% | L1_SingleJet150                            |
+2017-04-19 09:48:30 INFO : |    80 |     0.05% |  0.00% | L1_SingleJet16                             |
+2017-04-19 09:48:30 INFO : |    88 |     0.05% |  0.00% | L1_SingleJet160                            |
+2017-04-19 09:48:30 INFO : |    89 |     0.05% |  0.00% | L1_SingleJet170                            |
+2017-04-19 09:48:30 INFO : |    90 |     0.05% |  0.00% | L1_SingleJet180                            |
+2017-04-19 09:48:30 INFO : |    81 |     0.05% |  0.00% | L1_SingleJet20                             |
+2017-04-19 09:48:30 INFO : |    91 |     0.05% |  0.00% | L1_SingleJet200                            |
+2017-04-19 09:48:30 INFO : |    82 |     0.05% |  0.00% | L1_SingleJet35                             |
+2017-04-19 09:48:30 INFO : |   302 |     0.05% |  0.00% | L1_SingleJet4                              |
+2017-04-19 09:48:30 INFO : |    83 |     0.05% |  0.00% | L1_SingleJet60                             |
+2017-04-19 09:48:30 INFO : |   303 |     0.05% |  0.00% | L1_SingleJet8                              |
+2017-04-19 09:48:30 INFO : |   194 |     0.05% |  0.00% | L1_SingleJet8_BptxAND                      |
+2017-04-19 09:48:30 INFO : |    84 |     0.05% |  0.00% | L1_SingleJet90                             |
+2017-04-19 09:48:30 INFO : |   191 |     0.05% |  0.00% | L1_SingleJetC20_NotBptxOR                  |
+2017-04-19 09:48:30 INFO : |   201 |     0.05% |  0.00% | L1_SingleJetC20_NotBptxOR_3BX              |
+2017-04-19 09:48:30 INFO : |   203 |     0.05% |  0.00% | L1_SingleJetC40_NotBptxOR_3BX              |
+2017-04-19 09:48:30 INFO : |   202 |     0.05% |  0.00% | L1_SingleJetC40_NotBptxOR_5BX              |
+2017-04-19 09:48:30 INFO : |   106 |     0.05% |  0.00% | L1_SingleTau100er                          |
+2017-04-19 09:48:30 INFO : |   107 |     0.05% |  0.00% | L1_SingleTau120er                          |
+2017-04-19 09:48:30 INFO : |   105 |     0.05% |  0.00% | L1_SingleTau80er                           |
+2017-04-19 09:48:30 INFO : |    14 |     0.04% |  0.00% | L1_SingleMu10_LowQ                         |
+2017-04-19 09:48:30 INFO : |     6 |     0.04% |  0.00% | L1_SingleMu12                              |
+2017-04-19 09:48:30 INFO : |     7 |     0.04% |  0.00% | L1_SingleMu14                              |
+2017-04-19 09:48:30 INFO : |    16 |     0.04% |  0.00% | L1_SingleMu14er                            |
+2017-04-19 09:48:30 INFO : |     8 |     0.04% |  0.00% | L1_SingleMu16                              |
+2017-04-19 09:48:30 INFO : |    17 |     0.04% |  0.00% | L1_SingleMu16er                            |
+2017-04-19 09:48:30 INFO : |     9 |     0.04% |  0.00% | L1_SingleMu18                              |
+2017-04-19 09:48:30 INFO : |    18 |     0.04% |  0.00% | L1_SingleMu18er                            |
+2017-04-19 09:48:30 INFO : |    10 |     0.04% |  0.00% | L1_SingleMu20                              |
+2017-04-19 09:48:30 INFO : |    19 |     0.04% |  0.00% | L1_SingleMu20er                            |
+2017-04-19 09:48:30 INFO : |    11 |     0.04% |  0.00% | L1_SingleMu22                              |
+2017-04-19 09:48:30 INFO : |    20 |     0.04% |  0.00% | L1_SingleMu22er                            |
+2017-04-19 09:48:30 INFO : |    12 |     0.04% |  0.00% | L1_SingleMu25                              |
+2017-04-19 09:48:30 INFO : |    21 |     0.04% |  0.00% | L1_SingleMu25er                            |
+2017-04-19 09:48:30 INFO : |     3 |     0.04% |  0.00% | L1_SingleMu3                               |
+2017-04-19 09:48:30 INFO : |    13 |     0.04% |  0.00% | L1_SingleMu30                              |
+2017-04-19 09:48:30 INFO : |    22 |     0.04% |  0.00% | L1_SingleMu30er                            |
+2017-04-19 09:48:30 INFO : |     4 |     0.04% |  0.00% | L1_SingleMu5                               |
+2017-04-19 09:48:30 INFO : |     5 |     0.04% |  0.00% | L1_SingleMu7                               |
+2017-04-19 09:48:30 INFO : |   218 |     0.04% |  0.00% | L1_SingleMuCosmics                         |
+2017-04-19 09:48:30 INFO : |     2 |     0.04% |  0.00% | L1_SingleMuOpen                            |
+2017-04-19 09:48:30 INFO : |   189 |     0.04% |  0.00% | L1_SingleMuOpen_NotBptxOR                  |
+2017-04-19 09:48:30 INFO : |   200 |     0.04% |  0.00% | L1_SingleMuOpen_NotBptxOR_3BX              |
+2017-04-19 09:48:30 INFO : |   188 |     0.02% |  0.00% | L1_HTM60_HTT260                            |
+2017-04-19 09:48:30 INFO : |   187 |     0.02% |  0.00% | L1_HTM80_HTT220                            |
+2017-04-19 09:48:30 INFO : |   251 |     0.02% |  0.00% | L1_MinimumBiasHF0_AND                      |
+2017-04-19 09:48:30 INFO : |   247 |     0.02% |  0.00% | L1_MinimumBiasHF0_AND_BptxAND              |
+2017-04-19 09:48:30 INFO : |   250 |     0.02% |  0.00% | L1_MinimumBiasHF0_OR                       |
+2017-04-19 09:48:30 INFO : |   246 |     0.02% |  0.00% | L1_MinimumBiasHF0_OR_BptxAND               |
+2017-04-19 09:48:30 INFO : |   253 |     0.02% |  0.00% | L1_MinimumBiasHF1_AND                      |
+2017-04-19 09:48:30 INFO : |   249 |     0.02% |  0.00% | L1_MinimumBiasHF1_AND_BptxAND              |
+2017-04-19 09:48:30 INFO : |   252 |     0.02% |  0.00% | L1_MinimumBiasHF1_OR                       |
+2017-04-19 09:48:30 INFO : |   248 |     0.02% |  0.00% | L1_MinimumBiasHF1_OR_BptxAND               |
+2017-04-19 09:48:30 INFO : |   142 |     0.01% |  0.00% | L1_ETM100                                  |
+2017-04-19 09:48:30 INFO : |   286 |     0.01% |  0.00% | L1_ETM105                                  |
+2017-04-19 09:48:30 INFO : |   287 |     0.01% |  0.00% | L1_ETM110                                  |
+2017-04-19 09:48:30 INFO : |   288 |     0.01% |  0.00% | L1_ETM115                                  |
+2017-04-19 09:48:30 INFO : |   143 |     0.01% |  0.00% | L1_ETM120                                  |
+2017-04-19 09:48:30 INFO : |   137 |     0.01% |  0.00% | L1_ETM30                                   |
+2017-04-19 09:48:30 INFO : |   138 |     0.01% |  0.00% | L1_ETM40                                   |
+2017-04-19 09:48:30 INFO : |   139 |     0.01% |  0.00% | L1_ETM50                                   |
+2017-04-19 09:48:30 INFO : |   140 |     0.01% |  0.00% | L1_ETM60                                   |
+2017-04-19 09:48:30 INFO : |   141 |     0.01% |  0.00% | L1_ETM70                                   |
+2017-04-19 09:48:30 INFO : |   272 |     0.01% |  0.00% | L1_ETM75                                   |
+2017-04-19 09:48:30 INFO : |   125 |     0.01% |  0.00% | L1_ETM80                                   |
+2017-04-19 09:48:30 INFO : |   273 |     0.01% |  0.00% | L1_ETM85                                   |
+2017-04-19 09:48:30 INFO : |   126 |     0.01% |  0.00% | L1_ETM90                                   |
+2017-04-19 09:48:30 INFO : |   274 |     0.01% |  0.00% | L1_ETM95                                   |
+2017-04-19 09:48:30 INFO : |   135 |     0.01% |  0.00% | L1_ETT25                                   |
+2017-04-19 09:48:30 INFO : |   136 |     0.01% |  0.00% | L1_ETT40_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   244 |     0.01% |  0.00% | L1_ETT50_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   294 |     0.01% |  0.00% | L1_ETT55_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   245 |     0.01% |  0.00% | L1_ETT60_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   193 |     0.01% |  0.00% | L1_ETT70_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   295 |     0.01% |  0.00% | L1_ETT75_BptxAND                           |
+2017-04-19 09:48:30 INFO : |   130 |     0.01% |  0.00% | L1_HTM100                                  |
+2017-04-19 09:48:30 INFO : |   131 |     0.01% |  0.00% | L1_HTM120                                  |
+2017-04-19 09:48:30 INFO : |   132 |     0.01% |  0.00% | L1_HTM130                                  |
+2017-04-19 09:48:30 INFO : |   133 |     0.01% |  0.00% | L1_HTM140                                  |
+2017-04-19 09:48:30 INFO : |   134 |     0.01% |  0.00% | L1_HTM150                                  |
+2017-04-19 09:48:30 INFO : |   127 |     0.01% |  0.00% | L1_HTM50                                   |
+2017-04-19 09:48:30 INFO : |   128 |     0.01% |  0.00% | L1_HTM70                                   |
+2017-04-19 09:48:30 INFO : |   129 |     0.01% |  0.00% | L1_HTM80                                   |
+2017-04-19 09:48:30 INFO : |   115 |     0.01% |  0.00% | L1_HTT120                                  |
+2017-04-19 09:48:30 INFO : |   116 |     0.01% |  0.00% | L1_HTT160                                  |
+2017-04-19 09:48:30 INFO : |   117 |     0.01% |  0.00% | L1_HTT200                                  |
+2017-04-19 09:48:30 INFO : |   118 |     0.01% |  0.00% | L1_HTT220                                  |
+2017-04-19 09:48:30 INFO : |   119 |     0.01% |  0.00% | L1_HTT240                                  |
+2017-04-19 09:48:30 INFO : |   120 |     0.01% |  0.00% | L1_HTT255                                  |
+2017-04-19 09:48:30 INFO : |   121 |     0.01% |  0.00% | L1_HTT270                                  |
+2017-04-19 09:48:30 INFO : |   122 |     0.01% |  0.00% | L1_HTT280                                  |
+2017-04-19 09:48:30 INFO : |   123 |     0.01% |  0.00% | L1_HTT300                                  |
+2017-04-19 09:48:30 INFO : |   124 |     0.01% |  0.00% | L1_HTT320                                  |
+2017-04-19 09:48:30 INFO : |   206 |     0.00% |  0.00% | L1_AlwaysTrue                              |
+2017-04-19 09:48:30 INFO : |   225 |     0.00% |  0.00% | L1_BPTX_LUT1_AND                           |
+2017-04-19 09:48:30 INFO : |   226 |     0.00% |  0.00% | L1_BPTX_LUT1_B1                            |
+2017-04-19 09:48:30 INFO : |   227 |     0.00% |  0.00% | L1_BPTX_LUT1_B2                            |
+2017-04-19 09:48:30 INFO : |   228 |     0.00% |  0.00% | L1_BPTX_LUT1_OR                            |
+2017-04-19 09:48:30 INFO : |   229 |     0.00% |  0.00% | L1_BPTX_LUT2_AND                           |
+2017-04-19 09:48:30 INFO : |   230 |     0.00% |  0.00% | L1_BPTX_LUT2_B1NotB2                       |
+2017-04-19 09:48:30 INFO : |   231 |     0.00% |  0.00% | L1_BPTX_LUT2_B2NotB1                       |
+2017-04-19 09:48:30 INFO : |   232 |     0.00% |  0.00% | L1_BPTX_LUT2_NotOR                         |
+2017-04-19 09:48:30 INFO : |   233 |     0.00% |  0.00% | L1_BPTX_TRIG2_AND                          |
+2017-04-19 09:48:30 INFO : |   234 |     0.00% |  0.00% | L1_BPTX_TRIG2_B1NotB2                      |
+2017-04-19 09:48:30 INFO : |   235 |     0.00% |  0.00% | L1_BPTX_TRIG2_B2NotB1                      |
+2017-04-19 09:48:30 INFO : |   236 |     0.00% |  0.00% | L1_BPTX_TRIG2_NotOR                        |
+2017-04-19 09:48:30 INFO : |   240 |     0.00% |  0.00% | L1_BRIL_TRIG0_AND                          |
+2017-04-19 09:48:30 INFO : |   243 |     0.00% |  0.00% | L1_BRIL_TRIG0_FstBunchInTrain              |
+2017-04-19 09:48:30 INFO : |   242 |     0.00% |  0.00% | L1_BRIL_TRIG0_OR                           |
+2017-04-19 09:48:30 INFO : |   241 |     0.00% |  0.00% | L1_BRIL_TRIG0_delayedAND                   |
+2017-04-19 09:48:30 INFO : |   237 |     0.00% |  0.00% | L1_BRIL_TRIG3_AND                          |
+2017-04-19 09:48:30 INFO : |   238 |     0.00% |  0.00% | L1_BRIL_TRIG3_delayedAND                   |
+2017-04-19 09:48:30 INFO : |   239 |     0.00% |  0.00% | L1_BRIL_TRIG3_ref                          |
+2017-04-19 09:48:30 INFO : |   223 |     0.00% |  0.00% | L1_BeamGasB1                               |
+2017-04-19 09:48:30 INFO : |   224 |     0.00% |  0.00% | L1_BeamGasB2                               |
+2017-04-19 09:48:30 INFO : |   222 |     0.00% |  0.00% | L1_BeamGasMinus                            |
+2017-04-19 09:48:30 INFO : |   221 |     0.00% |  0.00% | L1_BeamGasPlus                             |
+2017-04-19 09:48:30 INFO : |   208 |     0.00% |  0.00% | L1_BptxMinus                               |
+2017-04-19 09:48:30 INFO : |   209 |     0.00% |  0.00% | L1_BptxOR                                  |
+2017-04-19 09:48:30 INFO : |   207 |     0.00% |  0.00% | L1_BptxPlus                                |
+2017-04-19 09:48:30 INFO : |   220 |     0.00% |  0.00% | L1_BptxXOR                                 |
+2017-04-19 09:48:30 INFO : |   296 |     0.00% |  0.00% | L1_CastorGap_BptxAND                       |
+2017-04-19 09:48:30 INFO : |   300 |     0.00% |  0.00% | L1_CastorHaloMuon                          |
+2017-04-19 09:48:30 INFO : |   299 |     0.00% |  0.00% | L1_CastorHaloMuon_BptxAND                  |
+2017-04-19 09:48:30 INFO : |   297 |     0.00% |  0.00% | L1_CastorHighJet_BptxAND                   |
+2017-04-19 09:48:30 INFO : |   298 |     0.00% |  0.00% | L1_CastorMediumJet_BptxAND                 |
+2017-04-19 09:48:30 INFO : |   282 |     0.00% |  0.00% | L1_FirstBunchAfterTrain                    |
+2017-04-19 09:48:30 INFO : |   281 |     0.00% |  0.00% | L1_FirstBunchInTrain                       |
+2017-04-19 09:48:30 INFO : |   219 |     0.00% |  0.00% | L1_IsolatedBunch                           |
+2017-04-19 09:48:30 INFO : |   254 |     0.00% |  0.00% | L1_NotBptxOR                               |
+2017-04-19 09:48:30 INFO : |     0 |     0.00% |  0.00% | L1_ZeroBias                                |
+2017-04-19 09:48:30 INFO : |   211 |     0.00% |  0.00% | L1_ZeroBias_FirstCollidingBunch            |
+2017-04-19 09:48:30 INFO : |   255 |     0.00% |  0.00% | L1_ZeroBias_copy                           |
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : | Condition payloads by type                                              |
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : |-----------------------------||--------------------||--------------------|
+2017-04-19 09:48:30 INFO : | Condition                   || Item               || Sub total          |
+2017-04-19 09:48:30 INFO : | Type                | Count || SliceLUTs | DSPs   || SliceLUTs | DSPs   |
+2017-04-19 09:48:30 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2017-04-19 09:48:30 INFO : | CaloEsumCorrelation |     1 ||     0.50% |  0.00% ||     0.50% |  0.00% |
+2017-04-19 09:48:30 INFO : | MissingHt           |     9 ||     0.01% |  0.00% ||     0.09% |  0.00% |
+2017-04-19 09:48:30 INFO : | Externals           |    40 ||     0.00% |  0.00% ||     0.00% |  0.00% |
+2017-04-19 09:48:30 INFO : | TotalEt             |     7 ||     0.01% |  0.00% ||     0.07% |  0.00% |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation |     5 ||     1.50% |  0.00% ||     7.50% |  0.00% |
+2017-04-19 09:48:30 INFO : | DoubleMuon          |    10 ||     0.05% |  0.00% ||     0.50% |  0.00% |
+2017-04-19 09:48:30 INFO : | DoubleEgamma        |    12 ||     0.07% |  0.00% ||     0.84% |  0.00% |
+2017-04-19 09:48:30 INFO : | DoubleTau           |     9 ||     0.07% |  0.00% ||     0.63% |  0.00% |
+2017-04-19 09:48:30 INFO : | SingleEgamma        |    43 ||     0.05% |  0.00% ||     2.15% |  0.00% |
+2017-04-19 09:48:30 INFO : | TripleJet           |     3 ||     0.09% |  0.00% ||     0.27% |  0.00% |
+2017-04-19 09:48:30 INFO : | QuadJet             |     4 ||     3.50% |  0.00% ||    14.00% |  0.00% |
+2017-04-19 09:48:30 INFO : | SingleJet           |    29 ||     0.05% |  0.00% ||     1.45% |  0.00% |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation |     5 ||     2.50% |  0.00% ||    12.50% |  0.00% |
+2017-04-19 09:48:30 INFO : | DoubleJet           |    21 ||     0.07% |  0.00% ||     1.47% |  0.00% |
+2017-04-19 09:48:30 INFO : | MinBiasHFP0         |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2017-04-19 09:48:30 INFO : | MinBiasHFP1         |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2017-04-19 09:48:30 INFO : | MissingEt           |    17 ||     0.01% |  0.00% ||     0.17% |  0.00% |
+2017-04-19 09:48:30 INFO : | SingleMuon          |    27 ||     0.04% |  0.00% ||     1.08% |  0.00% |
+2017-04-19 09:48:30 INFO : | MinBiasHFM1         |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2017-04-19 09:48:30 INFO : | MinBiasHFM0         |     1 ||     0.01% |  0.00% ||     0.01% |  0.00% |
+2017-04-19 09:48:30 INFO : | SingleTau           |     7 ||     0.05% |  0.00% ||     0.35% |  0.00% |
+2017-04-19 09:48:30 INFO : | QuadMuon            |     1 ||     0.30% |  0.00% ||     0.30% |  0.00% |
+2017-04-19 09:48:30 INFO : | TripleEgamma        |     2 ||     0.09% |  0.00% ||     0.18% |  0.00% |
+2017-04-19 09:48:30 INFO : | TotalHt             |    13 ||     0.01% |  0.00% ||     0.13% |  0.00% |
+2017-04-19 09:48:30 INFO : | InvariantMass       |     2 ||     2.20% | 11.00% ||     4.40% | 22.00% |
+2017-04-19 09:48:30 INFO : | CaloCaloCorrelation |     4 ||     2.50% |  0.00% ||    10.00% |  0.00% |
+2017-04-19 09:48:30 INFO : | TripleMuon          |     3 ||     0.06% |  0.00% ||     0.18% |  0.00% |
+2017-04-19 09:48:30 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2017-04-19 09:48:30 INFO : | Total               |   278 ||         - |      - ||    58.80% | 22.00% |
+2017-04-19 09:48:30 INFO : |---------------------|-------||-----------|--------||-----------|--------|
+2017-04-19 09:48:30 INFO : distributing algorithms, shadow ratio: 0.0
+2017-04-19 09:48:30 INFO : starting algorithm distribution for 282 algorithms on 3 modules using shadow ratio of 0.0
+2017-04-19 09:48:30 INFO :  . adding L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0 (180) to module 0
+2017-04-19 09:48:30 INFO :  +-- L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0 179 to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_QuadJetC36_Tau52 (177) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_QuadJetC40 (102) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_QuadJetC50 (103) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_QuadJetC60 (104) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_IsoEG18er_IsoTau24er_dEta_Min0p2 (269) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_IsoEG20er_IsoTau25er_dEta_Min0p2 (270) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_IsoEG22er_IsoTau26er_dEta_Min0p2 (268) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_IsoEG22er_Tau20er_dEta_Min0p2 (199) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4 (210) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4 (170) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4 (171) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJet_100_30_Mj30j30_620 (291) to module 2
+2017-04-19 09:48:30 INFO :  +-- L1_DoubleJet_90_30_Mj30j30_620 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleJet_90_30_Mj30j30_620 290 to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJet30_Mj30j30_400_Mu10 (293) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_DoubleJet30_Mj30j30_400_Mu6 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_Mu6_HTT200 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +---- L1_Mu6_DoubleEG17 shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +----- L1_HTT200 shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +------ L1_Mu6_DoubleEG10 shadowed ratio 16.7 %
+2017-04-19 09:48:30 INFO :  +------- L1_EG27er_HTT200 shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleJet30_Mj30j30_400_Mu6 292 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_EG27er_HTT200 174 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_HTT200 117 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu6_HTT200 172 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu6_DoubleEG17 168 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu6_DoubleEG10 169 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu0er1p4_dEta_Max1p8_OS (267) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu0er1p6_dEta_Max1p8 (32) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu0er1p6_dEta_Max1p8_OS (33) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_10_0_dEta_Max1p8 (35) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_ETM75_Jet60_dPhi_Min0p4 (271) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_TripleJet_84_68_48_VBF (99) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_TripleJet_88_72_56_VBF (100) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_TripleJet_92_76_64_VBF (101) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_QuadMu0 (38) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu7_EG14 (166) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_DoubleMu7_EG7 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu7_EG7 167 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_MU20_EG15 (198) to module 0
+2017-04-19 09:48:30 INFO :  +-- L1_Mu20_EG10 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_SingleEG10 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +---- L1_SingleEG15 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +----- L1_Mu23_EG10 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +------ L1_Mu20_EG17 shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +------- L1_Mu23_IsoEG10 shadowed ratio 16.7 %
+2017-04-19 09:48:30 INFO :  +-------- L1_Mu5_EG15 shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +--------- L1_Mu5_EG20 shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  +---------- L1_Mu5_EG23 shadowed ratio 11.1 %
+2017-04-19 09:48:30 INFO :  +----------- L1_Mu5_IsoEG18 shadowed ratio 10.0 %
+2017-04-19 09:48:30 INFO :  +------------ L1_SingleIsoEG18 shadowed ratio 10.0 %
+2017-04-19 09:48:30 INFO :  +------------- L1_SingleMu20 shadowed ratio 10.0 %
+2017-04-19 09:48:30 INFO :  +-------------- L1_Mu12_EG10 shadowed ratio 9.1 %
+2017-04-19 09:48:30 INFO :  +--------------- L1_SingleMu12 shadowed ratio 9.1 %
+2017-04-19 09:48:30 INFO :  +---------------- L1_Mu20_IsoEG6 shadowed ratio 8.3 %
+2017-04-19 09:48:30 INFO :  +----------------- L1_SingleMu5 shadowed ratio 8.3 %
+2017-04-19 09:48:30 INFO :  +------------------ L1_Mu5_IsoEG20 shadowed ratio 7.7 %
+2017-04-19 09:48:30 INFO :  +------------------- L1_SingleIsoEG20 shadowed ratio 7.7 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu5_IsoEG18 147 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu5_EG15 144 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleIsoEG20 54 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu20_EG17 151 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu5_EG20 145 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu23_EG10 153 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu23_IsoEG10 152 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu5_IsoEG20 148 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu20_IsoEG6 275 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleIsoEG18 53 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleEG10 40 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu12_EG10 149 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu20_EG10 150 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu5_EG23 146 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu5 4 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu20 10 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu12 6 to module 0
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleEG15 41 to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_Mu16er_Tau20er (154) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_Mu16er_Tau24er shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_Mu18er_Tau20er shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +---- L1_Mu18er_IsoTau26er shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +----- L1_Mu20er_IsoTau26er shadowed ratio 16.7 %
+2017-04-19 09:48:30 INFO :  +------ L1_Mu25er_IsoTau26er shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +------- L1_SingleMu18er shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +-------- L1_SingleMu20er shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +--------- L1_Mu22er_IsoTau26er shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  +---------- L1_SingleMu22er shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  +----------- L1_Mu18er_Tau24er shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +------------ L1_SingleMu16er shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  +------------- L1_SingleMu25er shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu16er 17 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu20er 19 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu18er_Tau20er 156 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu18er_Tau24er 157 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu22er 20 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu20er_IsoTau26er 159 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu18er 18 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu16er_Tau24er 155 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu25er 21 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu18er_IsoTau26er 158 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu25er_IsoTau26er 280 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu22er_IsoTau26er 279 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_Mu3_JetC120 (217) to module 2
+2017-04-19 09:48:30 INFO :  +-- L1_Mu3_JetC16 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_SingleMu3 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +---- L1_Mu3_JetC60 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu3_JetC16 215 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu3 3 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu3_JetC60 216 to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_TripleEG_14_10_8 (78) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_TripleEG_18_17_8 (79) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG6_HTT255 (176) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_HTT255 shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_HTT255 120 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC60_ETM60 (181) to module 2
+2017-04-19 09:48:30 INFO :  +-- L1_DoubleJetC60 shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  +--- L1_DoubleMu0_ETM60 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +---- L1_DoubleMu0_ETM55 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +----- L1_Mu0er_ETM55 shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +------ L1_DoubleMu0 shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +------- L1_DoubleMu0_ETM40 shadowed ratio 16.7 %
+2017-04-19 09:48:30 INFO :  +-------- L1_Mu0er_ETM40 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--------- L1_ETM40 shadowed ratio 16.7 %
+2017-04-19 09:48:30 INFO :  +---------- L1_DoubleMu0_ETM65 shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +----------- L1_ETM60 shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +------------ L1_DoubleMu0_ETM70 shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  +------------- L1_ETM70 shadowed ratio 12.5 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0_ETM70 285 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu0er_ETM40 182 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETM70 141 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0_ETM55 257 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu0er_ETM55 183 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETM40 138 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0_ETM60 283 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETM60 140 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0 24 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0_ETM65 284 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleJetC60 94 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_DoubleMu0_ETM40 256 to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_15_10 (71) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_18_17 (72) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_20_18 (73) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_22_10 (75) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_22_12 (196) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_22_15 (197) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_23_10 (76) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_24_17 (77) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleEG_25_12 (277) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau28er (109) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau30er (110) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau32er (111) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau33er (264) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau34er (265) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau35er (266) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleIsoTau36er (278) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJet12_ForwardBackward (213) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJet16_ForwardBackward (214) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJet8_ForwardBackward (212) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC100 (96) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC112 (97) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC120 (98) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC40 (92) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC50 (93) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleJetC80 (95) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleTau50er (114) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleTau70er (289) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_EG25er_HTT125 (175) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_TripleMu0 (36) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_TripleMu_5_0_0 (276) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_TripleMu_5_5_3 (37) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMuOpen (23) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_10_3p5 (26) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_10_Open (25) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_11_4 (27) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_12_5 (28) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_12_8 (31) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_13_6 (29) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_DoubleMu_15_5 (30) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_Mu10er_ETM30 (184) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_Mu10er_ETM50 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_ETM50 shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +---- L1_Mu14er_ETM30 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +----- L1_ETM30 shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  +------ L1_SingleMu14er shadowed ratio 25.0 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETM50 139 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu14er_ETM30 186 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_Mu10er_ETM50 185 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMu14er 16 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETM30 137 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_Mu8_HTT150 (173) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG18 (42) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG24 (43) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG26 (44) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG28 (45) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG2_BptxAND (192) to module 2
+2017-04-19 09:48:30 INFO :  +-- L1_SingleJet12_BptxAND shadowed ratio 33.3 %
+2017-04-19 09:48:30 INFO :  +--- L1_MinimumBiasHF1_AND_BptxAND shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +---- L1_IsolatedBunch shadowed ratio 11.1 %
+2017-04-19 09:48:30 INFO :  +----- L1_SingleMuOpen_NotBptxOR_3BX shadowed ratio 18.2 %
+2017-04-19 09:48:30 INFO :  +------ L1_CastorHighJet_BptxAND shadowed ratio 8.3 %
+2017-04-19 09:48:30 INFO :  +------- L1_SingleJetC20_NotBptxOR shadowed ratio 7.7 %
+2017-04-19 09:48:30 INFO :  +-------- L1_CastorHaloMuon_BptxAND shadowed ratio 7.1 %
+2017-04-19 09:48:30 INFO :  +--------- L1_CastorHaloMuon shadowed ratio 7.1 %
+2017-04-19 09:48:30 INFO :  +---------- L1_ETT60_BptxAND shadowed ratio 6.7 %
+2017-04-19 09:48:30 INFO :  +----------- L1_MinimumBiasHF1_OR_BptxAND shadowed ratio 20.0 %
+2017-04-19 09:48:30 INFO :  +------------ L1_CastorMediumJet_BptxAND shadowed ratio 6.2 %
+2017-04-19 09:48:30 INFO :  +------------- L1_ETT50_BptxAND shadowed ratio 5.9 %
+2017-04-19 09:48:30 INFO :  +-------------- L1_ZeroBias shadowed ratio 5.9 %
+2017-04-19 09:48:30 INFO :  +--------------- L1_MinimumBiasHF1_AND shadowed ratio 11.8 %
+2017-04-19 09:48:30 INFO :  +---------------- L1_ETT55_BptxAND shadowed ratio 5.6 %
+2017-04-19 09:48:30 INFO :  +----------------- L1_ZeroBias_copy shadowed ratio 5.6 %
+2017-04-19 09:48:30 INFO :  +------------------ L1_NotBptxOR shadowed ratio 5.6 %
+2017-04-19 09:48:30 INFO :  +------------------- L1_CastorGap_BptxAND shadowed ratio 5.3 %
+2017-04-19 09:48:30 INFO :  +-------------------- L1_MinimumBiasHF0_OR_BptxAND shadowed ratio 4.8 %
+2017-04-19 09:48:30 INFO :  +--------------------- L1_AlwaysTrue shadowed ratio 4.8 %
+2017-04-19 09:48:30 INFO :  +---------------------- L1_MinimumBiasHF0_AND shadowed ratio 9.5 %
+2017-04-19 09:48:30 INFO :  +----------------------- L1_ETT70_BptxAND shadowed ratio 4.5 %
+2017-04-19 09:48:30 INFO :  +------------------------ L1_MinimumBiasHF0_AND_BptxAND shadowed ratio 13.6 %
+2017-04-19 09:48:30 INFO :  +------------------------- L1_SingleJet12 shadowed ratio 4.5 %
+2017-04-19 09:48:30 INFO :  +-------------------------- L1_SingleJet8_BptxAND shadowed ratio 4.3 %
+2017-04-19 09:48:30 INFO :  +--------------------------- L1_FirstBunchAfterTrain shadowed ratio 12.0 %
+2017-04-19 09:48:30 INFO :  +---------------------------- L1_FirstBunchInTrain shadowed ratio 11.1 %
+2017-04-19 09:48:30 INFO :  +----------------------------- L1_SingleJetC40_NotBptxOR_5BX shadowed ratio 17.9 %
+2017-04-19 09:48:30 INFO :  +------------------------------ L1_SingleMuOpen_NotBptxOR shadowed ratio 7.1 %
+2017-04-19 09:48:30 INFO :  +------------------------------- L1_SingleJetC20_NotBptxOR_3BX shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +-------------------------------- L1_MinimumBiasHF0_OR shadowed ratio 7.1 %
+2017-04-19 09:48:30 INFO :  +--------------------------------- L1_MinimumBiasHF1_OR shadowed ratio 7.1 %
+2017-04-19 09:48:30 INFO :  +---------------------------------- L1_SingleJet8 shadowed ratio 3.6 %
+2017-04-19 09:48:30 INFO :  +----------------------------------- L1_BptxOR shadowed ratio 3.6 %
+2017-04-19 09:48:30 INFO :  +------------------------------------ L1_SingleJetC40_NotBptxOR_3BX shadowed ratio 14.3 %
+2017-04-19 09:48:30 INFO :  +------------------------------------- L1_ETT75_BptxAND shadowed ratio 3.4 %
+2017-04-19 09:48:30 INFO :  +-------------------------------------- L1_ETT40_BptxAND shadowed ratio 3.3 %
+2017-04-19 09:48:30 INFO :  +--------------------------------------- L1_SingleMuOpen shadowed ratio 3.3 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF0_AND_BptxAND 247 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF1_OR 252 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMuOpen_NotBptxOR_3BX 200 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_AlwaysTrue 206 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_FirstBunchAfterTrain 282 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF0_OR 250 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF1_AND_BptxAND 249 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJet12_BptxAND 195 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT55_BptxAND 294 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_NotBptxOR 254 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT60_BptxAND 245 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_CastorGap_BptxAND 296 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_CastorHaloMuon 300 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT70_BptxAND 193 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_CastorHighJet_BptxAND 297 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ZeroBias_copy 255 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT75_BptxAND 295 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ZeroBias 0 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_FirstBunchInTrain 281 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJet12 304 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_CastorHaloMuon_BptxAND 299 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJetC20_NotBptxOR_3BX 201 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_BptxOR 209 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_IsolatedBunch 219 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_CastorMediumJet_BptxAND 298 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJetC20_NotBptxOR 191 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF1_OR_BptxAND 248 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT50_BptxAND 244 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJet8_BptxAND 194 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJetC40_NotBptxOR_3BX 203 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMuOpen_NotBptxOR 189 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF0_OR_BptxAND 246 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF0_AND 251 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJet8 303 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_MinimumBiasHF1_AND 253 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_ETT40_BptxAND 136 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleMuOpen 2 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_SingleJetC40_NotBptxOR_5BX 202 to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG30 (46) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG32 (258) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG34 (48) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG36 (259) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG38 (260) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG40 (50) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG45 (52) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleEG5 (39) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG18er (62) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG20er (63) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG22 (55) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG22er (64) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG24 (56) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG24er (65) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG26 (57) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG26er (66) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG28 (59) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG28er (68) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG30 (60) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG30er (69) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG32 (261) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG32er (263) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG34 (61) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG34er (70) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleIsoEG36 (262) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet120 (85) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet140 (86) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet150 (87) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet16 (80) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet160 (88) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet170 (89) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet180 (90) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet20 (81) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet200 (91) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet35 (82) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet4 (302) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet60 (83) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleJet90 (84) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleTau100er (106) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleTau120er (107) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleTau80er (105) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu10_LowQ (14) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu14 (7) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu16 (8) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu18 (9) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu22 (11) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu25 (12) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu30 (13) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu30er (22) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMu7 (5) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_SingleMuCosmics (218) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_HTM60_HTT260 (188) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTM80_HTT220 (187) to module 2
+2017-04-19 09:48:30 INFO :  +-- L1_HTM80 shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  +--- L1_HTT220 shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_HTM80 129 to module 2
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_HTT220 118 to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_ETM100 (142) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_ETM105 (286) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_ETM110 (287) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_ETM115 (288) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_ETM120 (143) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_ETM75 (272) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_ETM80 (125) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_ETM85 (273) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_ETM90 (126) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_ETM95 (274) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_ETT25 (135) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTM100 (130) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_HTM120 (131) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_HTM130 (132) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTM140 (133) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_HTM150 (134) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_HTM50 (127) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTM70 (128) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_HTT120 (115) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_HTT160 (116) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTT240 (119) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_HTT270 (121) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_HTT280 (122) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_HTT300 (123) to module 2
+2017-04-19 09:48:30 INFO :  . adding L1_HTT320 (124) to module 0
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT1_AND (225) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT1_B1 (226) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT1_B2 (227) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT1_OR (228) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT2_AND (229) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT2_B1NotB2 (230) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT2_B2NotB1 (231) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_LUT2_NotOR (232) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_TRIG2_AND (233) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_TRIG2_B1NotB2 (234) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_TRIG2_B2NotB1 (235) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BPTX_TRIG2_NotOR (236) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG0_AND (240) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG0_FstBunchInTrain (243) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG0_OR (242) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG0_delayedAND (241) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG3_AND (237) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG3_delayedAND (238) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BRIL_TRIG3_ref (239) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BeamGasB1 (223) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BeamGasB2 (224) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BeamGasMinus (222) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BeamGasPlus (221) to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_BptxMinus (208) to module 1
+2017-04-19 09:48:30 INFO :  +-- L1_BptxXOR shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  +--- L1_BptxPlus shadowed ratio 50.0 %
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_BptxPlus 207 to module 1
+2017-04-19 09:48:30 INFO :  ... adding shadowed L1_BptxXOR 220 to module 1
+2017-04-19 09:48:30 INFO :  . adding L1_ZeroBias_FirstCollidingBunch (211) to module 1
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : | Detailed distribition on 3 modules, shadow ratio: 0.0                   |
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : |------------|------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : | Module     | Algorithm                                                  |
+2017-04-19 09:48:30 INFO : | ID | Index | Index | Name                                               |
+2017-04-19 09:48:30 INFO : |----|-------|-------|----------------------------------------------------|
+2017-04-19 09:48:30 INFO : |  0 |     0 |   180 | L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG... |
+2017-04-19 09:48:30 INFO : |  0 |     1 |   179 | L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi... |
+2017-04-19 09:48:30 INFO : |  0 |     2 |   269 | L1_IsoEG18er_IsoTau24er_dEta_Min0p2                |
+2017-04-19 09:48:30 INFO : |  0 |     3 |   199 | L1_IsoEG22er_Tau20er_dEta_Min0p2                   |
+2017-04-19 09:48:30 INFO : |  0 |     4 |   171 | L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4              |
+2017-04-19 09:48:30 INFO : |  0 |     5 |   267 | L1_DoubleMu0er1p4_dEta_Max1p8_OS                   |
+2017-04-19 09:48:30 INFO : |  0 |     6 |    35 | L1_DoubleMu_10_0_dEta_Max1p8                       |
+2017-04-19 09:48:30 INFO : |  0 |     7 |   198 | L1_MU20_EG15                                       |
+2017-04-19 09:48:30 INFO : |  0 |     8 |   147 | L1_Mu5_IsoEG18                                     |
+2017-04-19 09:48:30 INFO : |  0 |     9 |   144 | L1_Mu5_EG15                                        |
+2017-04-19 09:48:30 INFO : |  0 |    10 |    54 | L1_SingleIsoEG20                                   |
+2017-04-19 09:48:30 INFO : |  0 |    11 |   151 | L1_Mu20_EG17                                       |
+2017-04-19 09:48:30 INFO : |  0 |    12 |   145 | L1_Mu5_EG20                                        |
+2017-04-19 09:48:30 INFO : |  0 |    13 |   153 | L1_Mu23_EG10                                       |
+2017-04-19 09:48:30 INFO : |  0 |    14 |   152 | L1_Mu23_IsoEG10                                    |
+2017-04-19 09:48:30 INFO : |  0 |    15 |   148 | L1_Mu5_IsoEG20                                     |
+2017-04-19 09:48:30 INFO : |  0 |    16 |   275 | L1_Mu20_IsoEG6                                     |
+2017-04-19 09:48:30 INFO : |  0 |    17 |    53 | L1_SingleIsoEG18                                   |
+2017-04-19 09:48:30 INFO : |  0 |    18 |    40 | L1_SingleEG10                                      |
+2017-04-19 09:48:30 INFO : |  0 |    19 |   149 | L1_Mu12_EG10                                       |
+2017-04-19 09:48:30 INFO : |  0 |    20 |   150 | L1_Mu20_EG10                                       |
+2017-04-19 09:48:30 INFO : |  0 |    21 |   146 | L1_Mu5_EG23                                        |
+2017-04-19 09:48:30 INFO : |  0 |    22 |     4 | L1_SingleMu5                                       |
+2017-04-19 09:48:30 INFO : |  0 |    23 |    10 | L1_SingleMu20                                      |
+2017-04-19 09:48:30 INFO : |  0 |    24 |     6 | L1_SingleMu12                                      |
+2017-04-19 09:48:30 INFO : |  0 |    25 |    41 | L1_SingleEG15                                      |
+2017-04-19 09:48:30 INFO : |  0 |    26 |    73 | L1_DoubleEG_20_18                                  |
+2017-04-19 09:48:30 INFO : |  0 |    27 |   197 | L1_DoubleEG_22_15                                  |
+2017-04-19 09:48:30 INFO : |  0 |    28 |   277 | L1_DoubleEG_25_12                                  |
+2017-04-19 09:48:30 INFO : |  0 |    29 |   111 | L1_DoubleIsoTau32er                                |
+2017-04-19 09:48:30 INFO : |  0 |    30 |   266 | L1_DoubleIsoTau35er                                |
+2017-04-19 09:48:30 INFO : |  0 |    31 |   214 | L1_DoubleJet16_ForwardBackward                     |
+2017-04-19 09:48:30 INFO : |  0 |    32 |    97 | L1_DoubleJetC112                                   |
+2017-04-19 09:48:30 INFO : |  0 |    33 |    93 | L1_DoubleJetC50                                    |
+2017-04-19 09:48:30 INFO : |  0 |    34 |   289 | L1_DoubleTau70er                                   |
+2017-04-19 09:48:30 INFO : |  0 |    35 |   276 | L1_TripleMu_5_0_0                                  |
+2017-04-19 09:48:30 INFO : |  0 |    36 |    26 | L1_DoubleMu_10_3p5                                 |
+2017-04-19 09:48:30 INFO : |  0 |    37 |    28 | L1_DoubleMu_12_5                                   |
+2017-04-19 09:48:30 INFO : |  0 |    38 |    30 | L1_DoubleMu_15_5                                   |
+2017-04-19 09:48:30 INFO : |  0 |    39 |    42 | L1_SingleEG18                                      |
+2017-04-19 09:48:30 INFO : |  0 |    40 |    44 | L1_SingleEG26                                      |
+2017-04-19 09:48:30 INFO : |  0 |    41 |    46 | L1_SingleEG30                                      |
+2017-04-19 09:48:30 INFO : |  0 |    42 |    48 | L1_SingleEG34                                      |
+2017-04-19 09:48:30 INFO : |  0 |    43 |   260 | L1_SingleEG38                                      |
+2017-04-19 09:48:30 INFO : |  0 |    44 |    52 | L1_SingleEG45                                      |
+2017-04-19 09:48:30 INFO : |  0 |    45 |    62 | L1_SingleIsoEG18er                                 |
+2017-04-19 09:48:30 INFO : |  0 |    46 |    55 | L1_SingleIsoEG22                                   |
+2017-04-19 09:48:30 INFO : |  0 |    47 |    56 | L1_SingleIsoEG24                                   |
+2017-04-19 09:48:30 INFO : |  0 |    48 |    57 | L1_SingleIsoEG26                                   |
+2017-04-19 09:48:30 INFO : |  0 |    49 |    68 | L1_SingleIsoEG28er                                 |
+2017-04-19 09:48:30 INFO : |  0 |    50 |   261 | L1_SingleIsoEG32                                   |
+2017-04-19 09:48:30 INFO : |  0 |    51 |    70 | L1_SingleIsoEG34er                                 |
+2017-04-19 09:48:30 INFO : |  0 |    52 |    86 | L1_SingleJet140                                    |
+2017-04-19 09:48:30 INFO : |  0 |    53 |    88 | L1_SingleJet160                                    |
+2017-04-19 09:48:30 INFO : |  0 |    54 |    81 | L1_SingleJet20                                     |
+2017-04-19 09:48:30 INFO : |  0 |    55 |   302 | L1_SingleJet4                                      |
+2017-04-19 09:48:30 INFO : |  0 |    56 |   106 | L1_SingleTau100er                                  |
+2017-04-19 09:48:30 INFO : |  0 |    57 |    14 | L1_SingleMu10_LowQ                                 |
+2017-04-19 09:48:30 INFO : |  0 |    58 |     9 | L1_SingleMu18                                      |
+2017-04-19 09:48:30 INFO : |  0 |    59 |    13 | L1_SingleMu30                                      |
+2017-04-19 09:48:30 INFO : |  0 |    60 |   218 | L1_SingleMuCosmics                                 |
+2017-04-19 09:48:30 INFO : |  0 |    61 |   142 | L1_ETM100                                          |
+2017-04-19 09:48:30 INFO : |  0 |    62 |   288 | L1_ETM115                                          |
+2017-04-19 09:48:30 INFO : |  0 |    63 |   125 | L1_ETM80                                           |
+2017-04-19 09:48:30 INFO : |  0 |    64 |   274 | L1_ETM95                                           |
+2017-04-19 09:48:30 INFO : |  0 |    65 |   131 | L1_HTM120                                          |
+2017-04-19 09:48:30 INFO : |  0 |    66 |   134 | L1_HTM150                                          |
+2017-04-19 09:48:30 INFO : |  0 |    67 |   115 | L1_HTT120                                          |
+2017-04-19 09:48:30 INFO : |  0 |    68 |   121 | L1_HTT270                                          |
+2017-04-19 09:48:30 INFO : |  0 |    69 |   124 | L1_HTT320                                          |
+2017-04-19 09:48:30 INFO : |  1 |     0 |   177 | L1_QuadJetC36_Tau52                                |
+2017-04-19 09:48:30 INFO : |  1 |     1 |   104 | L1_QuadJetC60                                      |
+2017-04-19 09:48:30 INFO : |  1 |     2 |   268 | L1_IsoEG22er_IsoTau26er_dEta_Min0p2                |
+2017-04-19 09:48:30 INFO : |  1 |     3 |   170 | L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4              |
+2017-04-19 09:48:30 INFO : |  1 |     4 |   293 | L1_DoubleJet30_Mj30j30_400_Mu10                    |
+2017-04-19 09:48:30 INFO : |  1 |     5 |   292 | L1_DoubleJet30_Mj30j30_400_Mu6                     |
+2017-04-19 09:48:30 INFO : |  1 |     6 |   174 | L1_EG27er_HTT200                                   |
+2017-04-19 09:48:30 INFO : |  1 |     7 |   117 | L1_HTT200                                          |
+2017-04-19 09:48:30 INFO : |  1 |     8 |   172 | L1_Mu6_HTT200                                      |
+2017-04-19 09:48:30 INFO : |  1 |     9 |   168 | L1_Mu6_DoubleEG17                                  |
+2017-04-19 09:48:30 INFO : |  1 |    10 |   169 | L1_Mu6_DoubleEG10                                  |
+2017-04-19 09:48:30 INFO : |  1 |    11 |    33 | L1_DoubleMu0er1p6_dEta_Max1p8_OS                   |
+2017-04-19 09:48:30 INFO : |  1 |    12 |    99 | L1_TripleJet_84_68_48_VBF                          |
+2017-04-19 09:48:30 INFO : |  1 |    13 |   101 | L1_TripleJet_92_76_64_VBF                          |
+2017-04-19 09:48:30 INFO : |  1 |    14 |   166 | L1_DoubleMu7_EG14                                  |
+2017-04-19 09:48:30 INFO : |  1 |    15 |   167 | L1_DoubleMu7_EG7                                   |
+2017-04-19 09:48:30 INFO : |  1 |    16 |   154 | L1_Mu16er_Tau20er                                  |
+2017-04-19 09:48:30 INFO : |  1 |    17 |    17 | L1_SingleMu16er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    18 |    19 | L1_SingleMu20er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    19 |   156 | L1_Mu18er_Tau20er                                  |
+2017-04-19 09:48:30 INFO : |  1 |    20 |   157 | L1_Mu18er_Tau24er                                  |
+2017-04-19 09:48:30 INFO : |  1 |    21 |    20 | L1_SingleMu22er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    22 |   159 | L1_Mu20er_IsoTau26er                               |
+2017-04-19 09:48:30 INFO : |  1 |    23 |    18 | L1_SingleMu18er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    24 |   155 | L1_Mu16er_Tau24er                                  |
+2017-04-19 09:48:30 INFO : |  1 |    25 |    21 | L1_SingleMu25er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    26 |   158 | L1_Mu18er_IsoTau26er                               |
+2017-04-19 09:48:30 INFO : |  1 |    27 |   280 | L1_Mu25er_IsoTau26er                               |
+2017-04-19 09:48:30 INFO : |  1 |    28 |   279 | L1_Mu22er_IsoTau26er                               |
+2017-04-19 09:48:30 INFO : |  1 |    29 |   176 | L1_DoubleEG6_HTT255                                |
+2017-04-19 09:48:30 INFO : |  1 |    30 |   120 | L1_HTT255                                          |
+2017-04-19 09:48:30 INFO : |  1 |    31 |    71 | L1_DoubleEG_15_10                                  |
+2017-04-19 09:48:30 INFO : |  1 |    32 |    72 | L1_DoubleEG_18_17                                  |
+2017-04-19 09:48:30 INFO : |  1 |    33 |    75 | L1_DoubleEG_22_10                                  |
+2017-04-19 09:48:30 INFO : |  1 |    34 |    76 | L1_DoubleEG_23_10                                  |
+2017-04-19 09:48:30 INFO : |  1 |    35 |   109 | L1_DoubleIsoTau28er                                |
+2017-04-19 09:48:30 INFO : |  1 |    36 |   264 | L1_DoubleIsoTau33er                                |
+2017-04-19 09:48:30 INFO : |  1 |    37 |   278 | L1_DoubleIsoTau36er                                |
+2017-04-19 09:48:30 INFO : |  1 |    38 |   212 | L1_DoubleJet8_ForwardBackward                      |
+2017-04-19 09:48:30 INFO : |  1 |    39 |    98 | L1_DoubleJetC120                                   |
+2017-04-19 09:48:30 INFO : |  1 |    40 |    95 | L1_DoubleJetC80                                    |
+2017-04-19 09:48:30 INFO : |  1 |    41 |   175 | L1_EG25er_HTT125                                   |
+2017-04-19 09:48:30 INFO : |  1 |    42 |    37 | L1_TripleMu_5_5_3                                  |
+2017-04-19 09:48:30 INFO : |  1 |    43 |    25 | L1_DoubleMu_10_Open                                |
+2017-04-19 09:48:30 INFO : |  1 |    44 |    31 | L1_DoubleMu_12_8                                   |
+2017-04-19 09:48:30 INFO : |  1 |    45 |   184 | L1_Mu10er_ETM30                                    |
+2017-04-19 09:48:30 INFO : |  1 |    46 |   139 | L1_ETM50                                           |
+2017-04-19 09:48:30 INFO : |  1 |    47 |   186 | L1_Mu14er_ETM30                                    |
+2017-04-19 09:48:30 INFO : |  1 |    48 |   185 | L1_Mu10er_ETM50                                    |
+2017-04-19 09:48:30 INFO : |  1 |    49 |    16 | L1_SingleMu14er                                    |
+2017-04-19 09:48:30 INFO : |  1 |    50 |   137 | L1_ETM30                                           |
+2017-04-19 09:48:30 INFO : |  1 |    51 |    45 | L1_SingleEG28                                      |
+2017-04-19 09:48:30 INFO : |  1 |    52 |   258 | L1_SingleEG32                                      |
+2017-04-19 09:48:30 INFO : |  1 |    53 |   259 | L1_SingleEG36                                      |
+2017-04-19 09:48:30 INFO : |  1 |    54 |    50 | L1_SingleEG40                                      |
+2017-04-19 09:48:30 INFO : |  1 |    55 |    39 | L1_SingleEG5                                       |
+2017-04-19 09:48:30 INFO : |  1 |    56 |    63 | L1_SingleIsoEG20er                                 |
+2017-04-19 09:48:30 INFO : |  1 |    57 |    64 | L1_SingleIsoEG22er                                 |
+2017-04-19 09:48:30 INFO : |  1 |    58 |    65 | L1_SingleIsoEG24er                                 |
+2017-04-19 09:48:30 INFO : |  1 |    59 |    66 | L1_SingleIsoEG26er                                 |
+2017-04-19 09:48:30 INFO : |  1 |    60 |    69 | L1_SingleIsoEG30er                                 |
+2017-04-19 09:48:30 INFO : |  1 |    61 |    61 | L1_SingleIsoEG34                                   |
+2017-04-19 09:48:30 INFO : |  1 |    62 |    85 | L1_SingleJet120                                    |
+2017-04-19 09:48:30 INFO : |  1 |    63 |    80 | L1_SingleJet16                                     |
+2017-04-19 09:48:30 INFO : |  1 |    64 |    90 | L1_SingleJet180                                    |
+2017-04-19 09:48:30 INFO : |  1 |    65 |    91 | L1_SingleJet200                                    |
+2017-04-19 09:48:30 INFO : |  1 |    66 |    84 | L1_SingleJet90                                     |
+2017-04-19 09:48:30 INFO : |  1 |    67 |   107 | L1_SingleTau120er                                  |
+2017-04-19 09:48:30 INFO : |  1 |    68 |     8 | L1_SingleMu16                                      |
+2017-04-19 09:48:30 INFO : |  1 |    69 |    11 | L1_SingleMu22                                      |
+2017-04-19 09:48:30 INFO : |  1 |    70 |     5 | L1_SingleMu7                                       |
+2017-04-19 09:48:30 INFO : |  1 |    71 |   188 | L1_HTM60_HTT260                                    |
+2017-04-19 09:48:30 INFO : |  1 |    72 |   286 | L1_ETM105                                          |
+2017-04-19 09:48:30 INFO : |  1 |    73 |   143 | L1_ETM120                                          |
+2017-04-19 09:48:30 INFO : |  1 |    74 |   273 | L1_ETM85                                           |
+2017-04-19 09:48:30 INFO : |  1 |    75 |   135 | L1_ETT25                                           |
+2017-04-19 09:48:30 INFO : |  1 |    76 |   132 | L1_HTM130                                          |
+2017-04-19 09:48:30 INFO : |  1 |    77 |   127 | L1_HTM50                                           |
+2017-04-19 09:48:30 INFO : |  1 |    78 |   116 | L1_HTT160                                          |
+2017-04-19 09:48:30 INFO : |  1 |    79 |   122 | L1_HTT280                                          |
+2017-04-19 09:48:30 INFO : |  1 |    80 |   225 | L1_BPTX_LUT1_AND                                   |
+2017-04-19 09:48:30 INFO : |  1 |    81 |   226 | L1_BPTX_LUT1_B1                                    |
+2017-04-19 09:48:30 INFO : |  1 |    82 |   227 | L1_BPTX_LUT1_B2                                    |
+2017-04-19 09:48:30 INFO : |  1 |    83 |   228 | L1_BPTX_LUT1_OR                                    |
+2017-04-19 09:48:30 INFO : |  1 |    84 |   229 | L1_BPTX_LUT2_AND                                   |
+2017-04-19 09:48:30 INFO : |  1 |    85 |   230 | L1_BPTX_LUT2_B1NotB2                               |
+2017-04-19 09:48:30 INFO : |  1 |    86 |   231 | L1_BPTX_LUT2_B2NotB1                               |
+2017-04-19 09:48:30 INFO : |  1 |    87 |   232 | L1_BPTX_LUT2_NotOR                                 |
+2017-04-19 09:48:30 INFO : |  1 |    88 |   233 | L1_BPTX_TRIG2_AND                                  |
+2017-04-19 09:48:30 INFO : |  1 |    89 |   234 | L1_BPTX_TRIG2_B1NotB2                              |
+2017-04-19 09:48:30 INFO : |  1 |    90 |   235 | L1_BPTX_TRIG2_B2NotB1                              |
+2017-04-19 09:48:30 INFO : |  1 |    91 |   236 | L1_BPTX_TRIG2_NotOR                                |
+2017-04-19 09:48:30 INFO : |  1 |    92 |   240 | L1_BRIL_TRIG0_AND                                  |
+2017-04-19 09:48:30 INFO : |  1 |    93 |   243 | L1_BRIL_TRIG0_FstBunchInTrain                      |
+2017-04-19 09:48:30 INFO : |  1 |    94 |   242 | L1_BRIL_TRIG0_OR                                   |
+2017-04-19 09:48:30 INFO : |  1 |    95 |   241 | L1_BRIL_TRIG0_delayedAND                           |
+2017-04-19 09:48:30 INFO : |  1 |    96 |   237 | L1_BRIL_TRIG3_AND                                  |
+2017-04-19 09:48:30 INFO : |  1 |    97 |   238 | L1_BRIL_TRIG3_delayedAND                           |
+2017-04-19 09:48:30 INFO : |  1 |    98 |   239 | L1_BRIL_TRIG3_ref                                  |
+2017-04-19 09:48:30 INFO : |  1 |    99 |   223 | L1_BeamGasB1                                       |
+2017-04-19 09:48:30 INFO : |  1 |   100 |   224 | L1_BeamGasB2                                       |
+2017-04-19 09:48:30 INFO : |  1 |   101 |   222 | L1_BeamGasMinus                                    |
+2017-04-19 09:48:30 INFO : |  1 |   102 |   221 | L1_BeamGasPlus                                     |
+2017-04-19 09:48:30 INFO : |  1 |   103 |   208 | L1_BptxMinus                                       |
+2017-04-19 09:48:30 INFO : |  1 |   104 |   207 | L1_BptxPlus                                        |
+2017-04-19 09:48:30 INFO : |  1 |   105 |   220 | L1_BptxXOR                                         |
+2017-04-19 09:48:30 INFO : |  1 |   106 |   211 | L1_ZeroBias_FirstCollidingBunch                    |
+2017-04-19 09:48:30 INFO : |  2 |     0 |   102 | L1_QuadJetC40                                      |
+2017-04-19 09:48:30 INFO : |  2 |     1 |   103 | L1_QuadJetC50                                      |
+2017-04-19 09:48:30 INFO : |  2 |     2 |   270 | L1_IsoEG20er_IsoTau25er_dEta_Min0p2                |
+2017-04-19 09:48:30 INFO : |  2 |     3 |   210 | L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4             |
+2017-04-19 09:48:30 INFO : |  2 |     4 |   291 | L1_DoubleJet_100_30_Mj30j30_620                    |
+2017-04-19 09:48:30 INFO : |  2 |     5 |   290 | L1_DoubleJet_90_30_Mj30j30_620                     |
+2017-04-19 09:48:30 INFO : |  2 |     6 |    32 | L1_DoubleMu0er1p6_dEta_Max1p8                      |
+2017-04-19 09:48:30 INFO : |  2 |     7 |   271 | L1_ETM75_Jet60_dPhi_Min0p4                         |
+2017-04-19 09:48:30 INFO : |  2 |     8 |   100 | L1_TripleJet_88_72_56_VBF                          |
+2017-04-19 09:48:30 INFO : |  2 |     9 |    38 | L1_QuadMu0                                         |
+2017-04-19 09:48:30 INFO : |  2 |    10 |   217 | L1_Mu3_JetC120                                     |
+2017-04-19 09:48:30 INFO : |  2 |    11 |   215 | L1_Mu3_JetC16                                      |
+2017-04-19 09:48:30 INFO : |  2 |    12 |     3 | L1_SingleMu3                                       |
+2017-04-19 09:48:30 INFO : |  2 |    13 |   216 | L1_Mu3_JetC60                                      |
+2017-04-19 09:48:30 INFO : |  2 |    14 |    78 | L1_TripleEG_14_10_8                                |
+2017-04-19 09:48:30 INFO : |  2 |    15 |    79 | L1_TripleEG_18_17_8                                |
+2017-04-19 09:48:30 INFO : |  2 |    16 |   181 | L1_DoubleJetC60_ETM60                              |
+2017-04-19 09:48:30 INFO : |  2 |    17 |   285 | L1_DoubleMu0_ETM70                                 |
+2017-04-19 09:48:30 INFO : |  2 |    18 |   182 | L1_Mu0er_ETM40                                     |
+2017-04-19 09:48:30 INFO : |  2 |    19 |   141 | L1_ETM70                                           |
+2017-04-19 09:48:30 INFO : |  2 |    20 |   257 | L1_DoubleMu0_ETM55                                 |
+2017-04-19 09:48:30 INFO : |  2 |    21 |   183 | L1_Mu0er_ETM55                                     |
+2017-04-19 09:48:30 INFO : |  2 |    22 |   138 | L1_ETM40                                           |
+2017-04-19 09:48:30 INFO : |  2 |    23 |   283 | L1_DoubleMu0_ETM60                                 |
+2017-04-19 09:48:30 INFO : |  2 |    24 |   140 | L1_ETM60                                           |
+2017-04-19 09:48:30 INFO : |  2 |    25 |    24 | L1_DoubleMu0                                       |
+2017-04-19 09:48:30 INFO : |  2 |    26 |   284 | L1_DoubleMu0_ETM65                                 |
+2017-04-19 09:48:30 INFO : |  2 |    27 |    94 | L1_DoubleJetC60                                    |
+2017-04-19 09:48:30 INFO : |  2 |    28 |   256 | L1_DoubleMu0_ETM40                                 |
+2017-04-19 09:48:30 INFO : |  2 |    29 |   196 | L1_DoubleEG_22_12                                  |
+2017-04-19 09:48:30 INFO : |  2 |    30 |    77 | L1_DoubleEG_24_17                                  |
+2017-04-19 09:48:30 INFO : |  2 |    31 |   110 | L1_DoubleIsoTau30er                                |
+2017-04-19 09:48:30 INFO : |  2 |    32 |   265 | L1_DoubleIsoTau34er                                |
+2017-04-19 09:48:30 INFO : |  2 |    33 |   213 | L1_DoubleJet12_ForwardBackward                     |
+2017-04-19 09:48:30 INFO : |  2 |    34 |    96 | L1_DoubleJetC100                                   |
+2017-04-19 09:48:30 INFO : |  2 |    35 |    92 | L1_DoubleJetC40                                    |
+2017-04-19 09:48:30 INFO : |  2 |    36 |   114 | L1_DoubleTau50er                                   |
+2017-04-19 09:48:30 INFO : |  2 |    37 |    36 | L1_TripleMu0                                       |
+2017-04-19 09:48:30 INFO : |  2 |    38 |    23 | L1_DoubleMuOpen                                    |
+2017-04-19 09:48:30 INFO : |  2 |    39 |    27 | L1_DoubleMu_11_4                                   |
+2017-04-19 09:48:30 INFO : |  2 |    40 |    29 | L1_DoubleMu_13_6                                   |
+2017-04-19 09:48:30 INFO : |  2 |    41 |   173 | L1_Mu8_HTT150                                      |
+2017-04-19 09:48:30 INFO : |  2 |    42 |    43 | L1_SingleEG24                                      |
+2017-04-19 09:48:30 INFO : |  2 |    43 |   192 | L1_SingleEG2_BptxAND                               |
+2017-04-19 09:48:30 INFO : |  2 |    44 |   247 | L1_MinimumBiasHF0_AND_BptxAND                      |
+2017-04-19 09:48:30 INFO : |  2 |    45 |   252 | L1_MinimumBiasHF1_OR                               |
+2017-04-19 09:48:30 INFO : |  2 |    46 |   200 | L1_SingleMuOpen_NotBptxOR_3BX                      |
+2017-04-19 09:48:30 INFO : |  2 |    47 |   206 | L1_AlwaysTrue                                      |
+2017-04-19 09:48:30 INFO : |  2 |    48 |   282 | L1_FirstBunchAfterTrain                            |
+2017-04-19 09:48:30 INFO : |  2 |    49 |   250 | L1_MinimumBiasHF0_OR                               |
+2017-04-19 09:48:30 INFO : |  2 |    50 |   249 | L1_MinimumBiasHF1_AND_BptxAND                      |
+2017-04-19 09:48:30 INFO : |  2 |    51 |   195 | L1_SingleJet12_BptxAND                             |
+2017-04-19 09:48:30 INFO : |  2 |    52 |   294 | L1_ETT55_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    53 |   254 | L1_NotBptxOR                                       |
+2017-04-19 09:48:30 INFO : |  2 |    54 |   245 | L1_ETT60_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    55 |   296 | L1_CastorGap_BptxAND                               |
+2017-04-19 09:48:30 INFO : |  2 |    56 |   300 | L1_CastorHaloMuon                                  |
+2017-04-19 09:48:30 INFO : |  2 |    57 |   193 | L1_ETT70_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    58 |   297 | L1_CastorHighJet_BptxAND                           |
+2017-04-19 09:48:30 INFO : |  2 |    59 |   255 | L1_ZeroBias_copy                                   |
+2017-04-19 09:48:30 INFO : |  2 |    60 |   295 | L1_ETT75_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    61 |     0 | L1_ZeroBias                                        |
+2017-04-19 09:48:30 INFO : |  2 |    62 |   281 | L1_FirstBunchInTrain                               |
+2017-04-19 09:48:30 INFO : |  2 |    63 |   304 | L1_SingleJet12                                     |
+2017-04-19 09:48:30 INFO : |  2 |    64 |   299 | L1_CastorHaloMuon_BptxAND                          |
+2017-04-19 09:48:30 INFO : |  2 |    65 |   201 | L1_SingleJetC20_NotBptxOR_3BX                      |
+2017-04-19 09:48:30 INFO : |  2 |    66 |   209 | L1_BptxOR                                          |
+2017-04-19 09:48:30 INFO : |  2 |    67 |   219 | L1_IsolatedBunch                                   |
+2017-04-19 09:48:30 INFO : |  2 |    68 |   298 | L1_CastorMediumJet_BptxAND                         |
+2017-04-19 09:48:30 INFO : |  2 |    69 |   191 | L1_SingleJetC20_NotBptxOR                          |
+2017-04-19 09:48:30 INFO : |  2 |    70 |   248 | L1_MinimumBiasHF1_OR_BptxAND                       |
+2017-04-19 09:48:30 INFO : |  2 |    71 |   244 | L1_ETT50_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    72 |   194 | L1_SingleJet8_BptxAND                              |
+2017-04-19 09:48:30 INFO : |  2 |    73 |   203 | L1_SingleJetC40_NotBptxOR_3BX                      |
+2017-04-19 09:48:30 INFO : |  2 |    74 |   189 | L1_SingleMuOpen_NotBptxOR                          |
+2017-04-19 09:48:30 INFO : |  2 |    75 |   246 | L1_MinimumBiasHF0_OR_BptxAND                       |
+2017-04-19 09:48:30 INFO : |  2 |    76 |   251 | L1_MinimumBiasHF0_AND                              |
+2017-04-19 09:48:30 INFO : |  2 |    77 |   303 | L1_SingleJet8                                      |
+2017-04-19 09:48:30 INFO : |  2 |    78 |   253 | L1_MinimumBiasHF1_AND                              |
+2017-04-19 09:48:30 INFO : |  2 |    79 |   136 | L1_ETT40_BptxAND                                   |
+2017-04-19 09:48:30 INFO : |  2 |    80 |     2 | L1_SingleMuOpen                                    |
+2017-04-19 09:48:30 INFO : |  2 |    81 |   202 | L1_SingleJetC40_NotBptxOR_5BX                      |
+2017-04-19 09:48:30 INFO : |  2 |    82 |    59 | L1_SingleIsoEG28                                   |
+2017-04-19 09:48:30 INFO : |  2 |    83 |    60 | L1_SingleIsoEG30                                   |
+2017-04-19 09:48:30 INFO : |  2 |    84 |   263 | L1_SingleIsoEG32er                                 |
+2017-04-19 09:48:30 INFO : |  2 |    85 |   262 | L1_SingleIsoEG36                                   |
+2017-04-19 09:48:30 INFO : |  2 |    86 |    87 | L1_SingleJet150                                    |
+2017-04-19 09:48:30 INFO : |  2 |    87 |    89 | L1_SingleJet170                                    |
+2017-04-19 09:48:30 INFO : |  2 |    88 |    82 | L1_SingleJet35                                     |
+2017-04-19 09:48:30 INFO : |  2 |    89 |    83 | L1_SingleJet60                                     |
+2017-04-19 09:48:30 INFO : |  2 |    90 |   105 | L1_SingleTau80er                                   |
+2017-04-19 09:48:30 INFO : |  2 |    91 |     7 | L1_SingleMu14                                      |
+2017-04-19 09:48:30 INFO : |  2 |    92 |    12 | L1_SingleMu25                                      |
+2017-04-19 09:48:30 INFO : |  2 |    93 |    22 | L1_SingleMu30er                                    |
+2017-04-19 09:48:30 INFO : |  2 |    94 |   187 | L1_HTM80_HTT220                                    |
+2017-04-19 09:48:30 INFO : |  2 |    95 |   129 | L1_HTM80                                           |
+2017-04-19 09:48:30 INFO : |  2 |    96 |   118 | L1_HTT220                                          |
+2017-04-19 09:48:30 INFO : |  2 |    97 |   287 | L1_ETM110                                          |
+2017-04-19 09:48:30 INFO : |  2 |    98 |   272 | L1_ETM75                                           |
+2017-04-19 09:48:30 INFO : |  2 |    99 |   126 | L1_ETM90                                           |
+2017-04-19 09:48:30 INFO : |  2 |   100 |   130 | L1_HTM100                                          |
+2017-04-19 09:48:30 INFO : |  2 |   101 |   133 | L1_HTM140                                          |
+2017-04-19 09:48:30 INFO : |  2 |   102 |   128 | L1_HTM70                                           |
+2017-04-19 09:48:30 INFO : |  2 |   103 |   119 | L1_HTT240                                          |
+2017-04-19 09:48:30 INFO : |  2 |   104 |   123 | L1_HTT300                                          |
+2017-04-19 09:48:30 INFO : |----|-------|-------|----------------------------------------------------|
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : | Condition distribution, sorted by weight (descending)                   |
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : | Name                                             | Modules              |
+2017-04-19 09:48:30 INFO : |--------------------------------------------------|----------------------|
+2017-04-19 09:48:30 INFO : | QuadJET_2680186536839014580                      | 1                    |
+2017-04-19 09:48:30 INFO : | QuadJET_2751081844007168180                      | 2                    |
+2017-04-19 09:48:30 INFO : | QuadJET_2899845767245260980                      | 1                    |
+2017-04-19 09:48:30 INFO : | QuadJET_2825463805626214580                      | 2                    |
+2017-04-19 09:48:30 INFO : | CaloCaloCorrelation_14433217633607694784         | 0                    |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation_16240389188362377217         | 0                    |
+2017-04-19 09:48:30 INFO : | CaloCaloCorrelation_14500771630165735872         | 2                    |
+2017-04-19 09:48:30 INFO : | CaloCaloCorrelation_14501897532220062144         | 1                    |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation_10791898730651162912         | 0                    |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation_15993852978349077723         | 2                    |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation_10674670645420326056         | 0                    |
+2017-04-19 09:48:30 INFO : | CaloMuonCorrelation_16240387826857744385         | 1                    |
+2017-04-19 09:48:30 INFO : | CaloCaloCorrelation_2085349615869404806          | 0                    |
+2017-04-19 09:48:30 INFO : | InvariantMass_14462129420734703062               | 1                    |
+2017-04-19 09:48:30 INFO : | InvariantMass_14462129420738930134               | 2                    |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation_16040223250608453060         | 2                    |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation_8008405571232419574          | 1                    |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation_7972376774213455602          | 0                    |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation_6226381454046753505          | 0                    |
+2017-04-19 09:48:30 INFO : | MuonMuonCorrelation_8772456668275224612          | 0                    |
+2017-04-19 09:48:30 INFO : | CaloEsumCorrelation_16768129600233686289         | 2                    |
+2017-04-19 09:48:30 INFO : | QuadMU_509409160461874775                        | 2                    |
+2017-04-19 09:48:30 INFO : | TripleEG_4430569450691365292                     | 2                    |
+2017-04-19 09:48:30 INFO : | TripleJET_7930354149017105525                    | 1                    |
+2017-04-19 09:48:30 INFO : | TripleEG_4430569691209534124                     | 2                    |
+2017-04-19 09:48:30 INFO : | TripleJET_7930493752634094709                    | 2                    |
+2017-04-19 09:48:30 INFO : | TripleJET_7932644363018286197                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_14808338227894500078                   | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_15894421920862285922                   | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_14808338292319009533                   | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8281320341886584868                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8281320350476519461                    | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_15912440717418279010                   | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659370613945584339                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367295298190490335                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659513516097456851                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_3279123247861152510                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367823063771822943                    | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367831859864844383                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_5010010172296896555                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_15233202657361500387                   | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_4162612533456677351                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_10196652277112847102                   | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367290900143979231                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_7890809267362282238                    | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659156106098952915                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367831859864844127                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659439917537872595                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_16307690244847013269                   | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659446377168685779                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_973280238110587646                     | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_8902241742241126126                     | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367836257911355231                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367845054004377695                    | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367282104050956127                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659374977632357075                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367840655957867231                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659301241633819347                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_15903572090988376162                   | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659444281224645331                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659515749480450771                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659448610551679699                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367260113818400607                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_5584966257611717374                    | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659444315584383699                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659301379072772819                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleTAU_17539608616528615651                   | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleEG_14367831859864844767                    | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleJET_8659228673866386131                    | 0                    |
+2017-04-19 09:48:30 INFO : | TripleMU_3324692885559266335                     | 1                    |
+2017-04-19 09:48:30 INFO : | TripleMU_3324682852515662879                     | 2                    |
+2017-04-19 09:48:30 INFO : | TripleMU_3324683539710430239                     | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873203                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873200                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873204                               | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873208                               | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961145543694661636                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_16608830939767017288                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873206                               | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961163853691648004                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974075644574252540                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_1139634                                 | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_1139637                                 | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507428088042853440                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_14262501742930627507                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852056532032                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010309810                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873080                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852322870336                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974354920527707644                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961160005400950788                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319655984                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5967545293332986055                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319655728                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852316578880                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5967545309707548871                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852318676032                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_156330548                              | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974285651295157756                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852186555456                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852184458304                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6873084106629965041                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319656240                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319656496                          | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961154507842811908                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872811427746276593                     | 0                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_16608831008486494024                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852320773184                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_1139639                                 | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_14585796862184301375                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_3484215725702552004                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852048143424                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5967545378427025607                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852190749760                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852188652608                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010309814                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010310069                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6873086305653220593                     | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873456                               | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974147112830057980                    | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_18206240164090448142                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872947767188120817                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974287850318413308                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873076                               | 1                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961157256621881348                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873328                               | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_14585777620730815295                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873332                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873330                               | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873336                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872949966211376369                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872952165234631921                     | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_12507579852182361152                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872943369141609713                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974144913806802428                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873072                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873077                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873079                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_15014918520304220377                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010310832                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6872945568164865265                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873334                               | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319656112                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_156330552                              | 2                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_3484211327656040900                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974216382062607868                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_6873088504676476145                     | 0                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_218368042610145022                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEG_145873461                               | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010309936                            | 0                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_16961158905889323012                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974006375341702652                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5967545344067287239                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319671856                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_20010310448                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleJET_2561319656368                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEG_14262501742662192051                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_22686292658                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleJET_5974214183039352316                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleTAU_16608844133906550600                   | 2                    |
+2017-04-19 09:48:30 INFO : | DoubleMU_14585778097856672575                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683059493081541                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545685310055944645                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_7181677643621025184                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293105595978181                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_9379434261777827232                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293157135585733                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_7145648846602061216                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545685224156598725                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683025133343173                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_16260934492399787300                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_1272496                                 | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683128212558277                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293122775847365                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_7037562455545169312                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545687423179854277                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683162572296645                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293071236239813                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293018627052229                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_14769293139955716549                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545685258516337093                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_7109620049583097248                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545685275696206277                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683021081726533                    | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMU_11649248473972557216                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMU_9433477457306273184                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_9343405464758863264                     | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMU_17545683093852819909                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_2393532815413                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_19504782000                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475632                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727216                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_2393532815664                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590581                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_2393532815541                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475637                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727984                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626711344                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727728                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_19504782256                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590320                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_19504782384                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727605                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626743344                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475888                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_2496612030768                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_2496612030512                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699476149                            | 0                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699476021                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475893                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590448                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699589941                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475504                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_19504782128                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_2496612030896                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleMBT0HFM_43640316738250417                  | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699476016                            | 0                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590576                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590192                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475376                            | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_2496612031024                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMBT0HFP_43640316738250801                  | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727472                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_2393532815536                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleMBT1HFM_43640317006685873                  | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626710832                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626710837                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626727856                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleMBT1HFP_43640317006686257                  | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_2393532815408                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626726960                          | 1                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626743600                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleHTT_2496626711216                          | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475765                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699475760                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETT_18699590325                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleETM_18699476144                            | 2                    |
+2017-04-19 09:48:30 INFO : | SingleHTM_2496612031152                          | 0                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_14414193171404190569                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17561531836164454591                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17118203077108929635                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_15455824636181887660                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_8082506271259815918                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_14715923867298367880                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6926915327998939228                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17561531836164454592                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17561531836164454848                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_13978480583031406537                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17833638494293564019                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_7098142399846355376                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_14106346774065907231                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_10668942820174528044                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17833638493488257651                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_15455824636181887661                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_13411810255817494270                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_1543099582833751334                    | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17833638494023122291                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_14715923867298343304                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6395038971485762907                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_10668942785814789677                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6912739140295604792                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6395038971485762908                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6873400283626490434                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6395198100430131034                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6395038971485764604                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_2629888000553438421                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_8353702592807249329                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6908249106957368432                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17833638494294369813                   | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_15455824636181887404                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_15455824636181887405                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_6908249107225803888                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_10371607390599051624                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_10104897634845317422                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_17561531836164454847                   | 2                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_7098142365486617009                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_7332905005558692114                    | 1                    |
+2017-04-19 09:48:30 INFO : | SingleEXT_7332905005558692115                    | 1                    |
+2017-04-19 09:48:30 INFO : |--------------------------------------------------|----------------------|
+2017-04-19 09:48:30 INFO : |-------------------------------------------------------------------------|
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : | Summary for distribution on 3 modules, shadow ratio: 0.0                |
+2017-04-19 09:48:30 INFO : |                                                                         |
+2017-04-19 09:48:30 INFO : |-----------------|-------------------------------------------------------|
+2017-04-19 09:48:30 INFO : | Module          | Payload                                               |
+2017-04-19 09:48:30 INFO : | ID | Algorithms | SliceLUTs | DSPs                                      |
+2017-04-19 09:48:30 INFO : |----|------------|-----------|-------------------------------------------|
+2017-04-19 09:48:30 INFO : |  0 |         70 |    49.60% |  0.00%                                    |
+2017-04-19 09:48:30 INFO : |  1 |        107 |    49.60% | 11.00%                                    |
+2017-04-19 09:48:30 INFO : |  2 |        105 |    49.60% | 11.00%                                    |
+2017-04-19 09:48:30 INFO : |----|------------|-----------|-------------------------------------------|
+2017-04-19 09:48:30 INFO : writing VHDL modules...
+2017-04-19 09:48:30 INFO : writing 282 algorithms to 3 module(s)
+2017-04-19 09:48:30 INFO : writing template output:
+2017-04-19 09:48:30 INFO : algo_index.vhd          : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_0/src/algo_index.vhd
+2017-04-19 09:48:30 INFO : gtl_module_signals.vhd  : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_0/src/gtl_module_signals.vhd
+2017-04-19 09:48:31 INFO : gtl_module_instances.vhd: /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_0/src/gtl_module_instances.vhd
+2017-04-19 09:48:31 INFO : ugt_constants.vhd       : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_0/src/ugt_constants.vhd
+2017-04-19 09:48:31 INFO : menu.json               : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/xml/menu.json
+2017-04-19 09:48:31 INFO : writing template output:
+2017-04-19 09:48:31 INFO : algo_index.vhd          : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_1/src/algo_index.vhd
+2017-04-19 09:48:31 INFO : gtl_module_signals.vhd  : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_1/src/gtl_module_signals.vhd
+2017-04-19 09:48:31 INFO : gtl_module_instances.vhd: /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_1/src/gtl_module_instances.vhd
+2017-04-19 09:48:31 INFO : ugt_constants.vhd       : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_1/src/ugt_constants.vhd
+2017-04-19 09:48:31 INFO : writing template output:
+2017-04-19 09:48:31 INFO : algo_index.vhd          : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_2/src/algo_index.vhd
+2017-04-19 09:48:31 INFO : gtl_module_signals.vhd  : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_2/src/gtl_module_signals.vhd
+2017-04-19 09:48:31 INFO : gtl_module_instances.vhd: /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_2/src/gtl_module_instances.vhd
+2017-04-19 09:48:31 INFO : ugt_constants.vhd       : /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/vhdl/module_2/src/ugt_constants.vhd
+2017-04-19 09:48:31 INFO : writing updated XML file /home/wittmann/L1Menu_Dev2017_v1.xml
+2017-04-19 09:48:31 INFO : reading source XML menu file /home/wittmann/L1Menu_Dev2017_v1.xml
+2017-04-19 09:48:31 INFO : processing menu "L1Menu_Dev2017_v1" ... 
+2017-04-19 09:48:31 INFO : updating menu information...
+2017-04-19 09:48:31 INFO : uuid_menu     : cfa163b7-9a3e-4241-b966-f246e6c0e0b8
+2017-04-19 09:48:31 INFO : uuid_firmware : d8b5a5b3-20c1-4fcc-954a-7fb47ae3edcf
+2017-04-19 09:48:31 INFO : n_modules     : 3
+2017-04-19 09:48:31 INFO : writing target XML menu file /home/wittmann/work/dev_menu/L1Menu_Dev2017_v1_m3/xml/L1Menu_Dev2017_v1_m3.xml
+2017-04-19 09:48:31 INFO : done.

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<tmxsd:menu xmlns:tmxsd="http://www.cern.ch/tmxsd/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cern.ch/tmxsd/1.0.0 menu.xsd">
+
+  <ancestor_id>0</ancestor_id>
+
+  <name>L1Menu_cabling_2016_10_06</name>
+
+  <uuid_menu>00000000-0000-0000-0000-000000000000</uuid_menu>
+
+  <uuid_firmware>00000000-0000-0000-0000-000000000000</uuid_firmware>
+
+  <global_tag/>
+
+  <grammar_version>0.4</grammar_version>
+
+  <n_modules>0</n_modules>
+
+  <is_valid>true</is_valid>
+
+  <is_obsolete>false</is_obsolete>
+
+  <comment>External condition cabling refernce.</comment>
+
+  <ext_signal_set>
+    <name>cabling_2016_10_06</name>
+    <ext_signal>
+      <name>BPTX_LUT1_AND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>4</channel>
+      <description>AND</description>
+      <label>BPTX LUT 1 [blue] (VME)</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT1_B1</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>5</channel>
+      <description>B1</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT1_B2</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>6</channel>
+      <description>B2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT1_OR</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>7</channel>
+      <description>OR</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT2_AND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>8</channel>
+      <description>AND</description>
+      <label>BPTX LUT 2 [blue] (VME)</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT2_B1NotB2</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>9</channel>
+      <description>B1NotB2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT2_B2NotB1</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>10</channel>
+      <description>B2NotB1</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_LUT2_NotOR</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>11</channel>
+      <description>NotOR</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_TRIG2_AND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>12</channel>
+      <description>AND</description>
+      <label>BPTX TRIG 2 [white] (NIM)</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_TRIG2_B1NotB2</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>13</channel>
+      <description>B1NotB2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_TRIG2_B2NotB1</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>14</channel>
+      <description>B2NotB1</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_TRIG2_NotOR</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>15</channel>
+      <description>NotOR</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_minus.v0</name>
+      <system>BPTX</system>
+      <cable>0</cable>
+      <channel>34</channel>
+      <description>Main BPTX inputs - B2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_plus.v0</name>
+      <system>BPTX</system>
+      <cable>0</cable>
+      <channel>33</channel>
+      <description>Main BPTX inputs - B1</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_plus_AND_minus.v0</name>
+      <system>BPTX</system>
+      <cable>0</cable>
+      <channel>32</channel>
+      <description>Main BPTX inputs - AND</description>
+      <label>[white]</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BPTX_plus_OR_minus.v0</name>
+      <system>BPTX</system>
+      <cable>0</cable>
+      <channel>35</channel>
+      <description>Main BPTX inputs - OR</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG0_AND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>20</channel>
+      <description>AND</description>
+      <label>Tech Trig 0 - Pre-BPTX Vetoes [white]</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG0_FstBunchInTrain</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>23</channel>
+      <description>First Bunch in a Train</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG0_OR</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>22</channel>
+      <description>OR</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG0_delayedAND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>21</channel>
+      <description>AND delayed</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG3_AND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>16</channel>
+      <label>Tech Trig 3 - Fst Col Bnch [blue]AND</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG3_FstColBunch</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>19</channel>
+      <description>FstColBunch</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG3_delayedAND</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>17</channel>
+      <description>AND delayed</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BRIL_TRIG3_ref</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>18</channel>
+      <description>Ref</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BeamGas_B1</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>0</channel>
+      <description>B1</description>
+      <label>[blue]</label>
+    </ext_signal>
+    <ext_signal>
+      <name>BeamGas_B2</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>1</channel>
+      <description>B2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BeamGas_minus</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>3</channel>
+      <description>Beam gas 2</description>
+    </ext_signal>
+    <ext_signal>
+      <name>BeamGas_plus</name>
+      <system>BRIL</system>
+      <cable>0</cable>
+      <channel>2</channel>
+      <description>Beam gas 1</description>
+    </ext_signal>
+    <ext_signal>
+      <name>CastorGap</name>
+      <system>CASTOR</system>
+      <cable>0</cable>
+      <channel>36</channel>
+    </ext_signal>
+    <ext_signal>
+      <name>CastorHighJet</name>
+      <system>CASTOR</system>
+      <cable>0</cable>
+      <channel>37</channel>
+    </ext_signal>
+    <ext_signal>
+      <name>CastorMediumJet</name>
+      <system>CASTOR</system>
+      <cable>0</cable>
+      <channel>38</channel>
+    </ext_signal>
+    <ext_signal>
+      <name>CastorHaloMuon</name>
+      <system>CASTOR</system>
+      <cable>0</cable>
+      <channel>39</channel>
+    </ext_signal>
+  </ext_signal_set>
+
+</tmxsd:menu>

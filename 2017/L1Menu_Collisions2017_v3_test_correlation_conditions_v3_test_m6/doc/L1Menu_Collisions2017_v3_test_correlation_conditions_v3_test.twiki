@@ -1,0 +1,1071 @@
+%SET{ "REPORTER_URL" value="%ATTACHURL%/L1Menu_Collisions2017_v3_test_correlation_conditions_v3_test.html" }%
+
+---+!! !L1Menu_Collisions2017_v3_test_correlation_conditions_v3_test
+
+%TOC%
+
+---++ Introduction
+
+| *Trigger Menu Name* | *Grammar Version* | *Compatible releases* | *First run with collision key* |
+| !L1Menu_Collisions2017_v3_test_correlation_conditions_v3_test | 0.6 | >= 9_2_2 |  |
+
+---++ Changes with respect to !L1Menu_xxxx
+   * Added the following algorithms
+      * bxxx L1_xxxx
+   * Changed the following algorithms
+      * bxxx L1_xxxx
+   * Removed the following algorithms
+      * bxxx L1_xxxx
+   * references:
+      * https://its.cern.ch/jira/browse/CMSHLT-xxxx
+
+---+++ Menu availability in a CMSSW job
+
+---++ List and description of algorithm and technical triggers
+
+
+A complete description of the algorithm and technical trigger implementation is available in the attached
+[[%GET{"REPORTER_URL"}%][HTML Description of L1 Menu]]. %ICON{updated}%
+
+---+++ L1 menu identification
+
+|Menu Name: | !L1Menu_Collisions2017_v3_test_correlation_conditions_v3_test |
+|Menu UUID: | cd1736f5-2c73-49e7-bb57-ba14e8ac44cd |
+|Firmware UUID: | bafbf2d2-d2a5-4d4e-a6f8-e391e3ff31e5  |
+|Associated L1 scale DB key: | scales_2017_05_23 |
+
+
+---+++ Summary
+
+   * Number of algorithm triggers: 487 defined.
+
+Number of algorithm triggers per trigger group:
+
+    | *Trigger group* | *Number of bits used* |
+      | !Muon algorithm triggers: | 62 |
+      | !E/gamma algorithm triggers: | 65 |
+      | !Jet algorithm triggers: | 27 |
+      | !Tau algorithm triggers: | 16 |
+      | !Energy Sums algorithm triggers: | 38 |
+      | !Cross algorithm triggers: | 186 |
+      | !Correlation algorithm triggers: | 49 |
+      | !Mass algorithm triggers: | 13 |
+      | !External algorithm triggers: | 31 |
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by trigger groups
+
+<p style="page-break-before: always">&nbsp;</p>
+---++++ !Muon algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics ][L1_SingleMuCosmics]]   | L1_SingleMuCosmics  | 0 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   | L1_SingleMuOpen  | 1 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_BMTF ][L1_SingleMuCosmics_BMTF]]   | L1_SingleMuCosmics_BMTF  | 2 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_OMTF ][L1_SingleMuCosmics_OMTF]]   | L1_SingleMuCosmics_OMTF  | 3 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_EMTF ][L1_SingleMuCosmics_EMTF]]   | L1_SingleMuCosmics_EMTF  | 4 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BMTF ][L1_SingleMu0_BMTF]]   | L1_SingleMu0_BMTF  | 5 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_OMTF ][L1_SingleMu0_OMTF]]   | L1_SingleMu0_OMTF  | 6 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_EMTF ][L1_SingleMu0_EMTF]]   | L1_SingleMu0_EMTF  | 7 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   | L1_SingleMu3  | 8 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   | L1_SingleMu5  | 9 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   | L1_SingleMu7  | 10 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu10_LowQ ][L1_SingleMu10_LowQ]]   | L1_SingleMu10_LowQ  | 11 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu11_LowQ ][L1_SingleMu11_LowQ]]   | L1_SingleMu11_LowQ  | 12 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_BMTF ][L1_SingleMu12_LowQ_BMTF]]   | L1_SingleMu12_LowQ_BMTF  | 13 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_OMTF ][L1_SingleMu12_LowQ_OMTF]]   | L1_SingleMu12_LowQ_OMTF  | 14 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_EMTF ][L1_SingleMu12_LowQ_EMTF]]   | L1_SingleMu12_LowQ_EMTF  | 15 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   | L1_SingleMu16  | 16 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   | L1_SingleMu18  | 17 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   | L1_SingleMu20  | 18 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22 ][L1_SingleMu22]]   | L1_SingleMu22  | 19 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_BMTF ][L1_SingleMu22_BMTF]]   | L1_SingleMu22_BMTF  | 20 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_OMTF ][L1_SingleMu22_OMTF]]   | L1_SingleMu22_OMTF  | 21 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_EMTF ][L1_SingleMu22_EMTF]]   | L1_SingleMu22_EMTF  | 22 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu25 ][L1_SingleMu25]]   | L1_SingleMu25  | 23 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   | L1_SingleMu30  | 24 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu14er2p1 ][L1_SingleMu14er2p1]]   | L1_SingleMu14er2p1  | 25 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16er2p1 ][L1_SingleMu16er2p1]]   | L1_SingleMu16er2p1  | 26 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18er2p1 ][L1_SingleMu18er2p1]]   | L1_SingleMu18er2p1  | 27 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20er2p1 ][L1_SingleMu20er2p1]]   | L1_SingleMu20er2p1  | 28 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22er2p1 ][L1_SingleMu22er2p1]]   | L1_SingleMu22er2p1  | 29 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0 ][L1_DoubleMu0]]   | L1_DoubleMu0  | 30 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_11_4 ][L1_DoubleMu_11_4]]   | L1_DoubleMu_11_4  | 31 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_5 ][L1_DoubleMu_12_5]]   | L1_DoubleMu_12_5  | 32 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_8 ][L1_DoubleMu_12_8]]   | L1_DoubleMu_12_8  | 33 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_13_6 ][L1_DoubleMu_13_6]]   | L1_DoubleMu_13_6  | 34 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_5 ][L1_DoubleMu_15_5]]   | L1_DoubleMu_15_5  | 35 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7 ][L1_DoubleMu_15_7]]   | L1_DoubleMu_15_7  | 36 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu18er2p1 ][L1_DoubleMu18er2p1]]   | L1_DoubleMu18er2p1  | 37 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu22er2p1 ][L1_DoubleMu22er2p1]]   | L1_DoubleMu22er2p1  | 38 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu0 ][L1_TripleMu0]]   | L1_TripleMu0  | 39 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu3 ][L1_TripleMu3]]   | L1_TripleMu3  | 40 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_4_4_4 ][L1_TripleMu_4_4_4]]   | L1_TripleMu_4_4_4  | 41 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_0_0 ][L1_TripleMu_5_0_0]]   | L1_TripleMu_5_0_0  | 42 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3_3 ][L1_TripleMu_5_3_3]]   | L1_TripleMu_5_3_3  | 43 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_5_3 ][L1_TripleMu_5_5_3]]   | L1_TripleMu_5_5_3  | 44 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadMu0 ][L1_QuadMu0]]   | L1_QuadMu0  | 45 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_5_SQ ][L1_DoubleMu_15_5_SQ]]   | L1_DoubleMu_15_5_SQ  | 327 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7_SQ ][L1_DoubleMu_15_7_SQ]]   | L1_DoubleMu_15_7_SQ  | 328 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu3_SQ ][L1_TripleMu3_SQ]]   | L1_TripleMu3_SQ  | 330 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu6_SQ_OS ][L1_DoubleMu6_SQ_OS]]   | L1_DoubleMu6_SQ_OS  | 379 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu8_SQ ][L1_DoubleMu8_SQ]]   | L1_DoubleMu8_SQ  | 384 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ ][L1_DoubleMu0_SQ]]   | L1_DoubleMu0_SQ  | 385 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_OS ][L1_DoubleMu0_SQ_OS]]   | L1_DoubleMu0_SQ_OS  | 386 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ ][L1_DoubleMu4p5_SQ]]   | L1_DoubleMu4p5_SQ  | 387 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ_OS ][L1_DoubleMu4p5_SQ_OS]]   | L1_DoubleMu4p5_SQ_OS  | 388 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5er2p0_SQ_OS ][L1_DoubleMu4p5er2p0_SQ_OS]]   | L1_DoubleMu4p5er2p0_SQ_OS  | 389 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p5_SQ_OS ][L1_DoubleMu0er1p5_SQ_OS]]   | L1_DoubleMu0er1p5_SQ_OS  | 390 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_SQ_OS ][L1_DoubleMu4_SQ_OS]]   | L1_DoubleMu4_SQ_OS  | 391 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_SQ_OS ][L1_DoubleMu5_SQ_OS]]   | L1_DoubleMu5_SQ_OS  | 392 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3p5_2p5 ][L1_TripleMu_5_3p5_2p5]]   | L1_TripleMu_5_3p5_2p5  | 393 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu0_OQ ][L1_TripleMu0_OQ]]   | L1_TripleMu0_OQ  | 394 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0OQ ][L1_TripleMu_5SQ_3SQ_0OQ]]   | L1_TripleMu_5SQ_3SQ_0OQ  | 395 |  |
+!Muon algorithm triggers: 62 bits defined
+---++++ !E/gamma algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   | L1_SingleEG5  | 50 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10 ][L1_SingleEG10]]   | L1_SingleEG10  | 51 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15 ][L1_SingleEG15]]   | L1_SingleEG15  | 52 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18 ][L1_SingleEG18]]   | L1_SingleEG18  | 53 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG24 ][L1_SingleEG24]]   | L1_SingleEG24  | 54 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26 ][L1_SingleEG26]]   | L1_SingleEG26  | 55 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG28 ][L1_SingleEG28]]   | L1_SingleEG28  | 56 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30 ][L1_SingleEG30]]   | L1_SingleEG30  | 57 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG32 ][L1_SingleEG32]]   | L1_SingleEG32  | 58 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34 ][L1_SingleEG34]]   | L1_SingleEG34  | 59 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36 ][L1_SingleEG36]]   | L1_SingleEG36  | 60 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38 ][L1_SingleEG38]]   | L1_SingleEG38  | 61 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40 ][L1_SingleEG40]]   | L1_SingleEG40  | 62 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42 ][L1_SingleEG42]]   | L1_SingleEG42  | 63 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45 ][L1_SingleEG45]]   | L1_SingleEG45  | 64 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG50 ][L1_SingleEG50]]   | L1_SingleEG50  | 65 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34er2p1 ][L1_SingleEG34er2p1]]   | L1_SingleEG34er2p1  | 66 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36er2p1 ][L1_SingleEG36er2p1]]   | L1_SingleEG36er2p1  | 67 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38er2p1 ][L1_SingleEG38er2p1]]   | L1_SingleEG38er2p1  | 68 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18 ][L1_SingleIsoEG18]]   | L1_SingleIsoEG18  | 69 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20 ][L1_SingleIsoEG20]]   | L1_SingleIsoEG20  | 70 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22 ][L1_SingleIsoEG22]]   | L1_SingleIsoEG22  | 71 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24 ][L1_SingleIsoEG24]]   | L1_SingleIsoEG24  | 72 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26 ][L1_SingleIsoEG26]]   | L1_SingleIsoEG26  | 73 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28 ][L1_SingleIsoEG28]]   | L1_SingleIsoEG28  | 74 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30 ][L1_SingleIsoEG30]]   | L1_SingleIsoEG30  | 75 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32 ][L1_SingleIsoEG32]]   | L1_SingleIsoEG32  | 76 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34 ][L1_SingleIsoEG34]]   | L1_SingleIsoEG34  | 77 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35 ][L1_SingleIsoEG35]]   | L1_SingleIsoEG35  | 78 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36 ][L1_SingleIsoEG36]]   | L1_SingleIsoEG36  | 79 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG37 ][L1_SingleIsoEG37]]   | L1_SingleIsoEG37  | 80 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38 ][L1_SingleIsoEG38]]   | L1_SingleIsoEG38  | 81 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40 ][L1_SingleIsoEG40]]   | L1_SingleIsoEG40  | 82 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18er2p1 ][L1_SingleIsoEG18er2p1]]   | L1_SingleIsoEG18er2p1  | 83 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20er2p1 ][L1_SingleIsoEG20er2p1]]   | L1_SingleIsoEG20er2p1  | 84 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22er2p1 ][L1_SingleIsoEG22er2p1]]   | L1_SingleIsoEG22er2p1  | 85 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24er2p1 ][L1_SingleIsoEG24er2p1]]   | L1_SingleIsoEG24er2p1  | 86 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p1 ][L1_SingleIsoEG26er2p1]]   | L1_SingleIsoEG26er2p1  | 87 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p1 ][L1_SingleIsoEG28er2p1]]   | L1_SingleIsoEG28er2p1  | 88 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p1 ][L1_SingleIsoEG30er2p1]]   | L1_SingleIsoEG30er2p1  | 89 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p1 ][L1_SingleIsoEG32er2p1]]   | L1_SingleIsoEG32er2p1  | 90 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG33er2p1 ][L1_SingleIsoEG33er2p1]]   | L1_SingleIsoEG33er2p1  | 91 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34er2p1 ][L1_SingleIsoEG34er2p1]]   | L1_SingleIsoEG34er2p1  | 92 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35er2p1 ][L1_SingleIsoEG35er2p1]]   | L1_SingleIsoEG35er2p1  | 93 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36er2p1 ][L1_SingleIsoEG36er2p1]]   | L1_SingleIsoEG36er2p1  | 94 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38er2p1 ][L1_SingleIsoEG38er2p1]]   | L1_SingleIsoEG38er2p1  | 95 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40er2p1 ][L1_SingleIsoEG40er2p1]]   | L1_SingleIsoEG40er2p1  | 96 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10 ][L1_DoubleEG_15_10]]   | L1_DoubleEG_15_10  | 100 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_18_17 ][L1_DoubleEG_18_17]]   | L1_DoubleEG_18_17  | 101 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_20_18 ][L1_DoubleEG_20_18]]   | L1_DoubleEG_20_18  | 102 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10 ][L1_DoubleEG_22_10]]   | L1_DoubleEG_22_10  | 103 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_12 ][L1_DoubleEG_22_12]]   | L1_DoubleEG_22_12  | 104 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_15 ][L1_DoubleEG_22_15]]   | L1_DoubleEG_22_15  | 105 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_23_10 ][L1_DoubleEG_23_10]]   | L1_DoubleEG_23_10  | 106 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_24_17 ][L1_DoubleEG_24_17]]   | L1_DoubleEG_24_17  | 107 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12 ][L1_DoubleEG_25_12]]   | L1_DoubleEG_25_12  | 108 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_13 ][L1_DoubleEG_25_13]]   | L1_DoubleEG_25_13  | 109 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14 ][L1_DoubleEG_25_14]]   | L1_DoubleEG_25_14  | 110 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleLooseIsoEG22er2p1 ][L1_DoubleLooseIsoEG22er2p1]]   | L1_DoubleLooseIsoEG22er2p1  | 111 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleLooseIsoEG24er2p1 ][L1_DoubleLooseIsoEG24er2p1]]   | L1_DoubleLooseIsoEG24er2p1  | 112 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_14_10_8 ][L1_TripleEG_14_10_8]]   | L1_TripleEG_14_10_8  | 113 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_18_17_8 ][L1_TripleEG_18_17_8]]   | L1_TripleEG_18_17_8  | 114 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_LooseIso23_10 ][L1_DoubleEG_LooseIso23_10]]   | L1_DoubleEG_LooseIso23_10  | 273 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_LooseIso24_10 ][L1_DoubleEG_LooseIso24_10]]   | L1_DoubleEG_LooseIso24_10  | 274 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_LooseIso20_10_5 ][L1_TripleEG_LooseIso20_10_5]]   | L1_TripleEG_LooseIso20_10_5  | 275 |  |
+!E/gamma algorithm triggers: 65 bits defined
+---++++ !Jet algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16 ][L1_SingleJet16]]   | L1_SingleJet16  | 131 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   | L1_SingleJet20  | 132 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35 ][L1_SingleJet35]]   | L1_SingleJet35  | 133 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   | L1_SingleJet60  | 134 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   | L1_SingleJet90  | 135 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120 ][L1_SingleJet120]]   | L1_SingleJet120  | 136 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140 ][L1_SingleJet140]]   | L1_SingleJet140  | 137 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet150 ][L1_SingleJet150]]   | L1_SingleJet150  | 138 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160 ][L1_SingleJet160]]   | L1_SingleJet160  | 139 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   | L1_SingleJet170  | 140 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   | L1_SingleJet180  | 141 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   | L1_SingleJet200  | 142 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_HFp ][L1_SingleJet35_HFp]]   | L1_SingleJet35_HFp  | 147 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_HFm ][L1_SingleJet35_HFm]]   | L1_SingleJet35_HFm  | 148 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_HFp ][L1_SingleJet60_HFp]]   | L1_SingleJet60_HFp  | 149 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_HFm ][L1_SingleJet60_HFm]]   | L1_SingleJet60_HFm  | 150 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er3p0 ][L1_DoubleJet40er3p0]]   | L1_DoubleJet40er3p0  | 151 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet50er3p0 ][L1_DoubleJet50er3p0]]   | L1_DoubleJet50er3p0  | 152 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0 ][L1_DoubleJet60er3p0]]   | L1_DoubleJet60er3p0  | 153 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet80er3p0 ][L1_DoubleJet80er3p0]]   | L1_DoubleJet80er3p0  | 154 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er3p0 ][L1_DoubleJet100er3p0]]   | L1_DoubleJet100er3p0  | 155 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er3p0 ][L1_DoubleJet112er3p0]]   | L1_DoubleJet112er3p0  | 156 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er3p0 ][L1_DoubleJet120er3p0]]   | L1_DoubleJet120er3p0  | 157 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet150er3p0 ][L1_DoubleJet150er3p0]]   | L1_DoubleJet150er3p0  | 158 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet40er3p0 ][L1_QuadJet40er3p0]]   | L1_QuadJet40er3p0  | 162 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet50er3p0 ][L1_QuadJet50er3p0]]   | L1_QuadJet50er3p0  | 163 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet60er3p0 ][L1_QuadJet60er3p0]]   | L1_QuadJet60er3p0  | 164 |  |
+!Jet algorithm triggers: 27 bits defined
+---++++ !Tau algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau20 ][L1_SingleTau20]]   | L1_SingleTau20  | 115 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau80er2p1 ][L1_SingleTau80er2p1]]   | L1_SingleTau80er2p1  | 116 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau100er2p1 ][L1_SingleTau100er2p1]]   | L1_SingleTau100er2p1  | 117 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau120er2p1 ][L1_SingleTau120er2p1]]   | L1_SingleTau120er2p1  | 118 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau130er2p1 ][L1_SingleTau130er2p1]]   | L1_SingleTau130er2p1  | 119 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau140er2p1 ][L1_SingleTau140er2p1]]   | L1_SingleTau140er2p1  | 120 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleTau50er2p1 ][L1_DoubleTau50er2p1]]   | L1_DoubleTau50er2p1  | 121 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleTau70er2p1 ][L1_DoubleTau70er2p1]]   | L1_DoubleTau70er2p1  | 122 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau28er2p1 ][L1_DoubleIsoTau28er2p1]]   | L1_DoubleIsoTau28er2p1  | 123 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau30er2p1 ][L1_DoubleIsoTau30er2p1]]   | L1_DoubleIsoTau30er2p1  | 124 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau32er2p1 ][L1_DoubleIsoTau32er2p1]]   | L1_DoubleIsoTau32er2p1  | 125 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau33er2p1 ][L1_DoubleIsoTau33er2p1]]   | L1_DoubleIsoTau33er2p1  | 126 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau34er2p1 ][L1_DoubleIsoTau34er2p1]]   | L1_DoubleIsoTau34er2p1  | 127 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau35er2p1 ][L1_DoubleIsoTau35er2p1]]   | L1_DoubleIsoTau35er2p1  | 128 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau36er2p1 ][L1_DoubleIsoTau36er2p1]]   | L1_DoubleIsoTau36er2p1  | 129 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau38er2p1 ][L1_DoubleIsoTau38er2p1]]   | L1_DoubleIsoTau38er2p1  | 130 |  |
+!Tau algorithm triggers: 16 bits defined
+---++++ !Energy Sums algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   | L1_HTT120er  | 165 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT160er ][L1_HTT160er]]   | L1_HTT160er  | 166 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT200er ][L1_HTT200er]]   | L1_HTT200er  | 167 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT220er ][L1_HTT220er]]   | L1_HTT220er  | 168 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT240er ][L1_HTT240er]]   | L1_HTT240er  | 169 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT255er ][L1_HTT255er]]   | L1_HTT255er  | 170 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT270er ][L1_HTT270er]]   | L1_HTT270er  | 171 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er ][L1_HTT280er]]   | L1_HTT280er  | 172 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT300er ][L1_HTT300er]]   | L1_HTT300er  | 173 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er ][L1_HTT320er]]   | L1_HTT320er  | 174 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT340er ][L1_HTT340er]]   | L1_HTT340er  | 175 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT380er ][L1_HTT380er]]   | L1_HTT380er  | 176 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   | L1_HTT400er  | 177 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   | L1_HTT450er  | 178 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT500er ][L1_HTT500er]]   | L1_HTT500er  | 179 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM30 ][L1_ETM30]]   | L1_ETM30  | 180 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM40 ][L1_ETM40]]   | L1_ETM40  | 181 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM50 ][L1_ETM50]]   | L1_ETM50  | 182 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM60 ][L1_ETM60]]   | L1_ETM60  | 183 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM70 ][L1_ETM70]]   | L1_ETM70  | 184 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM75 ][L1_ETM75]]   | L1_ETM75  | 185 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM80 ][L1_ETM80]]   | L1_ETM80  | 186 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM85 ][L1_ETM85]]   | L1_ETM85  | 187 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM90 ][L1_ETM90]]   | L1_ETM90  | 188 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM95 ][L1_ETM95]]   | L1_ETM95  | 189 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM100 ][L1_ETM100]]   | L1_ETM100  | 190 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM105 ][L1_ETM105]]   | L1_ETM105  | 191 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM110 ][L1_ETM110]]   | L1_ETM110  | 192 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM115 ][L1_ETM115]]   | L1_ETM115  | 193 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM120 ][L1_ETM120]]   | L1_ETM120  | 194 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM150 ][L1_ETM150]]   | L1_ETM150  | 195 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70 ][L1_ETMHF70]]   | L1_ETMHF70  | 196 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80 ][L1_ETMHF80]]   | L1_ETMHF80  | 197 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90 ][L1_ETMHF90]]   | L1_ETMHF90  | 198 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100 ][L1_ETMHF100]]   | L1_ETMHF100  | 199 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110 ][L1_ETMHF110]]   | L1_ETMHF110  | 200 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120 ][L1_ETMHF120]]   | L1_ETMHF120  | 201 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF150 ][L1_ETMHF150]]   | L1_ETMHF150  | 202 |  |
+!Energy Sums algorithm triggers: 38 bits defined
+---++++ !Cross algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD ][L1_SingleJet35_FWD]]   | L1_SingleJet35_FWD  | 143 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_FWD ][L1_SingleJet60_FWD]]   | L1_SingleJet60_FWD  | 144 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_FWD ][L1_SingleJet90_FWD]]   | L1_SingleJet90_FWD  | 145 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120_FWD ][L1_SingleJet120_FWD]]   | L1_SingleJet120_FWD  | 146 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_84_68_48_VBF ][L1_TripleJet_84_68_48_VBF]]   | L1_TripleJet_84_68_48_VBF  | 159 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_88_72_56_VBF ][L1_TripleJet_88_72_56_VBF]]   | L1_TripleJet_88_72_56_VBF  | 160 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_92_76_64_VBF ][L1_TripleJet_92_76_64_VBF]]   | L1_TripleJet_92_76_64_VBF  | 161 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR ][L1_SingleMuOpen_NotBptxOR]]   | L1_SingleMuOpen_NotBptxOR  | 205 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR_3BX ][L1_SingleMuOpen_NotBptxOR_3BX]]   | L1_SingleMuOpen_NotBptxOR_3BX  | 206 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20er3p0_NotBptxOR ][L1_SingleJet20er3p0_NotBptxOR]]   | L1_SingleJet20er3p0_NotBptxOR  | 207 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20er3p0_NotBptxOR_3BX ][L1_SingleJet20er3p0_NotBptxOR_3BX]]   | L1_SingleJet20er3p0_NotBptxOR_3BX  | 208 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet43er3p0_NotBptxOR_3BX ][L1_SingleJet43er3p0_NotBptxOR_3BX]]   | L1_SingleJet43er3p0_NotBptxOR_3BX  | 209 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet46er3p0_NotBptxOR_3BX ][L1_SingleJet46er3p0_NotBptxOR_3BX]]   | L1_SingleJet46er3p0_NotBptxOR_3BX  | 210 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_HTT100er ][L1_LooseIsoEG24er2p1_HTT100er]]   | L1_LooseIsoEG24er2p1_HTT100er  | 224 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG26er2p1_HTT100er ][L1_LooseIsoEG26er2p1_HTT100er]]   | L1_LooseIsoEG26er2p1_HTT100er  | 225 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG28er2p1_HTT100er ][L1_LooseIsoEG28er2p1_HTT100er]]   | L1_LooseIsoEG28er2p1_HTT100er  | 226 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0 ][L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0]]   | L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0  | 227 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18_HTT100er ][L1_Mu18_HTT100er]]   | L1_Mu18_HTT100er  | 228 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18_Jet24er3p0 ][L1_Mu18_Jet24er3p0]]   | L1_Mu18_Jet24er3p0  | 229 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_EG17 ][L1_Mu20_EG17]]   | L1_Mu20_EG17  | 230 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu23_EG10 ][L1_Mu23_EG10]]   | L1_Mu23_EG10  | 231 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu23_LooseIsoEG10 ][L1_Mu23_LooseIsoEG10]]   | L1_Mu23_LooseIsoEG10  | 232 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG23 ][L1_Mu5_EG23]]   | L1_Mu5_EG23  | 233 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_LooseIsoEG20 ][L1_Mu5_LooseIsoEG20]]   | L1_Mu5_LooseIsoEG20  | 234 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_EG23 ][L1_Mu7_EG23]]   | L1_Mu7_EG23  | 235 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_LooseIsoEG20 ][L1_Mu7_LooseIsoEG20]]   | L1_Mu7_LooseIsoEG20  | 236 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_LooseIsoEG23 ][L1_Mu7_LooseIsoEG23]]   | L1_Mu7_LooseIsoEG23  | 237 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT250er_QuadJet_70_55_40_35_er2p5 ][L1_HTT250er_QuadJet_70_55_40_35_er2p5]]   | L1_HTT250er_QuadJet_70_55_40_35_er2p5  | 238 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er_QuadJet_70_55_40_35_er2p5 ][L1_HTT280er_QuadJet_70_55_40_35_er2p5]]   | L1_HTT280er_QuadJet_70_55_40_35_er2p5  | 239 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT300er_QuadJet_70_55_40_35_er2p5 ][L1_HTT300er_QuadJet_70_55_40_35_er2p5]]   | L1_HTT300er_QuadJet_70_55_40_35_er2p5  | 240 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er_QuadJet_70_55_40_40_er2p4 ][L1_HTT320er_QuadJet_70_55_40_40_er2p4]]   | L1_HTT320er_QuadJet_70_55_40_40_er2p4  | 241 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er_QuadJet_70_55_40_40_er2p5 ][L1_HTT320er_QuadJet_70_55_40_40_er2p5]]   | L1_HTT320er_QuadJet_70_55_40_40_er2p5  | 242 |  |
+|[[%GET{"REPORTER_URL"}%#L1_HTT340er_QuadJet_70_55_40_40_er2p5 ][L1_HTT340er_QuadJet_70_55_40_40_er2p5]]   | L1_HTT340er_QuadJet_70_55_40_40_er2p5  | 243 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6 ][L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6]]   | L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6  | 247 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6 ][L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6]]   | L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6  | 248 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM80 ][L1_IsoTau40er_ETM80]]   | L1_IsoTau40er_ETM80  | 249 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM85 ][L1_IsoTau40er_ETM85]]   | L1_IsoTau40er_ETM85  | 250 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM90 ][L1_IsoTau40er_ETM90]]   | L1_IsoTau40er_ETM90  | 251 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM95 ][L1_IsoTau40er_ETM95]]   | L1_IsoTau40er_ETM95  | 252 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM100 ][L1_IsoTau40er_ETM100]]   | L1_IsoTau40er_ETM100  | 253 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM105 ][L1_IsoTau40er_ETM105]]   | L1_IsoTau40er_ETM105  | 254 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM110 ][L1_IsoTau40er_ETM110]]   | L1_IsoTau40er_ETM110  | 255 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM115 ][L1_IsoTau40er_ETM115]]   | L1_IsoTau40er_ETM115  | 256 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM120 ][L1_IsoTau40er_ETM120]]   | L1_IsoTau40er_ETM120  | 257 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF80 ][L1_IsoTau40er_ETMHF80]]   | L1_IsoTau40er_ETMHF80  | 258 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF90 ][L1_IsoTau40er_ETMHF90]]   | L1_IsoTau40er_ETMHF90  | 259 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF100 ][L1_IsoTau40er_ETMHF100]]   | L1_IsoTau40er_ETMHF100  | 260 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF110 ][L1_IsoTau40er_ETMHF110]]   | L1_IsoTau40er_ETMHF110  | 261 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF120 ][L1_IsoTau40er_ETMHF120]]   | L1_IsoTau40er_ETMHF120  | 262 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau40er2p1 ][L1_Mu22er2p1_IsoTau40er2p1]]   | L1_Mu22er2p1_IsoTau40er2p1  | 263 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet36er3p0_IsoTau52er2p1 ][L1_QuadJet36er3p0_IsoTau52er2p1]]   | L1_QuadJet36er3p0_IsoTau52er2p1  | 264 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM70 ][L1_DoubleJet60er3p0_ETM70]]   | L1_DoubleJet60er3p0_ETM70  | 269 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM80 ][L1_DoubleJet60er3p0_ETM80]]   | L1_DoubleJet60er3p0_ETM80  | 270 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM90 ][L1_DoubleJet60er3p0_ETM90]]   | L1_DoubleJet60er3p0_ETM90  | 271 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM100 ][L1_DoubleJet60er3p0_ETM100]]   | L1_DoubleJet60er3p0_ETM100  | 272 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_90_30_DoubleJet30_Mass_Min620 ][L1_DoubleJet_90_30_DoubleJet30_Mass_Min620]]   | L1_DoubleJet_90_30_DoubleJet30_Mass_Min620  | 276 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_100_30_DoubleJet30_Mass_Min620 ][L1_DoubleJet_100_30_DoubleJet30_Mass_Min620]]   | L1_DoubleJet_100_30_DoubleJet30_Mass_Min620  | 277 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_100_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_100_35_DoubleJet35_Mass_Min620]]   | L1_DoubleJet_100_35_DoubleJet35_Mass_Min620  | 278 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_110_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_110_35_DoubleJet35_Mass_Min620]]   | L1_DoubleJet_110_35_DoubleJet35_Mass_Min620  | 279 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_110_40_DoubleJet40_Mass_Min620 ][L1_DoubleJet_110_40_DoubleJet40_Mass_Min620]]   | L1_DoubleJet_110_40_DoubleJet40_Mass_Min620  | 280 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_115_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_115_35_DoubleJet35_Mass_Min620]]   | L1_DoubleJet_115_35_DoubleJet35_Mass_Min620  | 281 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_115_40_DoubleJet40_Mass_Min620 ][L1_DoubleJet_115_40_DoubleJet40_Mass_Min620]]   | L1_DoubleJet_115_40_DoubleJet40_Mass_Min620  | 282 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_Mu6 ][L1_DoubleJet30_Mass_Min400_Mu6]]   | L1_DoubleJet30_Mass_Min400_Mu6  | 283 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_Mu10 ][L1_DoubleJet30_Mass_Min400_Mu10]]   | L1_DoubleJet30_Mass_Min400_Mu10  | 284 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu16er2p1_Tau20er2p1 ][L1_Mu16er2p1_Tau20er2p1]]   | L1_Mu16er2p1_Tau20er2p1  | 290 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu16er2p1_Tau24er2p1 ][L1_Mu16er2p1_Tau24er2p1]]   | L1_Mu16er2p1_Tau24er2p1  | 291 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_Tau20er2p1 ][L1_Mu18er2p1_Tau20er2p1]]   | L1_Mu18er2p1_Tau20er2p1  | 292 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_Tau24er2p1 ][L1_Mu18er2p1_Tau24er2p1]]   | L1_Mu18er2p1_Tau24er2p1  | 293 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_Tau50er2p1 ][L1_Mu22er2p1_Tau50er2p1]]   | L1_Mu22er2p1_Tau50er2p1  | 294 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_Tau70er2p1 ][L1_Mu22er2p1_Tau70er2p1]]   | L1_Mu22er2p1_Tau70er2p1  | 295 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_IsoTau26er2p1 ][L1_Mu18er2p1_IsoTau26er2p1]]   | L1_Mu18er2p1_IsoTau26er2p1  | 296 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20er2p1_IsoTau26er2p1 ][L1_Mu20er2p1_IsoTau26er2p1]]   | L1_Mu20er2p1_IsoTau26er2p1  | 297 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20er2p1_IsoTau27er2p1 ][L1_Mu20er2p1_IsoTau27er2p1]]   | L1_Mu20er2p1_IsoTau27er2p1  | 298 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau28er2p1 ][L1_Mu22er2p1_IsoTau28er2p1]]   | L1_Mu22er2p1_IsoTau28er2p1  | 299 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau30er2p1 ][L1_Mu22er2p1_IsoTau30er2p1]]   | L1_Mu22er2p1_IsoTau30er2p1  | 300 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau32er2p1 ][L1_Mu22er2p1_IsoTau32er2p1]]   | L1_Mu22er2p1_IsoTau32er2p1  | 301 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau33er2p1 ][L1_Mu22er2p1_IsoTau33er2p1]]   | L1_Mu22er2p1_IsoTau33er2p1  | 302 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau34er2p1 ][L1_Mu22er2p1_IsoTau34er2p1]]   | L1_Mu22er2p1_IsoTau34er2p1  | 303 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau35er2p1 ][L1_Mu22er2p1_IsoTau35er2p1]]   | L1_Mu22er2p1_IsoTau35er2p1  | 304 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau36er2p1 ][L1_Mu22er2p1_IsoTau36er2p1]]   | L1_Mu22er2p1_IsoTau36er2p1  | 305 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau38er2p1 ][L1_Mu22er2p1_IsoTau38er2p1]]   | L1_Mu22er2p1_IsoTau38er2p1  | 306 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT240er ][L1_Mu6_HTT240er]]   | L1_Mu6_HTT240er  | 310 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT250er ][L1_Mu6_HTT250er]]   | L1_Mu6_HTT250er  | 311 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu15_HTT100er ][L1_Mu15_HTT100er]]   | L1_Mu15_HTT100er  | 312 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30]]   | L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30  | 313 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30]]   | L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30  | 314 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30]]   | L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30  | 315 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30]]   | L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30  | 316 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30]]   | L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30  | 317 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30]]   | L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30  | 318 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30]]   | L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30  | 319 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30]]   | L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30  | 320 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30]]   | L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30  | 321 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30]]   | L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30  | 322 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT100er ][L1_DoubleMu3_SQ_HTT100er]]   | L1_DoubleMu3_SQ_HTT100er  | 323 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT200er ][L1_DoubleMu3_SQ_HTT200er]]   | L1_DoubleMu3_SQ_HTT200er  | 324 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT220er ][L1_DoubleMu3_SQ_HTT220er]]   | L1_DoubleMu3_SQ_HTT220er  | 325 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT240er ][L1_DoubleMu3_SQ_HTT240er]]   | L1_DoubleMu3_SQ_HTT240er  | 326 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7_SQ_Mass_Min4 ][L1_DoubleMu_15_7_SQ_Mass_Min4]]   | L1_DoubleMu_15_7_SQ_Mass_Min4  | 329 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT240er ][L1_DoubleEG6_HTT240er]]   | L1_DoubleEG6_HTT240er  | 331 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT250er ][L1_DoubleEG6_HTT250er]]   | L1_DoubleEG6_HTT250er  | 332 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT270er ][L1_DoubleEG6_HTT270er]]   | L1_DoubleEG6_HTT270er  | 333 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT300er ][L1_DoubleEG6_HTT300er]]   | L1_DoubleEG6_HTT300er  | 334 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT255er ][L1_DoubleEG8er2p6_HTT255er]]   | L1_DoubleEG8er2p6_HTT255er  | 335 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT270er ][L1_DoubleEG8er2p6_HTT270er]]   | L1_DoubleEG8er2p6_HTT270er  | 336 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT300er ][L1_DoubleEG8er2p6_HTT300er]]   | L1_DoubleEG8er2p6_HTT300er  | 337 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet60_OR_DoubleJet30 ][L1_ETMHF70_Jet60_OR_DoubleJet30]]   | L1_ETMHF70_Jet60_OR_DoubleJet30  | 338 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF75_Jet60_OR_DoubleJet30 ][L1_ETMHF75_Jet60_OR_DoubleJet30]]   | L1_ETMHF75_Jet60_OR_DoubleJet30  | 339 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet60_OR_DoubleJet30 ][L1_ETMHF80_Jet60_OR_DoubleJet30]]   | L1_ETMHF80_Jet60_OR_DoubleJet30  | 340 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF85_Jet60_OR_DoubleJet30 ][L1_ETMHF85_Jet60_OR_DoubleJet30]]   | L1_ETMHF85_Jet60_OR_DoubleJet30  | 341 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet60_OR_DoubleJet30 ][L1_ETMHF90_Jet60_OR_DoubleJet30]]   | L1_ETMHF90_Jet60_OR_DoubleJet30  | 342 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF95_Jet60_OR_DoubleJet30 ][L1_ETMHF95_Jet60_OR_DoubleJet30]]   | L1_ETMHF95_Jet60_OR_DoubleJet30  | 343 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet60_OR_DoubleJet30 ][L1_ETMHF100_Jet60_OR_DoubleJet30]]   | L1_ETMHF100_Jet60_OR_DoubleJet30  | 344 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF105_Jet60_OR_DoubleJet30 ][L1_ETMHF105_Jet60_OR_DoubleJet30]]   | L1_ETMHF105_Jet60_OR_DoubleJet30  | 345 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet60_OR_DoubleJet30 ][L1_ETMHF110_Jet60_OR_DoubleJet30]]   | L1_ETMHF110_Jet60_OR_DoubleJet30  | 346 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF115_Jet60_OR_DoubleJet30 ][L1_ETMHF115_Jet60_OR_DoubleJet30]]   | L1_ETMHF115_Jet60_OR_DoubleJet30  | 347 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_Jet60_OR_DoubleJet30 ][L1_ETMHF120_Jet60_OR_DoubleJet30]]   | L1_ETMHF120_Jet60_OR_DoubleJet30  | 348 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet60_OR_DiJet30woTT28 ][L1_ETMHF70_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF70_Jet60_OR_DiJet30woTT28  | 349 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet60_OR_DiJet30woTT28 ][L1_ETMHF80_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF80_Jet60_OR_DiJet30woTT28  | 350 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet60_OR_DiJet30woTT28 ][L1_ETMHF90_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF90_Jet60_OR_DiJet30woTT28  | 351 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet60_OR_DiJet30woTT28 ][L1_ETMHF100_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF100_Jet60_OR_DiJet30woTT28  | 352 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet60_OR_DiJet30woTT28 ][L1_ETMHF110_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF110_Jet60_OR_DiJet30woTT28  | 353 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_Jet60_OR_DiJet30woTT28 ][L1_ETMHF120_Jet60_OR_DiJet30woTT28]]   | L1_ETMHF120_Jet60_OR_DiJet30woTT28  | 354 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30]]   | L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30  | 355 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30]]   | L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30  | 356 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30]]   | L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30  | 357 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30]]   | L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30  | 358 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30]]   | L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30  | 359 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu7_SQ_EG7 ][L1_DoubleMu7_SQ_EG7]]   | L1_DoubleMu7_SQ_EG7  | 360 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_HTT60er ][L1_ETMHF80_HTT60er]]   | L1_ETMHF80_HTT60er  | 361 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_HTT60er ][L1_ETMHF90_HTT60er]]   | L1_ETMHF90_HTT60er  | 362 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_HTT60er ][L1_ETMHF100_HTT60er]]   | L1_ETMHF100_HTT60er  | 363 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_HTT60er ][L1_ETMHF110_HTT60er]]   | L1_ETMHF110_HTT60er  | 364 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_HTT60er ][L1_ETMHF120_HTT60er]]   | L1_ETMHF120_HTT60er  | 365 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_Jet30er2p5 ][L1_Mu3_Jet30er2p5]]   | L1_Mu3_Jet30er2p5  | 366 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_OS_EG12 ][L1_DoubleMu4_OS_EG12]]   | L1_DoubleMu4_OS_EG12  | 375 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_OS_EG12 ][L1_DoubleMu5_OS_EG12]]   | L1_DoubleMu5_OS_EG12  | 378 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17 ][L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17]]   | L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17  | 380 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17 ][L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17]]   | L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17  | 381 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9 ][L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9]]   | L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9  | 382 |  |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9 ][L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9]]   | L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9  | 383 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_DoubleEG17 ][L1_Mu6_DoubleEG17]]   | L1_Mu6_DoubleEG17  | 396 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu7_EG7 ][L1_DoubleMu7_EG7]]   | L1_DoubleMu7_EG7  | 397 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsolatedBunch ][L1_IsolatedBunch]]   | L1_IsolatedBunch  | 400 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain ][L1_FirstBunchInTrain]]   | L1_FirstBunchInTrain  | 401 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchAfterTrain ][L1_FirstBunchAfterTrain]]   | L1_FirstBunchAfterTrain  | 402 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG15 ][L1_Mu5_EG15]]   | L1_Mu5_EG15  | 403 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG20 ][L1_Mu5_EG20]]   | L1_Mu5_EG20  | 404 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_LooseIsoEG18 ][L1_Mu5_LooseIsoEG18]]   | L1_Mu5_LooseIsoEG18  | 405 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu12_EG10 ][L1_Mu12_EG10]]   | L1_Mu12_EG10  | 406 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_EG10 ][L1_Mu20_EG10]]   | L1_Mu20_EG10  | 407 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MU20_EG15 ][L1_MU20_EG15]]   | L1_MU20_EG15  | 408 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_LooseIsoEG6 ][L1_Mu20_LooseIsoEG6]]   | L1_Mu20_LooseIsoEG6  | 409 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT200er ][L1_Mu6_HTT200er]]   | L1_Mu6_HTT200er  | 410 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu8_HTT150er ][L1_Mu8_HTT150er]]   | L1_Mu8_HTT150er  | 411 |  |
+|[[%GET{"REPORTER_URL"}%#L1_EG25er2p1_HTT125er ][L1_EG25er2p1_HTT125er]]   | L1_EG25er2p1_HTT125er  | 412 |  |
+|[[%GET{"REPORTER_URL"}%#L1_EG27er2p1_HTT200er ][L1_EG27er2p1_HTT200er]]   | L1_EG27er2p1_HTT200er  | 413 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM60 ][L1_DoubleJet60er3p0_ETM60]]   | L1_DoubleJet60er3p0_ETM60  | 414 |  |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet36er3p0_Tau52 ][L1_QuadJet36er3p0_Tau52]]   | L1_QuadJet36er3p0_Tau52  | 415 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM40 ][L1_DoubleMu0_ETM40]]   | L1_DoubleMu0_ETM40  | 417 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM55 ][L1_DoubleMu0_ETM55]]   | L1_DoubleMu0_ETM55  | 418 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM60 ][L1_DoubleMu0_ETM60]]   | L1_DoubleMu0_ETM60  | 419 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM65 ][L1_DoubleMu0_ETM65]]   | L1_DoubleMu0_ETM65  | 420 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM70 ][L1_DoubleMu0_ETM70]]   | L1_DoubleMu0_ETM70  | 421 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0 ][L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0]]   | L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0  | 422 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0 ][L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0]]   | L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0  | 423 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT255er ][L1_DoubleEG6_HTT255er]]   | L1_DoubleEG6_HTT255er  | 424 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_DoubleEG10 ][L1_Mu6_DoubleEG10]]   | L1_Mu6_DoubleEG10  | 427 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_BptxAND ][L1_SingleEG2_BptxAND]]   | L1_SingleEG2_BptxAND  | 431 |  |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_BptxAND ][L1_SingleJet12_BptxAND]]   | L1_SingleJet12_BptxAND  | 432 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT40_BptxAND ][L1_ETT40_BptxAND]]   | L1_ETT40_BptxAND  | 433 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT50_BptxAND ][L1_ETT50_BptxAND]]   | L1_ETT50_BptxAND  | 434 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT60_BptxAND ][L1_ETT60_BptxAND]]   | L1_ETT60_BptxAND  | 435 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT70_BptxAND ][L1_ETT70_BptxAND]]   | L1_ETT70_BptxAND  | 436 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT75_BptxAND ][L1_ETT75_BptxAND]]   | L1_ETT75_BptxAND  | 437 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT80_BptxAND ][L1_ETT80_BptxAND]]   | L1_ETT80_BptxAND  | 438 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT85_BptxAND ][L1_ETT85_BptxAND]]   | L1_ETT85_BptxAND  | 439 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT90_BptxAND ][L1_ETT90_BptxAND]]   | L1_ETT90_BptxAND  | 440 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT95_BptxAND ][L1_ETT95_BptxAND]]   | L1_ETT95_BptxAND  | 441 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT100_BptxAND ][L1_ETT100_BptxAND]]   | L1_ETT100_BptxAND  | 442 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETT110_BptxAND ][L1_ETT110_BptxAND]]   | L1_ETT110_BptxAND  | 443 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_AND_BptxAND ][L1_MinimumBiasHF0_AND_BptxAND]]   | L1_MinimumBiasHF0_AND_BptxAND  | 444 |  |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_OR_BptxAND ][L1_MinimumBiasHF0_OR_BptxAND]]   | L1_MinimumBiasHF0_OR_BptxAND  | 445 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu10er2p1_ETM30 ][L1_Mu10er2p1_ETM30]]   | L1_Mu10er2p1_ETM30  | 446 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu14er2p1_ETM30 ][L1_Mu14er2p1_ETM30]]   | L1_Mu14er2p1_ETM30  | 447 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxXOR ][L1_BptxXOR]]   | L1_BptxXOR  | 452 |  |
+!Cross algorithm triggers: 186 bits defined
+---++++ !Correlation algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test1 ][L1_DoubleMu_10_0_dEta_Max1p8_test1]]   | L1_DoubleMu_10_0_dEta_Max1p8_test1  | 46 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test2 ][L1_DoubleMu_10_0_dEta_Max1p8_test2]]   | L1_DoubleMu_10_0_dEta_Max1p8_test2  | 47 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test3 ][L1_DoubleMu_10_0_dEta_Max1p8_test3]]   | L1_DoubleMu_10_0_dEta_Max1p8_test3  | 48 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test4 ][L1_DoubleMu_10_0_dEta_Max1p8_test4]]   | L1_DoubleMu_10_0_dEta_Max1p8_test4  | 49 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3 ][L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3]]   | L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3  | 220 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3]]   | L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3  | 221 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3]]   | L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3  | 222 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3]]   | L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3  | 223 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p3_dEta_Max1p6 ][L1_DoubleJet100er2p3_dEta_Max1p6]]   | L1_DoubleJet100er2p3_dEta_Max1p6  | 245 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er2p3_dEta_Max1p6 ][L1_DoubleJet112er2p3_dEta_Max1p6]]   | L1_DoubleJet112er2p3_dEta_Max1p6  | 246 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM80_Jet60_dPhi_Min0p4 ][L1_ETM80_Jet60_dPhi_Min0p4]]   | L1_ETM80_Jet60_dPhi_Min0p4  | 265 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM90_Jet60_dPhi_Min0p4 ][L1_ETM90_Jet60_dPhi_Min0p4]]   | L1_ETM90_Jet60_dPhi_Min0p4  | 266 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM100_Jet60_dPhi_Min0p4 ][L1_ETM100_Jet60_dPhi_Min0p4]]   | L1_ETM100_Jet60_dPhi_Min0p4  | 267 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM110_Jet60_dPhi_Min0p4 ][L1_ETM110_Jet60_dPhi_Min0p4]]   | L1_ETM110_Jet60_dPhi_Min0p4  | 268 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3 ][L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3]]   | L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3  | 285 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3 ][L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3]]   | L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3  | 287 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3 ][L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3]]   | L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3  | 288 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3 ][L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3]]   | L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3  | 289 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4 ][L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4]]   | L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4  | 370 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_SQ_OS_dR_Max1p2 ][L1_DoubleMu4_SQ_OS_dR_Max1p2]]   | L1_DoubleMu4_SQ_OS_dR_Max1p2  | 372 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4 ][L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4]]   | L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4  | 376 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ_OS_dR_Max1p2 ][L1_DoubleMu4p5_SQ_OS_dR_Max1p2]]   | L1_DoubleMu4p5_SQ_OS_dR_Max1p2  | 377 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ETM75_Jet60_dPhi_Min0p4 ][L1_ETM75_Jet60_dPhi_Min0p4]]   | L1_ETM75_Jet60_dPhi_Min0p4  | 416 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p4_dEta_Max1p8_OS ][L1_DoubleMu0er1p4_dEta_Max1p8_OS]]   | L1_DoubleMu0er1p4_dEta_Max1p8_OS  | 425 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8 ][L1_DoubleMu_10_0_dEta_Max1p8]]   | L1_DoubleMu_10_0_dEta_Max1p8  | 426 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4]]   | L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4  | 428 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4]]   | L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4  | 429 |  |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4]]   | L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4  | 430 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI1p570_3p142 ][L1_CDC_3_TOP120_DPHI1p570_3p142]]   | L1_CDC_3_TOP120_DPHI1p570_3p142  | 490 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI2p094_3p142 ][L1_CDC_3_TOP120_DPHI2p094_3p142]]   | L1_CDC_3_TOP120_DPHI2p094_3p142  | 491 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI2p618_3p142 ][L1_CDC_3_TOP120_DPHI2p618_3p142]]   | L1_CDC_3_TOP120_DPHI2p618_3p142  | 492 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP_DPHI2p618_3p142 ][L1_CDC_3_TOP_DPHI2p618_3p142]]   | L1_CDC_3_TOP_DPHI2p618_3p142  | 493 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142]]   | L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142  | 494 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142]]   | L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142  | 495 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142]]   | L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142  | 496 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142]]   | L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142  | 497 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142]]   | L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142  | 498 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142]]   | L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142  | 499 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142]]   | L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142  | 500 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142]]   | L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142  | 501 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142]]   | L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142  | 502 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142]]   | L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142  | 503 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   | L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142  | 504 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142]]   | L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142  | 505 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142]]   | L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142  | 506 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_TOP120_DPHI2p618_3p142]]   | L1_CDCp1_3_TOP120_DPHI2p618_3p142  | 507 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142]]   | L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142  | 508 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142]]   | L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142  | 509 |  |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142]]   | L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142  | 510 |  |
+!Correlation algorithm triggers: 49 bits defined
+---++++ !Mass algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt40 ][L1_IsoEG33_Mt40]]   | L1_IsoEG33_Mt40  | 97 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt44 ][L1_IsoEG33_Mt44]]   | L1_IsoEG33_Mt44  | 98 |  |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt48 ][L1_IsoEG33_Mt48]]   | L1_IsoEG33_Mt48  | 99 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min300_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min300_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min300_dEta_Max1p5  | 211 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min320_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min320_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min320_dEta_Max1p5  | 212 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min340_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min340_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min340_dEta_Max1p5  | 213 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min360_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min360_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min360_dEta_Max1p5  | 214 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min380_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min380_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min380_dEta_Max1p5  | 215 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min400_dEta_Max1p5]]   | L1_DoubleJet30_Mass_Min400_dEta_Max1p5  | 216 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450 ][L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450]]   | L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450  | 286 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18 ][L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18]]   | L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18  | 371 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_SQ_OS_Mass7to18 ][L1_DoubleMu5_SQ_OS_Mass7to18]]   | L1_DoubleMu5_SQ_OS_Mass7to18  | 373 |  |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_20_2_SQ_Mass_Max20 ][L1_DoubleMu_20_2_SQ_Mass_Max20]]   | L1_DoubleMu_20_2_SQ_Mass_Max20  | 374 |  |
+!Mass algorithm triggers: 13 bits defined
+---++++ !External algorithm triggers
+|  *Trigger Name*  |  *Trigger Alias*  |  *Bit*  |  *Comments*  |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   | L1_AlwaysTrue  | 450 |  |
+|[[%GET{"REPORTER_URL"}%#L1_NotBptxOR ][L1_NotBptxOR]]   | L1_NotBptxOR  | 451 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   | L1_ZeroBias_copy  | 453 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref1_VME ][L1_BPTX_BeamGas_Ref1_VME]]   | L1_BPTX_BeamGas_Ref1_VME  | 454 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref2_VME ][L1_BPTX_BeamGas_Ref2_VME]]   | L1_BPTX_BeamGas_Ref2_VME  | 455 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B1_VME ][L1_BPTX_BeamGas_B1_VME]]   | L1_BPTX_BeamGas_B1_VME  | 456 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B2_VME ][L1_BPTX_BeamGas_B2_VME]]   | L1_BPTX_BeamGas_B2_VME  | 457 |  |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   | L1_ZeroBias  | 458 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxPlus ][L1_BptxPlus]]   | L1_BptxPlus  | 459 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   | L1_BptxMinus  | 460 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BptxOR ][L1_BptxOR]]   | L1_BptxOR  | 461 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   | L1_BPTX_AND_Ref1_VME  | 462 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxPlus ][L1_UnpairedBunchBptxPlus]]   | L1_UnpairedBunchBptxPlus  | 463 |  |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxMinus ][L1_UnpairedBunchBptxMinus]]   | L1_UnpairedBunchBptxMinus  | 464 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_VME ][L1_BPTX_NotOR_VME]]   | L1_BPTX_NotOR_VME  | 465 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref2_NIM ][L1_BPTX_AND_Ref2_NIM]]   | L1_BPTX_AND_Ref2_NIM  | 466 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B1NotB2_NIM ][L1_BPTX_B1NotB2_NIM]]   | L1_BPTX_B1NotB2_NIM  | 467 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B2NotB1_NIM ][L1_BPTX_B2NotB1_NIM]]   | L1_BPTX_B2NotB1_NIM  | 468 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_NIM ][L1_BPTX_NotOR_NIM]]   | L1_BPTX_NotOR_NIM  | 469 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   | L1_BPTX_AND_Ref3_VME  | 470 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref3_VME ][L1_BPTX_OR_Ref3_VME]]   | L1_BPTX_OR_Ref3_VME  | 471 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   | L1_BPTX_RefAND_VME  | 472 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   | L1_FirstCollisionInOrbit  | 473 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   | L1_BPTX_AND_Ref4_VME  | 474 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   | L1_BPTX_OR_Ref4_VME  | 475 |  |
+|[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   | L1_LastCollisionInTrain  | 476 |  |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   | L1_FirstCollisionInTrain  | 477 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_NIM ][L1_BPTX_AND_NIM]]   | L1_BPTX_AND_NIM  | 478 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B1_NIM ][L1_BPTX_B1_NIM]]   | L1_BPTX_B1_NIM  | 479 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B2_NIM ][L1_BPTX_B2_NIM]]   | L1_BPTX_B2_NIM  | 480 |  |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_NIM ][L1_BPTX_OR_NIM]]   | L1_BPTX_OR_NIM  | 481 |  |
+!External algorithm triggers: 31 bits defined
+
+
+
+<p style="page-break-before: always">&nbsp;</p>
+
+---+++ List of algorithm triggers sorted by bits
+
+| *Algorithm* | *Alias* | *Bit number* | *Module Id* |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics ][L1_SingleMuCosmics]]   |L1_SingleMuCosmics |0 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen ][L1_SingleMuOpen]]   |L1_SingleMuOpen |1 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_BMTF ][L1_SingleMuCosmics_BMTF]]   |L1_SingleMuCosmics_BMTF |2 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_OMTF ][L1_SingleMuCosmics_OMTF]]   |L1_SingleMuCosmics_OMTF |3 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuCosmics_EMTF ][L1_SingleMuCosmics_EMTF]]   |L1_SingleMuCosmics_EMTF |4 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_BMTF ][L1_SingleMu0_BMTF]]   |L1_SingleMu0_BMTF |5 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_OMTF ][L1_SingleMu0_OMTF]]   |L1_SingleMu0_OMTF |6 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu0_EMTF ][L1_SingleMu0_EMTF]]   |L1_SingleMu0_EMTF |7 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu3 ][L1_SingleMu3]]   |L1_SingleMu3 |8 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu5 ][L1_SingleMu5]]   |L1_SingleMu5 |9 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu7 ][L1_SingleMu7]]   |L1_SingleMu7 |10 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu10_LowQ ][L1_SingleMu10_LowQ]]   |L1_SingleMu10_LowQ |11 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu11_LowQ ][L1_SingleMu11_LowQ]]   |L1_SingleMu11_LowQ |12 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_BMTF ][L1_SingleMu12_LowQ_BMTF]]   |L1_SingleMu12_LowQ_BMTF |13 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_OMTF ][L1_SingleMu12_LowQ_OMTF]]   |L1_SingleMu12_LowQ_OMTF |14 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu12_LowQ_EMTF ][L1_SingleMu12_LowQ_EMTF]]   |L1_SingleMu12_LowQ_EMTF |15 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16 ][L1_SingleMu16]]   |L1_SingleMu16 |16 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18 ][L1_SingleMu18]]   |L1_SingleMu18 |17 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20 ][L1_SingleMu20]]   |L1_SingleMu20 |18 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22 ][L1_SingleMu22]]   |L1_SingleMu22 |19 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_BMTF ][L1_SingleMu22_BMTF]]   |L1_SingleMu22_BMTF |20 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_OMTF ][L1_SingleMu22_OMTF]]   |L1_SingleMu22_OMTF |21 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22_EMTF ][L1_SingleMu22_EMTF]]   |L1_SingleMu22_EMTF |22 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu25 ][L1_SingleMu25]]   |L1_SingleMu25 |23 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu30 ][L1_SingleMu30]]   |L1_SingleMu30 |24 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu14er2p1 ][L1_SingleMu14er2p1]]   |L1_SingleMu14er2p1 |25 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu16er2p1 ][L1_SingleMu16er2p1]]   |L1_SingleMu16er2p1 |26 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu18er2p1 ][L1_SingleMu18er2p1]]   |L1_SingleMu18er2p1 |27 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu20er2p1 ][L1_SingleMu20er2p1]]   |L1_SingleMu20er2p1 |28 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMu22er2p1 ][L1_SingleMu22er2p1]]   |L1_SingleMu22er2p1 |29 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0 ][L1_DoubleMu0]]   |L1_DoubleMu0 |30 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_11_4 ][L1_DoubleMu_11_4]]   |L1_DoubleMu_11_4 |31 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_5 ][L1_DoubleMu_12_5]]   |L1_DoubleMu_12_5 |32 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_12_8 ][L1_DoubleMu_12_8]]   |L1_DoubleMu_12_8 |33 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_13_6 ][L1_DoubleMu_13_6]]   |L1_DoubleMu_13_6 |34 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_5 ][L1_DoubleMu_15_5]]   |L1_DoubleMu_15_5 |35 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7 ][L1_DoubleMu_15_7]]   |L1_DoubleMu_15_7 |36 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu18er2p1 ][L1_DoubleMu18er2p1]]   |L1_DoubleMu18er2p1 |37 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu22er2p1 ][L1_DoubleMu22er2p1]]   |L1_DoubleMu22er2p1 |38 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu0 ][L1_TripleMu0]]   |L1_TripleMu0 |39 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu3 ][L1_TripleMu3]]   |L1_TripleMu3 |40 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_4_4_4 ][L1_TripleMu_4_4_4]]   |L1_TripleMu_4_4_4 |41 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_0_0 ][L1_TripleMu_5_0_0]]   |L1_TripleMu_5_0_0 |42 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3_3 ][L1_TripleMu_5_3_3]]   |L1_TripleMu_5_3_3 |43 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_5_3 ][L1_TripleMu_5_5_3]]   |L1_TripleMu_5_5_3 |44 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadMu0 ][L1_QuadMu0]]   |L1_QuadMu0 |45 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test1 ][L1_DoubleMu_10_0_dEta_Max1p8_test1]]   |L1_DoubleMu_10_0_dEta_Max1p8_test1 |46 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test2 ][L1_DoubleMu_10_0_dEta_Max1p8_test2]]   |L1_DoubleMu_10_0_dEta_Max1p8_test2 |47 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test3 ][L1_DoubleMu_10_0_dEta_Max1p8_test3]]   |L1_DoubleMu_10_0_dEta_Max1p8_test3 |48 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8_test4 ][L1_DoubleMu_10_0_dEta_Max1p8_test4]]   |L1_DoubleMu_10_0_dEta_Max1p8_test4 |49 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG5 ][L1_SingleEG5]]   |L1_SingleEG5 |50 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG10 ][L1_SingleEG10]]   |L1_SingleEG10 |51 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG15 ][L1_SingleEG15]]   |L1_SingleEG15 |52 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG18 ][L1_SingleEG18]]   |L1_SingleEG18 |53 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG24 ][L1_SingleEG24]]   |L1_SingleEG24 |54 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG26 ][L1_SingleEG26]]   |L1_SingleEG26 |55 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG28 ][L1_SingleEG28]]   |L1_SingleEG28 |56 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG30 ][L1_SingleEG30]]   |L1_SingleEG30 |57 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG32 ][L1_SingleEG32]]   |L1_SingleEG32 |58 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34 ][L1_SingleEG34]]   |L1_SingleEG34 |59 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36 ][L1_SingleEG36]]   |L1_SingleEG36 |60 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38 ][L1_SingleEG38]]   |L1_SingleEG38 |61 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG40 ][L1_SingleEG40]]   |L1_SingleEG40 |62 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG42 ][L1_SingleEG42]]   |L1_SingleEG42 |63 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG45 ][L1_SingleEG45]]   |L1_SingleEG45 |64 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG50 ][L1_SingleEG50]]   |L1_SingleEG50 |65 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG34er2p1 ][L1_SingleEG34er2p1]]   |L1_SingleEG34er2p1 |66 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG36er2p1 ][L1_SingleEG36er2p1]]   |L1_SingleEG36er2p1 |67 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG38er2p1 ][L1_SingleEG38er2p1]]   |L1_SingleEG38er2p1 |68 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18 ][L1_SingleIsoEG18]]   |L1_SingleIsoEG18 |69 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20 ][L1_SingleIsoEG20]]   |L1_SingleIsoEG20 |70 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22 ][L1_SingleIsoEG22]]   |L1_SingleIsoEG22 |71 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24 ][L1_SingleIsoEG24]]   |L1_SingleIsoEG24 |72 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26 ][L1_SingleIsoEG26]]   |L1_SingleIsoEG26 |73 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28 ][L1_SingleIsoEG28]]   |L1_SingleIsoEG28 |74 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30 ][L1_SingleIsoEG30]]   |L1_SingleIsoEG30 |75 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32 ][L1_SingleIsoEG32]]   |L1_SingleIsoEG32 |76 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34 ][L1_SingleIsoEG34]]   |L1_SingleIsoEG34 |77 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35 ][L1_SingleIsoEG35]]   |L1_SingleIsoEG35 |78 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36 ][L1_SingleIsoEG36]]   |L1_SingleIsoEG36 |79 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG37 ][L1_SingleIsoEG37]]   |L1_SingleIsoEG37 |80 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38 ][L1_SingleIsoEG38]]   |L1_SingleIsoEG38 |81 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40 ][L1_SingleIsoEG40]]   |L1_SingleIsoEG40 |82 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG18er2p1 ][L1_SingleIsoEG18er2p1]]   |L1_SingleIsoEG18er2p1 |83 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG20er2p1 ][L1_SingleIsoEG20er2p1]]   |L1_SingleIsoEG20er2p1 |84 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG22er2p1 ][L1_SingleIsoEG22er2p1]]   |L1_SingleIsoEG22er2p1 |85 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG24er2p1 ][L1_SingleIsoEG24er2p1]]   |L1_SingleIsoEG24er2p1 |86 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG26er2p1 ][L1_SingleIsoEG26er2p1]]   |L1_SingleIsoEG26er2p1 |87 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG28er2p1 ][L1_SingleIsoEG28er2p1]]   |L1_SingleIsoEG28er2p1 |88 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG30er2p1 ][L1_SingleIsoEG30er2p1]]   |L1_SingleIsoEG30er2p1 |89 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG32er2p1 ][L1_SingleIsoEG32er2p1]]   |L1_SingleIsoEG32er2p1 |90 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG33er2p1 ][L1_SingleIsoEG33er2p1]]   |L1_SingleIsoEG33er2p1 |91 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG34er2p1 ][L1_SingleIsoEG34er2p1]]   |L1_SingleIsoEG34er2p1 |92 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG35er2p1 ][L1_SingleIsoEG35er2p1]]   |L1_SingleIsoEG35er2p1 |93 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG36er2p1 ][L1_SingleIsoEG36er2p1]]   |L1_SingleIsoEG36er2p1 |94 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG38er2p1 ][L1_SingleIsoEG38er2p1]]   |L1_SingleIsoEG38er2p1 |95 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleIsoEG40er2p1 ][L1_SingleIsoEG40er2p1]]   |L1_SingleIsoEG40er2p1 |96 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt40 ][L1_IsoEG33_Mt40]]   |L1_IsoEG33_Mt40 |97 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt44 ][L1_IsoEG33_Mt44]]   |L1_IsoEG33_Mt44 |98 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoEG33_Mt48 ][L1_IsoEG33_Mt48]]   |L1_IsoEG33_Mt48 |99 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_15_10 ][L1_DoubleEG_15_10]]   |L1_DoubleEG_15_10 |100 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_18_17 ][L1_DoubleEG_18_17]]   |L1_DoubleEG_18_17 |101 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_20_18 ][L1_DoubleEG_20_18]]   |L1_DoubleEG_20_18 |102 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_10 ][L1_DoubleEG_22_10]]   |L1_DoubleEG_22_10 |103 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_12 ][L1_DoubleEG_22_12]]   |L1_DoubleEG_22_12 |104 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_22_15 ][L1_DoubleEG_22_15]]   |L1_DoubleEG_22_15 |105 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_23_10 ][L1_DoubleEG_23_10]]   |L1_DoubleEG_23_10 |106 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_24_17 ][L1_DoubleEG_24_17]]   |L1_DoubleEG_24_17 |107 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_12 ][L1_DoubleEG_25_12]]   |L1_DoubleEG_25_12 |108 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_13 ][L1_DoubleEG_25_13]]   |L1_DoubleEG_25_13 |109 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_25_14 ][L1_DoubleEG_25_14]]   |L1_DoubleEG_25_14 |110 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleLooseIsoEG22er2p1 ][L1_DoubleLooseIsoEG22er2p1]]   |L1_DoubleLooseIsoEG22er2p1 |111 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleLooseIsoEG24er2p1 ][L1_DoubleLooseIsoEG24er2p1]]   |L1_DoubleLooseIsoEG24er2p1 |112 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_14_10_8 ][L1_TripleEG_14_10_8]]   |L1_TripleEG_14_10_8 |113 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_18_17_8 ][L1_TripleEG_18_17_8]]   |L1_TripleEG_18_17_8 |114 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau20 ][L1_SingleTau20]]   |L1_SingleTau20 |115 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau80er2p1 ][L1_SingleTau80er2p1]]   |L1_SingleTau80er2p1 |116 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau100er2p1 ][L1_SingleTau100er2p1]]   |L1_SingleTau100er2p1 |117 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau120er2p1 ][L1_SingleTau120er2p1]]   |L1_SingleTau120er2p1 |118 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau130er2p1 ][L1_SingleTau130er2p1]]   |L1_SingleTau130er2p1 |119 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleTau140er2p1 ][L1_SingleTau140er2p1]]   |L1_SingleTau140er2p1 |120 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleTau50er2p1 ][L1_DoubleTau50er2p1]]   |L1_DoubleTau50er2p1 |121 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleTau70er2p1 ][L1_DoubleTau70er2p1]]   |L1_DoubleTau70er2p1 |122 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau28er2p1 ][L1_DoubleIsoTau28er2p1]]   |L1_DoubleIsoTau28er2p1 |123 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau30er2p1 ][L1_DoubleIsoTau30er2p1]]   |L1_DoubleIsoTau30er2p1 |124 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau32er2p1 ][L1_DoubleIsoTau32er2p1]]   |L1_DoubleIsoTau32er2p1 |125 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau33er2p1 ][L1_DoubleIsoTau33er2p1]]   |L1_DoubleIsoTau33er2p1 |126 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau34er2p1 ][L1_DoubleIsoTau34er2p1]]   |L1_DoubleIsoTau34er2p1 |127 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau35er2p1 ][L1_DoubleIsoTau35er2p1]]   |L1_DoubleIsoTau35er2p1 |128 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau36er2p1 ][L1_DoubleIsoTau36er2p1]]   |L1_DoubleIsoTau36er2p1 |129 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleIsoTau38er2p1 ][L1_DoubleIsoTau38er2p1]]   |L1_DoubleIsoTau38er2p1 |130 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet16 ][L1_SingleJet16]]   |L1_SingleJet16 |131 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20 ][L1_SingleJet20]]   |L1_SingleJet20 |132 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35 ][L1_SingleJet35]]   |L1_SingleJet35 |133 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60 ][L1_SingleJet60]]   |L1_SingleJet60 |134 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90 ][L1_SingleJet90]]   |L1_SingleJet90 |135 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120 ][L1_SingleJet120]]   |L1_SingleJet120 |136 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet140 ][L1_SingleJet140]]   |L1_SingleJet140 |137 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet150 ][L1_SingleJet150]]   |L1_SingleJet150 |138 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet160 ][L1_SingleJet160]]   |L1_SingleJet160 |139 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet170 ][L1_SingleJet170]]   |L1_SingleJet170 |140 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet180 ][L1_SingleJet180]]   |L1_SingleJet180 |141 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet200 ][L1_SingleJet200]]   |L1_SingleJet200 |142 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_FWD ][L1_SingleJet35_FWD]]   |L1_SingleJet35_FWD |143 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_FWD ][L1_SingleJet60_FWD]]   |L1_SingleJet60_FWD |144 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet90_FWD ][L1_SingleJet90_FWD]]   |L1_SingleJet90_FWD |145 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet120_FWD ][L1_SingleJet120_FWD]]   |L1_SingleJet120_FWD |146 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_HFp ][L1_SingleJet35_HFp]]   |L1_SingleJet35_HFp |147 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet35_HFm ][L1_SingleJet35_HFm]]   |L1_SingleJet35_HFm |148 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_HFp ][L1_SingleJet60_HFp]]   |L1_SingleJet60_HFp |149 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet60_HFm ][L1_SingleJet60_HFm]]   |L1_SingleJet60_HFm |150 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet40er3p0 ][L1_DoubleJet40er3p0]]   |L1_DoubleJet40er3p0 |151 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet50er3p0 ][L1_DoubleJet50er3p0]]   |L1_DoubleJet50er3p0 |152 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0 ][L1_DoubleJet60er3p0]]   |L1_DoubleJet60er3p0 |153 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet80er3p0 ][L1_DoubleJet80er3p0]]   |L1_DoubleJet80er3p0 |154 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er3p0 ][L1_DoubleJet100er3p0]]   |L1_DoubleJet100er3p0 |155 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er3p0 ][L1_DoubleJet112er3p0]]   |L1_DoubleJet112er3p0 |156 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet120er3p0 ][L1_DoubleJet120er3p0]]   |L1_DoubleJet120er3p0 |157 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet150er3p0 ][L1_DoubleJet150er3p0]]   |L1_DoubleJet150er3p0 |158 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_84_68_48_VBF ][L1_TripleJet_84_68_48_VBF]]   |L1_TripleJet_84_68_48_VBF |159 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_88_72_56_VBF ][L1_TripleJet_88_72_56_VBF]]   |L1_TripleJet_88_72_56_VBF |160 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleJet_92_76_64_VBF ][L1_TripleJet_92_76_64_VBF]]   |L1_TripleJet_92_76_64_VBF |161 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet40er3p0 ][L1_QuadJet40er3p0]]   |L1_QuadJet40er3p0 |162 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet50er3p0 ][L1_QuadJet50er3p0]]   |L1_QuadJet50er3p0 |163 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet60er3p0 ][L1_QuadJet60er3p0]]   |L1_QuadJet60er3p0 |164 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT120er ][L1_HTT120er]]   |L1_HTT120er |165 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT160er ][L1_HTT160er]]   |L1_HTT160er |166 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT200er ][L1_HTT200er]]   |L1_HTT200er |167 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT220er ][L1_HTT220er]]   |L1_HTT220er |168 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT240er ][L1_HTT240er]]   |L1_HTT240er |169 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT255er ][L1_HTT255er]]   |L1_HTT255er |170 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT270er ][L1_HTT270er]]   |L1_HTT270er |171 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er ][L1_HTT280er]]   |L1_HTT280er |172 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT300er ][L1_HTT300er]]   |L1_HTT300er |173 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er ][L1_HTT320er]]   |L1_HTT320er |174 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT340er ][L1_HTT340er]]   |L1_HTT340er |175 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT380er ][L1_HTT380er]]   |L1_HTT380er |176 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT400er ][L1_HTT400er]]   |L1_HTT400er |177 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT450er ][L1_HTT450er]]   |L1_HTT450er |178 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT500er ][L1_HTT500er]]   |L1_HTT500er |179 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM30 ][L1_ETM30]]   |L1_ETM30 |180 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM40 ][L1_ETM40]]   |L1_ETM40 |181 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM50 ][L1_ETM50]]   |L1_ETM50 |182 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM60 ][L1_ETM60]]   |L1_ETM60 |183 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM70 ][L1_ETM70]]   |L1_ETM70 |184 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM75 ][L1_ETM75]]   |L1_ETM75 |185 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM80 ][L1_ETM80]]   |L1_ETM80 |186 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM85 ][L1_ETM85]]   |L1_ETM85 |187 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM90 ][L1_ETM90]]   |L1_ETM90 |188 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM95 ][L1_ETM95]]   |L1_ETM95 |189 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM100 ][L1_ETM100]]   |L1_ETM100 |190 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM105 ][L1_ETM105]]   |L1_ETM105 |191 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM110 ][L1_ETM110]]   |L1_ETM110 |192 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM115 ][L1_ETM115]]   |L1_ETM115 |193 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM120 ][L1_ETM120]]   |L1_ETM120 |194 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM150 ][L1_ETM150]]   |L1_ETM150 |195 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70 ][L1_ETMHF70]]   |L1_ETMHF70 |196 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80 ][L1_ETMHF80]]   |L1_ETMHF80 |197 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90 ][L1_ETMHF90]]   |L1_ETMHF90 |198 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100 ][L1_ETMHF100]]   |L1_ETMHF100 |199 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110 ][L1_ETMHF110]]   |L1_ETMHF110 |200 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120 ][L1_ETMHF120]]   |L1_ETMHF120 |201 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF150 ][L1_ETMHF150]]   |L1_ETMHF150 |202 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR ][L1_SingleMuOpen_NotBptxOR]]   |L1_SingleMuOpen_NotBptxOR |205 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleMuOpen_NotBptxOR_3BX ][L1_SingleMuOpen_NotBptxOR_3BX]]   |L1_SingleMuOpen_NotBptxOR_3BX |206 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20er3p0_NotBptxOR ][L1_SingleJet20er3p0_NotBptxOR]]   |L1_SingleJet20er3p0_NotBptxOR |207 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet20er3p0_NotBptxOR_3BX ][L1_SingleJet20er3p0_NotBptxOR_3BX]]   |L1_SingleJet20er3p0_NotBptxOR_3BX |208 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet43er3p0_NotBptxOR_3BX ][L1_SingleJet43er3p0_NotBptxOR_3BX]]   |L1_SingleJet43er3p0_NotBptxOR_3BX |209 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet46er3p0_NotBptxOR_3BX ][L1_SingleJet46er3p0_NotBptxOR_3BX]]   |L1_SingleJet46er3p0_NotBptxOR_3BX |210 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min300_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min300_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min300_dEta_Max1p5 |211 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min320_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min320_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min320_dEta_Max1p5 |212 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min340_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min340_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min340_dEta_Max1p5 |213 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min360_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min360_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min360_dEta_Max1p5 |214 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min380_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min380_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min380_dEta_Max1p5 |215 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_dEta_Max1p5 ][L1_DoubleJet30_Mass_Min400_dEta_Max1p5]]   |L1_DoubleJet30_Mass_Min400_dEta_Max1p5 |216 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3 ][L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3]]   |L1_LooseIsoEG24er2p1_Jet26er3p0_dR_Min0p3 |220 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3]]   |L1_LooseIsoEG26er2p1_Jet34er3p0_dR_Min0p3 |221 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3]]   |L1_LooseIsoEG28er2p1_Jet34er3p0_dR_Min0p3 |222 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3 ][L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3]]   |L1_LooseIsoEG30er2p1_Jet34er3p0_dR_Min0p3 |223 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_HTT100er ][L1_LooseIsoEG24er2p1_HTT100er]]   |L1_LooseIsoEG24er2p1_HTT100er |224 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG26er2p1_HTT100er ][L1_LooseIsoEG26er2p1_HTT100er]]   |L1_LooseIsoEG26er2p1_HTT100er |225 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG28er2p1_HTT100er ][L1_LooseIsoEG28er2p1_HTT100er]]   |L1_LooseIsoEG28er2p1_HTT100er |226 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0 ][L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0]]   |L1_LooseIsoEG24er2p1_TripleJet_26er3p0_26_26er3p0 |227 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18_HTT100er ][L1_Mu18_HTT100er]]   |L1_Mu18_HTT100er |228 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18_Jet24er3p0 ][L1_Mu18_Jet24er3p0]]   |L1_Mu18_Jet24er3p0 |229 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_EG17 ][L1_Mu20_EG17]]   |L1_Mu20_EG17 |230 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu23_EG10 ][L1_Mu23_EG10]]   |L1_Mu23_EG10 |231 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu23_LooseIsoEG10 ][L1_Mu23_LooseIsoEG10]]   |L1_Mu23_LooseIsoEG10 |232 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG23 ][L1_Mu5_EG23]]   |L1_Mu5_EG23 |233 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_LooseIsoEG20 ][L1_Mu5_LooseIsoEG20]]   |L1_Mu5_LooseIsoEG20 |234 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_EG23 ][L1_Mu7_EG23]]   |L1_Mu7_EG23 |235 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_LooseIsoEG20 ][L1_Mu7_LooseIsoEG20]]   |L1_Mu7_LooseIsoEG20 |236 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu7_LooseIsoEG23 ][L1_Mu7_LooseIsoEG23]]   |L1_Mu7_LooseIsoEG23 |237 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT250er_QuadJet_70_55_40_35_er2p5 ][L1_HTT250er_QuadJet_70_55_40_35_er2p5]]   |L1_HTT250er_QuadJet_70_55_40_35_er2p5 |238 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT280er_QuadJet_70_55_40_35_er2p5 ][L1_HTT280er_QuadJet_70_55_40_35_er2p5]]   |L1_HTT280er_QuadJet_70_55_40_35_er2p5 |239 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT300er_QuadJet_70_55_40_35_er2p5 ][L1_HTT300er_QuadJet_70_55_40_35_er2p5]]   |L1_HTT300er_QuadJet_70_55_40_35_er2p5 |240 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er_QuadJet_70_55_40_40_er2p4 ][L1_HTT320er_QuadJet_70_55_40_40_er2p4]]   |L1_HTT320er_QuadJet_70_55_40_40_er2p4 |241 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT320er_QuadJet_70_55_40_40_er2p5 ][L1_HTT320er_QuadJet_70_55_40_40_er2p5]]   |L1_HTT320er_QuadJet_70_55_40_40_er2p5 |242 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_HTT340er_QuadJet_70_55_40_40_er2p5 ][L1_HTT340er_QuadJet_70_55_40_40_er2p5]]   |L1_HTT340er_QuadJet_70_55_40_40_er2p5 |243 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet100er2p3_dEta_Max1p6 ][L1_DoubleJet100er2p3_dEta_Max1p6]]   |L1_DoubleJet100er2p3_dEta_Max1p6 |245 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet112er2p3_dEta_Max1p6 ][L1_DoubleJet112er2p3_dEta_Max1p6]]   |L1_DoubleJet112er2p3_dEta_Max1p6 |246 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6 ][L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6]]   |L1_Mu10er2p3_Jet32er2p3_dR_Max0p4_DoubleJet32er2p3_dEta_Max1p6 |247 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6 ][L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6]]   |L1_Mu12er2p3_Jet40er2p3_dR_Max0p4_DoubleJet40er2p3_dEta_Max1p6 |248 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM80 ][L1_IsoTau40er_ETM80]]   |L1_IsoTau40er_ETM80 |249 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM85 ][L1_IsoTau40er_ETM85]]   |L1_IsoTau40er_ETM85 |250 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM90 ][L1_IsoTau40er_ETM90]]   |L1_IsoTau40er_ETM90 |251 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM95 ][L1_IsoTau40er_ETM95]]   |L1_IsoTau40er_ETM95 |252 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM100 ][L1_IsoTau40er_ETM100]]   |L1_IsoTau40er_ETM100 |253 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM105 ][L1_IsoTau40er_ETM105]]   |L1_IsoTau40er_ETM105 |254 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM110 ][L1_IsoTau40er_ETM110]]   |L1_IsoTau40er_ETM110 |255 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM115 ][L1_IsoTau40er_ETM115]]   |L1_IsoTau40er_ETM115 |256 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETM120 ][L1_IsoTau40er_ETM120]]   |L1_IsoTau40er_ETM120 |257 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF80 ][L1_IsoTau40er_ETMHF80]]   |L1_IsoTau40er_ETMHF80 |258 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF90 ][L1_IsoTau40er_ETMHF90]]   |L1_IsoTau40er_ETMHF90 |259 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF100 ][L1_IsoTau40er_ETMHF100]]   |L1_IsoTau40er_ETMHF100 |260 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF110 ][L1_IsoTau40er_ETMHF110]]   |L1_IsoTau40er_ETMHF110 |261 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_IsoTau40er_ETMHF120 ][L1_IsoTau40er_ETMHF120]]   |L1_IsoTau40er_ETMHF120 |262 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau40er2p1 ][L1_Mu22er2p1_IsoTau40er2p1]]   |L1_Mu22er2p1_IsoTau40er2p1 |263 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet36er3p0_IsoTau52er2p1 ][L1_QuadJet36er3p0_IsoTau52er2p1]]   |L1_QuadJet36er3p0_IsoTau52er2p1 |264 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM80_Jet60_dPhi_Min0p4 ][L1_ETM80_Jet60_dPhi_Min0p4]]   |L1_ETM80_Jet60_dPhi_Min0p4 |265 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM90_Jet60_dPhi_Min0p4 ][L1_ETM90_Jet60_dPhi_Min0p4]]   |L1_ETM90_Jet60_dPhi_Min0p4 |266 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM100_Jet60_dPhi_Min0p4 ][L1_ETM100_Jet60_dPhi_Min0p4]]   |L1_ETM100_Jet60_dPhi_Min0p4 |267 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM110_Jet60_dPhi_Min0p4 ][L1_ETM110_Jet60_dPhi_Min0p4]]   |L1_ETM110_Jet60_dPhi_Min0p4 |268 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM70 ][L1_DoubleJet60er3p0_ETM70]]   |L1_DoubleJet60er3p0_ETM70 |269 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM80 ][L1_DoubleJet60er3p0_ETM80]]   |L1_DoubleJet60er3p0_ETM80 |270 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM90 ][L1_DoubleJet60er3p0_ETM90]]   |L1_DoubleJet60er3p0_ETM90 |271 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM100 ][L1_DoubleJet60er3p0_ETM100]]   |L1_DoubleJet60er3p0_ETM100 |272 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_LooseIso23_10 ][L1_DoubleEG_LooseIso23_10]]   |L1_DoubleEG_LooseIso23_10 |273 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG_LooseIso24_10 ][L1_DoubleEG_LooseIso24_10]]   |L1_DoubleEG_LooseIso24_10 |274 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleEG_LooseIso20_10_5 ][L1_TripleEG_LooseIso20_10_5]]   |L1_TripleEG_LooseIso20_10_5 |275 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_90_30_DoubleJet30_Mass_Min620 ][L1_DoubleJet_90_30_DoubleJet30_Mass_Min620]]   |L1_DoubleJet_90_30_DoubleJet30_Mass_Min620 |276 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_100_30_DoubleJet30_Mass_Min620 ][L1_DoubleJet_100_30_DoubleJet30_Mass_Min620]]   |L1_DoubleJet_100_30_DoubleJet30_Mass_Min620 |277 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_100_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_100_35_DoubleJet35_Mass_Min620]]   |L1_DoubleJet_100_35_DoubleJet35_Mass_Min620 |278 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_110_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_110_35_DoubleJet35_Mass_Min620]]   |L1_DoubleJet_110_35_DoubleJet35_Mass_Min620 |279 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_110_40_DoubleJet40_Mass_Min620 ][L1_DoubleJet_110_40_DoubleJet40_Mass_Min620]]   |L1_DoubleJet_110_40_DoubleJet40_Mass_Min620 |280 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_115_35_DoubleJet35_Mass_Min620 ][L1_DoubleJet_115_35_DoubleJet35_Mass_Min620]]   |L1_DoubleJet_115_35_DoubleJet35_Mass_Min620 |281 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet_115_40_DoubleJet40_Mass_Min620 ][L1_DoubleJet_115_40_DoubleJet40_Mass_Min620]]   |L1_DoubleJet_115_40_DoubleJet40_Mass_Min620 |282 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_Mu6 ][L1_DoubleJet30_Mass_Min400_Mu6]]   |L1_DoubleJet30_Mass_Min400_Mu6 |283 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet30_Mass_Min400_Mu10 ][L1_DoubleJet30_Mass_Min400_Mu10]]   |L1_DoubleJet30_Mass_Min400_Mu10 |284 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3 ][L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3]]   |L1_LooseIsoEG18er2p1_IsoTau24er2p1_dR_Min0p3 |285 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450 ][L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450]]   |L1_DoubleJet35_rmovlp_IsoTau45_Mass_Min450 |286 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3 ][L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3]]   |L1_LooseIsoEG20er2p1_IsoTau25er2p1_dR_Min0p3 |287 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3 ][L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3]]   |L1_LooseIsoEG22er2p1_IsoTau26er2p1_dR_Min0p3 |288 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3 ][L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3]]   |L1_LooseIsoEG24er2p1_IsoTau27er2p1_dR_Min0p3 |289 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu16er2p1_Tau20er2p1 ][L1_Mu16er2p1_Tau20er2p1]]   |L1_Mu16er2p1_Tau20er2p1 |290 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu16er2p1_Tau24er2p1 ][L1_Mu16er2p1_Tau24er2p1]]   |L1_Mu16er2p1_Tau24er2p1 |291 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_Tau20er2p1 ][L1_Mu18er2p1_Tau20er2p1]]   |L1_Mu18er2p1_Tau20er2p1 |292 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_Tau24er2p1 ][L1_Mu18er2p1_Tau24er2p1]]   |L1_Mu18er2p1_Tau24er2p1 |293 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_Tau50er2p1 ][L1_Mu22er2p1_Tau50er2p1]]   |L1_Mu22er2p1_Tau50er2p1 |294 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_Tau70er2p1 ][L1_Mu22er2p1_Tau70er2p1]]   |L1_Mu22er2p1_Tau70er2p1 |295 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu18er2p1_IsoTau26er2p1 ][L1_Mu18er2p1_IsoTau26er2p1]]   |L1_Mu18er2p1_IsoTau26er2p1 |296 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20er2p1_IsoTau26er2p1 ][L1_Mu20er2p1_IsoTau26er2p1]]   |L1_Mu20er2p1_IsoTau26er2p1 |297 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20er2p1_IsoTau27er2p1 ][L1_Mu20er2p1_IsoTau27er2p1]]   |L1_Mu20er2p1_IsoTau27er2p1 |298 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau28er2p1 ][L1_Mu22er2p1_IsoTau28er2p1]]   |L1_Mu22er2p1_IsoTau28er2p1 |299 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau30er2p1 ][L1_Mu22er2p1_IsoTau30er2p1]]   |L1_Mu22er2p1_IsoTau30er2p1 |300 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau32er2p1 ][L1_Mu22er2p1_IsoTau32er2p1]]   |L1_Mu22er2p1_IsoTau32er2p1 |301 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau33er2p1 ][L1_Mu22er2p1_IsoTau33er2p1]]   |L1_Mu22er2p1_IsoTau33er2p1 |302 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau34er2p1 ][L1_Mu22er2p1_IsoTau34er2p1]]   |L1_Mu22er2p1_IsoTau34er2p1 |303 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau35er2p1 ][L1_Mu22er2p1_IsoTau35er2p1]]   |L1_Mu22er2p1_IsoTau35er2p1 |304 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau36er2p1 ][L1_Mu22er2p1_IsoTau36er2p1]]   |L1_Mu22er2p1_IsoTau36er2p1 |305 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu22er2p1_IsoTau38er2p1 ][L1_Mu22er2p1_IsoTau38er2p1]]   |L1_Mu22er2p1_IsoTau38er2p1 |306 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT240er ][L1_Mu6_HTT240er]]   |L1_Mu6_HTT240er |310 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT250er ][L1_Mu6_HTT250er]]   |L1_Mu6_HTT250er |311 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu15_HTT100er ][L1_Mu15_HTT100er]]   |L1_Mu15_HTT100er |312 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30]]   |L1_DoubleMu0_ETMHF40_Jet60_OR_DoubleJet30 |313 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30]]   |L1_DoubleMu0_ETMHF50_Jet60_OR_DoubleJet30 |314 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30]]   |L1_DoubleMu0_ETMHF60_Jet60_OR_DoubleJet30 |315 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30]]   |L1_DoubleMu0_ETMHF70_Jet60_OR_DoubleJet30 |316 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30 ][L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30]]   |L1_DoubleMu0_ETMHF80_Jet60_OR_DoubleJet30 |317 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30]]   |L1_DoubleMu3_SQ_ETMHF40_Jet60_OR_DoubleJet30 |318 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30]]   |L1_DoubleMu3_SQ_ETMHF50_Jet60_OR_DoubleJet30 |319 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30]]   |L1_DoubleMu3_SQ_ETMHF60_Jet60_OR_DoubleJet30 |320 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30]]   |L1_DoubleMu3_SQ_ETMHF70_Jet60_OR_DoubleJet30 |321 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30 ][L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30]]   |L1_DoubleMu3_SQ_ETMHF80_Jet60_OR_DoubleJet30 |322 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT100er ][L1_DoubleMu3_SQ_HTT100er]]   |L1_DoubleMu3_SQ_HTT100er |323 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT200er ][L1_DoubleMu3_SQ_HTT200er]]   |L1_DoubleMu3_SQ_HTT200er |324 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT220er ][L1_DoubleMu3_SQ_HTT220er]]   |L1_DoubleMu3_SQ_HTT220er |325 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu3_SQ_HTT240er ][L1_DoubleMu3_SQ_HTT240er]]   |L1_DoubleMu3_SQ_HTT240er |326 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_5_SQ ][L1_DoubleMu_15_5_SQ]]   |L1_DoubleMu_15_5_SQ |327 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7_SQ ][L1_DoubleMu_15_7_SQ]]   |L1_DoubleMu_15_7_SQ |328 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_15_7_SQ_Mass_Min4 ][L1_DoubleMu_15_7_SQ_Mass_Min4]]   |L1_DoubleMu_15_7_SQ_Mass_Min4 |329 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu3_SQ ][L1_TripleMu3_SQ]]   |L1_TripleMu3_SQ |330 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT240er ][L1_DoubleEG6_HTT240er]]   |L1_DoubleEG6_HTT240er |331 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT250er ][L1_DoubleEG6_HTT250er]]   |L1_DoubleEG6_HTT250er |332 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT270er ][L1_DoubleEG6_HTT270er]]   |L1_DoubleEG6_HTT270er |333 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT300er ][L1_DoubleEG6_HTT300er]]   |L1_DoubleEG6_HTT300er |334 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT255er ][L1_DoubleEG8er2p6_HTT255er]]   |L1_DoubleEG8er2p6_HTT255er |335 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT270er ][L1_DoubleEG8er2p6_HTT270er]]   |L1_DoubleEG8er2p6_HTT270er |336 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG8er2p6_HTT300er ][L1_DoubleEG8er2p6_HTT300er]]   |L1_DoubleEG8er2p6_HTT300er |337 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet60_OR_DoubleJet30 ][L1_ETMHF70_Jet60_OR_DoubleJet30]]   |L1_ETMHF70_Jet60_OR_DoubleJet30 |338 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF75_Jet60_OR_DoubleJet30 ][L1_ETMHF75_Jet60_OR_DoubleJet30]]   |L1_ETMHF75_Jet60_OR_DoubleJet30 |339 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet60_OR_DoubleJet30 ][L1_ETMHF80_Jet60_OR_DoubleJet30]]   |L1_ETMHF80_Jet60_OR_DoubleJet30 |340 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF85_Jet60_OR_DoubleJet30 ][L1_ETMHF85_Jet60_OR_DoubleJet30]]   |L1_ETMHF85_Jet60_OR_DoubleJet30 |341 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet60_OR_DoubleJet30 ][L1_ETMHF90_Jet60_OR_DoubleJet30]]   |L1_ETMHF90_Jet60_OR_DoubleJet30 |342 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF95_Jet60_OR_DoubleJet30 ][L1_ETMHF95_Jet60_OR_DoubleJet30]]   |L1_ETMHF95_Jet60_OR_DoubleJet30 |343 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet60_OR_DoubleJet30 ][L1_ETMHF100_Jet60_OR_DoubleJet30]]   |L1_ETMHF100_Jet60_OR_DoubleJet30 |344 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF105_Jet60_OR_DoubleJet30 ][L1_ETMHF105_Jet60_OR_DoubleJet30]]   |L1_ETMHF105_Jet60_OR_DoubleJet30 |345 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet60_OR_DoubleJet30 ][L1_ETMHF110_Jet60_OR_DoubleJet30]]   |L1_ETMHF110_Jet60_OR_DoubleJet30 |346 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF115_Jet60_OR_DoubleJet30 ][L1_ETMHF115_Jet60_OR_DoubleJet30]]   |L1_ETMHF115_Jet60_OR_DoubleJet30 |347 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_Jet60_OR_DoubleJet30 ][L1_ETMHF120_Jet60_OR_DoubleJet30]]   |L1_ETMHF120_Jet60_OR_DoubleJet30 |348 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet60_OR_DiJet30woTT28 ][L1_ETMHF70_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF70_Jet60_OR_DiJet30woTT28 |349 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet60_OR_DiJet30woTT28 ][L1_ETMHF80_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF80_Jet60_OR_DiJet30woTT28 |350 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet60_OR_DiJet30woTT28 ][L1_ETMHF90_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF90_Jet60_OR_DiJet30woTT28 |351 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet60_OR_DiJet30woTT28 ][L1_ETMHF100_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF100_Jet60_OR_DiJet30woTT28 |352 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet60_OR_DiJet30woTT28 ][L1_ETMHF110_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF110_Jet60_OR_DiJet30woTT28 |353 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_Jet60_OR_DiJet30woTT28 ][L1_ETMHF120_Jet60_OR_DiJet30woTT28]]   |L1_ETMHF120_Jet60_OR_DiJet30woTT28 |354 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30]]   |L1_ETMHF70_Jet90_OR_DoubleJet45_OR_TripleJet30 |355 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30]]   |L1_ETMHF80_Jet90_OR_DoubleJet45_OR_TripleJet30 |356 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30]]   |L1_ETMHF90_Jet90_OR_DoubleJet45_OR_TripleJet30 |357 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30]]   |L1_ETMHF100_Jet90_OR_DoubleJet45_OR_TripleJet30 |358 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30 ][L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30]]   |L1_ETMHF110_Jet90_OR_DoubleJet45_OR_TripleJet30 |359 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu7_SQ_EG7 ][L1_DoubleMu7_SQ_EG7]]   |L1_DoubleMu7_SQ_EG7 |360 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF80_HTT60er ][L1_ETMHF80_HTT60er]]   |L1_ETMHF80_HTT60er |361 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF90_HTT60er ][L1_ETMHF90_HTT60er]]   |L1_ETMHF90_HTT60er |362 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF100_HTT60er ][L1_ETMHF100_HTT60er]]   |L1_ETMHF100_HTT60er |363 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF110_HTT60er ][L1_ETMHF110_HTT60er]]   |L1_ETMHF110_HTT60er |364 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ETMHF120_HTT60er ][L1_ETMHF120_HTT60er]]   |L1_ETMHF120_HTT60er |365 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_Jet30er2p5 ][L1_Mu3_Jet30er2p5]]   |L1_Mu3_Jet30er2p5 |366 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4 ][L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4]]   |L1_DoubleMu0er1p5_SQ_OS_dR_Max1p4 |370 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18 ][L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18]]   |L1_DoubleMu4p5er2p0_SQ_OS_Mass7to18 |371 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_SQ_OS_dR_Max1p2 ][L1_DoubleMu4_SQ_OS_dR_Max1p2]]   |L1_DoubleMu4_SQ_OS_dR_Max1p2 |372 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_SQ_OS_Mass7to18 ][L1_DoubleMu5_SQ_OS_Mass7to18]]   |L1_DoubleMu5_SQ_OS_Mass7to18 |373 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_20_2_SQ_Mass_Max20 ][L1_DoubleMu_20_2_SQ_Mass_Max20]]   |L1_DoubleMu_20_2_SQ_Mass_Max20 |374 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_OS_EG12 ][L1_DoubleMu4_OS_EG12]]   |L1_DoubleMu4_OS_EG12 |375 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4 ][L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4]]   |L1_DoubleMu0er1p4_SQ_OS_dR_Max1p4 |376 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ_OS_dR_Max1p2 ][L1_DoubleMu4p5_SQ_OS_dR_Max1p2]]   |L1_DoubleMu4p5_SQ_OS_dR_Max1p2 |377 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_OS_EG12 ][L1_DoubleMu5_OS_EG12]]   |L1_DoubleMu5_OS_EG12 |378 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu6_SQ_OS ][L1_DoubleMu6_SQ_OS]]   |L1_DoubleMu6_SQ_OS |379 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17 ][L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17]]   |L1_TripleMu_5_3p5_2p5_DoubleMu_5_2p5_OS_Mass_5to17 |380 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17 ][L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17]]   |L1_TripleMu_5_4_2p5_DoubleMu_5_2p5_OS_Mass_5to17 |381 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9 ][L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9]]   |L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9 |382 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9 ][L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9]]   |L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9 |383 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu8_SQ ][L1_DoubleMu8_SQ]]   |L1_DoubleMu8_SQ |384 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ ][L1_DoubleMu0_SQ]]   |L1_DoubleMu0_SQ |385 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_SQ_OS ][L1_DoubleMu0_SQ_OS]]   |L1_DoubleMu0_SQ_OS |386 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ ][L1_DoubleMu4p5_SQ]]   |L1_DoubleMu4p5_SQ |387 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5_SQ_OS ][L1_DoubleMu4p5_SQ_OS]]   |L1_DoubleMu4p5_SQ_OS |388 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4p5er2p0_SQ_OS ][L1_DoubleMu4p5er2p0_SQ_OS]]   |L1_DoubleMu4p5er2p0_SQ_OS |389 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p5_SQ_OS ][L1_DoubleMu0er1p5_SQ_OS]]   |L1_DoubleMu0er1p5_SQ_OS |390 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu4_SQ_OS ][L1_DoubleMu4_SQ_OS]]   |L1_DoubleMu4_SQ_OS |391 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu5_SQ_OS ][L1_DoubleMu5_SQ_OS]]   |L1_DoubleMu5_SQ_OS |392 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5_3p5_2p5 ][L1_TripleMu_5_3p5_2p5]]   |L1_TripleMu_5_3p5_2p5 |393 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu0_OQ ][L1_TripleMu0_OQ]]   |L1_TripleMu0_OQ |394 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_TripleMu_5SQ_3SQ_0OQ ][L1_TripleMu_5SQ_3SQ_0OQ]]   |L1_TripleMu_5SQ_3SQ_0OQ |395 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_DoubleEG17 ][L1_Mu6_DoubleEG17]]   |L1_Mu6_DoubleEG17 |396 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu7_EG7 ][L1_DoubleMu7_EG7]]   |L1_DoubleMu7_EG7 |397 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_IsolatedBunch ][L1_IsolatedBunch]]   |L1_IsolatedBunch |400 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchInTrain ][L1_FirstBunchInTrain]]   |L1_FirstBunchInTrain |401 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstBunchAfterTrain ][L1_FirstBunchAfterTrain]]   |L1_FirstBunchAfterTrain |402 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG15 ][L1_Mu5_EG15]]   |L1_Mu5_EG15 |403 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_EG20 ][L1_Mu5_EG20]]   |L1_Mu5_EG20 |404 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu5_LooseIsoEG18 ][L1_Mu5_LooseIsoEG18]]   |L1_Mu5_LooseIsoEG18 |405 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu12_EG10 ][L1_Mu12_EG10]]   |L1_Mu12_EG10 |406 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_EG10 ][L1_Mu20_EG10]]   |L1_Mu20_EG10 |407 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_MU20_EG15 ][L1_MU20_EG15]]   |L1_MU20_EG15 |408 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu20_LooseIsoEG6 ][L1_Mu20_LooseIsoEG6]]   |L1_Mu20_LooseIsoEG6 |409 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_HTT200er ][L1_Mu6_HTT200er]]   |L1_Mu6_HTT200er |410 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu8_HTT150er ][L1_Mu8_HTT150er]]   |L1_Mu8_HTT150er |411 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_EG25er2p1_HTT125er ][L1_EG25er2p1_HTT125er]]   |L1_EG25er2p1_HTT125er |412 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_EG27er2p1_HTT200er ][L1_EG27er2p1_HTT200er]]   |L1_EG27er2p1_HTT200er |413 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleJet60er3p0_ETM60 ][L1_DoubleJet60er3p0_ETM60]]   |L1_DoubleJet60er3p0_ETM60 |414 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_QuadJet36er3p0_Tau52 ][L1_QuadJet36er3p0_Tau52]]   |L1_QuadJet36er3p0_Tau52 |415 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_ETM75_Jet60_dPhi_Min0p4 ][L1_ETM75_Jet60_dPhi_Min0p4]]   |L1_ETM75_Jet60_dPhi_Min0p4 |416 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM40 ][L1_DoubleMu0_ETM40]]   |L1_DoubleMu0_ETM40 |417 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM55 ][L1_DoubleMu0_ETM55]]   |L1_DoubleMu0_ETM55 |418 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM60 ][L1_DoubleMu0_ETM60]]   |L1_DoubleMu0_ETM60 |419 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM65 ][L1_DoubleMu0_ETM65]]   |L1_DoubleMu0_ETM65 |420 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0_ETM70 ][L1_DoubleMu0_ETM70]]   |L1_DoubleMu0_ETM70 |421 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0 ][L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0]]   |L1_Jet32_DoubleMu_10_0_dPhi_Jet_Mu0_Max0p4_dPhi_Mu_Mu_Min1p0 |422 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0 ][L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0]]   |L1_Jet32_Mu0_EG10_dPhi_Jet_Mu_Max0p4_dPhi_Mu_EG_Min1p0 |423 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleEG6_HTT255er ][L1_DoubleEG6_HTT255er]]   |L1_DoubleEG6_HTT255er |424 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu0er1p4_dEta_Max1p8_OS ][L1_DoubleMu0er1p4_dEta_Max1p8_OS]]   |L1_DoubleMu0er1p4_dEta_Max1p8_OS |425 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_DoubleMu_10_0_dEta_Max1p8 ][L1_DoubleMu_10_0_dEta_Max1p8]]   |L1_DoubleMu_10_0_dEta_Max1p8 |426 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu6_DoubleEG10 ][L1_Mu6_DoubleEG10]]   |L1_Mu6_DoubleEG10 |427 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4]]   |L1_Mu3_JetC16_dEta_Max0p4_dPhi_Max0p4 |428 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4]]   |L1_Mu3_JetC60_dEta_Max0p4_dPhi_Max0p4 |429 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4 ][L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4]]   |L1_Mu3_JetC120_dEta_Max0p4_dPhi_Max0p4 |430 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleEG2_BptxAND ][L1_SingleEG2_BptxAND]]   |L1_SingleEG2_BptxAND |431 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_SingleJet12_BptxAND ][L1_SingleJet12_BptxAND]]   |L1_SingleJet12_BptxAND |432 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT40_BptxAND ][L1_ETT40_BptxAND]]   |L1_ETT40_BptxAND |433 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT50_BptxAND ][L1_ETT50_BptxAND]]   |L1_ETT50_BptxAND |434 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT60_BptxAND ][L1_ETT60_BptxAND]]   |L1_ETT60_BptxAND |435 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT70_BptxAND ][L1_ETT70_BptxAND]]   |L1_ETT70_BptxAND |436 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT75_BptxAND ][L1_ETT75_BptxAND]]   |L1_ETT75_BptxAND |437 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT80_BptxAND ][L1_ETT80_BptxAND]]   |L1_ETT80_BptxAND |438 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT85_BptxAND ][L1_ETT85_BptxAND]]   |L1_ETT85_BptxAND |439 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT90_BptxAND ][L1_ETT90_BptxAND]]   |L1_ETT90_BptxAND |440 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT95_BptxAND ][L1_ETT95_BptxAND]]   |L1_ETT95_BptxAND |441 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT100_BptxAND ][L1_ETT100_BptxAND]]   |L1_ETT100_BptxAND |442 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_ETT110_BptxAND ][L1_ETT110_BptxAND]]   |L1_ETT110_BptxAND |443 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_AND_BptxAND ][L1_MinimumBiasHF0_AND_BptxAND]]   |L1_MinimumBiasHF0_AND_BptxAND |444 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_MinimumBiasHF0_OR_BptxAND ][L1_MinimumBiasHF0_OR_BptxAND]]   |L1_MinimumBiasHF0_OR_BptxAND |445 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu10er2p1_ETM30 ][L1_Mu10er2p1_ETM30]]   |L1_Mu10er2p1_ETM30 |446 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_Mu14er2p1_ETM30 ][L1_Mu14er2p1_ETM30]]   |L1_Mu14er2p1_ETM30 |447 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_AlwaysTrue ][L1_AlwaysTrue]]   |L1_AlwaysTrue |450 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_NotBptxOR ][L1_NotBptxOR]]   |L1_NotBptxOR |451 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxXOR ][L1_BptxXOR]]   |L1_BptxXOR |452 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias_copy ][L1_ZeroBias_copy]]   |L1_ZeroBias_copy |453 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref1_VME ][L1_BPTX_BeamGas_Ref1_VME]]   |L1_BPTX_BeamGas_Ref1_VME |454 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_Ref2_VME ][L1_BPTX_BeamGas_Ref2_VME]]   |L1_BPTX_BeamGas_Ref2_VME |455 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B1_VME ][L1_BPTX_BeamGas_B1_VME]]   |L1_BPTX_BeamGas_B1_VME |456 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_BeamGas_B2_VME ][L1_BPTX_BeamGas_B2_VME]]   |L1_BPTX_BeamGas_B2_VME |457 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_ZeroBias ][L1_ZeroBias]]   |L1_ZeroBias |458 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxPlus ][L1_BptxPlus]]   |L1_BptxPlus |459 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxMinus ][L1_BptxMinus]]   |L1_BptxMinus |460 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BptxOR ][L1_BptxOR]]   |L1_BptxOR |461 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref1_VME ][L1_BPTX_AND_Ref1_VME]]   |L1_BPTX_AND_Ref1_VME |462 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxPlus ][L1_UnpairedBunchBptxPlus]]   |L1_UnpairedBunchBptxPlus |463 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_UnpairedBunchBptxMinus ][L1_UnpairedBunchBptxMinus]]   |L1_UnpairedBunchBptxMinus |464 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_VME ][L1_BPTX_NotOR_VME]]   |L1_BPTX_NotOR_VME |465 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref2_NIM ][L1_BPTX_AND_Ref2_NIM]]   |L1_BPTX_AND_Ref2_NIM |466 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B1NotB2_NIM ][L1_BPTX_B1NotB2_NIM]]   |L1_BPTX_B1NotB2_NIM |467 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B2NotB1_NIM ][L1_BPTX_B2NotB1_NIM]]   |L1_BPTX_B2NotB1_NIM |468 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_NotOR_NIM ][L1_BPTX_NotOR_NIM]]   |L1_BPTX_NotOR_NIM |469 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref3_VME ][L1_BPTX_AND_Ref3_VME]]   |L1_BPTX_AND_Ref3_VME |470 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref3_VME ][L1_BPTX_OR_Ref3_VME]]   |L1_BPTX_OR_Ref3_VME |471 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_RefAND_VME ][L1_BPTX_RefAND_VME]]   |L1_BPTX_RefAND_VME |472 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInOrbit ][L1_FirstCollisionInOrbit]]   |L1_FirstCollisionInOrbit |473 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_Ref4_VME ][L1_BPTX_AND_Ref4_VME]]   |L1_BPTX_AND_Ref4_VME |474 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_Ref4_VME ][L1_BPTX_OR_Ref4_VME]]   |L1_BPTX_OR_Ref4_VME |475 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_LastCollisionInTrain ][L1_LastCollisionInTrain]]   |L1_LastCollisionInTrain |476 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_FirstCollisionInTrain ][L1_FirstCollisionInTrain]]   |L1_FirstCollisionInTrain |477 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_AND_NIM ][L1_BPTX_AND_NIM]]   |L1_BPTX_AND_NIM |478 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B1_NIM ][L1_BPTX_B1_NIM]]   |L1_BPTX_B1_NIM |479 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_B2_NIM ][L1_BPTX_B2_NIM]]   |L1_BPTX_B2_NIM |480 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_BPTX_OR_NIM ][L1_BPTX_OR_NIM]]   |L1_BPTX_OR_NIM |481 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI1p570_3p142 ][L1_CDC_3_TOP120_DPHI1p570_3p142]]   |L1_CDC_3_TOP120_DPHI1p570_3p142 |490 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI2p094_3p142 ][L1_CDC_3_TOP120_DPHI2p094_3p142]]   |L1_CDC_3_TOP120_DPHI2p094_3p142 |491 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP120_DPHI2p618_3p142 ][L1_CDC_3_TOP120_DPHI2p618_3p142]]   |L1_CDC_3_TOP120_DPHI2p618_3p142 |492 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_TOP_DPHI2p618_3p142 ][L1_CDC_3_TOP_DPHI2p618_3p142]]   |L1_CDC_3_TOP_DPHI2p618_3p142 |493 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142]]   |L1_CDC_3_er1p2_TOP120_DPHI1p570_3p142 |494 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142]]   |L1_CDC_3_er1p2_TOP120_DPHI2p094_3p142 |495 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDC_3_er1p2_TOP120_DPHI2p618_3p142 |496 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142]]   |L1_CDC_3_er1p6_TOP120_DPHI1p570_3p142 |497 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142]]   |L1_CDC_3_er1p6_TOP120_DPHI2p094_3p142 |498 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142]]   |L1_CDC_3_er1p6_TOP120_DPHI2p618_3p142 |499 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142]]   |L1_CDC_3_er2p1_TOP120_DPHI1p570_3p142 |500 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142]]   |L1_CDC_3_er2p1_TOP120_DPHI2p094_3p142 |501 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142]]   |L1_CDC_3_er2p1_TOP120_DPHI2p618_3p142 |502 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_TOP120_DPHI2p618_3p142 |503 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er1p2_TOP120_DPHI2p618_3p142 |504 |5 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er1p6_TOP120_DPHI2p618_3p142 |505 |0 |
+|[[%GET{"REPORTER_URL"}%#L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142]]   |L1_CDC_SingleMu_3_er2p1_TOP120_DPHI2p618_3p142 |506 |4 |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_TOP120_DPHI2p618_3p142]]   |L1_CDCp1_3_TOP120_DPHI2p618_3p142 |507 |3 |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142]]   |L1_CDCp1_3_er1p2_TOP120_DPHI2p618_3p142 |508 |1 |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142]]   |L1_CDCp1_3_er1p6_TOP120_DPHI2p618_3p142 |509 |2 |
+|[[%GET{"REPORTER_URL"}%#L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142 ][L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142]]   |L1_CDCp1_3_er2p1_TOP120_DPHI2p618_3p142 |510 |5 |
+
+
+<p style="page-break-before: always">&nbsp;</p>
