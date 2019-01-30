@@ -1,0 +1,5 @@
+# Ignore uncompressed test vector log files
+TestVector_*.log
+
+# Ignore legacy JSON dumps
+menu.json
