@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2018_v2_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- 3182dde8-79bb-4705-ad72-8f3aab48e8a5
+-- 56117f04-58fa-4e51-9fa4-a2394271d0ec
 
 -- Unique ID of firmware implementation:
--- 128a9c8d-d5ec-430f-abc9-a21ad9b395e5
+-- c9e926bd-7833-42bd-83e4-c61601a90af0
 
 -- Scale set:
--- scales_2020_07_20
+-- scales_2020_09_30
 
 -- VHDL producer version
 -- v2.8.1
@@ -2061,11 +2061,11 @@ algo(45) <= l1_triple_mu_5_sq_3_sq_0_oq;
 
 -- 85 L1_TripleMu_5SQ_3SQ_0OQ_DoubleMu_5_3_SQ_OS_Mass_Max9 : comb{MU5[MU-QLTY_SNGL],MU3[MU-QLTY_SNGL],MU0[MU-QLTY_OPEN]} AND mass_inv{MU5[MU-QLTY_SNGL],MU3[MU-QLTY_SNGL]}[MASS_MASS_0to9,CHGCOR_OS]
 l1_triple_mu_5_sq_3_sq_0_oq_double_mu_5_3_sq_os_mass_max9 <= triple_mu_i65 and invariant_mass_i74;
-algo(46) <= l1_triple_mu_5_sq_3_sq_0_oq_double_mu_5_3_sq_os_mass_max9;
+algo(47) <= l1_triple_mu_5_sq_3_sq_0_oq_double_mu_5_3_sq_os_mass_max9;
 
 -- 86 L1_TripleMu_5SQ_3SQ_0_DoubleMu_5_3_SQ_OS_Mass_Max9 : comb{MU5[MU-QLTY_SNGL],MU3[MU-QLTY_SNGL],MU0[MU-QLTY_DBLE]} AND mass_inv{MU5[MU-QLTY_SNGL],MU3[MU-QLTY_SNGL]}[MASS_MASS_0to9,CHGCOR_OS]
 l1_triple_mu_5_sq_3_sq_0_double_mu_5_3_sq_os_mass_max9 <= triple_mu_i75 and invariant_mass_i74;
-algo(47) <= l1_triple_mu_5_sq_3_sq_0_double_mu_5_3_sq_os_mass_max9;
+algo(46) <= l1_triple_mu_5_sq_3_sq_0_double_mu_5_3_sq_os_mass_max9;
 
 -- 109 L1_DoubleMu4_SQ_EG9er2p5 : comb{MU4[MU-QLTY_SNGL],MU4[MU-QLTY_SNGL]} AND EG9[EG-ETA_2p52]
 l1_double_mu4_sq_eg9er2p5 <= double_mu_i89 and single_eg_i90;

@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2018_v2_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- 3182dde8-79bb-4705-ad72-8f3aab48e8a5
+-- 56117f04-58fa-4e51-9fa4-a2394271d0ec
 
 -- Unique ID of firmware implementation:
--- 128a9c8d-d5ec-430f-abc9-a21ad9b395e5
+-- c9e926bd-7833-42bd-83e4-c61601a90af0
 
 -- Scale set:
--- scales_2020_07_20
+-- scales_2020_09_30
 
 -- VHDL producer version
 -- v2.8.1
