@@ -10,7 +10,7 @@
 -- d2a8739b-a0c2-4bb8-b305-32db5f141af1
 
 -- Unique ID of firmware implementation:
--- 90ee9049-377a-4a04-8574-1d33d0782fdb
+-- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
 
 -- Scale set:
 -- scales_2020_09_30
@@ -864,11 +864,11 @@ algo(9) <= l1_single_jet120;
 
 -- 360 L1_DoubleJet_115_40_DoubleJet40_Mass_Min620_Jet60TT28 : JET115 AND (mass_inv{JET40[JET-ETA_CEN_2p70],JET40[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET60,JET60}[MASS_MIN_620] OR mass_inv{JET60,JET40[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS]}[MASS_MIN_620] OR mass_inv{JET60,JET40[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET40[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS],JET40[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET40[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS],JET40[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS]}[MASS_MIN_620])
 l1_double_jet_115_40_double_jet40_mass_min620_jet60_tt28 <= single_jet_i274 and ( invariant_mass_i275 or invariant_mass_i276 or invariant_mass_i277 or invariant_mass_i278 or invariant_mass_i279 or invariant_mass_i280 );
-algo(11) <= l1_double_jet_115_40_double_jet40_mass_min620_jet60_tt28;
+algo(10) <= l1_double_jet_115_40_double_jet40_mass_min620_jet60_tt28;
 
 -- 361 L1_DoubleJet_120_45_DoubleJet45_Mass_Min620_Jet60TT28 : JET120 AND (mass_inv{JET45[JET-ETA_CEN_2p70],JET45[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET60,JET60}[MASS_MIN_620] OR mass_inv{JET60,JET45[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS]}[MASS_MIN_620] OR mass_inv{JET60,JET45[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET45[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS],JET45[JET-ETA_CEN_2p70]}[MASS_MIN_620] OR mass_inv{JET45[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS],JET45[JET-ETA_FWD_3p00_NEG,JET-ETA_FWD_3p00_POS]}[MASS_MIN_620])
 l1_double_jet_120_45_double_jet45_mass_min620_jet60_tt28 <= single_jet_i233 and ( invariant_mass_i281 or invariant_mass_i276 or invariant_mass_i282 or invariant_mass_i283 or invariant_mass_i284 or invariant_mass_i285 );
-algo(10) <= l1_double_jet_120_45_double_jet45_mass_min620_jet60_tt28;
+algo(11) <= l1_double_jet_120_45_double_jet45_mass_min620_jet60_tt28;
 
 -- 398 L1_HTT120er : HTT120
 l1_htt120er <= single_htt_i304;

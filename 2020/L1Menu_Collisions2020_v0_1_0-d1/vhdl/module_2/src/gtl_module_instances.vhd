@@ -10,7 +10,7 @@
 -- d2a8739b-a0c2-4bb8-b305-32db5f141af1
 
 -- Unique ID of firmware implementation:
--- 90ee9049-377a-4a04-8574-1d33d0782fdb
+-- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
 
 -- Scale set:
 -- scales_2020_09_30
@@ -1185,7 +1185,7 @@ single_mu_i362_i: entity work.muon_conditions
         (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
         (X"F", X"F", X"F", X"F"),
         (true, false, false, false),
-        (X"FFFFFFFF", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
         (X"F", X"F", X"F", X"F"),
         "ig",
         false
@@ -1212,7 +1212,7 @@ single_mu_i363_i: entity work.muon_conditions
         (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
         (X"F", X"F", X"F", X"F"),
         (true, false, false, false),
-        (X"FFFFFFFF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
         (X"F", X"F", X"F", X"F"),
         "ig",
         false
@@ -1239,7 +1239,7 @@ single_mu_i368_i: entity work.muon_conditions
         (X"F000", X"FFFF", X"FFFF", X"FFFF"),
         (X"F", X"F", X"F", X"F"),
         (true, false, false, false),
-        (X"FFFFFFFF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
         (X"F", X"F", X"F", X"F"),
         "ig",
         false
@@ -2059,15 +2059,15 @@ algo(14) <= l1_loose_iso_eg24er2p1_htt100er;
 
 -- 239 L1_LooseIsoEG26er2p1_HTT100er : EG26[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg26er2p1_htt100er <= single_eg_i191 and single_htt_i190;
-algo(17) <= l1_loose_iso_eg26er2p1_htt100er;
+algo(16) <= l1_loose_iso_eg26er2p1_htt100er;
 
 -- 240 L1_LooseIsoEG28er2p1_HTT100er : EG28[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg28er2p1_htt100er <= single_eg_i147 and single_htt_i190;
-algo(16) <= l1_loose_iso_eg28er2p1_htt100er;
+algo(15) <= l1_loose_iso_eg28er2p1_htt100er;
 
 -- 241 L1_LooseIsoEG30er2p1_HTT100er : EG30[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg30er2p1_htt100er <= single_eg_i192 and single_htt_i190;
-algo(15) <= l1_loose_iso_eg30er2p1_htt100er;
+algo(17) <= l1_loose_iso_eg30er2p1_htt100er;
 
 -- 259 L1_LooseIsoEG22er2p1_Tau70er2p1_dR_Min0p3 : dist{EG22[EG-ETA_2p13,EG-ISO_0xC],TAU70[TAU-ETA_2p13]}[DR_MIN_0p3]
 l1_loose_iso_eg22er2p1_tau70er2p1_d_r_min0p3 <= calo_calo_correlation_i200;

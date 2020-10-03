@@ -10,7 +10,7 @@
 -- d2a8739b-a0c2-4bb8-b305-32db5f141af1
 
 -- Unique ID of firmware implementation:
--- 90ee9049-377a-4a04-8574-1d33d0782fdb
+-- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
 
 -- Scale set:
 -- scales_2020_09_30
@@ -1247,7 +1247,7 @@ single_mu_i364_i: entity work.muon_conditions
         (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
         (X"F", X"F", X"F", X"F"),
         (true, false, false, false),
-        (X"FFFFFFFF", X"0000", X"0000", X"0000"), (X"000B", X"0000", X"0000", X"0000"),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"000B", X"0000", X"0000", X"0000"),
         (X"F", X"F", X"F", X"F"),
         "ig",
         false
@@ -1274,7 +1274,7 @@ single_mu_i366_i: entity work.muon_conditions
         (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
         (X"F", X"F", X"F", X"F"),
         (true, false, false, false),
-        (X"FFFFFFFF", X"0000", X"0000", X"0000"), (X"0033", X"0000", X"0000", X"0000"),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0033", X"0000", X"0000", X"0000"),
         (X"F", X"F", X"F", X"F"),
         "ig",
         false
