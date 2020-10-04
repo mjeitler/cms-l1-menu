@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -77,13 +77,13 @@ constant global_index: global_index_array := (
          17, -- module_index: 53, name: L1_SingleMu18
          22, -- module_index: 54, name: L1_SingleMu22_EMTF
          10, -- module_index: 55, name: L1_SingleMu5
-         96, -- module_index: 56, name: L1_Mu5_EG23er2p5
-         98, -- module_index: 57, name: L1_Mu7_EG23er2p5
-         12, -- module_index: 58, name: L1_SingleMu7
-        101, -- module_index: 59, name: L1_Mu7_LooseIsoEG20er2p5
-        100, -- module_index: 60, name: L1_Mu5_LooseIsoEG20er2p5
-        102, -- module_index: 61, name: L1_Mu7_LooseIsoEG23er2p5
-         97, -- module_index: 62, name: L1_Mu7_EG20er2p5
+         97, -- module_index: 56, name: L1_Mu7_EG20er2p5
+         96, -- module_index: 57, name: L1_Mu5_EG23er2p5
+         98, -- module_index: 58, name: L1_Mu7_EG23er2p5
+         12, -- module_index: 59, name: L1_SingleMu7
+        101, -- module_index: 60, name: L1_Mu7_LooseIsoEG20er2p5
+        100, -- module_index: 61, name: L1_Mu5_LooseIsoEG20er2p5
+        102, -- module_index: 62, name: L1_Mu7_LooseIsoEG23er2p5
         308, -- module_index: 63, name: L1_SingleMuOpenupt100
         373, -- module_index: 64, name: L1_TripleJet_100_80_70_DoubleJet_80_70_er2p5
          39, -- module_index: 65, name: L1_DoubleMu0_OQ

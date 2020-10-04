@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -31,8 +31,8 @@ constant global_index: global_index_array := (
         185, -- module_index: 7, name: L1_SingleIsoEG26er2p5
         192, -- module_index: 8, name: L1_SingleIsoEG30er2p5
         312, -- module_index: 9, name: L1_SingleJet120
-        360, -- module_index: 10, name: L1_DoubleJet_115_40_DoubleJet40_Mass_Min620_Jet60TT28
-        361, -- module_index: 11, name: L1_DoubleJet_120_45_DoubleJet45_Mass_Min620_Jet60TT28
+        361, -- module_index: 10, name: L1_DoubleJet_120_45_DoubleJet45_Mass_Min620_Jet60TT28
+        360, -- module_index: 11, name: L1_DoubleJet_115_40_DoubleJet40_Mass_Min620_Jet60TT28
         136, -- module_index: 12, name: L1_Mu12er2p3_Jet40er2p1_dR_Max0p4_DoubleJet40er2p1_dEta_Max1p6
     others => 0
 );

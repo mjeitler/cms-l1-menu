@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -119,51 +119,51 @@
     signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : muon_charcorr_quad_array;
 
 -- Signal definition for conditions names
-    signal single_ext_i335 : std_logic;
-    signal single_ext_i336 : std_logic;
-    signal single_ext_i337 : std_logic;
-    signal single_ext_i338 : std_logic;
-    signal single_ext_i341 : std_logic;
-    signal single_ext_i342 : std_logic;
-    signal single_ext_i343 : std_logic;
     signal single_ext_i344 : std_logic;
     signal single_ext_i345 : std_logic;
     signal single_ext_i346 : std_logic;
     signal single_ext_i347 : std_logic;
-    signal single_ext_i348 : std_logic;
-    signal single_ext_i349 : std_logic;
     signal single_ext_i350 : std_logic;
     signal single_ext_i351 : std_logic;
     signal single_ext_i352 : std_logic;
     signal single_ext_i353 : std_logic;
     signal single_ext_i354 : std_logic;
+    signal single_ext_i355 : std_logic;
     signal single_ext_i356 : std_logic;
     signal single_ext_i357 : std_logic;
     signal single_ext_i358 : std_logic;
     signal single_ext_i359 : std_logic;
     signal single_ext_i360 : std_logic;
     signal single_ext_i361 : std_logic;
-    signal single_etm_i314 : std_logic;
-    signal single_ett_i312 : std_logic;
-    signal single_htt_i307 : std_logic;
+    signal single_ext_i362 : std_logic;
+    signal single_ext_i363 : std_logic;
+    signal single_ext_i365 : std_logic;
+    signal single_ext_i366 : std_logic;
+    signal single_ext_i367 : std_logic;
+    signal single_ext_i368 : std_logic;
+    signal single_ext_i369 : std_logic;
+    signal single_ext_i370 : std_logic;
+    signal single_etm_i323 : std_logic;
+    signal single_ett_i321 : std_logic;
+    signal single_htt_i316 : std_logic;
     signal calo_calo_correlation_i110 : std_logic;
     signal calo_calo_correlation_i187 : std_logic;
     signal calo_muon_correlation_i101 : std_logic;
     signal calo_muon_correlation_i109 : std_logic;
     signal invariant_mass_i211 : std_logic;
-    signal invariant_mass_i259 : std_logic;
-    signal invariant_mass_i264 : std_logic;
+    signal invariant_mass_i268 : std_logic;
+    signal invariant_mass_i273 : std_logic;
     signal invariant_mass_i59 : std_logic;
     signal invariant_mass_i74 : std_logic;
     signal muon_muon_correlation_i46 : std_logic;
     signal muon_muon_correlation_i52 : std_logic;
-    signal invariant_mass_ov_rm_i287 : std_logic;
+    signal invariant_mass_ov_rm_i296 : std_logic;
     signal double_eg_i169 : std_logic;
     signal double_eg_i172 : std_logic;
     signal double_eg_i176 : std_logic;
     signal double_eg_i180 : std_logic;
-    signal double_jet_i254 : std_logic;
-    signal double_jet_i293 : std_logic;
+    signal double_jet_i263 : std_logic;
+    signal double_jet_i302 : std_logic;
     signal double_mu_i33 : std_logic;
     signal double_mu_i38 : std_logic;
     signal double_mu_i40 : std_logic;
@@ -174,7 +174,7 @@
     signal double_mu_i89 : std_logic;
     signal double_mu_i91 : std_logic;
     signal double_tau_i205 : std_logic;
-    signal quad_jet_i299 : std_logic;
+    signal quad_jet_i308 : std_logic;
     signal single_eg_i127 : std_logic;
     signal single_eg_i131 : std_logic;
     signal single_eg_i137 : std_logic;
@@ -191,22 +191,22 @@
     signal single_eg_i82 : std_logic;
     signal single_eg_i83 : std_logic;
     signal single_eg_i90 : std_logic;
-    signal single_jet_i230 : std_logic;
-    signal single_jet_i232 : std_logic;
-    signal single_jet_i240 : std_logic;
-    signal single_jet_i248 : std_logic;
+    signal single_jet_i239 : std_logic;
+    signal single_jet_i241 : std_logic;
     signal single_jet_i249 : std_logic;
+    signal single_jet_i257 : std_logic;
+    signal single_jet_i258 : std_logic;
     signal single_mu_i10 : std_logic;
     signal single_mu_i12 : std_logic;
     signal single_mu_i17 : std_logic;
     signal single_mu_i22 : std_logic;
+    signal single_mu_i235 : std_logic;
+    signal single_mu_i238 : std_logic;
     signal single_mu_i28 : std_logic;
     signal single_mu_i29 : std_logic;
-    signal single_mu_i367 : std_logic;
-    signal single_mu_i370 : std_logic;
     signal single_mu_i6 : std_logic;
     signal triple_eg_i183 : std_logic;
-    signal triple_jet_i292 : std_logic;
+    signal triple_jet_i301 : std_logic;
     signal triple_mu_i60 : std_logic;
     signal triple_mu_i63 : std_logic;
     signal triple_mu_i65 : std_logic;

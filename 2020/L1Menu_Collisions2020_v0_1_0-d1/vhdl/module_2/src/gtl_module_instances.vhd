@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -268,7 +268,7 @@ double_eg_i178_i: entity work.calo_conditions
 
 
   
-double_jet_i256_i: entity work.calo_conditions
+double_jet_i265_i: entity work.calo_conditions
     generic map(0, 11, 0, 11, 0, 0, 0, 0,
         2, true, JET_TYPE,
         (X"012C", X"012C", X"0000", X"0000"),
@@ -286,12 +286,12 @@ double_jet_i256_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        double_jet_i256);
+        double_jet_i265);
 
 
 
   
-double_jet_i268_i: entity work.calo_conditions
+double_jet_i277_i: entity work.calo_conditions
     generic map(0, 11, 0, 11, 0, 0, 0, 0,
         2, true, JET_TYPE,
         (X"00DC", X"0046", X"0000", X"0000"),
@@ -309,12 +309,12 @@ double_jet_i268_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        double_jet_i268);
+        double_jet_i277);
 
 
 
   
-double_jet_i291_i: entity work.calo_conditions
+double_jet_i300_i: entity work.calo_conditions
     generic map(0, 11, 0, 11, 0, 0, 0, 0,
         2, true, JET_TYPE,
         (X"0096", X"0082", X"0000", X"0000"),
@@ -332,7 +332,7 @@ double_jet_i291_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        double_jet_i291);
+        double_jet_i300);
 
 
 
@@ -360,7 +360,7 @@ double_tau_i207_i: entity work.calo_conditions
 
 
   
-quad_jet_i296_i: entity work.calo_conditions
+quad_jet_i305_i: entity work.calo_conditions
     generic map(0, 11, 0, 11, 0, 11, 0, 11,
         4, true, JET_TYPE,
         (X"00BE", X"0096", X"0082", X"0028"),
@@ -378,7 +378,7 @@ quad_jet_i296_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        quad_jet_i296);
+        quad_jet_i305);
 
 
 
@@ -659,7 +659,7 @@ single_eg_i192_i: entity work.calo_conditions
 
 
   
-single_jet_i234_i: entity work.calo_conditions
+single_jet_i243_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0168", X"0000", X"0000", X"0000"),
@@ -677,12 +677,12 @@ single_jet_i234_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i234);
+        single_jet_i243);
 
 
 
   
-single_jet_i236_i: entity work.calo_conditions
+single_jet_i245_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0046", X"0000", X"0000", X"0000"),
@@ -700,12 +700,12 @@ single_jet_i236_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i236);
+        single_jet_i245);
 
 
 
   
-single_jet_i237_i: entity work.calo_conditions
+single_jet_i246_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"00B4", X"0000", X"0000", X"0000"),
@@ -723,12 +723,12 @@ single_jet_i237_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i237);
+        single_jet_i246);
 
 
 
   
-single_jet_i244_i: entity work.calo_conditions
+single_jet_i253_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0078", X"0000", X"0000", X"0000"),
@@ -746,12 +746,12 @@ single_jet_i244_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i244);
+        single_jet_i253);
 
 
 
   
-single_jet_i245_i: entity work.calo_conditions
+single_jet_i254_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0078", X"0000", X"0000", X"0000"),
@@ -769,12 +769,12 @@ single_jet_i245_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i245);
+        single_jet_i254);
 
 
 
   
-single_jet_i251_i: entity work.calo_conditions
+single_jet_i260_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0014", X"0000", X"0000", X"0000"),
@@ -792,12 +792,12 @@ single_jet_i251_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i251);
+        single_jet_i260);
 
 
 
   
-single_jet_i297_i: entity work.calo_conditions
+single_jet_i306_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0028", X"0000", X"0000", X"0000"),
@@ -815,12 +815,12 @@ single_jet_i297_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i297);
+        single_jet_i306);
 
 
 
   
-single_jet_i298_i: entity work.calo_conditions
+single_jet_i307_i: entity work.calo_conditions
     generic map(0, 11, 0, 0, 0, 0, 0, 0,
         1, true, JET_TYPE,
         (X"0028", X"0000", X"0000", X"0000"),
@@ -838,7 +838,7 @@ single_jet_i298_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        single_jet_i298);
+        single_jet_i307);
 
 
 
@@ -866,7 +866,7 @@ triple_eg_i181_i: entity work.calo_conditions
 
 
   
-triple_jet_i290_i: entity work.calo_conditions
+triple_jet_i299_i: entity work.calo_conditions
     generic map(0, 11, 0, 11, 0, 11, 0, 0,
         3, true, JET_TYPE,
         (X"00BE", X"0096", X"0082", X"0000"),
@@ -884,7 +884,7 @@ triple_jet_i290_i: entity work.calo_conditions
         false
     )
     port map(lhc_clk, jet_bx_0,
-        triple_jet_i290);
+        triple_jet_i299);
 
 
 
@@ -1113,6 +1113,87 @@ single_mu_i23_i: entity work.muon_conditions
         single_mu_i23);
 
 
+single_mu_i230_i: entity work.muon_conditions
+    generic map(0, 7, 0, 0, 0, 0, 0, 0,
+        1, true,
+        (X"0001", X"0000", X"0000", X"0000"),
+        (0, 0, 0, 0),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        ("ign", "ign", "ign", "ign"),
+        (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
+        (X"F", X"F", X"F", X"F"),
+        (true, false, false, false),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"F", X"F", X"F", X"F"),
+        "ig",
+        false
+    )
+    port map(lhc_clk, mu_bx_0,
+        single_mu_i230);
+
+
+single_mu_i231_i: entity work.muon_conditions
+    generic map(0, 7, 0, 0, 0, 0, 0, 0,
+        1, true,
+        (X"0001", X"0000", X"0000", X"0000"),
+        (0, 0, 0, 0),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        ("ign", "ign", "ign", "ign"),
+        (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
+        (X"F", X"F", X"F", X"F"),
+        (true, false, false, false),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
+        (X"F", X"F", X"F", X"F"),
+        "ig",
+        false
+    )
+    port map(lhc_clk, mu_bx_0,
+        single_mu_i231);
+
+
+single_mu_i236_i: entity work.muon_conditions
+    generic map(0, 7, 0, 0, 0, 0, 0, 0,
+        1, true,
+        (X"0001", X"0000", X"0000", X"0000"),
+        (0, 0, 0, 0),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        (true, true, true, true),
+        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
+        ("ign", "ign", "ign", "ign"),
+        (X"F000", X"FFFF", X"FFFF", X"FFFF"),
+        (X"F", X"F", X"F", X"F"),
+        (true, false, false, false),
+        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
+        (X"F", X"F", X"F", X"F"),
+        "ig",
+        false
+    )
+    port map(lhc_clk, mu_bx_0,
+        single_mu_i236);
+
+
 single_mu_i27_i: entity work.muon_conditions
     generic map(0, 7, 0, 0, 0, 0, 0, 0,
         1, true,
@@ -1165,87 +1246,6 @@ single_mu_i3_i: entity work.muon_conditions
     )
     port map(lhc_clk, mu_bx_0,
         single_mu_i3);
-
-
-single_mu_i362_i: entity work.muon_conditions
-    generic map(0, 7, 0, 0, 0, 0, 0, 0,
-        1, true,
-        (X"0001", X"0000", X"0000", X"0000"),
-        (0, 0, 0, 0),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        ("ign", "ign", "ign", "ign"),
-        (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
-        (X"F", X"F", X"F", X"F"),
-        (true, false, false, false),
-        (X"00FF", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"F", X"F", X"F", X"F"),
-        "ig",
-        false
-    )
-    port map(lhc_clk, mu_bx_0,
-        single_mu_i362);
-
-
-single_mu_i363_i: entity work.muon_conditions
-    generic map(0, 7, 0, 0, 0, 0, 0, 0,
-        1, true,
-        (X"0001", X"0000", X"0000", X"0000"),
-        (0, 0, 0, 0),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        ("ign", "ign", "ign", "ign"),
-        (X"FFFF", X"FFFF", X"FFFF", X"FFFF"),
-        (X"F", X"F", X"F", X"F"),
-        (true, false, false, false),
-        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
-        (X"F", X"F", X"F", X"F"),
-        "ig",
-        false
-    )
-    port map(lhc_clk, mu_bx_0,
-        single_mu_i363);
-
-
-single_mu_i368_i: entity work.muon_conditions
-    generic map(0, 7, 0, 0, 0, 0, 0, 0,
-        1, true,
-        (X"0001", X"0000", X"0000", X"0000"),
-        (0, 0, 0, 0),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        (true, true, true, true),
-        (X"0000", X"0000", X"0000", X"0000"), (X"0000", X"0000", X"0000", X"0000"),
-        ("ign", "ign", "ign", "ign"),
-        (X"F000", X"FFFF", X"FFFF", X"FFFF"),
-        (X"F", X"F", X"F", X"F"),
-        (true, false, false, false),
-        (X"00FF", X"0000", X"0000", X"0000"), (X"0006", X"0000", X"0000", X"0000"),
-        (X"F", X"F", X"F", X"F"),
-        "ig",
-        false
-    )
-    port map(lhc_clk, mu_bx_0,
-        single_mu_i368);
 
 
 single_mu_i8_i: entity work.muon_conditions
@@ -1305,22 +1305,22 @@ triple_mu_i69_i: entity work.muon_conditions
         ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0);
 
 
-single_etm_i315_i: entity work.esums_conditions
+single_etm_i324_i: entity work.esums_conditions
     generic map(true, ETM_TYPE,
         X"012C",
         true, X"0000", X"0000",
         true, X"0000", X"0000"
         )
-    port map(lhc_clk, etm_bx_0, single_etm_i315);
+    port map(lhc_clk, etm_bx_0, single_etm_i324);
 
 
-single_ett_i313_i: entity work.esums_conditions
+single_ett_i322_i: entity work.esums_conditions
     generic map(true, ETT_TYPE,
         X"0FA0",
         true, X"0000", X"0000",
         true, X"0000", X"0000"
         )
-    port map(lhc_clk, ett_bx_0, single_ett_i313);
+    port map(lhc_clk, ett_bx_0, single_ett_i322);
 
 
 single_htt_i190_i: entity work.esums_conditions
@@ -1332,13 +1332,13 @@ single_htt_i190_i: entity work.esums_conditions
     port map(lhc_clk, htt_bx_0, single_htt_i190);
 
 
-single_htt_i308_i: entity work.esums_conditions
+single_htt_i317_i: entity work.esums_conditions
     generic map(true, HTT_TYPE,
         X"02D0",
         true, X"0000", X"0000",
         true, X"0000", X"0000"
         )
-    port map(lhc_clk, htt_bx_0, single_htt_i308);
+    port map(lhc_clk, htt_bx_0, single_htt_i317);
 
 
 calo_calo_correlation_i200_i: entity work.calo_calo_correlation_condition
@@ -1381,7 +1381,7 @@ calo_calo_correlation_i200_i: entity work.calo_calo_correlation_condition
         eg_cos_phi_bx_0, tau_cos_phi_bx_0, eg_sin_phi_bx_0, tau_sin_phi_bx_0,
         calo_calo_correlation_i200);
 
-calo_calo_correlation_i257_i: entity work.calo_calo_correlation_condition
+calo_calo_correlation_i266_i: entity work.calo_calo_correlation_condition
     generic map(
         true,
         true, false, false, false, 0, false,
@@ -1419,7 +1419,7 @@ calo_calo_correlation_i257_i: entity work.calo_calo_correlation_condition
         jet_pt_vector_bx_0, jet_pt_vector_bx_0,
         jet_jet_bx_0_bx_0_cosh_deta_vector, jet_jet_bx_0_bx_0_cos_dphi_vector,
         jet_cos_phi_bx_0, jet_cos_phi_bx_0, jet_sin_phi_bx_0, jet_sin_phi_bx_0,
-        calo_calo_correlation_i257);
+        calo_calo_correlation_i266);
 
 invariant_mass_i210_i: entity work.calo_calo_correlation_condition
     generic map(
@@ -1461,7 +1461,7 @@ invariant_mass_i210_i: entity work.calo_calo_correlation_condition
         tau_cos_phi_bx_0, tau_cos_phi_bx_0, tau_sin_phi_bx_0, tau_sin_phi_bx_0,
         invariant_mass_i210);
 
-invariant_mass_i261_i: entity work.calo_calo_correlation_condition
+invariant_mass_i270_i: entity work.calo_calo_correlation_condition
     generic map(
         true,
         true, false, false, true, 0, false,
@@ -1499,9 +1499,9 @@ invariant_mass_i261_i: entity work.calo_calo_correlation_condition
         jet_pt_vector_bx_0, jet_pt_vector_bx_0,
         jet_jet_bx_0_bx_0_cosh_deta_vector, jet_jet_bx_0_bx_0_cos_dphi_vector,
         jet_cos_phi_bx_0, jet_cos_phi_bx_0, jet_sin_phi_bx_0, jet_sin_phi_bx_0,
-        invariant_mass_i261);
+        invariant_mass_i270);
 
-invariant_mass_i269_i: entity work.calo_calo_correlation_condition
+invariant_mass_i278_i: entity work.calo_calo_correlation_condition
     generic map(
         true,
         false, false, false, true, 0, false,
@@ -1539,7 +1539,7 @@ invariant_mass_i269_i: entity work.calo_calo_correlation_condition
         jet_pt_vector_bx_0, jet_pt_vector_bx_0,
         jet_jet_bx_0_bx_0_cosh_deta_vector, jet_jet_bx_0_bx_0_cos_dphi_vector,
         jet_cos_phi_bx_0, jet_cos_phi_bx_0, jet_sin_phi_bx_0, jet_sin_phi_bx_0,
-        invariant_mass_i269);
+        invariant_mass_i278);
 
 invariant_mass_i93_i: entity work.calo_calo_correlation_condition
     generic map(
@@ -2059,15 +2059,15 @@ algo(14) <= l1_loose_iso_eg24er2p1_htt100er;
 
 -- 239 L1_LooseIsoEG26er2p1_HTT100er : EG26[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg26er2p1_htt100er <= single_eg_i191 and single_htt_i190;
-algo(16) <= l1_loose_iso_eg26er2p1_htt100er;
+algo(17) <= l1_loose_iso_eg26er2p1_htt100er;
 
 -- 240 L1_LooseIsoEG28er2p1_HTT100er : EG28[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg28er2p1_htt100er <= single_eg_i147 and single_htt_i190;
-algo(15) <= l1_loose_iso_eg28er2p1_htt100er;
+algo(16) <= l1_loose_iso_eg28er2p1_htt100er;
 
 -- 241 L1_LooseIsoEG30er2p1_HTT100er : EG30[EG-ETA_2p13,EG-ISO_0xC] AND HTT100
 l1_loose_iso_eg30er2p1_htt100er <= single_eg_i192 and single_htt_i190;
-algo(17) <= l1_loose_iso_eg30er2p1_htt100er;
+algo(15) <= l1_loose_iso_eg30er2p1_htt100er;
 
 -- 259 L1_LooseIsoEG22er2p1_Tau70er2p1_dR_Min0p3 : dist{EG22[EG-ETA_2p13,EG-ISO_0xC],TAU70[TAU-ETA_2p13]}[DR_MIN_0p3]
 l1_loose_iso_eg22er2p1_tau70er2p1_d_r_min0p3 <= calo_calo_correlation_i200;
@@ -2082,71 +2082,71 @@ l1_double_iso_tau28er2p1_mass_max80 <= invariant_mass_i210;
 algo(47) <= l1_double_iso_tau28er2p1_mass_max80;
 
 -- 300 L1_Mu0upt0 : MU0[MU-UPT_0]
-l1_mu0upt0 <= single_mu_i362;
+l1_mu0upt0 <= single_mu_i230;
 algo(25) <= l1_mu0upt0;
 
 -- 301 L1_Mu0upt5 : MU0[MU-UPT_5]
-l1_mu0upt5 <= single_mu_i363;
+l1_mu0upt5 <= single_mu_i231;
 algo(26) <= l1_mu0upt5;
 
 -- 306 L1_SingleMuOpenupt5 : MU0[MU-QLTY_SNGL,MU-UPT_5]
-l1_single_mu_openupt5 <= single_mu_i368;
+l1_single_mu_openupt5 <= single_mu_i236;
 algo(35) <= l1_single_mu_openupt5;
 
 -- 313 L1_SingleJet180 : JET180
-l1_single_jet180 <= single_jet_i234;
+l1_single_jet180 <= single_jet_i243;
 algo(10) <= l1_single_jet180;
 
 -- 316 L1_SingleJet35er2p5 : JET35[JET-ETA_2p52]
-l1_single_jet35er2p5 <= single_jet_i236;
+l1_single_jet35er2p5 <= single_jet_i245;
 algo(11) <= l1_single_jet35er2p5;
 
 -- 318 L1_SingleJet90er2p5 : JET90[JET-ETA_2p52]
-l1_single_jet90er2p5 <= single_jet_i237;
+l1_single_jet90er2p5 <= single_jet_i246;
 algo(12) <= l1_single_jet90er2p5;
 
 -- 325 L1_SingleJet60_FWD3p0 : JET60[JET-ETA_FWD_3p00_NEG] OR JET60[JET-ETA_FWD_3p00_POS]
-l1_single_jet60_fwd3p0 <= single_jet_i244 or single_jet_i245;
+l1_single_jet60_fwd3p0 <= single_jet_i253 or single_jet_i254;
 algo(23) <= l1_single_jet60_fwd3p0;
 
 -- 330 L1_SingleJet10erHE : JET10[JET-ETA_1p392_2p958_NEG,JET-ETA_1p392_2p958_POS]
-l1_single_jet10er_he <= single_jet_i251;
+l1_single_jet10er_he <= single_jet_i260;
 algo(9) <= l1_single_jet10er_he;
 
 -- 343 L1_DoubleJet150er2p5 : comb{JET150[JET-ETA_2p52],JET150[JET-ETA_2p52]}
-l1_double_jet150er2p5 <= double_jet_i256;
+l1_double_jet150er2p5 <= double_jet_i265;
 algo(21) <= l1_double_jet150er2p5;
 
 -- 345 L1_DoubleJet100er2p3_dEta_Max1p6 : dist{JET100[JET-ETA_2p3],JET100[JET-ETA_2p3]}[DETA_MAX_1p6]
-l1_double_jet100er2p3_d_eta_max1p6 <= calo_calo_correlation_i257;
+l1_double_jet100er2p3_d_eta_max1p6 <= calo_calo_correlation_i266;
 algo(43) <= l1_double_jet100er2p3_d_eta_max1p6;
 
 -- 350 L1_DoubleJet30er2p5_Mass_Min250_dEta_Max1p5 : mass_inv{JET30[JET-ETA_2p52],JET30[JET-ETA_2p52]}[MASS_MIN_250,DETA_MAX_1p5]
-l1_double_jet30er2p5_mass_min250_d_eta_max1p5 <= invariant_mass_i261;
+l1_double_jet30er2p5_mass_min250_d_eta_max1p5 <= invariant_mass_i270;
 algo(49) <= l1_double_jet30er2p5_mass_min250_d_eta_max1p5;
 
 -- 357 L1_DoubleJet_110_35_DoubleJet35_Mass_Min620 : comb{JET110,JET35} AND mass_inv{JET35,JET35}[MASS_MIN_620]
-l1_double_jet_110_35_double_jet35_mass_min620 <= double_jet_i268 and invariant_mass_i269;
+l1_double_jet_110_35_double_jet35_mass_min620 <= double_jet_i277 and invariant_mass_i278;
 algo(48) <= l1_double_jet_110_35_double_jet35_mass_min620;
 
 -- 372 L1_TripleJet_95_75_65_DoubleJet_75_65_er2p5 : comb{JET95,JET75,JET65} AND comb{JET75[JET-ETA_2p52],JET65[JET-ETA_2p52]}
-l1_triple_jet_95_75_65_double_jet_75_65_er2p5 <= triple_jet_i290 and double_jet_i291;
+l1_triple_jet_95_75_65_double_jet_75_65_er2p5 <= triple_jet_i299 and double_jet_i300;
 algo(36) <= l1_triple_jet_95_75_65_double_jet_75_65_er2p5;
 
 -- 376 L1_QuadJet_95_75_65_20_DoubleJet_75_65_er2p5_Jet20_FWD3p0 : comb{JET95,JET75,JET65,JET20} AND comb{JET75[JET-ETA_2p52],JET65[JET-ETA_2p52]} AND (JET20[JET-ETA_FWD_3p00_NEG] OR JET20[JET-ETA_FWD_3p00_POS])
-l1_quad_jet_95_75_65_20_double_jet_75_65_er2p5_jet20_fwd3p0 <= quad_jet_i296 and double_jet_i291 and ( single_jet_i297 or single_jet_i298 );
+l1_quad_jet_95_75_65_20_double_jet_75_65_er2p5_jet20_fwd3p0 <= quad_jet_i305 and double_jet_i300 and ( single_jet_i306 or single_jet_i307 );
 algo(37) <= l1_quad_jet_95_75_65_20_double_jet_75_65_er2p5_jet20_fwd3p0;
 
 -- 404 L1_HTT360er : HTT360
-l1_htt360er <= single_htt_i308;
+l1_htt360er <= single_htt_i317;
 algo(2) <= l1_htt360er;
 
 -- 412 L1_ETT2000 : ETT2000
-l1_ett2000 <= single_ett_i313;
+l1_ett2000 <= single_ett_i322;
 algo(1) <= l1_ett2000;
 
 -- 417 L1_ETM150 : ETM150
-l1_etm150 <= single_etm_i315;
+l1_etm150 <= single_etm_i324;
 algo(0) <= l1_etm150;
 
 

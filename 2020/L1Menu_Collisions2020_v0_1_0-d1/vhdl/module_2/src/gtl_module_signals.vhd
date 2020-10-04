@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -129,17 +129,17 @@
     signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : muon_charcorr_quad_array;
 
 -- Signal definition for conditions names
-    signal single_etm_i315 : std_logic;
-    signal single_ett_i313 : std_logic;
+    signal single_etm_i324 : std_logic;
+    signal single_ett_i322 : std_logic;
     signal single_htt_i190 : std_logic;
-    signal single_htt_i308 : std_logic;
+    signal single_htt_i317 : std_logic;
     signal calo_calo_correlation_i200 : std_logic;
-    signal calo_calo_correlation_i257 : std_logic;
+    signal calo_calo_correlation_i266 : std_logic;
     signal calo_muon_correlation_i116 : std_logic;
     signal calo_muon_correlation_i98 : std_logic;
     signal invariant_mass_i210 : std_logic;
-    signal invariant_mass_i261 : std_logic;
-    signal invariant_mass_i269 : std_logic;
+    signal invariant_mass_i270 : std_logic;
+    signal invariant_mass_i278 : std_logic;
     signal invariant_mass_i44 : std_logic;
     signal invariant_mass_i92 : std_logic;
     signal invariant_mass_i93 : std_logic;
@@ -149,11 +149,11 @@
     signal transverse_mass_i167 : std_logic;
     signal double_eg_i174 : std_logic;
     signal double_eg_i178 : std_logic;
-    signal double_jet_i256 : std_logic;
-    signal double_jet_i268 : std_logic;
-    signal double_jet_i291 : std_logic;
+    signal double_jet_i265 : std_logic;
+    signal double_jet_i277 : std_logic;
+    signal double_jet_i300 : std_logic;
     signal double_tau_i207 : std_logic;
-    signal quad_jet_i296 : std_logic;
+    signal quad_jet_i305 : std_logic;
     signal quad_mu_i76 : std_logic;
     signal quad_mu_i77 : std_logic;
     signal quad_mu_i78 : std_logic;
@@ -169,27 +169,27 @@
     signal single_eg_i189 : std_logic;
     signal single_eg_i191 : std_logic;
     signal single_eg_i192 : std_logic;
-    signal single_jet_i234 : std_logic;
-    signal single_jet_i236 : std_logic;
-    signal single_jet_i237 : std_logic;
-    signal single_jet_i244 : std_logic;
+    signal single_jet_i243 : std_logic;
     signal single_jet_i245 : std_logic;
-    signal single_jet_i251 : std_logic;
-    signal single_jet_i297 : std_logic;
-    signal single_jet_i298 : std_logic;
+    signal single_jet_i246 : std_logic;
+    signal single_jet_i253 : std_logic;
+    signal single_jet_i254 : std_logic;
+    signal single_jet_i260 : std_logic;
+    signal single_jet_i306 : std_logic;
+    signal single_jet_i307 : std_logic;
     signal single_mu_i11 : std_logic;
     signal single_mu_i15 : std_logic;
     signal single_mu_i16 : std_logic;
     signal single_mu_i19 : std_logic;
     signal single_mu_i23 : std_logic;
+    signal single_mu_i230 : std_logic;
+    signal single_mu_i231 : std_logic;
+    signal single_mu_i236 : std_logic;
     signal single_mu_i27 : std_logic;
     signal single_mu_i3 : std_logic;
-    signal single_mu_i362 : std_logic;
-    signal single_mu_i363 : std_logic;
-    signal single_mu_i368 : std_logic;
     signal single_mu_i8 : std_logic;
     signal triple_eg_i181 : std_logic;
-    signal triple_jet_i290 : std_logic;
+    signal triple_jet_i299 : std_logic;
     signal triple_mu_i69 : std_logic;
 
 -- Signal definition for algorithms names

@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -139,39 +139,39 @@
 -- Signal definition for muon charge correlations.
 -- Insert "signal_muon_charge_correlations.vhd.j2" only once for a certain Bx combination,
 -- if there is at least one muon condition or one muon-muon correlation condition.
-    signal ls_charcorr_double_bx_0_bx_0, os_charcorr_double_bx_0_bx_0 : muon_charcorr_double_array;
-    signal ls_charcorr_triple_bx_0_bx_0, os_charcorr_triple_bx_0_bx_0 : muon_charcorr_triple_array;
-    signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : muon_charcorr_quad_array;
     signal ls_charcorr_double_bx_m1_bx_0, os_charcorr_double_bx_m1_bx_0 : muon_charcorr_double_array;
     signal ls_charcorr_triple_bx_m1_bx_0, os_charcorr_triple_bx_m1_bx_0 : muon_charcorr_triple_array;
     signal ls_charcorr_quad_bx_m1_bx_0, os_charcorr_quad_bx_m1_bx_0 : muon_charcorr_quad_array;
+    signal ls_charcorr_double_bx_0_bx_0, os_charcorr_double_bx_0_bx_0 : muon_charcorr_double_array;
+    signal ls_charcorr_triple_bx_0_bx_0, os_charcorr_triple_bx_0_bx_0 : muon_charcorr_triple_array;
+    signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : muon_charcorr_quad_array;
 
 -- Signal definition for conditions names
-    signal single_etmhf_i319 : std_logic;
-    signal single_htt_i305 : std_logic;
-    signal single_htt_i310 : std_logic;
+    signal single_etmhf_i328 : std_logic;
+    signal single_htt_i314 : std_logic;
+    signal single_htt_i319 : std_logic;
     signal calo_calo_correlation_i199 : std_logic;
-    signal calo_calo_correlation_i258 : std_logic;
+    signal calo_calo_correlation_i267 : std_logic;
     signal calo_muon_correlation_i118 : std_logic;
     signal calo_muon_correlation_i99 : std_logic;
     signal invariant_mass_i209 : std_logic;
-    signal invariant_mass_i262 : std_logic;
     signal invariant_mass_i271 : std_logic;
-    signal invariant_mass_i288 : std_logic;
+    signal invariant_mass_i280 : std_logic;
+    signal invariant_mass_i297 : std_logic;
     signal invariant_mass_i37 : std_logic;
     signal invariant_mass_i94 : std_logic;
     signal invariant_mass_i95 : std_logic;
     signal muon_muon_correlation_i117 : std_logic;
-    signal muon_muon_correlation_i355 : std_logic;
+    signal muon_muon_correlation_i364 : std_logic;
     signal muon_muon_correlation_i47 : std_logic;
     signal transverse_mass_i166 : std_logic;
     signal transverse_mass_i168 : std_logic;
     signal double_eg_i170 : std_logic;
     signal double_eg_i173 : std_logic;
     signal double_eg_i177 : std_logic;
-    signal double_jet_i255 : std_logic;
-    signal double_jet_i270 : std_logic;
-    signal double_jet_i295 : std_logic;
+    signal double_jet_i264 : std_logic;
+    signal double_jet_i279 : std_logic;
+    signal double_jet_i304 : std_logic;
     signal double_mu_i35 : std_logic;
     signal double_tau_i203 : std_logic;
     signal double_tau_i206 : std_logic;
@@ -183,26 +183,26 @@
     signal single_eg_i151 : std_logic;
     signal single_eg_i160 : std_logic;
     signal single_eg_i164 : std_logic;
-    signal single_jet_i231 : std_logic;
-    signal single_jet_i238 : std_logic;
-    signal single_jet_i241 : std_logic;
-    signal single_jet_i242 : std_logic;
-    signal single_jet_i243 : std_logic;
+    signal single_jet_i240 : std_logic;
+    signal single_jet_i247 : std_logic;
+    signal single_jet_i250 : std_logic;
+    signal single_jet_i251 : std_logic;
+    signal single_jet_i252 : std_logic;
     signal single_mu_i1 : std_logic;
     signal single_mu_i13 : std_logic;
     signal single_mu_i21 : std_logic;
+    signal single_mu_i233 : std_logic;
+    signal single_mu_i237 : std_logic;
     signal single_mu_i24 : std_logic;
     signal single_mu_i26 : std_logic;
-    signal single_mu_i289 : std_logic;
+    signal single_mu_i298 : std_logic;
     signal single_mu_i30 : std_logic;
     signal single_mu_i32 : std_logic;
-    signal single_mu_i365 : std_logic;
-    signal single_mu_i369 : std_logic;
     signal single_mu_i5 : std_logic;
     signal single_tau_i201 : std_logic;
     signal triple_eg_i184 : std_logic;
     signal triple_eg_i185 : std_logic;
-    signal triple_jet_i294 : std_logic;
+    signal triple_jet_i303 : std_logic;
 
 -- Signal definition for algorithms names
     signal l1_single_mu_cosmics_bmtf : std_logic;

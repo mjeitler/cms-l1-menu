@@ -7,13 +7,13 @@
 -- L1Menu_Collisions2020_v0_1_0
 
 -- Unique ID of L1 Trigger Menu:
--- d2a8739b-a0c2-4bb8-b305-32db5f141af1
+-- 67b390d3-5f18-4e77-8cb1-c26fa03f3548
 
 -- Unique ID of firmware implementation:
--- 87ff89a1-cff6-4e5d-bb9e-faaf5d962ca3
+-- f2bffdc0-1905-482a-be74-017d0f2ec75b
 
 -- Scale set:
--- scales_2020_09_30
+-- scales_2020_10_04
 
 -- VHDL producer version
 -- v2.8.1
@@ -65,30 +65,30 @@
     signal ls_charcorr_quad_bx_0_bx_0, os_charcorr_quad_bx_0_bx_0 : muon_charcorr_quad_array;
 
 -- Signal definition for conditions names
-    signal single_etmhf_i318 : std_logic;
-    signal single_htt_i304 : std_logic;
-    signal single_htt_i309 : std_logic;
+    signal single_etmhf_i327 : std_logic;
+    signal single_htt_i313 : std_logic;
+    signal single_htt_i318 : std_logic;
     signal calo_calo_correlation_i114 : std_logic;
     signal calo_muon_correlation_i113 : std_logic;
-    signal invariant_mass_i275 : std_logic;
-    signal invariant_mass_i276 : std_logic;
-    signal invariant_mass_i277 : std_logic;
-    signal invariant_mass_i278 : std_logic;
-    signal invariant_mass_i279 : std_logic;
-    signal invariant_mass_i280 : std_logic;
-    signal invariant_mass_i281 : std_logic;
-    signal invariant_mass_i282 : std_logic;
-    signal invariant_mass_i283 : std_logic;
     signal invariant_mass_i284 : std_logic;
     signal invariant_mass_i285 : std_logic;
+    signal invariant_mass_i286 : std_logic;
+    signal invariant_mass_i287 : std_logic;
+    signal invariant_mass_i288 : std_logic;
+    signal invariant_mass_i289 : std_logic;
+    signal invariant_mass_i290 : std_logic;
+    signal invariant_mass_i291 : std_logic;
+    signal invariant_mass_i292 : std_logic;
+    signal invariant_mass_i293 : std_logic;
+    signal invariant_mass_i294 : std_logic;
     signal single_eg_i133 : std_logic;
     signal single_eg_i135 : std_logic;
     signal single_eg_i139 : std_logic;
     signal single_eg_i152 : std_logic;
     signal single_eg_i153 : std_logic;
     signal single_eg_i161 : std_logic;
-    signal single_jet_i233 : std_logic;
-    signal single_jet_i274 : std_logic;
+    signal single_jet_i242 : std_logic;
+    signal single_jet_i283 : std_logic;
 
 -- Signal definition for algorithms names
     signal l1_mu12er2p3_jet40er2p1_d_r_max0p4_double_jet40er2p1_d_eta_max1p6 : std_logic;
