@@ -19,6 +19,11 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 
 See [scales](scales) for reference scales.
 
+
+### scales_2020_10_04
+
+- Updated `MU-UPT`
+
 ### scales_2020_09_30
 
 - Added `MU-UPT`
