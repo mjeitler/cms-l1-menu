@@ -5,6 +5,7 @@ Firmware implementations and test vectors of Run2/LS2 menus for the L1 Global Tr
 
 ## LS2
 
+* [2021](2021)
 * [2020](2020)
 * [2019](2019)
 
